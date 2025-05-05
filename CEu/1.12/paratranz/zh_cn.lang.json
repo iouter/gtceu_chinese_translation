@@ -1110,6 +1110,106 @@
         "original":"Mold for making Rotors"
     },
     {
+        "context":"类型29",
+        "key":"metaitem.shape.mold.bolt.name",
+        "original":"Mold (Bolt)"
+    },
+    {
+        "context":"类型29",
+        "key":"metaitem.shape.mold.bolt.tooltip",
+        "original":"Mold for making Bolts"
+    },
+    {
+        "context":"类型29",
+        "key":"metaitem.shape.mold.pipe.tiny.name",
+        "original":"Mold (Tiny Pipe)"
+    },
+    {
+        "context":"类型29",
+        "key":"metaitem.shape.mold.pipe.tiny.tooltip",
+        "original":"Mold for making Tiny Pipes"
+    },
+    {
+        "context":"类型29",
+        "key":"metaitem.shape.mold.pipe.small.name",
+        "original":"Mold (Small Pipe)"
+    },
+    {
+        "context":"类型29",
+        "key":"metaitem.shape.mold.pipe.small.tooltip",
+        "original":"Mold for making Small Pipes"
+    },
+    {
+        "context":"类型29",
+        "key":"metaitem.shape.mold.pipe.normal.name",
+        "original":"Mold (Normal Pipe)"
+    },
+    {
+        "context":"类型29",
+        "key":"metaitem.shape.mold.pipe.normal.tooltip",
+        "original":"Mold for making Normal Pipes"
+    },
+    {
+        "context":"类型29",
+        "key":"metaitem.shape.mold.pipe.large.name",
+        "original":"Mold (Large Pipe)"
+    },
+    {
+        "context":"类型29",
+        "key":"metaitem.shape.mold.pipe.large.tooltip",
+        "original":"Mold for making Large Pipes"
+    },
+    {
+        "context":"类型29",
+        "key":"metaitem.shape.mold.pipe.huge.name",
+        "original":"Mold (Huge Pipe)"
+    },
+    {
+        "context":"类型29",
+        "key":"metaitem.shape.mold.pipe.huge.tooltip",
+        "original":"Mold for making Huge Pipes"
+    },
+    {
+        "context":"类型29",
+        "key":"metaitem.shape.mold.ring.name",
+        "original":"Mold (Ring)"
+    },
+    {
+        "context":"类型29",
+        "key":"metaitem.shape.mold.ring.tooltip",
+        "original":"Mold for making Rings"
+    },
+    {
+        "context":"类型29",
+        "key":"metaitem.shape.mold.rod.name",
+        "original":"Mold (Rod)"
+    },
+    {
+        "context":"类型29",
+        "key":"metaitem.shape.mold.rod.tooltip",
+        "original":"Mold for making Rods"
+    },
+    {
+        "context":"类型29",
+        "key":"metaitem.shape.mold.rod_long.name",
+        "original":"Mold (Long Rod)"
+    },
+    {
+        "context":"类型29",
+        "key":"metaitem.shape.mold.rod_long.tooltip",
+        "original":"Mold for making Long Rods"
+    },
+    {
+        "context":"类型29",
+        "key":"metaitem.shape.mold.round.name",
+        "original":"Mold (Round)"
+    },
+    {
+        "context":"类型29",
+        "key":"metaitem.shape.mold.round.tooltip",
+        "original":"Mold for making Rounds"
+    },
+    {
         "context":"类型30",
         "key":"metaitem.shape.extruder.plate.name",
         "original":"Extruder Shape (Plate)"
