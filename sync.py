@@ -46,7 +46,7 @@ def download_source(project: str, version: str, url: str, save_path: str):
             response = requests.get(url, timeout=10)
             response.raise_for_status()
 
-            with open(save_path, "wb", encoding="utf-8") as f:
+            with open(save_path, "wb") as f:
                 f.write(response.content)
 
             print(f"✅️ 下载成功 {project}-{version}")
