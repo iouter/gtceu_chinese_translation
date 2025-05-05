@@ -28,6 +28,6 @@ jobs:
       if: success()
       run: |
         git config --global user.name "Translation Bot"
-        git add projects/
+        git add .
         git commit -m "Auto Update: $(date +'%Y-%m-%d %H:%M')"
         git push
