@@ -6,7 +6,7 @@ import json
 import requests
 from pathlib import Path
 
-from gtceu_chinese_translation.paratranz_api import ParaTranzAPI
+from paratranz_api import ParaTranzAPI
 
 with open("config.yaml", encoding="utf-8") as f:
     CONFIG = yaml.safe_load(f)

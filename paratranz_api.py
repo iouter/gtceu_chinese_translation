@@ -1,4 +1,3 @@
-# paratranz_api.py
 import os
 
 import requests
