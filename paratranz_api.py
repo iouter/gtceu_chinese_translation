@@ -1,4 +1,7 @@
 import os
+import time
+from datetime import datetime
+
 import requests
 import yaml
 from pathlib import Path
@@ -6,6 +9,9 @@ from typing import Optional, Dict, Union
 
 
 class ParaTranzAPI:
+    max_wait_seconds = 300  # 最大等待时间（10分钟）
+    poll_interval = 5  # 轮询间隔（秒）
+
     def __init__(self, api_key: str, config_path: str = "config.yaml"):
         self.api_key = api_key
         self.config_path = config_path
@@ -185,6 +191,57 @@ class ParaTranzAPI:
         finally:
             files['file'][1].close()  # 确保关闭文件句柄
 
+    def generate_artifact(self):
+        try:
+            url = self.base_url + f"/projects/{self.project_id}/artifacts"
+            response = requests.post(url, headers=self.headers)
+            if response.status_code == 200:
+                print("✅️ 导出任务已成功触发！")
+                start_artifact_time = datetime.fromisoformat(response.json().get('createdAt').replace("Z", "+00:00"))
+                try_time = 0
+                while try_time < self.max_wait_seconds:
+                    try_time += self.poll_interval
+                    time.sleep(self.poll_interval)
+                    artifact_status = self.get_artifact()
+                    artifact_time = datetime.fromisoformat(artifact_status.get('createdAt').replace("Z", "+00:00"))
+                    if artifact_time >= start_artifact_time:
+                        print("✅️ 导出任务已成功完成！")
+                        return
+                    print(f"🛑️️️ 时间：{try_time}s，导出任务尚未完成")
+            elif response.status_code == 403:
+                print("错误：没有权限，请检查API Token或用户权限。")
+            else:
+                print(f"错误：请求失败，状态码 {response.status_code}")
+                print("响应内容:", response.text)
+        except requests.exceptions.RequestException as e:
+            print("请求异常:", e)
 
-    def generate_artifact(self, ):
-        pass
+    def get_artifact(self):
+        try:
+            url = self.base_url + f"/projects/{self.project_id}/artifacts"
+            response = requests.get(url, headers=self.headers)
+            if response.status_code == 200:
+                job_info = response.json()
+                return job_info
+            else:
+                print(f"错误：请求失败，状态码 {response.status_code}")
+                print("响应内容:", response.text)
+        except requests.exceptions.RequestException as e:
+            print("请求异常:", e)
+
+    def download_artifact(self):
+        url = self.base_url + f"/projects/{self.project_id}/artifacts/download"
+        for attempt in range(3):
+            try:
+                response = requests.get(url, headers=self.headers, timeout=10)
+                response.raise_for_status()
+                print(f"✅️ 下载导出结果成功 ")
+                return response.content
+            except requests.exceptions.RequestException as e:
+                if attempt == 2:
+                    raise RuntimeError(
+                        f"下载导出结果失败\n"
+                        f"URL: {url}\n"
+                        f"错误: {str(e)}"
+                    )
+                print(f"⚠️ 重试中 ({attempt + 1}/3) {url}")

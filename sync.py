@@ -80,7 +80,7 @@ def convert_file(project: str, version: str, file_extension: str, delta_path: st
     if delta_path is not None:
         input_path = delta_path
     paratranz_name = CONFIG["projects"][project]["paratranz_name"]
-    output_path = input_path.replace("original", "paratranz").replace(f"en_us.{file_extension}", paratranz_name)
+    output_path = input_path.replace("original", "paratranz").replace(f"en_us.{file_extension}", paratranz_name).replace("en_us", "zh_cn")
     if file_extension == "lang":
         with open(input_path, 'r', encoding='utf-8') as f:
             original_texts = f.readlines()
