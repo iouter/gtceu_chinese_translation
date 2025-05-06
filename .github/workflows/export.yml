@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  sync:
+  export:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
@@ -31,6 +31,6 @@ jobs:
         if git diff --cached --quiet; then
           echo "No changes to commit."
         else
-          git commit -m "Auto Update: $(date +'%Y-%m-%d %H:%M')"
+          git commit -m "Export: $(date +'%Y-%m-%d %H:%M')"
           git push
         fi
