@@ -1,0 +1,36 @@
+name: Export Translation
+
+on:
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        
+    - name: Install Dependencies
+      run: pip install pyyaml requests
+      
+    - name: Run Export
+      env:
+        PARATRANZ_KEY: ${{ secrets.PARATRANZ_KEY }}
+      run: python export_from_paratranz.py
+        
+    - name: Commit Changes
+      if: success()
+      run: |
+        git config --global user.name "Translation Bot"
+        git config --global user.email "translate@example.com"
+        git add .
+        if git diff --cached --quiet; then
+          echo "No changes to commit."
+        else
+          git commit -m "Auto Update: $(date +'%Y-%m-%d %H:%M')"
+          git push
+        fi
