@@ -40,6 +40,7 @@ def convert_files(project: str, version: str, base_ver: str = None):
     paratranz_name = CONFIG["projects"][project]["paratranz_name"]
     translated_name = CONFIG["projects"][project]["tranlated_name"]
     translated_path = f"{project}/{version}/translation/{translated_name}"
+    Path(translated_path).parent.mkdir(parents=True, exist_ok=True)
     file_extension = translated_name.split(".")[-1].lower()
     original_path = f"{project}/{version}/original/en_us.{file_extension}"
     if base_ver is not None:
