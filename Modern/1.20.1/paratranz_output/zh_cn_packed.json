@@ -29738,8 +29738,8 @@
   {
     "key": "gtceu.alloy_smelter",
     "original": "Alloy Smelter",
-    "translation": "合金冶炼",
-    "stage": 5
+    "translation": "合金炉",
+    "stage": 3
   },
   {
     "key": "gtceu.arc_furnace",
