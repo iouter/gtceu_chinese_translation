@@ -23,16 +23,12 @@ jobs:
       env:
         PARATRANZ_KEY: ${{ secrets.PARATRANZ_KEY }}
       run: python sync.py
-      
-    - name: Set up Git user
-      run: |
-        git config --global user.name "Translation Bot"
-        git config --global user.email "62897714+iouter@users.noreply.github.com"
         
     - name: Commit Changes
       if: success()
       run: |
         git config --global user.name "Translation Bot"
+        git config --global user.email "translate@example.com"
         git add .
         if git diff --cached --quiet; then
           echo "No changes to commit."
