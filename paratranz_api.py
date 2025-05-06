@@ -1,5 +1,4 @@
 import os
-
 import requests
 import yaml
 from pathlib import Path
@@ -11,6 +10,7 @@ class ParaTranzAPI:
         self.api_key = api_key
         self.config_path = config_path
         self.base_url = "https://paratranz.cn/api"
+        self.project_id = self._load_config()['paratranz_id']
         self.headers = {
             "Authorization": api_key,
             "accept": "application/json"
@@ -26,11 +26,11 @@ class ParaTranzAPI:
         with open(self.config_path, 'w') as f:
             yaml.safe_dump(config, f, allow_unicode=True, sort_keys=False)
 
-    def _find_file_id(self, project_id: int, file_name: str, target_path: str) -> Optional[int]:
+    def _find_file_id(self, file_name: str, target_path: str) -> Optional[int]:
         """
         根据文件名和路径查找文件ID
         """
-        url = f"{self.base_url}/projects/{project_id}/files"
+        url = f"{self.base_url}/projects/{self.project_id}/files"
         response = requests.get(url, headers=self.headers)
         response.raise_for_status()
 
@@ -74,7 +74,6 @@ class ParaTranzAPI:
         # 获取项目配置
         config = self._load_config()
         project_cfg = config['projects'][project]
-        project_id = config['paratranz_id']
         version_cfg = project_cfg['versions'][version]
 
         # 尝试从配置获取已有ID
@@ -83,7 +82,7 @@ class ParaTranzAPI:
 
         # 如果未找到ID，尝试查询已有文件
         if not file_id:
-            file_id = self._find_file_id(project_id, file_name, target_path)
+            file_id = self._find_file_id(file_name, target_path)
 
             if file_id:
                 print(f"🔄️️️ 发现已有文件ID: {file_id}")
@@ -95,7 +94,7 @@ class ParaTranzAPI:
         if file_id:
             print(f"⬆️ 开始更新文件（ID: {file_id}）")
             result = self.upload_files(
-                project_id=project_id,
+                project_id=self.project_id,
                 file_path=local_file_path,
                 paratranz_id=file_id,
                 is_update=True
@@ -103,7 +102,7 @@ class ParaTranzAPI:
         else:
             print(f"🆕️ 开始创建新文件到路径: {target_path}")
             result = self.upload_files(
-                project_id=project_id,
+                project_id=self.project_id,
                 file_path=local_file_path,
                 target_path=target_path
             )
@@ -185,3 +184,7 @@ class ParaTranzAPI:
 
         finally:
             files['file'][1].close()  # 确保关闭文件句柄
+
+
+    def generate_artifact(self, ):
+        pass

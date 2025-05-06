@@ -1,12 +1,12 @@
 import os
+from datetime import datetime, timezone
 from urllib.parse import urlparse
-
 import yaml
 import json
 import requests
 from pathlib import Path
-
 from paratranz_api import ParaTranzAPI
+
 
 with open("config.yaml", encoding="utf-8") as f:
     CONFIG = yaml.safe_load(f)
@@ -14,6 +14,7 @@ with open("config.yaml", encoding="utf-8") as f:
 paratranz_api = os.environ.get("PARATRANZ_KEY")
 if not paratranz_api:
     raise ValueError("未找到 ParaTranz API 密钥")
+api = ParaTranzAPI(api_key=paratranz_api)
 
 def main():
     for project in CONFIG["projects"]:
@@ -113,10 +114,28 @@ def convert_file(project: str, version: str, file_extension: str, delta_path: st
 
 def upload_files(project, version, paratranz_path):
     print(f"⬆️ 正在上传至Paratranz {project}-{version}")
-    api = ParaTranzAPI(api_key=paratranz_api)
     target_path = f"{project}/{version}/"
     api.smart_upload(project, version, paratranz_path, target_path)
     print(f"✅️ 更新成功 {project}-{version}")
+
+
+def get_remote_modified_time(project, version) -> datetime:
+    url = CONFIG["projects"][project]["repo"].replace("github.com", "api.github.com") + "/commits"
+    branch = CONFIG["projects"][project]["versions"][version]["branch"]
+    file_path = CONFIG["projects"][project]["file_path"]
+    params = {"path": file_path, "sha": branch, "per_page": 1}
+    r = requests.get(url, params=params)
+    r.raise_for_status()
+    data = r.json()
+    iso_str = data[0]["commit"]["committer"]["date"]
+    return datetime.fromisoformat(iso_str.replace("Z", "+00:00"))  # convert to UTC
+
+
+def get_local_file_mtime(path) -> datetime | None:
+    if not os.path.exists(path):
+        return None
+    ts = os.path.getmtime(path)
+    return datetime.fromtimestamp(ts, tz=timezone.utc)
 
 
 def process_version(project: str, version: str, base_ver: str = None):
@@ -127,6 +146,10 @@ def process_version(project: str, version: str, base_ver: str = None):
         url = build_source_url(project, version)
         file_extension = extract_file_extension(url)
         original_path = f"{project}/{version}/original/en_us.{file_extension}"
+        remote_time = get_remote_modified_time(project, version)
+        local_time = get_local_file_mtime(original_path)
+        if local_time is not None and remote_time <= local_time:
+            print("⏭️ 文件无需更新，已跳过 {project}-{version}")
         download_source(project, version, url, original_path)
 
         # Step 2: 生成差异
