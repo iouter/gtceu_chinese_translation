@@ -120,7 +120,7 @@ def upload_files(project, version, paratranz_path):
 
 
 def get_remote_modified_time(project, version) -> datetime:
-    url = CONFIG["projects"][project]["repo"].replace("github.com", "api.github.com") + "/commits"
+    url = CONFIG["projects"][project]["repo"].replace("github.com", "api.github.com/repos") + "/commits"
     branch = CONFIG["projects"][project]["versions"][version]["branch"]
     file_path = CONFIG["projects"][project]["file_path"]
     params = {"path": file_path, "sha": branch, "per_page": 1}
