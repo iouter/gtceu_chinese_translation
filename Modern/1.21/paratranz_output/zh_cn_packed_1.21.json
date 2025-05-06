@@ -1,0 +1,1028 @@
+[
+  {
+    "key": "argument.material.id.invalid",
+    "original": "Unknown material '%s'",
+    "translation": "未知材料 '%s'",
+    "stage": 5
+  },
+  {
+    "key": "argument.medical_condition.id.invalid",
+    "original": "Unknown medical condition '%s'",
+    "translation": "未知疾病 '%s'",
+    "stage": 5
+  },
+  {
+    "key": "bedrock_fluid.gtceu.heavy_oil_deposit",
+    "original": "Heavy Oil Deposit",
+    "translation": "重油矿藏",
+    "stage": 5
+  },
+  {
+    "key": "bedrock_fluid.gtceu.lava_deposit",
+    "original": "Lava Deposit",
+    "translation": "熔岩矿藏",
+    "stage": 5
+  },
+  {
+    "key": "bedrock_fluid.gtceu.light_oil_deposit",
+    "original": "Light Oil Deposit",
+    "translation": "轻油矿藏",
+    "stage": 5
+  },
+  {
+    "key": "bedrock_fluid.gtceu.natural_gas_deposit",
+    "original": "Natural Gas Deposit",
+    "translation": "天然气矿藏",
+    "stage": 5
+  },
+  {
+    "key": "bedrock_fluid.gtceu.nether_natural_gas_deposit",
+    "original": "Nether Natural Gas Deposit",
+    "translation": "下界天然气矿藏",
+    "stage": 5
+  },
+  {
+    "key": "bedrock_fluid.gtceu.oil_deposit",
+    "original": "Oil Deposit",
+    "translation": "石油矿藏",
+    "stage": 5
+  },
+  {
+    "key": "bedrock_fluid.gtceu.raw_oil_deposit",
+    "original": "Raw Oil Deposit",
+    "translation": "原油矿藏",
+    "stage": 5
+  },
+  {
+    "key": "bedrock_fluid.gtceu.salt_water_deposit",
+    "original": "Salt Water Deposit",
+    "translation": "盐水矿藏",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.filter_casing.tooltip",
+    "original": "Creates a §aParticle-Free§7 environment",
+    "translation": "创造一个§a无尘§7环境",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.heavy_oil",
+    "original": "Heavy Oil",
+    "translation": "重油",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.light_oil",
+    "original": "Light Oil",
+    "translation": "轻油",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.natural_gas",
+    "original": "Natural Gas",
+    "translation": "天然气",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.oil",
+    "original": "Oil",
+    "translation": "石油",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.palladium_substation_casing",
+    "original": "Palladium Substation Casing",
+    "translation": "镀钯变电站机械方块",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.raw_oil",
+    "original": "Raw Oil",
+    "translation": "原油",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.rotary_hearth_furnace",
+    "original": "Rotary Hearth Furnace",
+    "translation": "转底炉",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.sterilizing_filter_casing.tooltip",
+    "original": "Creates a §aSterilized§7 environment",
+    "translation": "创造一个§a无菌§7环境",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.doDatafixers",
+    "original": "doDatafixers",
+    "translation": "启用数据修复",
+    "stage": 5
+  },
+  {
+    "key": "cover.smart_item_filter.filtering_mode.centrifuge",
+    "original": "Centrifuge",
+    "translation": "离心机",
+    "stage": 5
+  },
+  {
+    "key": "cover.smart_item_filter.filtering_mode.description.0",
+    "original": "Select Machine this Smart Filter will use for filtering.",
+    "translation": "为该智能覆盖板选择目标机器。",
+    "stage": 5
+  },
+  {
+    "key": "cover.smart_item_filter.filtering_mode.description.1",
+    "original": "It will automatically pick right portions of items for robotic arm.",
+    "translation": "它能够自动挑选符合机器配方的物品。",
+    "stage": 5
+  },
+  {
+    "key": "cover.smart_item_filter.filtering_mode.electrolyzer",
+    "original": "Electrolyzer",
+    "translation": "电解机",
+    "stage": 5
+  },
+  {
+    "key": "cover.smart_item_filter.filtering_mode.sifter",
+    "original": "Sifter",
+    "translation": "筛选机",
+    "stage": 5
+  },
+  {
+    "key": "cover.smart_item_filter.title",
+    "original": "Smart Item Filter",
+    "translation": "智能物品过滤",
+    "stage": 5
+  },
+  {
+    "key": "death.attack.gtceu.buzzsaw_lv",
+    "original": "%s got buzzed by %s",
+    "translation": "%2$手中圆锯的嗞嗞声成为了%1$s生命中最后听到的声音",
+    "stage": 5
+  },
+  {
+    "key": "death.attack.gtceu.medical_condition.arsenicosis",
+    "original": "%s got arsenic poisoning",
+    "translation": "%s死于砷中毒",
+    "stage": 5
+  },
+  {
+    "key": "death.attack.gtceu.medical_condition.asbestosis",
+    "original": "%s got mesothelioma",
+    "translation": "%s得了间皮瘤",
+    "stage": 5
+  },
+  {
+    "key": "death.attack.gtceu.medical_condition.berylliosis",
+    "original": "%s mined emeralds a bit too greedily",
+    "translation": "%s贪婪地挖掘绿宝石，结果有点过火了",
+    "stage": 5
+  },
+  {
+    "key": "death.attack.gtceu.medical_condition.carbon_monoxide_poisoning",
+    "original": "%s left the stove on",
+    "translation": "%s离开时炉子还开着",
+    "stage": 5
+  },
+  {
+    "key": "death.attack.gtceu.medical_condition.carcinogen",
+    "original": "%s got leukemia",
+    "translation": "%s身患白血病",
+    "stage": 5
+  },
+  {
+    "key": "death.attack.gtceu.medical_condition.chemical_burns",
+    "original": "%s had a chemical accident",
+    "translation": "%s历经了一场化学事故",
+    "stage": 5
+  },
+  {
+    "key": "death.attack.gtceu.medical_condition.irritant",
+    "original": "%s got a §n§lREALLY§r bad rash",
+    "translation": "%s身上长了§n§l极其严重§r的皮疹",
+    "stage": 5
+  },
+  {
+    "key": "death.attack.gtceu.medical_condition.methanol_poisoning",
+    "original": "%s tried to drink moonshine during the prohibition",
+    "translation": "%s在禁酒令下尝试饮用私酿烈酒",
+    "stage": 5
+  },
+  {
+    "key": "death.attack.gtceu.medical_condition.nausea",
+    "original": "%s died of nausea",
+    "translation": "%s死于恶心",
+    "stage": 5
+  },
+  {
+    "key": "death.attack.gtceu.medical_condition.none",
+    "original": "%s died of... nothing?",
+    "translation": "%s死于...什么都没有？",
+    "stage": 5
+  },
+  {
+    "key": "death.attack.gtceu.medical_condition.poison",
+    "original": "%s forgot that poisonous materials are, in fact, poisonous",
+    "translation": "%s忘了毒物的确有毒",
+    "stage": 5
+  },
+  {
+    "key": "death.attack.gtceu.medical_condition.silicosis",
+    "original": "%s didn't die of tuberculosis. it was silicosis.",
+    "translation": "%s不是死于肺结核，而是矽肺病",
+    "stage": 5
+  },
+  {
+    "key": "death.attack.gtceu.medical_condition.weak_poison",
+    "original": "%s ate lead (or mercury!)",
+    "translation": "%s吞下了铅（或水银！）",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.battery.charge_detailed.0",
+    "original": "§a%s/%s EU§7 - Tier %s §7(§a%s/%s %s remaining§7)",
+    "translation": "§a%s/%sEU-%s级§7（§a剩余供能时长：%s/%s%s§7）",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.battery.charge_detailed.1",
+    "original": "§e%s/%s EU§7 - Tier %s §7(§e%s/%s %s remaining§7)",
+    "translation": "§e%s/%sEU-%s级§7（§e剩余供能时长：%s/%s%s§7）",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.battery.charge_detailed.2",
+    "original": "§c%s/%s EU§7 - Tier %s §7(§c%s/%s %s remaining§7)",
+    "translation": "§c%s/%sEU-%s级§7（§c剩余供能时长：%s/%s%s§7）",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.smart_item_filter",
+    "original": "Smart Item Filter",
+    "translation": "智能物品过滤卡",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.smart_item_filter.tooltip.0",
+    "original": "§7Filters §fItem§7 I/O with §fMachine Recipes§7 as §fCover§7.",
+    "translation": "作§f覆盖板§7时以§f机器的配方§7过滤§f物品§7的输入/输出。",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.smart_item_filter.tooltip.1",
+    "original": "Can be used as a §fConveyor Module§7 and §fRobotic Arm§7 upgrade.",
+    "translation": "亦可为§f传送带§7和§f机械臂§7提供此功能。",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.tool.lv_buzzsaw",
+    "original": "%s Buzzsaw (LV)",
+    "translation": "%s圆锯（LV）",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.tool.lv_buzzsaw.tooltip",
+    "original": "§8Not suitable for harvesting Blocks",
+    "translation": "§8并不适合用来采掘方块",
+    "stage": 5
+  },
+  {
+    "key": "material.gtceu.heavy_oil",
+    "original": "Heavy Oil",
+    "translation": "重油",
+    "stage": 5
+  },
+  {
+    "key": "material.gtceu.light_oil",
+    "original": "Light Oil",
+    "translation": "轻油",
+    "stage": 5
+  },
+  {
+    "key": "material.gtceu.plutonium_239",
+    "original": "Plutonium 239",
+    "translation": "钚-239",
+    "stage": 5
+  },
+  {
+    "key": "material.gtceu.raw_oil",
+    "original": "Raw Oil",
+    "translation": "原油",
+    "stage": 5
+  },
+  {
+    "key": "material.gtceu.red_granite",
+    "original": "Red Granite",
+    "translation": "红花岗岩",
+    "stage": 5
+  },
+  {
+    "key": "material.gtceu.uranium_238",
+    "original": "Uranium 238",
+    "translation": "铀-238",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.apatite",
+    "original": "Apatite",
+    "translation": "磷灰石",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.banded_iron",
+    "original": "Banded Iron",
+    "translation": "带状铁矿",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.beryllium",
+    "original": "Beryllium",
+    "translation": "铍",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.cassiterite",
+    "original": "Cassiterite",
+    "translation": "锡石",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.certus_quartz",
+    "original": "Certus Quartz",
+    "translation": "赛特斯石英",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.coal",
+    "original": "Coal",
+    "translation": "煤炭",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.copper",
+    "original": "Copper",
+    "translation": "铜",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.copper_tin",
+    "original": "Copper Tin",
+    "translation": "铜锡",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.diamond",
+    "original": "Diamond",
+    "translation": "钻石",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.end_bauxite",
+    "original": "End Bauxite",
+    "translation": "末地铝土",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.end_magnetite",
+    "original": "End Magnetite",
+    "translation": "末地磁铁",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.galena",
+    "original": "Galena",
+    "translation": "方铅矿",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.garnet",
+    "original": "Garnet",
+    "translation": "石榴石",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.garnet_tin",
+    "original": "Garnet Tin",
+    "translation": "锡石榴石",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.iron",
+    "original": "Iron",
+    "translation": "铁",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.lapis",
+    "original": "Lapis",
+    "translation": "青金石",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.lubricant",
+    "original": "Lubricant",
+    "translation": "皂滑",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.magnetite",
+    "original": "Magnetite",
+    "translation": "磁铁矿",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.manganese",
+    "original": "Manganese",
+    "translation": "锰",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.mica",
+    "original": "Mica",
+    "translation": "云母",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.mineral_sand",
+    "original": "Mineral Sand",
+    "translation": "矿砂",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.molybdenum",
+    "original": "Molybdenum",
+    "translation": "钼",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.monazite",
+    "original": "Monazite",
+    "translation": "独居石",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.naquadah",
+    "original": "Naquadah",
+    "translation": "硅岩",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.nether_manganese",
+    "original": "Nether Manganese",
+    "translation": "下界锰",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.nether_quartz",
+    "original": "Nether Quartz",
+    "translation": "下界石英",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.nether_redstone",
+    "original": "Nether Redstone",
+    "translation": "下界红石",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.nickel",
+    "original": "Nickel",
+    "translation": "镍",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.oilsands",
+    "original": "Oilsands",
+    "translation": "油砂",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.olivine",
+    "original": "Olivine",
+    "translation": "橄榄石",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.pitchblende",
+    "original": "Pitchblende",
+    "translation": "沥青铀矿",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.redstone",
+    "original": "Redstone",
+    "translation": "红石",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.saltpeter",
+    "original": "Saltpeter",
+    "translation": "硝石",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.salts",
+    "original": "Salts",
+    "translation": "盐",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.sapphire",
+    "original": "Sapphire",
+    "translation": "蓝宝石",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.scheelite",
+    "original": "Scheelite",
+    "translation": "白钨矿",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.sheldonite",
+    "original": "Sheldonite",
+    "translation": "谢尔顿矿",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.sulfur",
+    "original": "Sulfur",
+    "translation": "硫",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.tetrahedrite",
+    "original": "Tetrahedrite",
+    "translation": "黝铜矿",
+    "stage": 5
+  },
+  {
+    "key": "ore_vein.gtceu.topaz",
+    "original": "Topaz",
+    "translation": "黄玉",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.air_scrubber",
+    "original": "Air Scrubber",
+    "translation": "空气净化器",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.alloy_blast_smelter",
+    "original": "Alloy Blast Smelter",
+    "translation": "合金冶炼炉",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.alloy_smelter",
+    "original": "Alloy Smelter",
+    "translation": "合金炉",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.arc_furnace",
+    "original": "Arc Furnace",
+    "translation": "电弧炉",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.assembler",
+    "original": "Assembler",
+    "translation": "组装机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.assembly_line",
+    "original": "Assembly Line",
+    "translation": "装配线",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.autoclave",
+    "original": "Autoclave",
+    "translation": "高压釜",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.bender",
+    "original": "Bender",
+    "translation": "卷板机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.brewery",
+    "original": "Brewery",
+    "translation": "酿造室",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.canner",
+    "original": "Canner",
+    "translation": "装罐机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.centrifuge",
+    "original": "Centrifuge",
+    "translation": "离心机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.chemical_bath",
+    "original": "Chemical Bath",
+    "translation": "化学浸洗机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.chemical_reactor",
+    "original": "Chemical Reactor",
+    "translation": "化学反应釜",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.circuit_assembler",
+    "original": "Circuit Assembler",
+    "translation": "电路组装机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.coke_oven",
+    "original": "Coke Oven",
+    "translation": "焦炉",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.combustion_generator",
+    "original": "Combustion Generator",
+    "translation": "内燃发电机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.compressor",
+    "original": "Compressor",
+    "translation": "压缩机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.cracker",
+    "original": "Cracker",
+    "translation": "裂化机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.cutter",
+    "original": "Cutter",
+    "translation": "切割机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.distillation_tower",
+    "original": "Distillation Tower",
+    "translation": "蒸馏塔",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.distillery",
+    "original": "Distillery",
+    "translation": "蒸馏室",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.dummy",
+    "original": "Dummy",
+    "translation": "占位符",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.electric_blast_furnace",
+    "original": "Electric Blast Furnace",
+    "translation": "电力高炉",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.electric_furnace",
+    "original": "Electric Furnace",
+    "translation": "电炉",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.electrolyzer",
+    "original": "Electrolyzer",
+    "translation": "电解机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.electromagnetic_separator",
+    "original": "Electromagnetic Separator",
+    "translation": "电磁选矿机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.extractor",
+    "original": "Extractor",
+    "translation": "提取机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.extruder",
+    "original": "Extruder",
+    "translation": "压模器",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.fermenter",
+    "original": "Fermenter",
+    "translation": "发酵槽",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.fluid_heater",
+    "original": "Fluid Heater",
+    "translation": "流体加热器",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.fluid_solidifier",
+    "original": "Fluid Solidifier",
+    "translation": "流体固化器",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.forge_hammer",
+    "original": "Forge Hammer",
+    "translation": "锻造锤",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.forming_press",
+    "original": "Forming Press",
+    "translation": "冲压机床",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.fusion_reactor",
+    "original": "Fusion Reactor",
+    "translation": "核聚变反应堆",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.gas_collector",
+    "original": "Gas Collector",
+    "translation": "集气室",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.gas_turbine",
+    "original": "Gas Turbine",
+    "translation": "燃气轮机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.implosion_compressor",
+    "original": "Implosion Compressor",
+    "translation": "聚爆压缩机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.large_boiler",
+    "original": "Large Boiler",
+    "translation": "大型锅炉",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.large_chemical_reactor",
+    "original": "Large Chemical Reactor",
+    "translation": "大型化学反应釜",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.laser_engraver",
+    "original": "Laser Engraver",
+    "translation": "激光蚀刻机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.lathe",
+    "original": "Lathe",
+    "translation": "车床",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.macerator",
+    "original": "Macerator",
+    "translation": "研磨机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.mixer",
+    "original": "Mixer",
+    "translation": "搅拌机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.ore_washer",
+    "original": "Ore Washer",
+    "translation": "洗矿厂",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.packer",
+    "original": "Packer",
+    "translation": "打包机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.plasma_generator",
+    "original": "Plasma Generator",
+    "translation": "等离子燃料",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.polarizer",
+    "original": "Polarizer",
+    "translation": "两极磁化机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.primitive_blast_furnace",
+    "original": "Primitive Blast Furnace",
+    "translation": "土高炉",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.pyrolyse_oven",
+    "original": "Pyrolyse Oven",
+    "translation": "热解炉",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.research_station",
+    "original": "Research Station",
+    "translation": "研究站",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.rock_breaker",
+    "original": "Rock Breaker",
+    "translation": "碎岩机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.scanner",
+    "original": "Scanner",
+    "translation": "扫描仪",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.sifter",
+    "original": "Sifter",
+    "translation": "筛选机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.steam_boiler",
+    "original": "Steam Boiler",
+    "translation": "蒸汽锅炉",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.steam_turbine",
+    "original": "Steam Turbine",
+    "translation": "蒸汽涡轮",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.thermal_centrifuge",
+    "original": "Thermal Centrifuge",
+    "translation": "热力离心机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.vacuum_freezer",
+    "original": "Vacuum Freezer",
+    "translation": "真空冷冻机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.wiremill",
+    "original": "Wiremill",
+    "translation": "线材轧机",
+    "stage": 5
+  },
+  {
+    "key": "cover.tag_filter.info.9",
+    "original": "The 'c:' namespace is assumed if one isn't provided.",
+    "translation": "如果没有提供命名空间，则为'c:'。",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.recipe.eu_to_start",
+    "original": "EU To Start: %sEU (%s)",
+    "translation": "启动耗能：%sEU（%s）",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.terminal.tooltip",
+    "original": "Shift + R-Click on a controller to automatically build the multiblock",
+    "translation": "潜行右击多方块控制器以自动搭建此多方块结构",
+    "stage": 5
+  },
+  {
+    "key": "itemGroup.gtceu.decoration",
+    "original": "GTCEu Decoration Blocks",
+    "translation": "格雷科技 | 装饰方块",
+    "stage": 5
+  },
+  {
+    "key": "itemGroup.gtceu.item",
+    "original": "GTCEu Items",
+    "translation": "格雷科技 | 物品",
+    "stage": 5
+  },
+  {
+    "key": "itemGroup.gtceu.machine",
+    "original": "GTCEu Machines",
+    "translation": "格雷科技 | 机器",
+    "stage": 5
+  },
+  {
+    "key": "itemGroup.gtceu.material_block",
+    "original": "GTCEu Material Blocks",
+    "translation": "格雷科技 | 材料-方块",
+    "stage": 5
+  },
+  {
+    "key": "itemGroup.gtceu.material_fluid",
+    "original": "GTCEu Material Fluid Containers",
+    "translation": "格雷科技 | 材料-流体容器",
+    "stage": 5
+  },
+  {
+    "key": "itemGroup.gtceu.material_item",
+    "original": "GTCEu Material Items",
+    "translation": "格雷科技 | 材料-物品",
+    "stage": 5
+  },
+  {
+    "key": "itemGroup.gtceu.material_pipe",
+    "original": "GTCEu Material Pipes",
+    "translation": "格雷科技 | 材料-管道",
+    "stage": 5
+  },
+  {
+    "key": "itemGroup.gtceu.tool",
+    "original": "GTCEu Tools",
+    "translation": "格雷科技 | 工具",
+    "stage": 5
+  },
+  {
+    "key": "recipe_category.gtceu.arc_furnace_recycling",
+    "original": "Plasma Scrapping",
+    "translation": "电弧炉：等离子回收",
+    "stage": 5
+  },
+  {
+    "key": "recipe_category.gtceu.chem_dyes",
+    "original": "Chemical Dyeing",
+    "translation": "化学浸洗机：化学染色",
+    "stage": 5
+  },
+  {
+    "key": "recipe_category.gtceu.extractor_recycling",
+    "original": "Scrap Remelting",
+    "translation": "流体提取机：重熔回收",
+    "stage": 5
+  },
+  {
+    "key": "recipe_category.gtceu.ingot_molding",
+    "original": "Metal Molding",
+    "translation": "合金炉：金属成型",
+    "stage": 5
+  },
+  {
+    "key": "recipe_category.gtceu.macerator_recycling",
+    "original": "Part Grinding",
+    "translation": "研磨机：粉碎回收",
+    "stage": 5
+  },
+  {
+    "key": "recipe_category.gtceu.ore_bathing",
+    "original": "Ore Treating",
+    "translation": "化学浸洗机：矿物处理",
+    "stage": 5
+  },
+  {
+    "key": "recipe_category.gtceu.ore_crushing",
+    "original": "Ore Grinding",
+    "translation": "研磨机：矿物处理",
+    "stage": 5
+  },
+  {
+    "key": "recipe_category.gtceu.ore_forging",
+    "original": "Ore Crushing",
+    "translation": "锻造锤：矿物处理",
+    "stage": 5
+  }
+]
