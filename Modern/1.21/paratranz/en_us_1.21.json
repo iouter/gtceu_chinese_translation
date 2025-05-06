@@ -440,6 +440,38 @@
         "original":"Topaz"
     },
     {
+        "key":"recipe_category.gtceu.arc_furnace_recycling",
+        "original":"Plasma Scrapping"
+    },
+    {
+        "key":"recipe_category.gtceu.chem_dyes",
+        "original":"Chemical Dyeing"
+    },
+    {
+        "key":"recipe_category.gtceu.extractor_recycling",
+        "original":"Scrap Remelting"
+    },
+    {
+        "key":"recipe_category.gtceu.ingot_molding",
+        "original":"Metal Molding"
+    },
+    {
+        "key":"recipe_category.gtceu.macerator_recycling",
+        "original":"Part Grinding"
+    },
+    {
+        "key":"recipe_category.gtceu.ore_bathing",
+        "original":"Ore Treating"
+    },
+    {
+        "key":"recipe_category.gtceu.ore_crushing",
+        "original":"Ore Grinding"
+    },
+    {
+        "key":"recipe_category.gtceu.ore_forging",
+        "original":"Ore Crushing"
+    },
+    {
         "key":"recipe_type.gtceu.air_scrubber",
         "original":"Air Scrubber"
     },
