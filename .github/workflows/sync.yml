@@ -35,3 +35,4 @@ jobs:
         else
           git commit -m "Auto Update: $(date +'%Y-%m-%d %H:%M')"
           git push
+        fi

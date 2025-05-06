@@ -150,6 +150,7 @@ def process_version(project: str, version: str, base_ver: str = None):
         local_time = get_local_file_mtime(original_path)
         if local_time is not None and remote_time <= local_time:
             print("⏭️ 文件无需更新，已跳过 {project}-{version}")
+            return
         download_source(project, version, url, original_path)
 
         # Step 2: 生成差异
