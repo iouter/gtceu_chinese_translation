@@ -63,7 +63,7 @@ def convert_files(project: str, version: str, base_ver: str = None):
                             translate_dict[key] = trans['original']
                         else:
                             translate_dict[key] = trans['translation']
-                json.dump(translate_dict, f, sort_keys=True, separators=(',', ':'), ensure_ascii=False, indent=4)
+                json.dump(translate_dict, f, sort_keys=True, separators=(',', ': '), ensure_ascii=False, indent=4)
     else:
         input_path = f"{project}/{version}/paratranz_output/{paratranz_name}"
         if file_extension == "json":
