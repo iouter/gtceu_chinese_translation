@@ -76,7 +76,7 @@ def convert_files(project: str, version: str, base_ver: str = None):
                         translate_dict[trans['key']] = trans['original']
                     else:
                         translate_dict[trans['key']] = trans['translation'].replace("\\n", "\n")
-                json.dump(translate_dict, f, sort_keys=True, separators=(',', ':'), ensure_ascii=False, indent=4)
+                json.dump(translate_dict, f, sort_keys=True, separators=(',', ': '), ensure_ascii=False, indent=4)
         elif file_extension == "lang":
             with open(original_path, "r", encoding="utf-8") as p:
                 text = p.read()
