@@ -62,7 +62,7 @@ def convert_files(project: str, version: str, base_ver: str = None):
                         if len(trans['translation']) == 0:
                             translate_dict[key] = trans['original']
                         else:
-                            translate_dict[key] = trans['translation']
+                            translate_dict[key] = trans['translation'].replace("\\n", "\n")
                 json.dump(translate_dict, f, sort_keys=True, separators=(',', ': '), ensure_ascii=False, indent=4)
     else:
         input_path = f"{project}/{version}/paratranz_output/{paratranz_name}"
@@ -75,7 +75,7 @@ def convert_files(project: str, version: str, base_ver: str = None):
                     if len(trans['translation']) == 0:
                         translate_dict[trans['key']] = trans['original']
                     else:
-                        translate_dict[trans['key']] = trans['translation']
+                        translate_dict[trans['key']] = trans['translation'].replace("\\n", "\n")
                 json.dump(translate_dict, f, sort_keys=True, separators=(',', ':'), ensure_ascii=False, indent=4)
         elif file_extension == "lang":
             with open(original_path, "r", encoding="utf-8") as p:
