@@ -135,7 +135,7 @@ def get_remote_modified_time(project, version) -> datetime:
 def get_local_modified_time(project, version) -> datetime:
     url = "https://api.github.com/repos/iouter/gtceu_chinese_translation/commits"
     branch = "master"
-    file_path = f"{project}/{version}/paratranz/" + CONFIG["projects"][project]["paratranz_name"]
+    file_path = f"{project}/{version}/original/" + CONFIG["projects"][project]["paratranz_name"].replace("zh_cn", "en_us")
     params = {"path": file_path, "sha": branch, "per_page": 1}
     r = requests.get(url, params=params)
     r.raise_for_status()
