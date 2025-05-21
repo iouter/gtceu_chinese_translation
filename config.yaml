@@ -3,6 +3,7 @@ projects:
   Modern:
     repo: https://github.com/GregTechCEu/GregTech-Modern
     file_path: src/generated/resources/assets/gtceu/lang/en_us.json
+    original_name: en_us.json
     paratranz_name: zh_cn_packed.json
     tranlated_name: zh_cn.json
     base: 1.20.1
@@ -16,6 +17,7 @@ projects:
   CEu:
     repo: https://github.com/GregTechCEu/GregTech
     file_path: src/main/resources/assets/gregtech/lang/en_us.lang
+    original_name: en_us.lang
     paratranz_name: zh_cn.lang.json
     tranlated_name: zh_cn.lang
     versions:
