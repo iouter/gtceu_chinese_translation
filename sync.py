@@ -132,11 +132,16 @@ def get_remote_modified_time(project, version) -> datetime:
     return datetime.fromisoformat(iso_str.replace("Z", "+00:00"))  # convert to UTC
 
 
-def get_local_file_mtime(path) -> datetime | None:
-    if not os.path.exists(path):
-        return None
-    ts = os.path.getmtime(path)
-    return datetime.fromtimestamp(ts, tz=timezone.utc)
+def get_local_modified_time(project, version) -> datetime:
+    url = "https://api.github.com/repos/iouter/gtceu_chinese_translation/commits"
+    branch = "master"
+    file_path = f"{project}/{version}/paratranz/" + CONFIG["projects"][project]["paratranz_name"]
+    params = {"path": file_path, "sha": branch, "per_page": 1}
+    r = requests.get(url, params=params)
+    r.raise_for_status()
+    data = r.json()
+    iso_str = data[0]["commit"]["committer"]["date"]
+    return datetime.fromisoformat(iso_str.replace("Z", "+00:00"))  # convert to UTC
 
 
 def process_version(project: str, version: str, base_ver: str = None):
@@ -148,9 +153,9 @@ def process_version(project: str, version: str, base_ver: str = None):
         file_extension = extract_file_extension(url)
         original_path = f"{project}/{version}/original/en_us.{file_extension}"
         remote_time = get_remote_modified_time(project, version)
-        local_time = get_local_file_mtime(original_path)
+        local_time = get_local_modified_time(project, version)
         if local_time is not None and remote_time <= local_time:
-            print("⏭️ 文件无需更新，已跳过 {project}-{version}")
+            print(f"⏭️ 文件无需更新，已跳过 {project}-{version}")
             return
         download_source(project, version, url, original_path)
 
