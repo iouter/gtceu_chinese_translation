@@ -716,6 +716,11 @@
     },
     {
         "context":"类型20",
+        "key":"gregtech.multiblock.large_chemical_reactor.description.0",
+        "original":"Performs all §eChemical Reactor§7 and §eLarge Chemical Reactor§7 recipes"
+    },
+    {
+        "context":"类型20",
         "key":"gregtech.multiblock.primitive_water_pump.description",
         "original":"The Primitive Water Pump is a pre-Steam Era multiblock that collects water once per second, depending on the Biome it is in. It can use a Pump, ULV, or LV Output Hatch, increasing the amount of water per tier. Follows the formula: Biome Coefficient * Hatch Multiplier."
     },
@@ -7867,7 +7872,7 @@
     {
         "context":"类型153：First Degree Compounds",
         "key":"gregtech.material.phosphate",
-        "original":"Phosphate"
+        "original":"Phosphate [DEPRECATED]"
     },
     {
         "context":"类型153：First Degree Compounds",
@@ -8221,11 +8226,6 @@
     },
     {
         "context":"类型155",
-        "key":"gregtech.material.cupric_oxide",
-        "original":"Cupric Oxide"
-    },
-    {
-        "context":"类型155",
         "key":"gregtech.material.cobalt_oxide",
         "original":"Cobalt Oxide"
     },
@@ -8238,11 +8238,6 @@
         "context":"类型155",
         "key":"gregtech.material.massicot",
         "original":"Massicot"
-    },
-    {
-        "context":"类型155",
-        "key":"gregtech.material.ferrosilite",
-        "original":"Ferrosilite"
     },
     {
         "context":"类型155",
@@ -9693,11 +9688,6 @@
         "context":"类型164：Second Degree Materials",
         "key":"gregtech.material.glass",
         "original":"Glass"
-    },
-    {
-        "context":"类型164：Second Degree Materials",
-        "key":"gregtech.material.perlite",
-        "original":"Perlite"
     },
     {
         "context":"类型164：Second Degree Materials",
@@ -23101,7 +23091,27 @@
     },
     {
         "context":"类型375",
-        "key":"gregtech.machine.fluid_hatch.import_4x.name",
+        "key":"gregtech.machine.fluid_hatch.import_4x.ulv.name",
+        "original":"ULV Quadruple Input Hatch"
+    },
+    {
+        "context":"类型375",
+        "key":"gregtech.machine.fluid_hatch.import_4x.lv.name",
+        "original":"LV Quadruple Input Hatch"
+    },
+    {
+        "context":"类型375",
+        "key":"gregtech.machine.fluid_hatch.import_4x.mv.name",
+        "original":"MV Quadruple Input Hatch"
+    },
+    {
+        "context":"类型375",
+        "key":"gregtech.machine.fluid_hatch.import_4x.hv.name",
+        "original":"HV Quadruple Input Hatch"
+    },
+    {
+        "context":"类型375",
+        "key":"gregtech.machine.fluid_hatch.import_4x.ev.name",
         "original":"EV Quadruple Input Hatch"
     },
     {
@@ -23156,7 +23166,27 @@
     },
     {
         "context":"类型376",
-        "key":"gregtech.machine.fluid_hatch.import_9x.name",
+        "key":"gregtech.machine.fluid_hatch.import_9x.ulv.name",
+        "original":"ULV Nonuple Input Hatch"
+    },
+    {
+        "context":"类型376",
+        "key":"gregtech.machine.fluid_hatch.import_9x.lv.name",
+        "original":"LV Nonuple Input Hatch"
+    },
+    {
+        "context":"类型376",
+        "key":"gregtech.machine.fluid_hatch.import_9x.mv.name",
+        "original":"MV Nonuple Input Hatch"
+    },
+    {
+        "context":"类型376",
+        "key":"gregtech.machine.fluid_hatch.import_9x.hv.name",
+        "original":"HV Nonuple Input Hatch"
+    },
+    {
+        "context":"类型376",
+        "key":"gregtech.machine.fluid_hatch.import_9x.ev.name",
         "original":"EV Nonuple Input Hatch"
     },
     {
@@ -23211,7 +23241,27 @@
     },
     {
         "context":"类型377",
-        "key":"gregtech.machine.fluid_hatch.export_4x.name",
+        "key":"gregtech.machine.fluid_hatch.export_4x.ulv.name",
+        "original":"ULV Quadruple Output Hatch"
+    },
+    {
+        "context":"类型377",
+        "key":"gregtech.machine.fluid_hatch.export_4x.lv.name",
+        "original":"LV Quadruple Output Hatch"
+    },
+    {
+        "context":"类型377",
+        "key":"gregtech.machine.fluid_hatch.export_4x.mv.name",
+        "original":"MV Quadruple Output Hatch"
+    },
+    {
+        "context":"类型377",
+        "key":"gregtech.machine.fluid_hatch.export_4x.hv.name",
+        "original":"HV Quadruple Output Hatch"
+    },
+    {
+        "context":"类型377",
+        "key":"gregtech.machine.fluid_hatch.export_4x.ev.name",
         "original":"EV Quadruple Output Hatch"
     },
     {
@@ -23266,7 +23316,27 @@
     },
     {
         "context":"类型378",
-        "key":"gregtech.machine.fluid_hatch.export_9x.name",
+        "key":"gregtech.machine.fluid_hatch.export_9x.ulv.name",
+        "original":"ULV Nonuple Output Hatch"
+    },
+    {
+        "context":"类型378",
+        "key":"gregtech.machine.fluid_hatch.export_9x.lv.name",
+        "original":"LV Nonuple Output Hatch"
+    },
+    {
+        "context":"类型378",
+        "key":"gregtech.machine.fluid_hatch.export_9x.mv.name",
+        "original":"MV Nonuple Output Hatch"
+    },
+    {
+        "context":"类型378",
+        "key":"gregtech.machine.fluid_hatch.export_9x.hv.name",
+        "original":"HV Nonuple Output Hatch"
+    },
+    {
+        "context":"类型378",
+        "key":"gregtech.machine.fluid_hatch.export_9x.ev.name",
         "original":"EV Nonuple Output Hatch"
     },
     {
@@ -23481,6 +23551,26 @@
     },
     {
         "context":"类型383",
+        "key":"gregtech.machine.energy_hatch.input_4a.ulv.name",
+        "original":"ULV 4A Energy Hatch"
+    },
+    {
+        "context":"类型383",
+        "key":"gregtech.machine.energy_hatch.input_4a.lv.name",
+        "original":"LV 4A Energy Hatch"
+    },
+    {
+        "context":"类型383",
+        "key":"gregtech.machine.energy_hatch.input_4a.mv.name",
+        "original":"MV 4A Energy Hatch"
+    },
+    {
+        "context":"类型383",
+        "key":"gregtech.machine.energy_hatch.input_4a.hv.name",
+        "original":"HV 4A Energy Hatch"
+    },
+    {
+        "context":"类型383",
         "key":"gregtech.machine.energy_hatch.input_4a.ev.name",
         "original":"EV 4A Energy Hatch"
     },
@@ -23536,6 +23626,31 @@
     },
     {
         "context":"类型384",
+        "key":"gregtech.machine.energy_hatch.input_16a.ulv.name",
+        "original":"ULV 16A Energy Hatch"
+    },
+    {
+        "context":"类型384",
+        "key":"gregtech.machine.energy_hatch.input_16a.lv.name",
+        "original":"LV 16A Energy Hatch"
+    },
+    {
+        "context":"类型384",
+        "key":"gregtech.machine.energy_hatch.input_16a.mv.name",
+        "original":"MV 16A Energy Hatch"
+    },
+    {
+        "context":"类型384",
+        "key":"gregtech.machine.energy_hatch.input_16a.hv.name",
+        "original":"HV 16A Energy Hatch"
+    },
+    {
+        "context":"类型384",
+        "key":"gregtech.machine.energy_hatch.input_16a.ev.name",
+        "original":"EV 16A Energy Hatch"
+    },
+    {
+        "context":"类型384",
         "key":"gregtech.machine.energy_hatch.input_16a.iv.name",
         "original":"IV 16A Energy Hatch"
     },
@@ -23588,6 +23703,31 @@
         "context":"类型385",
         "key":"gregtech.machine.substation_hatch.input.tooltip",
         "original":"Energy Input for the Power Substation"
+    },
+    {
+        "context":"类型386",
+        "key":"gregtech.machine.substation_hatch.input_64a.ulv.name",
+        "original":"ULV 64A Substation Energy Hatch"
+    },
+    {
+        "context":"类型386",
+        "key":"gregtech.machine.substation_hatch.input_64a.lv.name",
+        "original":"LV 64A Substation Energy Hatch"
+    },
+    {
+        "context":"类型386",
+        "key":"gregtech.machine.substation_hatch.input_64a.mv.name",
+        "original":"MV 64A Substation Energy Hatch"
+    },
+    {
+        "context":"类型386",
+        "key":"gregtech.machine.substation_hatch.input_64a.hv.name",
+        "original":"HV 64A Substation Energy Hatch"
+    },
+    {
+        "context":"类型386",
+        "key":"gregtech.machine.substation_hatch.input_64a.ev.name",
+        "original":"EV 64A Substation Energy Hatch"
     },
     {
         "context":"类型386",
@@ -23726,6 +23866,26 @@
     },
     {
         "context":"类型390",
+        "key":"gregtech.machine.energy_hatch.output_4a.ulv.name",
+        "original":"ULV 4A Dynamo Hatch"
+    },
+    {
+        "context":"类型390",
+        "key":"gregtech.machine.energy_hatch.output_4a.lv.name",
+        "original":"LV 4A Dynamo Hatch"
+    },
+    {
+        "context":"类型390",
+        "key":"gregtech.machine.energy_hatch.output_4a.mv.name",
+        "original":"MV 4A Dynamo Hatch"
+    },
+    {
+        "context":"类型390",
+        "key":"gregtech.machine.energy_hatch.output_4a.hv.name",
+        "original":"HV 4A Dynamo Hatch"
+    },
+    {
+        "context":"类型390",
         "key":"gregtech.machine.energy_hatch.output_4a.ev.name",
         "original":"EV 4A Dynamo Hatch"
     },
@@ -23781,6 +23941,31 @@
     },
     {
         "context":"类型391",
+        "key":"gregtech.machine.energy_hatch.output_16a.ulv.name",
+        "original":"ULV 16A Dynamo Hatch"
+    },
+    {
+        "context":"类型391",
+        "key":"gregtech.machine.energy_hatch.output_16a.lv.name",
+        "original":"LV 16A Dynamo Hatch"
+    },
+    {
+        "context":"类型391",
+        "key":"gregtech.machine.energy_hatch.output_16a.mv.name",
+        "original":"MV 16A Dynamo Hatch"
+    },
+    {
+        "context":"类型391",
+        "key":"gregtech.machine.energy_hatch.output_16a.hv.name",
+        "original":"HV 16A Dynamo Hatch"
+    },
+    {
+        "context":"类型391",
+        "key":"gregtech.machine.energy_hatch.output_16a.ev.name",
+        "original":"EV 16A Dynamo Hatch"
+    },
+    {
+        "context":"类型391",
         "key":"gregtech.machine.energy_hatch.output_16a.iv.name",
         "original":"IV 16A Dynamo Hatch"
     },
@@ -23833,6 +24018,31 @@
         "context":"类型392",
         "key":"gregtech.machine.substation_hatch.output.tooltip",
         "original":"Energy Output for the Power Substation"
+    },
+    {
+        "context":"类型393",
+        "key":"gregtech.machine.substation_hatch.output_64a.ulv.name",
+        "original":"ULV 64A Substation Dynamo Hatch"
+    },
+    {
+        "context":"类型393",
+        "key":"gregtech.machine.substation_hatch.output_64a.lv.name",
+        "original":"LV 64A Substation Dynamo Hatch"
+    },
+    {
+        "context":"类型393",
+        "key":"gregtech.machine.substation_hatch.output_64a.mv.name",
+        "original":"MV 64A Substation Dynamo Hatch"
+    },
+    {
+        "context":"类型393",
+        "key":"gregtech.machine.substation_hatch.output_64a.hv.name",
+        "original":"HV 64A Substation Dynamo Hatch"
+    },
+    {
+        "context":"类型393",
+        "key":"gregtech.machine.substation_hatch.output_64a.ev.name",
+        "original":"EV 64A Substation Dynamo Hatch"
     },
     {
         "context":"类型393",
@@ -24116,5101 +24326,5101 @@
     },
     {
         "context":"类型402",
-        "key":"gregtech.muffler.recovery_tooltip",
-        "original":"§bRecovery Chance: §f%d%%"
-    },
-    {
-        "context":"类型403",
         "key":"gregtech.machine.pump_hatch.name",
         "original":"Pump Output Hatch"
     },
     {
-        "context":"类型403",
+        "context":"类型402",
         "key":"gregtech.machine.pump_hatch.tooltip",
         "original":"Primitive Fluid Output for Water Pump"
     },
     {
-        "context":"类型404",
+        "context":"类型403",
         "key":"gregtech.machine.machine_hatch.name",
         "original":"Machine Access Interface"
     },
     {
-        "context":"类型404",
+        "context":"类型403",
         "key":"gregtech.machine.machine_hatch.locked",
         "original":"Machine Interface Locked"
     },
     {
-        "context":"类型404",
+        "context":"类型403",
         "key":"gregtech.machine.machine_hatch.machines",
         "original":"Machine: %s"
     },
     {
-        "context":"类型404",
+        "context":"类型403",
         "key":"gregtech.machine.machine_hatch.machines_none",
         "original":"None"
     },
     {
-        "context":"类型404",
+        "context":"类型403",
         "key":"gregtech.machine.machine_hatch.machines_none_hover",
         "original":"Insert machines into Machine Access Interface to run."
     },
     {
-        "context":"类型404",
+        "context":"类型403",
         "key":"gregtech.machine.machine_hatch.machines_max",
         "original":"Max Machines: %s"
     },
     {
-        "context":"类型404",
+        "context":"类型403",
         "key":"gregtech.machine.machine_hatch.machines_max_eut",
         "original":"Max Usable EU/t: %s (%sA %s)"
     },
     {
-        "context":"类型404",
+        "context":"类型403",
         "key":"gregtech.machine.machine_hatch.tooltip",
         "original":"Specialized Access Bus that only holds valid items"
     },
     {
-        "context":"类型404",
+        "context":"类型403",
         "key":"gregtech.machine.machine_hatch.processing_array",
         "original":"When in the §eProcessing Array§7, only holds machines that work in the §eProcessing Array"
     },
     {
-        "context":"类型405",
+        "context":"类型404",
         "key":"gregtech.machine.passthrough_hatch_item.name",
         "original":"Item Passthrough Hatch"
     },
     {
-        "context":"类型405",
+        "context":"类型404",
         "key":"gregtech.machine.passthrough_hatch_item.tooltip",
         "original":"Sends Items from one Side to the other"
     },
     {
-        "context":"类型405",
+        "context":"类型404",
         "key":"gregtech.machine.passthrough_hatch_fluid.name",
         "original":"Fluid Passthrough Hatch"
     },
     {
-        "context":"类型405",
+        "context":"类型404",
         "key":"gregtech.machine.passthrough_hatch_fluid.tooltip",
         "original":"Sends Fluids from one Side to the other"
     },
     {
-        "context":"类型406",
+        "context":"类型405",
         "key":"gregtech.machine.reservoir_hatch.name",
         "original":"Reservoir Hatch"
     },
     {
-        "context":"类型406",
+        "context":"类型405",
         "key":"gregtech.machine.reservoir_hatch.tooltip",
         "original":"Not a Sink"
     },
     {
-        "context":"类型407",
+        "context":"类型406",
         "key":"gregtech.machine.data_access_hatch.name",
         "original":"Data Access Hatch"
     },
     {
-        "context":"类型407",
+        "context":"类型406",
         "key":"gregtech.machine.data_access_hatch.tooltip.1",
         "original":"Data Access for Multiblocks"
     },
     {
-        "context":"类型407",
+        "context":"类型406",
         "key":"gregtech.machine.data_access_hatch.tooltip.2",
         "original":"Adds §a%s§7 slots for Data Items"
     },
     {
-        "context":"类型407",
+        "context":"类型406",
         "key":"gregtech.machine.data_access_hatch.advanced.name",
         "original":"Advanced Data Access Hatch"
     },
     {
-        "context":"类型407",
+        "context":"类型406",
         "key":"gregtech.machine.data_access_hatch.creative.name",
         "original":"Creative Data Access Hatch"
     },
     {
-        "context":"类型408",
+        "context":"类型407",
         "key":"gregtech.machine.data_access_hatch.optical.receiver.name",
         "original":"Optical Data Reception Hatch"
     },
     {
-        "context":"类型408",
+        "context":"类型407",
         "key":"gregtech.machine.data_access_hatch.optical.receiver.tooltip",
         "original":"Research Data Input for Multiblocks"
     },
     {
-        "context":"类型408",
+        "context":"类型407",
         "key":"gregtech.machine.data_access_hatch.optical.transmitter.name",
         "original":"Optical Data Transmission Hatch"
     },
     {
-        "context":"类型408",
+        "context":"类型407",
         "key":"gregtech.machine.data_access_hatch.optical.transmitter.tooltip",
         "original":"Research Data Output for Multiblocks"
     },
     {
-        "context":"类型408",
+        "context":"类型407",
         "key":"gregtech.machine.computation_hatch.transmitter.name",
         "original":"Computation Data Transmission Hatch"
     },
     {
-        "context":"类型408",
+        "context":"类型407",
         "key":"gregtech.machine.computation_hatch.transmitter.tooltip",
         "original":"Computation Data Output for Multiblocks"
     },
     {
-        "context":"类型408",
+        "context":"类型407",
         "key":"gregtech.machine.computation_hatch.receiver.name",
         "original":"Computation Data Reception Hatch"
     },
     {
-        "context":"类型408",
+        "context":"类型407",
         "key":"gregtech.machine.computation_hatch.receiver.tooltip",
         "original":"Computation Data Input for Multiblocks"
     },
     {
-        "context":"类型408",
+        "context":"类型407",
         "key":"gregtech.machine.research_station.object_holder.name",
         "original":"Object Holder"
     },
     {
-        "context":"类型408",
+        "context":"类型407",
         "key":"gregtech.machine.research_station.object_holder.tooltip",
         "original":"Advanced Holding Mechanism for Research Station"
     },
     {
-        "context":"类型409：laser hatches",
+        "context":"类型408：laser hatches",
         "key":"gregtech.machine.laser_hatch.source_256a.iv.name",
         "original":"IV 256A Laser Source Hatch"
     },
     {
-        "context":"类型409：laser hatches",
+        "context":"类型408：laser hatches",
         "key":"gregtech.machine.laser_hatch.source_256a.luv.name",
         "original":"LuV 256A Laser Source Hatch"
     },
     {
-        "context":"类型409：laser hatches",
+        "context":"类型408：laser hatches",
         "key":"gregtech.machine.laser_hatch.source_256a.zpm.name",
         "original":"ZPM 256A Laser Source Hatch"
     },
     {
-        "context":"类型409：laser hatches",
+        "context":"类型408：laser hatches",
         "key":"gregtech.machine.laser_hatch.source_256a.uv.name",
         "original":"UV 256A Laser Source Hatch"
     },
     {
-        "context":"类型409：laser hatches",
+        "context":"类型408：laser hatches",
         "key":"gregtech.machine.laser_hatch.source_256a.uhv.name",
         "original":"UHV 256A Laser Source Hatch"
     },
     {
-        "context":"类型409：laser hatches",
+        "context":"类型408：laser hatches",
         "key":"gregtech.machine.laser_hatch.source_256a.uev.name",
         "original":"UEV 256A Laser Source Hatch"
     },
     {
-        "context":"类型409：laser hatches",
+        "context":"类型408：laser hatches",
         "key":"gregtech.machine.laser_hatch.source_256a.uiv.name",
         "original":"UIV 256A Laser Source Hatch"
     },
     {
-        "context":"类型409：laser hatches",
+        "context":"类型408：laser hatches",
         "key":"gregtech.machine.laser_hatch.source_256a.uxv.name",
         "original":"UXV 256A Laser Source Hatch"
     },
     {
-        "context":"类型409：laser hatches",
+        "context":"类型408：laser hatches",
         "key":"gregtech.machine.laser_hatch.source_256a.opv.name",
         "original":"OpV 256A Laser Source Hatch"
     },
     {
-        "context":"类型409：laser hatches",
+        "context":"类型408：laser hatches",
         "key":"gregtech.machine.laser_hatch.source_256a.max.name",
         "original":"MAX 256A Laser Source Hatch"
     },
     {
-        "context":"类型410",
+        "context":"类型409",
         "key":"gregtech.machine.laser_hatch.source_1024a.iv.name",
-        "original":"IV 1024A Laser Source Hatch"
+        "original":"IV 1,024A Laser Source Hatch"
     },
     {
-        "context":"类型410",
+        "context":"类型409",
         "key":"gregtech.machine.laser_hatch.source_1024a.luv.name",
-        "original":"LuV 1024A Laser Source Hatch"
+        "original":"LuV 1,024A Laser Source Hatch"
     },
     {
-        "context":"类型410",
+        "context":"类型409",
         "key":"gregtech.machine.laser_hatch.source_1024a.zpm.name",
-        "original":"ZPM 1024A Laser Source Hatch"
+        "original":"ZPM 1,024A Laser Source Hatch"
     },
     {
-        "context":"类型410",
+        "context":"类型409",
         "key":"gregtech.machine.laser_hatch.source_1024a.uv.name",
-        "original":"UV 1024A Laser Source Hatch"
+        "original":"UV 1,024A Laser Source Hatch"
     },
     {
-        "context":"类型410",
+        "context":"类型409",
         "key":"gregtech.machine.laser_hatch.source_1024a.uhv.name",
-        "original":"UHV 1024A Laser Source Hatch"
+        "original":"UHV 1,024A Laser Source Hatch"
     },
     {
-        "context":"类型410",
+        "context":"类型409",
         "key":"gregtech.machine.laser_hatch.source_1024a.uev.name",
-        "original":"UEV 1024A Laser Source Hatch"
+        "original":"UEV 1,024A Laser Source Hatch"
     },
     {
-        "context":"类型410",
+        "context":"类型409",
         "key":"gregtech.machine.laser_hatch.source_1024a.uiv.name",
-        "original":"UIV 1024A Laser Source Hatch"
+        "original":"UIV 1,024A Laser Source Hatch"
     },
     {
-        "context":"类型410",
+        "context":"类型409",
         "key":"gregtech.machine.laser_hatch.source_1024a.uxv.name",
-        "original":"UXV 1024A Laser Source Hatch"
+        "original":"UXV 1,024A Laser Source Hatch"
     },
     {
-        "context":"类型410",
+        "context":"类型409",
         "key":"gregtech.machine.laser_hatch.source_1024a.opv.name",
-        "original":"OpV 1024A Laser Source Hatch"
+        "original":"OpV 1,024A Laser Source Hatch"
+    },
+    {
+        "context":"类型409",
+        "key":"gregtech.machine.laser_hatch.source_1024a.max.name",
+        "original":"MAX 1,024A Laser Source Hatch"
     },
     {
         "context":"类型410",
-        "key":"gregtech.machine.laser_hatch.source_1024a.max.name",
-        "original":"MAX 1024A Laser Source Hatch"
-    },
-    {
-        "context":"类型411",
         "key":"gregtech.machine.laser_hatch.source_4096a.iv.name",
-        "original":"IV 4096A Laser Source Hatch"
+        "original":"IV 4,096A Laser Source Hatch"
     },
     {
-        "context":"类型411",
+        "context":"类型410",
         "key":"gregtech.machine.laser_hatch.source_4096a.luv.name",
-        "original":"LuV 4096A Laser Source Hatch"
+        "original":"LuV 4,096A Laser Source Hatch"
     },
     {
-        "context":"类型411",
+        "context":"类型410",
         "key":"gregtech.machine.laser_hatch.source_4096a.zpm.name",
-        "original":"ZPM 4096A Laser Source Hatch"
+        "original":"ZPM 4,096A Laser Source Hatch"
     },
     {
-        "context":"类型411",
+        "context":"类型410",
         "key":"gregtech.machine.laser_hatch.source_4096a.uv.name",
-        "original":"UV 4096A Laser Source Hatch"
+        "original":"UV 4,096A Laser Source Hatch"
     },
     {
-        "context":"类型411",
+        "context":"类型410",
         "key":"gregtech.machine.laser_hatch.source_4096a.uhv.name",
-        "original":"UHV 4096A Laser Source Hatch"
+        "original":"UHV 4,096A Laser Source Hatch"
     },
     {
-        "context":"类型411",
+        "context":"类型410",
         "key":"gregtech.machine.laser_hatch.source_4096a.uev.name",
-        "original":"UEV 4096A Laser Source Hatch"
+        "original":"UEV 4,096A Laser Source Hatch"
     },
     {
-        "context":"类型411",
+        "context":"类型410",
         "key":"gregtech.machine.laser_hatch.source_4096a.uiv.name",
-        "original":"UIV 4096A Laser Source Hatch"
+        "original":"UIV 4,096A Laser Source Hatch"
     },
     {
-        "context":"类型411",
+        "context":"类型410",
         "key":"gregtech.machine.laser_hatch.source_4096a.uxv.name",
-        "original":"UXV 4096A Laser Source Hatch"
+        "original":"UXV 4,096A Laser Source Hatch"
     },
     {
-        "context":"类型411",
+        "context":"类型410",
         "key":"gregtech.machine.laser_hatch.source_4096a.opv.name",
-        "original":"OpV 4096A Laser Source Hatch"
+        "original":"OpV 4,096A Laser Source Hatch"
+    },
+    {
+        "context":"类型410",
+        "key":"gregtech.machine.laser_hatch.source_4096a.max.name",
+        "original":"MAX 4,096A Laser Source Hatch"
     },
     {
         "context":"类型411",
-        "key":"gregtech.machine.laser_hatch.source_4096a.max.name",
-        "original":"MAX 4096A Laser Source Hatch"
-    },
-    {
-        "context":"类型412",
         "key":"gregtech.machine.laser_hatch.target_256a.iv.name",
         "original":"IV 256A Laser Target Hatch"
     },
     {
-        "context":"类型412",
+        "context":"类型411",
         "key":"gregtech.machine.laser_hatch.target_256a.luv.name",
         "original":"LuV 256A Laser Target Hatch"
     },
     {
-        "context":"类型412",
+        "context":"类型411",
         "key":"gregtech.machine.laser_hatch.target_256a.zpm.name",
         "original":"ZPM 256A Laser Target Hatch"
     },
     {
-        "context":"类型412",
+        "context":"类型411",
         "key":"gregtech.machine.laser_hatch.target_256a.uv.name",
         "original":"UV 256A Laser Target Hatch"
     },
     {
-        "context":"类型412",
+        "context":"类型411",
         "key":"gregtech.machine.laser_hatch.target_256a.uhv.name",
         "original":"UHV 256A Laser Target Hatch"
     },
     {
-        "context":"类型412",
+        "context":"类型411",
         "key":"gregtech.machine.laser_hatch.target_256a.uev.name",
         "original":"UEV 256A Laser Target Hatch"
     },
     {
-        "context":"类型412",
+        "context":"类型411",
         "key":"gregtech.machine.laser_hatch.target_256a.uiv.name",
         "original":"UIV 256A Laser Target Hatch"
     },
     {
-        "context":"类型412",
+        "context":"类型411",
         "key":"gregtech.machine.laser_hatch.target_256a.uxv.name",
         "original":"UXV 256A Laser Target Hatch"
     },
     {
-        "context":"类型412",
+        "context":"类型411",
         "key":"gregtech.machine.laser_hatch.target_256a.opv.name",
         "original":"OpV 256A Laser Target Hatch"
     },
     {
-        "context":"类型412",
+        "context":"类型411",
         "key":"gregtech.machine.laser_hatch.target_256a.max.name",
         "original":"MAX 256A Laser Target Hatch"
     },
     {
-        "context":"类型413",
+        "context":"类型412",
         "key":"gregtech.machine.laser_hatch.target_1024a.iv.name",
-        "original":"IV 1024A Laser Target Hatch"
+        "original":"IV 1,024A Laser Target Hatch"
     },
     {
-        "context":"类型413",
+        "context":"类型412",
         "key":"gregtech.machine.laser_hatch.target_1024a.luv.name",
-        "original":"LuV 1024A Laser Target Hatch"
+        "original":"LuV 1,024A Laser Target Hatch"
     },
     {
-        "context":"类型413",
+        "context":"类型412",
         "key":"gregtech.machine.laser_hatch.target_1024a.zpm.name",
-        "original":"ZPM 1024A Laser Target Hatch"
+        "original":"ZPM 1,024A Laser Target Hatch"
     },
     {
-        "context":"类型413",
+        "context":"类型412",
         "key":"gregtech.machine.laser_hatch.target_1024a.uv.name",
-        "original":"UV 1024A Laser Target Hatch"
+        "original":"UV 1,024A Laser Target Hatch"
     },
     {
-        "context":"类型413",
+        "context":"类型412",
         "key":"gregtech.machine.laser_hatch.target_1024a.uhv.name",
-        "original":"UHV 1024A Laser Target Hatch"
+        "original":"UHV 1,024A Laser Target Hatch"
     },
     {
-        "context":"类型413",
+        "context":"类型412",
         "key":"gregtech.machine.laser_hatch.target_1024a.uev.name",
-        "original":"UEV 1024A Laser Target Hatch"
+        "original":"UEV 1,024A Laser Target Hatch"
     },
     {
-        "context":"类型413",
+        "context":"类型412",
         "key":"gregtech.machine.laser_hatch.target_1024a.uiv.name",
-        "original":"UIV 1024A Laser Target Hatch"
+        "original":"UIV 1,024A Laser Target Hatch"
     },
     {
-        "context":"类型413",
+        "context":"类型412",
         "key":"gregtech.machine.laser_hatch.target_1024a.uxv.name",
-        "original":"UXV 1024A Laser Target Hatch"
+        "original":"UXV 1,024A Laser Target Hatch"
     },
     {
-        "context":"类型413",
+        "context":"类型412",
         "key":"gregtech.machine.laser_hatch.target_1024a.opv.name",
-        "original":"OpV 1024A Laser Target Hatch"
+        "original":"OpV 1,024A Laser Target Hatch"
+    },
+    {
+        "context":"类型412",
+        "key":"gregtech.machine.laser_hatch.target_1024a.max.name",
+        "original":"MAX 1,024A Laser Target Hatch"
     },
     {
         "context":"类型413",
-        "key":"gregtech.machine.laser_hatch.target_1024a.max.name",
-        "original":"MAX 1024A Laser Target Hatch"
-    },
-    {
-        "context":"类型414",
         "key":"gregtech.machine.laser_hatch.target_4096a.iv.name",
-        "original":"IV 4096A Laser Target Hatch"
+        "original":"IV 4,096A Laser Target Hatch"
     },
     {
-        "context":"类型414",
+        "context":"类型413",
         "key":"gregtech.machine.laser_hatch.target_4096a.luv.name",
-        "original":"LuV 4096A Laser Target Hatch"
+        "original":"LuV 4,096A Laser Target Hatch"
     },
     {
-        "context":"类型414",
+        "context":"类型413",
         "key":"gregtech.machine.laser_hatch.target_4096a.zpm.name",
-        "original":"ZPM 4096A Laser Target Hatch"
+        "original":"ZPM 4,096A Laser Target Hatch"
     },
     {
-        "context":"类型414",
+        "context":"类型413",
         "key":"gregtech.machine.laser_hatch.target_4096a.uv.name",
-        "original":"UV 4096A Laser Target Hatch"
+        "original":"UV 4,096A Laser Target Hatch"
     },
     {
-        "context":"类型414",
+        "context":"类型413",
         "key":"gregtech.machine.laser_hatch.target_4096a.uhv.name",
-        "original":"UHV 4096A Laser Target Hatch"
+        "original":"UHV 4,096A Laser Target Hatch"
     },
     {
-        "context":"类型414",
+        "context":"类型413",
         "key":"gregtech.machine.laser_hatch.target_4096a.uev.name",
-        "original":"UEV 4096A Laser Target Hatch"
+        "original":"UEV 4,096A Laser Target Hatch"
     },
     {
-        "context":"类型414",
+        "context":"类型413",
         "key":"gregtech.machine.laser_hatch.target_4096a.uiv.name",
-        "original":"UIV 4096A Laser Target Hatch"
+        "original":"UIV 4,096A Laser Target Hatch"
     },
     {
-        "context":"类型414",
+        "context":"类型413",
         "key":"gregtech.machine.laser_hatch.target_4096a.uxv.name",
-        "original":"UXV 4096A Laser Target Hatch"
+        "original":"UXV 4,096A Laser Target Hatch"
     },
     {
-        "context":"类型414",
+        "context":"类型413",
         "key":"gregtech.machine.laser_hatch.target_4096a.opv.name",
-        "original":"OpV 4096A Laser Target Hatch"
+        "original":"OpV 4,096A Laser Target Hatch"
+    },
+    {
+        "context":"类型413",
+        "key":"gregtech.machine.laser_hatch.target_4096a.max.name",
+        "original":"MAX 4,096A Laser Target Hatch"
     },
     {
         "context":"类型414",
-        "key":"gregtech.machine.laser_hatch.target_4096a.max.name",
-        "original":"MAX 4096A Laser Target Hatch"
-    },
-    {
-        "context":"类型415",
         "key":"gregtech.machine.laser_hatch.source.tooltip1",
         "original":"Transmitting power at distance"
     },
     {
-        "context":"类型415",
+        "context":"类型414",
         "key":"gregtech.machine.laser_hatch.target.tooltip1",
         "original":"Receiving power from distance"
     },
     {
-        "context":"类型415",
+        "context":"类型414",
         "key":"gregtech.machine.laser_hatch.tooltip2",
         "original":"§cLaser Cables must be in a straight line!§7"
     },
     {
-        "context":"类型416",
+        "context":"类型415",
         "key":"gregtech.machine.fluid_tank.max_multiblock",
         "original":"Max Multiblock Size: %,dx%,dx%,d"
     },
     {
-        "context":"类型416",
+        "context":"类型415",
         "key":"gregtech.machine.fluid_tank.fluid",
         "original":"Contains %s L of %s"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me_import_item_bus.name",
         "original":"ME Input Bus"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me.item_import.tooltip",
         "original":"Extracts specified items from the ME network"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me_stocking_item_bus.name",
         "original":"ME Stocking Input Bus"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me.stocking_item.tooltip",
         "original":"Retrieves items directly from the ME network"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me.stocking_item.tooltip.2",
         "original":"Auto-Pull from ME mode will automatically stock the first 16 items in the ME system, updated every 5 seconds."
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me_import_item_hatch.configs.tooltip",
         "original":"Keeps 16 item types in stock"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me_import_fluid_hatch.name",
         "original":"ME Input Hatch"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me.fluid_import.tooltip",
         "original":"Extracts specified fluids from ME network"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me_stocking_fluid_hatch.name",
         "original":"ME Stocking Input Hatch"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me.stocking_fluid.tooltip",
         "original":"Retrieves fluids directly from the ME network"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me.stocking_fluid.tooltip.2",
         "original":"Auto-Pull from ME mode will automatically stock the first 16 fluids in the ME system, updated every 5 seconds."
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me_import_fluid_hatch.configs.tooltip",
         "original":"Keeps 16 fluid types in stock"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me_export_item_bus.name",
         "original":"ME Output Bus"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me.item_export.tooltip",
         "original":"Stores items directly into the ME network"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me.item_export.tooltip.2",
         "original":"Can cache an infinite amount of items"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me_export_fluid_hatch.name",
         "original":"ME Output Hatch"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me.fluid_export.tooltip",
         "original":"Stores fluids directly into the ME network"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me.fluid_export.tooltip.2",
         "original":"Can cache an infinite amount of fluid"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me.stocking_auto_pull_enabled",
         "original":"Auto-Pull Enabled"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me.stocking_auto_pull_disabled",
         "original":"Auto-Pull Disabled"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me.copy_paste.tooltip",
         "original":"Left-click with Data Stick to copy settings, right-click to apply"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me.import_copy_settings",
         "original":"Saved settings to Data Stick"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me.import_paste_settings",
         "original":"Applied settings from Data Stick"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me.item_import.data_stick.name",
         "original":"§oME Input Bus Configuration Data"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me.fluid_import.data_stick.name",
         "original":"§oME Input Hatch Configuration Data"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me.extra_connections.enabled",
         "original":"Allow connections from all sides"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me.extra_connections.disabled",
         "original":"Allow connection only on front face"
     },
     {
-        "context":"类型417：ME Parts",
+        "context":"类型416：ME Parts",
         "key":"gregtech.machine.me.extra_connections.tooltip",
         "original":"Right-click with wire cutters to allow connecting to AE2 on all sides"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.voltage_in",
         "original":"§aVoltage IN: §f%,d EU/t (%s§f)"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.max_voltage_in",
         "original":"§aMax Voltage IN: §f%,d (%s§f)"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.voltage_out",
         "original":"§aVoltage OUT: §f%,d EU/t (%s§f)"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.max_voltage_out",
         "original":"§aMax Voltage OUT: §f%,d (%s§f)"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.voltage_in_out",
         "original":"§aVoltage IN/OUT: §f%,d EU/t (%s§f)"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.max_voltage_in_out",
         "original":"§aMax Voltage IN/OUT: §f%,d EU/t (%s§f)"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.amperage_in",
         "original":"§eAmperage IN: §f%,dA"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.amperage_in_till",
         "original":"§eAmperage IN up to: §f%,dA"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.amperage_out",
         "original":"§eAmperage OUT: §f%,dA"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.amperage_out_till",
         "original":"§eAmperage OUT up to: §f%,dA"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.amperage_in_out",
         "original":"§eAmperage IN/OUT: §f%,dA"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.amperage_in_out_till",
         "original":"§eAmperage IN/OUT up to: §f%,dA"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
+        "key":"gregtech.universal.tooltip.throughput",
+        "original":"§bThroughput: §f%,d EU/t"
+    },
+    {
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.energy_storage_capacity",
         "original":"§cEnergy Capacity: §f%,d EU"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.energy_tier_range",
         "original":"§aAllowed Voltage Tiers: §f%s §f- %s"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.item_storage_capacity",
         "original":"§6Item Slots: §f%,d"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.item_storage_total",
         "original":"§6Item Capacity: §f%,d items"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.item_stored",
         "original":"§dItem Stored: §f%s, %,d + %,d items"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.item_transfer_rate",
         "original":"§bTransfer Rate: §f%,d items/s"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.item_transfer_rate_stacks",
         "original":"§bTransfer Rate: §f%,d stacks/s"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.fluid_storage_capacity",
         "original":"§9Fluid Capacity: §f%,d L"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.fluid_storage_capacity_mult",
         "original":"§9Fluid Capacity: §f%,d §7Tanks, §f%,d L §7each"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.fluid_stored",
         "original":"§dFluid Stored: §f%s, %,d L"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.fluid_transfer_rate",
         "original":"§bTransfer Rate: §f%,d L/t"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.parallel",
         "original":"§dMax Parallel: §f%d"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.working_area",
         "original":"§bWorking Area: §f%,dx%,d"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.working_area_max",
         "original":"§bMax Working Area: §f%,dx%,d"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.working_area_chunks_max",
         "original":"§bMax Working Area: §f%,dx%,d Chunks"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.uses_per_tick",
         "original":"Uses §f%,d EU/t §7while working"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.uses_per_tick_steam",
         "original":"Uses §f%,d L/t §7of Steam while working"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.uses_per_hour_lubricant",
         "original":"Uses §f%,d L/hr §7of Lubricant while working"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.uses_per_second",
         "original":"Uses §f%,d EU/s §7while working"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.uses_per_op",
         "original":"Uses §f%,d EU/operation"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.base_production_eut",
         "original":"§eBase Production: §f%,d EU/t"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.base_production_fluid",
         "original":"§eBase Production: §f%,d L/t"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.produces_fluid",
         "original":"§eProduces: §f%,d L/t"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.terrain_resist",
         "original":"§eThis Machine will not explode when exposed to the Elements"
     },
     {
-        "context":"类型418：Universal tooltips",
+        "context":"类型417：Universal tooltips",
         "key":"gregtech.universal.tooltip.requires_redstone",
         "original":"§4Requires Redstone power"
     },
     {
-        "context":"类型419",
+        "context":"类型418",
         "key":"gregtech.block.tooltip.no_mob_spawning",
         "original":"§bMobs cannot spawn on this block"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.total",
         "original":"Total: %,d EU"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.max_eu",
         "original":"Max. EU: %,d EU"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.eu",
         "original":"Usage: %,d EU/t (%s§r)"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.eu_inverted",
         "original":"Generation: %,d EU/t"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.duration",
         "original":"Duration: %s secs"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.amperage",
         "original":"Amperage: %,d"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.not_consumed",
         "original":"Does not get consumed in the process"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.chance",
         "original":"Chance: %s%% +%s%%/tier"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.chance_logic",
         "original":"Chance: %s%% +%s%%/tier (%s)"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.chance_logic.or",
         "original":"OR"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.chance_logic.and",
         "original":"AND"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.chance_logic.xor",
         "original":"XOR"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.chance_logic.none",
         "original":"NONE"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.temperature",
         "original":"Temperature: %,dK (%s)"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.explosive",
         "original":"Explosive: %s"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.eu_to_start",
         "original":"Energy To Start: %sEU"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.dimensions",
         "original":"Dimensions: %s"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.dimensions_blocked",
         "original":"Blocked Dimensions: %s"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.cleanroom",
         "original":"Requires %s"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.cleanroom.display_name",
         "original":"Cleanroom"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.cleanroom_sterile.display_name",
         "original":"Sterile Cleanroom"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.research",
         "original":"Requires Research"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.scan_for_research",
         "original":"Scan for Assembly Line"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.computation_per_tick",
         "original":"Min. Computation: %,d CWU/t"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.total_computation",
         "original":"Computation: %,d CWU"
     },
     {
-        "context":"类型420",
+        "context":"类型419",
         "key":"gregtech.recipe.research_result",
         "original":"Research result item, not produced by this recipe directly"
     },
     {
-        "context":"类型421",
+        "context":"类型420",
         "key":"gregtech.fluid.click_to_fill",
         "original":"§7Left Click with a Fluid Container to §bfill §7the tank (Right Click to process 1 item per click)."
     },
     {
-        "context":"类型421",
+        "context":"类型420",
         "key":"gregtech.fluid.click_combined",
         "original":"§7Left Click with a Fluid Container to §bfill §7or §cempty §7the tank (Right Click to process 1 item per click)."
     },
     {
-        "context":"类型421",
+        "context":"类型420",
         "key":"gregtech.fluid.click_to_empty",
         "original":"§7Left Click with a Fluid Container to §cempty §7the tank (Right Click to process 1 item per click)."
     },
     {
-        "context":"类型422",
+        "context":"类型421",
         "key":"gregtech.tool_action.show_tooltips",
         "original":"Hold SHIFT to show Tool Info"
     },
     {
-        "context":"类型422",
+        "context":"类型421",
         "key":"gregtech.tool_action.screwdriver.auto_output_covers",
         "original":"§8Use Screwdriver to Allow Input from Output Side or access Covers"
     },
     {
-        "context":"类型422",
+        "context":"类型421",
         "key":"gregtech.tool_action.screwdriver.toggle_mode_covers",
         "original":"§8Use Screwdriver to toggle Modes or access Covers"
     },
     {
-        "context":"类型422",
+        "context":"类型421",
         "key":"gregtech.tool_action.screwdriver.access_covers",
         "original":"§8Use Screwdriver to access Covers"
     },
     {
-        "context":"类型422",
+        "context":"类型421",
         "key":"gregtech.tool_action.screwdriver.auto_collapse",
         "original":"§8Use Screwdriver to toggle Item collapsing"
     },
     {
-        "context":"类型422",
+        "context":"类型421",
         "key":"gregtech.tool_action.screwdriver.auto_output",
         "original":"§8Use Screwdriver to toggle Auto-Output"
     },
     {
-        "context":"类型422",
+        "context":"类型421",
         "key":"gregtech.tool_action.screwdriver.auto_output_down",
         "original":"§8Use Screwdriver to toggle Auto-Output from the Bottom"
     },
     {
-        "context":"类型422",
+        "context":"类型421",
         "key":"gregtech.tool_action.screwdriver.toggle_mode",
         "original":"§8Use Screwdriver to toggle Modes"
     },
     {
-        "context":"类型422",
+        "context":"类型421",
         "key":"gregtech.tool_action.wrench.set_facing",
         "original":"§8Use Wrench to set Facing"
     },
     {
-        "context":"类型422",
+        "context":"类型421",
         "key":"gregtech.tool_action.wrench.extended_facing",
         "original":"§8Use Wrench to set Facing or spin the Machine"
     },
     {
-        "context":"类型422",
+        "context":"类型421",
         "key":"gregtech.tool_action.wrench.connect",
         "original":"§8Use Wrench to set Connections"
     },
     {
-        "context":"类型422",
+        "context":"类型421",
         "key":"gregtech.tool_action.wrench.connect_and_block",
         "original":"§8Use Wrench to set Connections, sneak to block transfer"
     },
     {
-        "context":"类型422",
+        "context":"类型421",
         "key":"gregtech.tool_action.wire_cutter.connect",
         "original":"§8Use Wire Cutters to set Connections"
     },
     {
-        "context":"类型422",
+        "context":"类型421",
         "key":"gregtech.tool_action.soft_mallet.reset",
         "original":"§8Use Soft Mallet to toggle Working"
     },
     {
-        "context":"类型422",
+        "context":"类型421",
         "key":"gregtech.tool_action.soft_mallet.toggle_mode",
         "original":"§8Use Soft Mallet to toggle Modes"
     },
     {
-        "context":"类型422",
+        "context":"类型421",
         "key":"gregtech.tool_action.hammer",
         "original":"§8Use Hard Hammer to muffle Sounds"
     },
     {
-        "context":"类型422",
+        "context":"类型421",
         "key":"gregtech.tool_action.crowbar",
         "original":"§8Use Crowbar to remove Covers"
     },
     {
-        "context":"类型422",
+        "context":"类型421",
         "key":"gregtech.tool_action.tape",
         "original":"§8Use Tape to fix Maintenance Problems"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.fluid.generic",
         "original":"%s"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.fluid.liquid_generic",
         "original":"Liquid %s"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.fluid.gas_generic",
         "original":"%s Gas"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.fluid.gas_vapor",
         "original":"%s Vapor"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.fluid.plasma",
         "original":"%s Plasma"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.fluid.empty",
         "original":"Empty"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.fluid.amount",
         "original":"§9Amount: %,d/%,d L"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.fluid.temperature",
         "original":"§cTemperature: %,d K"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.fluid.temperature.cryogenic",
         "original":"§bCryogenic! Handle with care!"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.fluid.state_gas",
         "original":"§aState: Gaseous"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.fluid.state_liquid",
         "original":"§aState: Liquid"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.fluid.state_plasma",
         "original":"§aState: Plasma"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.fluid.type_acid.tooltip",
         "original":"§6Acidic! Handle with care!"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.fuel_amount",
         "original":"Fuel Amount:"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.fluid_amount",
         "original":"Fluid Amount:"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.amount_raw",
         "original":"Amount:"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.toggle_view.disabled",
         "original":"Toggle View (Fluids)"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.toggle_view.enabled",
         "original":"Toggle View (Items)"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.overclock.enabled",
         "original":"Overclocking Enabled./nClick to Disable"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.overclock.disabled",
         "original":"Overclocking Disabled./nClick to Enable"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.overclock.description",
         "original":"Overclock Button/n§7Recipes can overclock up to the set tier"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.overclock.off",
         "original":"X"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.sort",
         "original":"Sort"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.fluid_auto_output.tooltip.enabled",
         "original":"Fluid Auto-Output Enabled"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.fluid_auto_output.tooltip.disabled",
         "original":"Fluid Auto-Output Disabled"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.item_auto_input.tooltip.enabled",
         "original":"Item Auto-Input Enabled"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.item_auto_input.tooltip.disabled",
         "original":"Item Auto-Input Disabled"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.item_auto_output.tooltip.enabled",
         "original":"Item Auto-Output Enabled"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.item_auto_output.tooltip.disabled",
         "original":"Item Auto-Output Disabled"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.item_auto_collapse.tooltip.enabled",
         "original":"Item Auto-Collapse Enabled"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.item_auto_collapse.tooltip.disabled",
         "original":"Item Auto-Collapse Disabled"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.charger_slot.tooltip",
         "original":"§fCharger Slot§r/n§7Draws power from %s batteries§r/n§7Charges %s tools and batteries"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.configurator_slot.tooltip",
         "original":"§fProgrammed Circuit Slot§r\\n§aConfigured Value: §f%d§7\\n\\n§7LMB/RMB/Scroll to cycle through the list\\n§7Shift-left-click to open selector\\n§7Shift-right-click to clear"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.configurator_slot.no_value",
         "original":"None"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.configurator_slot.unavailable.tooltip",
         "original":"Programmed Circuit slot unavailable"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.fluid_lock.tooltip.enabled",
         "original":"Fluid Locking Enabled"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.fluid_lock.tooltip.disabled",
         "original":"Fluid Locking Disabled"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.fluid_voiding.tooltip.enabled",
         "original":"Excess Fluid Voiding Enabled"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.fluid_voiding.tooltip.disabled",
         "original":"Excess Fluid Voiding Disabled"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.item_voiding.tooltip.enabled",
         "original":"Excess Item Voiding Enabled"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.item_voiding.tooltip.disabled",
         "original":"Excess Item Voiding Disabled"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.multiblock_item_voiding",
         "original":"Voiding Mode/n§7Voiding §6Items"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.multiblock_fluid_voiding",
         "original":"Voiding Mode/n§7Voiding §9Fluids"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.multiblock_item_fluid_voiding",
         "original":"Voiding Mode/n§7Voiding §6Items §7and §9Fluids"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.multiblock_no_voiding",
         "original":"Voiding Mode/n§7Voiding Nothing"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.multiblock_voiding_not_supported",
         "original":"This Multiblock does not support Voiding Mode"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.me_network.online",
-        "original":"Network Status: §2Online§r"
+        "original":"Network: §aOnline§r"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.me_network.offline",
-        "original":"Network Status: §4Offline§r"
+        "original":"Network: §4Offline§r"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.waiting_list",
         "original":"Sending Queue:"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.config_slot",
         "original":"§fConfig Slot§r"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.config_slot.set",
         "original":"§7Click to §bset/select§7 config slot.§r"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.config_slot.set_only",
         "original":"§7Click to §bset§7 config slot.§r"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.config_slot.scroll",
         "original":"§7Scroll wheel to §achange§7 config amount.§r"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.config_slot.remove",
         "original":"§7Right click to §4clear§7 config slot.§r"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.config_slot.auto_pull_managed",
         "original":"§4Disabled:§7 Managed by Auto-Pull"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.me_bus.extra_slot",
         "original":"Extra Slot/n§7Put extra items for recipes here, like Molds or Lenses"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.me_bus.auto_pull_button",
         "original":"Click to toggle automatic item pulling from ME"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.alarm.radius",
         "original":"Radius:"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.item_passthrough.enabled",
         "original":"Item Passthough Enabled"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.item_passthrough.disabled",
         "original":"Item Passthough Disabled"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.fluid_passthrough.enabled",
         "original":"Fluid Passthough Enabled"
     },
     {
-        "context":"类型423",
+        "context":"类型422",
         "key":"gregtech.gui.fluid_passthrough.disabled",
         "original":"Fluid Passthough Disabled"
     },
     {
-        "context":"类型425",
+        "context":"类型424",
         "key":"ore.spawnlocation.name",
         "original":"Ore Spawn Information"
     },
     {
-        "context":"类型425",
+        "context":"类型424",
         "key":"gregtech.jei.ore.surface_rock_1",
         "original":"Surface Rocks with this material denote vein spawn locations."
     },
     {
-        "context":"类型425",
+        "context":"类型424",
         "key":"gregtech.jei.ore.surface_rock_2",
         "original":"They can be broken for 3 Tiny Piles of the dust, with Fortune giving a bonus."
     },
     {
-        "context":"类型425",
+        "context":"类型424",
         "key":"gregtech.jei.ore.biome_weighting_title",
         "original":"§dModified Biome Total Weights:"
     },
     {
-        "context":"类型425",
+        "context":"类型424",
         "key":"gregtech.jei.ore.biome_weighting",
         "original":"§d%s Weight: §3%d"
     },
     {
-        "context":"类型425",
+        "context":"类型424",
         "key":"gregtech.jei.ore.biome_weighting_no_spawn",
         "original":"§d%s Weight: §cCannot Spawn"
     },
     {
-        "context":"类型425",
+        "context":"类型424",
         "key":"gregtech.jei.ore.ore_weight",
         "original":"Weight in vein: %d%%"
     },
     {
-        "context":"类型425",
+        "context":"类型424",
         "key":"gregtech.jei.ore.primary_1",
         "original":"Top Ore"
     },
     {
-        "context":"类型425",
+        "context":"类型424",
         "key":"gregtech.jei.ore.primary_2",
         "original":"Spawns in the top %d layers of the vein"
     },
     {
-        "context":"类型425",
+        "context":"类型424",
         "key":"gregtech.jei.ore.secondary_1",
         "original":"Bottom Ore"
     },
     {
-        "context":"类型425",
+        "context":"类型424",
         "key":"gregtech.jei.ore.secondary_2",
         "original":"Spawns in the bottom %d layers of the vein"
     },
     {
-        "context":"类型425",
+        "context":"类型424",
         "key":"gregtech.jei.ore.between_1",
         "original":"Between Ore"
     },
     {
-        "context":"类型425",
+        "context":"类型424",
         "key":"gregtech.jei.ore.between_2",
         "original":"Spawns in the middle %d layers of the vein, with other ores"
     },
     {
-        "context":"类型425",
+        "context":"类型424",
         "key":"gregtech.jei.ore.sporadic_1",
         "original":"Sporadic Ore"
     },
     {
-        "context":"类型425",
+        "context":"类型424",
         "key":"gregtech.jei.ore.sporadic_2",
         "original":"Spawns anywhere in the vein"
     },
     {
-        "context":"类型425",
+        "context":"类型424",
         "key":"gregtech.jei.ore.spawn_range",
         "original":"Spawn Range: %d - %d"
     },
     {
-        "context":"类型425",
+        "context":"类型424",
         "key":"gregtech.jei.ore.vein_weight",
         "original":"Vein Weight: %d"
     },
     {
-        "context":"类型425",
+        "context":"类型424",
         "key":"gregtech.jei.ore.dimension",
         "original":"Dimensions:"
     },
     {
-        "context":"类型425",
+        "context":"类型424",
         "key":"gregtech.jei.ore.surfacematerial",
         "original":"Surface Material"
     },
     {
-        "context":"类型426",
+        "context":"类型425",
         "key":"fluid.spawnlocation.name",
         "original":"Fluid Vein Information"
     },
     {
-        "context":"类型426",
+        "context":"类型425",
         "key":"gregtech.jei.fluid.vein_weight",
         "original":"Vein Weight: %d"
     },
     {
-        "context":"类型426",
+        "context":"类型425",
         "key":"gregtech.jei.fluid.min_yield",
         "original":"Minimum Yield: %d"
     },
     {
-        "context":"类型426",
+        "context":"类型425",
         "key":"gregtech.jei.fluid.max_yield",
         "original":"Maximum Yield: %d"
     },
     {
-        "context":"类型426",
+        "context":"类型425",
         "key":"gregtech.jei.fluid.depletion_chance",
         "original":"Depletion Chance: %d%%"
     },
     {
-        "context":"类型426",
+        "context":"类型425",
         "key":"gregtech.jei.fluid.depletion_amount",
         "original":"Depletion Amount: %d"
     },
     {
-        "context":"类型426",
+        "context":"类型425",
         "key":"gregtech.jei.fluid.depleted_rate",
         "original":"Depleted Yield: %d"
     },
     {
-        "context":"类型426",
+        "context":"类型425",
         "key":"gregtech.jei.fluid.dimension",
         "original":"Dimensions:"
     },
     {
-        "context":"类型426",
+        "context":"类型425",
         "key":"gregtech.jei.fluid.weight_hover",
         "original":"The Weight of the vein. Hover over the fluid to see any possible biome modifications"
     },
     {
-        "context":"类型426",
+        "context":"类型425",
         "key":"gregtech.jei.fluid.min_hover",
         "original":"The minimum yield that any fluid vein of this fluid can have"
     },
     {
-        "context":"类型426",
+        "context":"类型425",
         "key":"gregtech.jei.fluid.max_hover",
         "original":"The maximum yield that any fluid vein of this fluid can have"
     },
     {
-        "context":"类型426",
+        "context":"类型425",
         "key":"gregtech.jei.fluid.dep_chance_hover",
         "original":"The percentage chance for the vein to be depleted upon harvest"
     },
     {
-        "context":"类型426",
+        "context":"类型425",
         "key":"gregtech.jei.fluid.dep_amount_hover",
         "original":"The amount the vein will be depleted by"
     },
     {
-        "context":"类型426",
+        "context":"类型425",
         "key":"gregtech.jei.fluid.dep_yield_hover",
         "original":"The maximum yield of the vein when it is fully depleted"
     },
     {
-        "context":"类型427",
+        "context":"类型426",
         "key":"gregtech.jei.materials.average_mass",
         "original":"Average mass: %,d"
     },
     {
-        "context":"类型427",
+        "context":"类型426",
         "key":"gregtech.jei.materials.average_protons",
         "original":"Average protons: %,d"
     },
     {
-        "context":"类型427",
+        "context":"类型426",
         "key":"gregtech.jei.materials.average_neutrons",
         "original":"Average neutrons: %,d"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.bauxite",
         "original":"Bauxite Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.magnetite",
         "original":"Magnetite Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.naquadah",
         "original":"Naquadah Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.pitchblende",
         "original":"Pitchblende Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.scheelite",
         "original":"Scheelite Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.sheldonite",
         "original":"Sheldonite Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.banded_iron",
         "original":"Banded Iron Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.beryllium",
         "original":"Beryllium Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.certus_quartz",
         "original":"Certus Quartz Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.manganese",
         "original":"Manganese Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.molybdenum",
         "original":"Molybdenum Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.monazite",
         "original":"Monazite Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.nether_quartz",
         "original":"Nether Quartz Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.redstone",
         "original":"Redstone Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.saltpeter",
         "original":"Saltpeter Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.sulfur",
         "original":"Sulfur Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.tetrahedrite",
         "original":"Tetrahedrite Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.topaz",
         "original":"Topaz Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.apatite",
         "original":"Apatite Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.basalt_sphere",
         "original":"Basalt Sphere"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.black_granite_sphere",
         "original":"Black Granite Sphere"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.cassiterite",
         "original":"Cassiterite Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.coal",
         "original":"Coal Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.copper_tin",
         "original":"Copper Tin Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.copper",
         "original":"Copper Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.diamond",
         "original":"Diamond Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.galena",
         "original":"Galena Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.garnet_tin",
         "original":"Garnet Tin Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.garnet",
         "original":"Garnet Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.iron",
         "original":"Iron Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.lapis",
         "original":"Lapis Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.lubricant",
         "original":"Lubricant Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.marble_sphere",
         "original":"Marble Sphere"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.mica",
         "original":"Mica Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.mineral_sand",
         "original":"Mineral Sand Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.nickel",
         "original":"Nickel Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.oilsands",
         "original":"Oilsands Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.olivine",
         "original":"Olivine Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.raw_oil_sphere",
         "original":"Raw Oil Sphere"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.red_granite_sphere",
         "original":"Red Granite Sphere"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.salts",
         "original":"Salts Vein"
     },
     {
-        "context":"类型428",
+        "context":"类型427",
         "key":"gregtech.veins.ore.sapphire",
         "original":"Sapphire Vein"
     },
     {
-        "context":"类型429",
+        "context":"类型428",
         "key":"gregtech.veins.fluid.lava",
         "original":"Nether Lava Deposit"
     },
     {
-        "context":"类型429",
+        "context":"类型428",
         "key":"gregtech.veins.fluid.natural_gas_nether",
         "original":"Nether Natural Gas Deposit"
     },
     {
-        "context":"类型429",
+        "context":"类型428",
         "key":"gregtech.veins.fluid.heavy_oil",
         "original":"Overworld Heavy Oil Deposit"
     },
     {
-        "context":"类型429",
+        "context":"类型428",
         "key":"gregtech.veins.fluid.light_oil",
         "original":"Overworld Light Oil Deposit"
     },
     {
-        "context":"类型429",
+        "context":"类型428",
         "key":"gregtech.veins.fluid.natural_gas_overworld",
         "original":"Overworld Natural Gas Deposit"
     },
     {
-        "context":"类型429",
+        "context":"类型428",
         "key":"gregtech.veins.fluid.oil",
         "original":"Overworld Oil Deposit"
     },
     {
-        "context":"类型429",
+        "context":"类型428",
         "key":"gregtech.veins.fluid.raw_oil",
         "original":"Overworld Raw Oil Deposit"
     },
     {
-        "context":"类型429",
+        "context":"类型428",
         "key":"gregtech.veins.fluid.salt_water",
         "original":"Overworld Salt Water Deposit"
     },
     {
-        "context":"类型430",
+        "context":"类型429",
         "key":"gregtech.item_filter.empty_item",
         "original":"Empty (No Item)"
     },
     {
-        "context":"类型430",
+        "context":"类型429",
         "key":"gregtech.item_filter.footer",
         "original":"§eClick with item to override"
     },
     {
-        "context":"类型431",
+        "context":"类型430",
         "key":"gregtech.cable.voltage",
         "original":"§aMax Voltage: §f%,d §f(%s§f)"
     },
     {
-        "context":"类型431",
+        "context":"类型430",
         "key":"gregtech.cable.amperage",
         "original":"§eMax Amperage: §f%,d"
     },
     {
-        "context":"类型431",
+        "context":"类型430",
         "key":"gregtech.cable.loss_per_block",
         "original":"§cLoss/Meter/Ampere: §f%,d§f EU-Volt"
     },
     {
-        "context":"类型431",
+        "context":"类型430",
         "key":"gregtech.cable.superconductor",
         "original":"§d%s Superconductor"
     },
     {
-        "context":"类型432",
+        "context":"类型431",
         "key":"gregtech.fluid_pipe.capacity",
         "original":"§9Capacity: §f%,d L"
     },
     {
-        "context":"类型432",
+        "context":"类型431",
         "key":"gregtech.fluid_pipe.max_temperature",
         "original":"§cTemperature Limit: §f%,d K"
     },
     {
-        "context":"类型432",
+        "context":"类型431",
         "key":"gregtech.fluid_pipe.channels",
         "original":"§eChannels: §f%d"
     },
     {
-        "context":"类型432",
+        "context":"类型431",
         "key":"gregtech.fluid_pipe.gas_proof",
         "original":"§6Can handle Gases"
     },
     {
-        "context":"类型432",
+        "context":"类型431",
         "key":"gregtech.fluid_pipe.acid_proof",
         "original":"§6Can handle Acids"
     },
     {
-        "context":"类型432",
+        "context":"类型431",
         "key":"gregtech.fluid_pipe.cryo_proof",
         "original":"§6Can handle Cryogenics"
     },
     {
-        "context":"类型432",
+        "context":"类型431",
         "key":"gregtech.fluid_pipe.plasma_proof",
         "original":"§6Can handle all Plasmas"
     },
     {
-        "context":"类型432",
+        "context":"类型431",
         "key":"gregtech.fluid_pipe.not_gas_proof",
         "original":"§4Gases may leak!"
     },
     {
-        "context":"类型433",
+        "context":"类型432",
         "key":"gregtech.item_pipe.priority",
         "original":"§9Priority: §f%,d"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.work_paused",
         "original":"Work Paused."
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.running",
         "original":"Running perfectly."
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.idling",
         "original":"Idling."
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.not_enough_energy",
         "original":"Machine needs more energy!"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.not_enough_energy_output",
         "original":"Energy Dynamo Tier Too Low!"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.progress",
         "original":"Progress: %s%%"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.invalid_structure",
         "original":"Invalid structure."
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.invalid_structure.tooltip",
         "original":"This block is a controller of the multiblock structure. For building help, see structure template in JEI."
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.validation_failed",
         "original":"Invalid amount of inputs/outputs."
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.max_energy_per_tick",
         "original":"Max EU/t: %s (%s)"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.max_energy_per_tick_hover",
         "original":"The maximum EU/t available for running recipes or overclocking"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.max_energy_per_tick_amps",
         "original":"Max EU/t: %s (%sA %s)"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.max_recipe_tier",
         "original":"Max Recipe Tier: %s"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.max_recipe_tier_hover",
         "original":"The maximum tier of recipes that can be run"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.generation_eu",
         "original":"Outputting: §a%s EU/t"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.universal.no_problems",
         "original":"No Maintenance Problems!"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.universal.has_problems",
         "original":"Has Maintenance Problems!"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.universal.has_problems_header",
         "original":"Fix the following issues in a Maintenance Hatch:"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.universal.problem.wrench",
         "original":"Pipe is loose. (Wrench)"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.universal.problem.screwdriver",
         "original":"Screws are loose. (Screwdriver)"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.universal.problem.soft_mallet",
         "original":"Something is stuck. (Soft Mallet)"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.universal.problem.hard_hammer",
         "original":"Plating is dented. (Hard Hammer)"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.universal.problem.wire_cutter",
         "original":"Wires burned out. (Wire Cutter)"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.universal.problem.crowbar",
         "original":"That doesn't belong there. (Crowbar)"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.universal.muffler_obstructed",
         "original":"Muffler Hatch is Obstructed!"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.universal.muffler_obstructed_desc",
         "original":"Muffler Hatch must have a block of airspace in front of it."
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.universal.distinct_enabled",
         "original":"Distinct Buses: §aEnabled§r/nEach Item Input Bus will be treated separately for recipe lookup. Useful for things like Programmed Circuits, Extruder Shapes, etc."
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.universal.distinct_disabled",
         "original":"Distinct Buses: §cDisabled§r/nEach Item Input Bus will be treated as a combined input for recipe lookup."
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.universal.distinct_not_supported",
         "original":"This Multiblock does not support Distinct Buses"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.universal.no_flex_button",
         "original":"This Multiblock has no additional functionality with this Button."
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.parallel",
         "original":"Max Parallels: %s"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.multiple_recipemaps.header",
         "original":"Machine Mode:"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.multiple_recipemaps.tooltip",
         "original":"Screwdriver the controller to change which machine mode to use."
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.multiple_recipemaps_recipes.tooltip",
         "original":"Machine Modes: §e%s§r"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.multiple_recipemaps.switch_message",
         "original":"The machine must be off to switch modes!"
     },
     {
-        "context":"类型434",
+        "context":"类型433",
         "key":"gregtech.multiblock.energy_stored",
         "original":"Energy: %s"
     },
     {
-        "context":"类型435",
+        "context":"类型434",
         "key":"gregtech.multiblock.preview.zoom",
         "original":"Use mousewheel or right-click + drag to zoom"
     },
     {
-        "context":"类型435",
+        "context":"类型434",
         "key":"gregtech.multiblock.preview.rotate",
         "original":"Click and drag to rotate"
     },
     {
-        "context":"类型435",
+        "context":"类型434",
         "key":"gregtech.multiblock.preview.select",
         "original":"Right-click to check candidates"
     },
     {
-        "context":"类型436",
+        "context":"类型435",
         "key":"gregtech.multiblock.pattern.error_message_header",
         "original":"Potential structure error:"
     },
     {
-        "context":"类型436",
+        "context":"类型435",
         "key":"gregtech.multiblock.pattern.no_errors",
         "original":"No errors in structure found!"
     },
     {
-        "context":"类型436",
+        "context":"类型435",
         "key":"gregtech.multiblock.pattern.error",
         "original":"Expected components (%s) at (%s)."
     },
     {
-        "context":"类型436",
+        "context":"类型435",
         "key":"gregtech.multiblock.pattern.error.limited_exact",
         "original":"§cExactly: %d§r"
     },
     {
-        "context":"类型436",
+        "context":"类型435",
         "key":"gregtech.multiblock.pattern.error.limited_within",
         "original":"§cBetween %d and %d§r"
     },
     {
-        "context":"类型436",
+        "context":"类型435",
         "key":"gregtech.multiblock.pattern.error.limited.0",
         "original":"§cMaximum: %d§r"
     },
     {
-        "context":"类型436",
+        "context":"类型435",
         "key":"gregtech.multiblock.pattern.error.limited.1",
         "original":"§cMinimum: %d§r"
     },
     {
-        "context":"类型436",
+        "context":"类型435",
         "key":"gregtech.multiblock.pattern.error.limited.2",
         "original":"§cMaximum: %d per layer§r"
     },
     {
-        "context":"类型436",
+        "context":"类型435",
         "key":"gregtech.multiblock.pattern.error.limited.3",
         "original":"§cMinimum: %d per layer§r"
     },
     {
-        "context":"类型436",
+        "context":"类型435",
         "key":"gregtech.multiblock.pattern.error.coils",
         "original":"§cAll heating coils must be the same§r"
     },
     {
-        "context":"类型436",
+        "context":"类型435",
         "key":"gregtech.multiblock.pattern.error.batteries",
         "original":"§cMust have at least one non-empty Capacitor§r"
     },
     {
-        "context":"类型436",
+        "context":"类型435",
         "key":"gregtech.multiblock.pattern.error.filters",
         "original":"§cAll filters must be the same§r"
     },
     {
-        "context":"类型436",
+        "context":"类型435",
         "key":"gregtech.multiblock.pattern.clear_amount_1",
         "original":"§6Must have a clear 1x1x1 space in front§r"
     },
     {
-        "context":"类型436",
+        "context":"类型435",
         "key":"gregtech.multiblock.pattern.clear_amount_3",
         "original":"§6Must have a clear 3x3x1 space in front§r"
     },
     {
-        "context":"类型436",
+        "context":"类型435",
         "key":"gregtech.multiblock.pattern.single",
         "original":"§6Only this block type can be used§r"
     },
     {
-        "context":"类型436",
+        "context":"类型435",
         "key":"gregtech.multiblock.pattern.location_end",
         "original":"§cVery End§r"
     },
     {
-        "context":"类型436",
+        "context":"类型435",
         "key":"gregtech.multiblock.pattern.replaceable_air",
         "original":"Replaceable by Air"
     },
     {
-        "context":"类型437",
+        "context":"类型436",
         "key":"gregtech.multiblock.blast_furnace.max_temperature",
         "original":"Heat Capacity: %s"
     },
     {
-        "context":"类型437",
+        "context":"类型436",
         "key":"gregtech.multiblock.multi_furnace.heating_coil_discount",
         "original":"Heating Coil EU Usage: %s"
     },
     {
-        "context":"类型437",
+        "context":"类型436",
         "key":"gregtech.multiblock.multi_furnace.heating_coil_discount_hover",
         "original":"Energy usage modifier, determined by coil tier"
     },
     {
-        "context":"类型437",
+        "context":"类型436",
         "key":"gregtech.multiblock.multi_furnace.parallel_hover",
         "original":"Multi Smelter Parallels, determined by coil tier"
     },
     {
-        "context":"类型437",
+        "context":"类型436",
         "key":"gregtech.multiblock.distillation_tower.distilling_fluid",
         "original":"Distilling %s"
     },
     {
-        "context":"类型438",
+        "context":"类型437",
         "key":"gregtech.multiblock.large_combustion_engine.fuel_amount",
         "original":"Fuel: %s"
     },
     {
-        "context":"类型438",
+        "context":"类型437",
         "key":"gregtech.multiblock.large_combustion_engine.no_lubricant",
         "original":"No Lubricant!"
     },
     {
-        "context":"类型438",
+        "context":"类型437",
         "key":"gregtech.multiblock.large_combustion_engine.lubricant_amount",
         "original":"Lubricant: %s"
     },
     {
-        "context":"类型438",
+        "context":"类型437",
         "key":"gregtech.multiblock.large_combustion_engine.oxygen_amount",
         "original":"Oxygen: %s"
     },
     {
-        "context":"类型438",
+        "context":"类型437",
         "key":"gregtech.multiblock.large_combustion_engine.liquid_oxygen_amount",
         "original":"Liquid Oxygen: %s"
     },
     {
-        "context":"类型438",
+        "context":"类型437",
         "key":"gregtech.multiblock.large_combustion_engine.oxygen_boosted",
         "original":"Oxygen boosted."
     },
     {
-        "context":"类型438",
+        "context":"类型437",
         "key":"gregtech.multiblock.large_combustion_engine.liquid_oxygen_boosted",
         "original":"Liquid Oxygen boosted."
     },
     {
-        "context":"类型438",
+        "context":"类型437",
         "key":"gregtech.multiblock.large_combustion_engine.oxygen_boost_disallowed",
         "original":"Upgrade the Dynamo Hatch to enable Oxygen Boosting."
     },
     {
-        "context":"类型438",
+        "context":"类型437",
         "key":"gregtech.multiblock.large_combustion_engine.liquid_oxygen_boost_disallowed",
         "original":"Upgrade the Dynamo Hatch to enable Liquid Oxygen Boosting."
     },
     {
-        "context":"类型438",
+        "context":"类型437",
         "key":"gregtech.multiblock.large_combustion_engine.supply_oxygen_to_boost",
         "original":"Supply Oxygen to boost."
     },
     {
-        "context":"类型438",
+        "context":"类型437",
         "key":"gregtech.multiblock.large_combustion_engine.supply_liquid_oxygen_to_boost",
         "original":"Supply Liquid Oxygen to boost."
     },
     {
-        "context":"类型438",
+        "context":"类型437",
         "key":"gregtech.multiblock.large_combustion_engine.obstructed",
         "original":"Engine Intakes Obstructed!"
     },
     {
-        "context":"类型438",
+        "context":"类型437",
         "key":"gregtech.multiblock.large_combustion_engine.obstructed.desc",
         "original":"Engine Intakes must have a block of airspace in front of them."
     },
     {
-        "context":"类型439",
+        "context":"类型438",
         "key":"gregtech.multiblock.turbine.fuel_amount",
         "original":"Fuel: %sL %s"
     },
     {
-        "context":"类型439",
+        "context":"类型438",
         "key":"gregtech.multiblock.turbine.fuel_needed",
         "original":"Consumes %s per %s ticks"
     },
     {
-        "context":"类型439",
+        "context":"类型438",
         "key":"gregtech.multiblock.turbine.rotor_speed",
         "original":"Rotor Speed: %s"
     },
     {
-        "context":"类型439",
+        "context":"类型438",
         "key":"gregtech.multiblock.turbine.rotor_rpm_unit_name",
         "original":"RPM"
     },
     {
-        "context":"类型439",
+        "context":"类型438",
         "key":"gregtech.multiblock.turbine.rotor_durability",
         "original":"Rotor Durability: %s"
     },
     {
-        "context":"类型439",
+        "context":"类型438",
         "key":"gregtech.multiblock.turbine.rotor_durability_low",
         "original":"Rotor durability low!"
     },
     {
-        "context":"类型439",
+        "context":"类型438",
         "key":"gregtech.multiblock.turbine.no_rotor",
         "original":"No Rotor in Rotor Holder!"
     },
     {
-        "context":"类型439",
+        "context":"类型438",
         "key":"gregtech.multiblock.turbine.efficiency",
         "original":"Turbine Efficiency: %s"
     },
     {
-        "context":"类型439",
+        "context":"类型438",
         "key":"gregtech.multiblock.turbine.energy_per_tick",
         "original":"Output EU/t: %s (%s)"
     },
     {
-        "context":"类型439",
+        "context":"类型438",
         "key":"gregtech.multiblock.turbine.obstructed",
         "original":"Turbine Face Obstructed!"
     },
     {
-        "context":"类型439",
+        "context":"类型438",
         "key":"gregtech.multiblock.turbine.obstructed.desc",
         "original":"Turbine must have air space in the 3x3 in front of it."
     },
     {
-        "context":"类型439",
+        "context":"类型438",
         "key":"gregtech.multiblock.turbine.efficiency_tooltip",
         "original":"Each Rotor Holder above %s§7 adds §f10%% efficiency§7."
     },
     {
-        "context":"类型440",
+        "context":"类型439",
         "key":"gregtech.multiblock.large_boiler.efficiency",
         "original":"Efficiency: %s"
     },
     {
-        "context":"类型440",
+        "context":"类型439",
         "key":"gregtech.multiblock.large_boiler.steam_output",
         "original":"Steam Output: %s"
     },
     {
-        "context":"类型440",
+        "context":"类型439",
         "key":"gregtech.multiblock.large_boiler.throttle",
         "original":"Throttle: %s"
     },
     {
-        "context":"类型440",
+        "context":"类型439",
         "key":"gregtech.multiblock.large_boiler.throttle.tooltip",
         "original":"Boiler can output less Steam and consume less fuel (efficiency is not lost, does not affect heat-up time)"
     },
     {
-        "context":"类型440",
+        "context":"类型439",
         "key":"gregtech.multiblock.large_boiler.throttle_increment",
         "original":"Increase throttle by §a+5%%§r/n§7Boiler can output less Steam and consume less fuel (efficiency is not lost, does not affect heat-up time)"
     },
     {
-        "context":"类型440",
+        "context":"类型439",
         "key":"gregtech.multiblock.large_boiler.throttle_decrement",
         "original":"Decrease throttle by §c-5%%§r/n§7Boiler can output less Steam and consume less fuel (efficiency is not lost, does not affect heat-up time)"
     },
     {
-        "context":"类型440",
+        "context":"类型439",
         "key":"gregtech.multiblock.large_boiler.rate_tooltip",
         "original":"§7Produces §f%d L §7of Steam with §f1 Coal"
     },
     {
-        "context":"类型440",
+        "context":"类型439",
         "key":"gregtech.multiblock.large_boiler.heat_time_tooltip",
         "original":"§7Takes §f%,d seconds §7to heat up"
     },
     {
-        "context":"类型440",
+        "context":"类型439",
         "key":"gregtech.multiblock.large_boiler.explosion_tooltip",
         "original":"Will explode if provided Fuel with no Water"
     },
     {
-        "context":"类型440",
+        "context":"类型439",
         "key":"gregtech.multiblock.large_boiler.water_bar_hover",
         "original":"Water: %s"
     },
     {
-        "context":"类型440",
+        "context":"类型439",
         "key":"gregtech.multiblock.large_boiler.no_water",
         "original":"No Water!"
     },
     {
-        "context":"类型441",
+        "context":"类型440",
         "key":"gregtech.machine.miner.done",
         "original":"Done!"
     },
     {
-        "context":"类型441",
+        "context":"类型440",
         "key":"gregtech.machine.miner.working",
         "original":"Working..."
     },
     {
-        "context":"类型441",
+        "context":"类型440",
         "key":"gregtech.machine.miner.invfull",
         "original":"Inventory Full!"
     },
     {
-        "context":"类型441",
+        "context":"类型440",
         "key":"gregtech.machine.miner.needspower",
         "original":"Needs Power!"
     },
     {
-        "context":"类型441",
+        "context":"类型440",
         "key":"gregtech.machine.steam_miner.vent",
         "original":"Venting Blocked!"
     },
     {
-        "context":"类型441",
+        "context":"类型440",
         "key":"gregtech.machine.steam_miner.steam",
         "original":"Needs Steam!"
     },
     {
-        "context":"类型441",
+        "context":"类型440",
         "key":"gregtech.machine.miner.errorradius",
         "original":"§cCannot change radius while working!"
     },
     {
-        "context":"类型442",
+        "context":"类型441",
         "key":"gregtech.multiblock.miner.neither_mode",
         "original":"Chunk Mode: §cDisabled§r/nSilk Touch Mode: §cDisabled§r/n§7Switching requires an idle machine."
     },
     {
-        "context":"类型442",
+        "context":"类型441",
         "key":"gregtech.multiblock.miner.chunk_mode",
         "original":"Chunk Mode: §aEnabled§r/nSilk Touch Mode: §cDisabled§r/n§7Switching requires an idle machine."
     },
     {
-        "context":"类型442",
+        "context":"类型441",
         "key":"gregtech.multiblock.miner.silk_touch_mode",
         "original":"Chunk Mode: §cDisabled§r/nSilk Touch Mode: §aEnabled§r/n§7Switching requires an idle machine."
     },
     {
-        "context":"类型442",
+        "context":"类型441",
         "key":"gregtech.multiblock.miner.both_modes",
         "original":"Chunk Mode: §aEnabled§r/nSilk Touch Mode: §aEnabled§r/n§7Switching requires an idle machine."
     },
     {
-        "context":"类型443",
+        "context":"类型442",
         "key":"gregtech.multiblock.fluid_rig.drilled_fluid",
         "original":"Fluid: %s"
     },
     {
-        "context":"类型443",
+        "context":"类型442",
         "key":"gregtech.multiblock.fluid_rig.no_fluid_in_area",
         "original":"None in Area."
     },
     {
-        "context":"类型443",
+        "context":"类型442",
         "key":"gregtech.multiblock.fluid_rig.fluid_amount",
         "original":"Pumping Rate: %s"
     },
     {
-        "context":"类型443",
+        "context":"类型442",
         "key":"gregtech.multiblock.fluid_rig.vein_depletion",
         "original":"Vein Size: %s"
     },
     {
-        "context":"类型443",
+        "context":"类型442",
         "key":"gregtech.multiblock.fluid_rig.vein_depleted",
         "original":"Vein Depleted."
     },
     {
-        "context":"类型443",
+        "context":"类型442",
         "key":"gregtech.multiblock.miner.drilling",
         "original":"Drilling."
     },
     {
-        "context":"类型444",
+        "context":"类型443",
         "key":"gregtech.multiblock.pyrolyse_oven.speed",
         "original":"Processing Speed: %s"
     },
     {
-        "context":"类型444",
+        "context":"类型443",
         "key":"gregtech.multiblock.pyrolyse_oven.speed_hover",
         "original":"Processing speed modifier set by the coils in the structure."
     },
     {
-        "context":"类型445",
+        "context":"类型444",
         "key":"gregtech.multiblock.cracking_unit.energy",
         "original":"Energy Usage: %s"
     },
     {
-        "context":"类型445",
+        "context":"类型444",
         "key":"gregtech.multiblock.cracking_unit.energy_hover",
         "original":"Energy usage modifier set by the coils in the structure."
     },
     {
-        "context":"类型446",
+        "context":"类型445",
         "key":"gregtech.multiblock.energy_consumption",
         "original":"Energy Usage: %s EU/t (%s)"
     },
     {
-        "context":"类型446",
+        "context":"类型445",
         "key":"gregtech.multiblock.computation.max",
         "original":"Max CWU/t: %s"
     },
     {
-        "context":"类型446",
+        "context":"类型445",
         "key":"gregtech.multiblock.computation.usage",
         "original":"Using: %s"
     },
     {
-        "context":"类型446",
+        "context":"类型445",
         "key":"gregtech.multiblock.computation.non_bridging",
         "original":"Non-bridging connection found"
     },
     {
-        "context":"类型446",
+        "context":"类型445",
         "key":"gregtech.multiblock.computation.non_bridging.detailed",
         "original":"A Reception Hatch is linked to a machine which cannot bridge"
     },
     {
-        "context":"类型446",
+        "context":"类型445",
         "key":"gregtech.multiblock.computation.not_enough_computation",
         "original":"Machine needs more computation!"
     },
     {
-        "context":"类型447",
+        "context":"类型446",
         "key":"gregtech.multiblock.power_substation.stored",
         "original":"Stored: %s"
     },
     {
-        "context":"类型447",
+        "context":"类型446",
         "key":"gregtech.multiblock.power_substation.capacity",
         "original":"Capacity: %s"
     },
     {
-        "context":"类型447",
+        "context":"类型446",
         "key":"gregtech.multiblock.power_substation.passive_drain",
         "original":"Passive Drain: %s"
     },
     {
-        "context":"类型447",
+        "context":"类型446",
         "key":"gregtech.multiblock.power_substation.average_in",
         "original":"Avg. EU IN: %s"
     },
     {
-        "context":"类型447",
+        "context":"类型446",
         "key":"gregtech.multiblock.power_substation.average_out",
         "original":"Avg. EU OUT: %s"
     },
     {
-        "context":"类型447",
+        "context":"类型446",
         "key":"gregtech.multiblock.power_substation.average_in_hover",
         "original":"The average EU/t input into the Power Substation's internal energy bank"
     },
     {
-        "context":"类型447",
+        "context":"类型446",
         "key":"gregtech.multiblock.power_substation.average_out_hover",
         "original":"The average EU/t output from the Power Substation's internal energy bank, both passive loss and outputs"
     },
     {
-        "context":"类型447",
+        "context":"类型446",
         "key":"gregtech.multiblock.power_substation.time_to_fill",
         "original":"Time to fill: %s"
     },
     {
-        "context":"类型447",
+        "context":"类型446",
         "key":"gregtech.multiblock.power_substation.time_to_drain",
         "original":"Time to drain: %s"
     },
     {
-        "context":"类型447",
+        "context":"类型446",
         "key":"gregtech.multiblock.power_substation.time_seconds",
         "original":"%s Seconds"
     },
     {
-        "context":"类型447",
+        "context":"类型446",
         "key":"gregtech.multiblock.power_substation.time_minutes",
         "original":"%s Minutes"
     },
     {
-        "context":"类型447",
+        "context":"类型446",
         "key":"gregtech.multiblock.power_substation.time_hours",
         "original":"%s Hours"
     },
     {
-        "context":"类型447",
+        "context":"类型446",
         "key":"gregtech.multiblock.power_substation.time_days",
         "original":"%s Days"
     },
     {
-        "context":"类型447",
+        "context":"类型446",
         "key":"gregtech.multiblock.power_substation.time_years",
         "original":"%s Years"
     },
     {
-        "context":"类型447",
+        "context":"类型446",
         "key":"gregtech.multiblock.power_substation.time_forever",
         "original":"Forever"
     },
     {
-        "context":"类型447",
+        "context":"类型446",
         "key":"gregtech.multiblock.power_substation.under_one_hour_left",
         "original":"Less than 1 hour until fully drained!"
     },
     {
-        "context":"类型448",
+        "context":"类型447",
         "key":"gregtech.multiblock.data_bank.providing",
         "original":"Providing data."
     },
     {
-        "context":"类型449",
+        "context":"类型448",
         "key":"gregtech.multiblock.hpca.computation",
         "original":"Providing: %s"
     },
     {
-        "context":"类型449",
+        "context":"类型448",
         "key":"gregtech.multiblock.hpca.energy",
         "original":"Using: %s / %s EU/t (%s)"
     },
     {
-        "context":"类型449",
+        "context":"类型448",
         "key":"gregtech.multiblock.hpca.temperature",
         "original":"Temperature: %s"
     },
     {
-        "context":"类型449",
+        "context":"类型448",
         "key":"gregtech.multiblock.hpca.hover_for_info",
         "original":"Hover for details"
     },
     {
-        "context":"类型449",
+        "context":"类型448",
         "key":"gregtech.multiblock.hpca.error_damaged",
         "original":"Damaged component in structure!"
     },
     {
-        "context":"类型449",
+        "context":"类型448",
         "key":"gregtech.multiblock.hpca.error_temperature",
         "original":"Temperature above 100C, components may be damaged!"
     },
     {
-        "context":"类型449",
+        "context":"类型448",
         "key":"gregtech.multiblock.hpca.warning_temperature",
         "original":"Temperature above 50C, components may be damaged at 100C!"
     },
     {
-        "context":"类型449",
+        "context":"类型448",
         "key":"gregtech.multiblock.hpca.warning_temperature_active_cool",
         "original":"Fully utilizing active coolers"
     },
     {
-        "context":"类型449",
+        "context":"类型448",
         "key":"gregtech.multiblock.hpca.warning_structure_header",
         "original":"Structure Warnings:"
     },
     {
-        "context":"类型449",
+        "context":"类型448",
         "key":"gregtech.multiblock.hpca.warning_multiple_bridges",
         "original":"- Multiple bridges in structure (provides no additional benefit)"
     },
     {
-        "context":"类型449",
+        "context":"类型448",
         "key":"gregtech.multiblock.hpca.warning_no_computation",
         "original":"- No computation providers"
     },
     {
-        "context":"类型449",
+        "context":"类型448",
         "key":"gregtech.multiblock.hpca.warning_low_cooling",
         "original":"- Not enough cooling"
     },
     {
-        "context":"类型449",
+        "context":"类型448",
         "key":"gregtech.multiblock.hpca.info_max_computation",
         "original":"Max CWU/t: %s"
     },
     {
-        "context":"类型449",
+        "context":"类型448",
         "key":"gregtech.multiblock.hpca.info_max_cooling_demand",
         "original":"Cooling Demand: %s"
     },
     {
-        "context":"类型449",
+        "context":"类型448",
         "key":"gregtech.multiblock.hpca.info_max_cooling_available",
         "original":"Cooling Available: %s"
     },
     {
-        "context":"类型449",
+        "context":"类型448",
         "key":"gregtech.multiblock.hpca.info_max_coolant_required",
         "original":"Coolant Needed: %s"
     },
     {
-        "context":"类型449",
+        "context":"类型448",
         "key":"gregtech.multiblock.hpca.info_coolant_name",
         "original":"PCB Coolant"
     },
     {
-        "context":"类型449",
+        "context":"类型448",
         "key":"gregtech.multiblock.hpca.info_bridging_enabled",
         "original":"Bridging Enabled"
     },
     {
-        "context":"类型449",
+        "context":"类型448",
         "key":"gregtech.multiblock.hpca.info_bridging_disabled",
         "original":"Bridging Disabled"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.usage",
         "original":"Usage: /gregtech <worldgen/hand/recipecheck/datafix>"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.worldgen.usage",
         "original":"Usage: /gregtech worldgen <reload>"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.worldgen.reload.usage",
         "original":"Usage: /gregtech worldgen reload"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.worldgen.reload.success",
         "original":"Worldgen successfully reloaded from config."
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.worldgen.reload.failed",
         "original":"Worldgen reload failed. Check console for errors."
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.hand.groovy",
         "original":"Consider using §6/gs hand"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.hand.usage",
         "original":"Usage: /gregtech hand"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.hand.item_id",
         "original":"Item: %s (Metadata: %d)"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.hand.electric",
         "original":"Electric Info: %d / %d EU - Tier: %d; Is Battery: %s"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.hand.fluid",
         "original":"Fluid Info: %d / %d L; Can Fill: %s; Can Drain: %s"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.hand.fluid2",
         "original":"Fluid Id:"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.hand.material",
         "original":"Material Id:"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.hand.ore_prefix",
         "original":"Ore prefix:"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.hand.meta_item",
         "original":"MetaItem Id:"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.hand.ore_dict_entries",
         "original":"§3Ore dictionary entries:"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.hand.tool_stats",
         "original":"Tool Stats Class: %s"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.hand.not_a_player",
         "original":"This command is only usable by a player."
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.hand.no_item",
         "original":"You must hold something in main hand or off hand before executing this command."
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.recipecheck.usage",
         "original":"Usage: /gregtech recipecheck"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.recipecheck.begin",
         "original":"Starting recipe issue check..."
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.recipecheck.end",
         "original":"Recipe conflict check found %d possible conflicts. Check the server log for more info"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.recipecheck.end_no_conflicts",
         "original":"No recipe conflicts found!"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.recipecheck.end_empty_inputs",
         "original":"Recipe check found %d recipes with empty inputs and %d empty oredicts. Check the server log for more info"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.copy.copied_and_click",
         "original":"copied to clipboard. Click to copy again"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.copy.click_to_copy",
         "original":"Click to copy"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.copy.copied_start",
         "original":"Copied ["
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.copy.copied_end",
         "original":"] to the clipboard"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.datafix.usage",
         "original":"Usage: /gregtech datafix <bqu>"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.datafix.bqu.usage",
         "original":"Usage: /gregtech datafix bqu [confirm]"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.datafix.bqu.backup",
         "original":"Backup your save and BQu config dir, then rerun with the 'confirm' arg"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.datafix.bqu.start",
         "original":"Started Migrating BQu Quest Database..."
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.datafix.bqu.complete",
         "original":"Finished Migrating BQu Quest Database"
     },
     {
-        "context":"类型450",
+        "context":"类型449",
         "key":"gregtech.command.datafix.bqu.failed",
         "original":"Failed Migrating BQu Quest Database. Restore your backups!"
     },
     {
-        "context":"类型451",
+        "context":"类型450",
         "key":"gregtech.chat.cape",
         "original":"§5Congrats: you just unlocked a new cape! See the Cape Selector terminal app to use it.§r"
     },
     {
-        "context":"类型452",
+        "context":"类型451",
         "key":"gregtech.universal.clear_nbt_recipe.tooltip",
         "original":"§cThis will destroy all contents!"
     },
     {
-        "context":"类型453",
+        "context":"类型452",
         "key":"gregtech.cover.detector_base.message_normal_state",
         "original":"Monitoring Status: Normal"
     },
     {
-        "context":"类型453",
+        "context":"类型452",
         "key":"gregtech.cover.detector_base.message_inverted_state",
         "original":"Monitoring Status: Inverted"
     },
     {
-        "context":"类型454",
+        "context":"类型453",
         "key":"gregtech.creative.chest.item",
         "original":"Item"
     },
     {
-        "context":"类型454",
+        "context":"类型453",
         "key":"gregtech.creative.chest.ipc",
         "original":"Items per Cycle"
     },
     {
-        "context":"类型454",
+        "context":"类型453",
         "key":"gregtech.creative.chest.tpc",
         "original":"Ticks per Cycle"
     },
     {
-        "context":"类型455",
+        "context":"类型454",
         "key":"gregtech.creative.tank.fluid",
         "original":"Fluid"
     },
     {
-        "context":"类型455",
+        "context":"类型454",
         "key":"gregtech.creative.tank.mbpc",
         "original":"mB per Cycle"
     },
     {
-        "context":"类型455",
+        "context":"类型454",
         "key":"gregtech.creative.tank.tpc",
         "original":"Ticks per Cycle"
     },
     {
-        "context":"类型456",
+        "context":"类型455",
         "key":"gregtech.creative.energy.amperage",
         "original":"Amperage"
     },
     {
-        "context":"类型456",
+        "context":"类型455",
         "key":"gregtech.creative.energy.voltage",
         "original":"Voltage"
     },
     {
-        "context":"类型456",
+        "context":"类型455",
         "key":"gregtech.creative.energy.sink",
         "original":"Sink"
     },
     {
-        "context":"类型456",
+        "context":"类型455",
         "key":"gregtech.creative.energy.source",
         "original":"Source"
     },
     {
-        "context":"类型457",
+        "context":"类型456",
         "key":"gregtech.creative.activity.on",
         "original":"Active"
     },
     {
-        "context":"类型457",
+        "context":"类型456",
         "key":"gregtech.creative.activity.off",
         "original":"Not active"
     },
     {
-        "context":"类型458",
+        "context":"类型457",
         "key":"gregtech.terminal.app_name.items",
         "original":"Item Guides"
     },
     {
-        "context":"类型458",
+        "context":"类型457",
         "key":"gregtech.terminal.app_name.machines",
         "original":"Machine Guides"
     },
     {
-        "context":"类型458",
+        "context":"类型457",
         "key":"gregtech.terminal.app_name.multiblocks",
         "original":"Multiblock Guides"
     },
     {
-        "context":"类型458",
+        "context":"类型457",
         "key":"gregtech.terminal.app_name.tutorials",
         "original":"Tutorials"
     },
     {
-        "context":"类型458",
+        "context":"类型457",
         "key":"gregtech.terminal.app_name.settings",
         "original":"System Settings"
     },
     {
-        "context":"类型458",
+        "context":"类型457",
         "key":"gregtech.terminal.app_name.guide_editor",
         "original":"Guide Editor"
     },
     {
-        "context":"类型458",
+        "context":"类型457",
         "key":"gregtech.terminal.app_name.recipe_chart",
         "original":"Recipe Chart"
     },
     {
-        "context":"类型458",
+        "context":"类型457",
         "key":"gregtech.terminal.app_name.ore_prospector",
         "original":"Ore Prospector"
     },
     {
-        "context":"类型458",
+        "context":"类型457",
         "key":"gregtech.terminal.app_name.fluid_prospector",
         "original":"Fluid Prospector"
     },
     {
-        "context":"类型458",
+        "context":"类型457",
         "key":"gregtech.terminal.app_name.pong",
         "original":"Pong"
     },
     {
-        "context":"类型458",
+        "context":"类型457",
         "key":"gregtech.terminal.app_name.minesweeper",
         "original":"Minesweeper"
     },
     {
-        "context":"类型458",
+        "context":"类型457",
         "key":"gregtech.terminal.app_name.maze",
         "original":"Theseus's Escape"
     },
     {
-        "context":"类型458",
+        "context":"类型457",
         "key":"gregtech.terminal.app_name.console",
         "original":"GT Console"
     },
     {
-        "context":"类型458",
+        "context":"类型457",
         "key":"gregtech.terminal.app_name.battery",
         "original":"Battery Manager"
     },
     {
-        "context":"类型458",
+        "context":"类型457",
         "key":"gregtech.terminal.app_name.hardware",
         "original":"Hardware Manager"
     },
     {
-        "context":"类型458",
+        "context":"类型457",
         "key":"gregtech.terminal.app_name.store",
         "original":"App Store"
     },
     {
-        "context":"类型458",
+        "context":"类型457",
         "key":"gregtech.terminal.app_name.multiblock_ar",
         "original":"Multiblock Helper"
     },
     {
-        "context":"类型458",
+        "context":"类型457",
         "key":"gregtech.terminal.app_name.world_prospector",
         "original":"World Prospector"
     },
     {
-        "context":"类型458",
+        "context":"类型457",
         "key":"gregtech.terminal.app_name.vtank_viewer",
         "original":"Virtual Tank Viewer"
     },
     {
-        "context":"类型458",
+        "context":"类型457",
         "key":"gregtech.terminal.app_name.cape_selector",
         "original":"Cape Selector"
     },
     {
-        "context":"类型458",
+        "context":"类型457",
         "key":"gregtech.terminal.app_name.teleport",
         "original":"Teleporter"
     },
     {
-        "context":"类型460",
+        "context":"类型459",
         "key":"terminal.app_name.description",
         "original":"No description."
     },
     {
-        "context":"类型460",
+        "context":"类型459",
         "key":"terminal.app_name.tier",
         "original":"Tier %d"
     },
     {
-        "context":"类型460",
+        "context":"类型459",
         "key":"terminal.app_name.maximize.unsupported",
         "original":"This App does not support maximize."
     },
     {
-        "context":"类型460",
+        "context":"类型459",
         "key":"terminal.items.description",
         "original":"A guide book about items."
     },
     {
-        "context":"类型460",
+        "context":"类型459",
         "key":"terminal.machines.description",
         "original":"A guide book about gt machines."
     },
     {
-        "context":"类型460",
+        "context":"类型459",
         "key":"terminal.multiblocks.description",
         "original":"A guide book about multi-blocks."
     },
     {
-        "context":"类型460",
+        "context":"类型459",
         "key":"terminal.tutorials.description",
         "original":"Introduces all kinds of things, CT integration, tips, tutorials and more."
     },
     {
-        "context":"类型460",
+        "context":"类型459",
         "key":"terminal.pong.description",
         "original":"A classic pong game, if you're really that bored of waiting for that tungstensteel."
     },
     {
-        "context":"类型460",
+        "context":"类型459",
         "key":"terminal.minesweeper.description",
         "original":"A classic minesweeper game, if you're in class."
     },
     {
-        "context":"类型460",
+        "context":"类型459",
         "key":"terminal.maze.description",
         "original":"A GTOS exclusive game finding you racing through an endless labyrinth to survive the Minotaur!"
     },
     {
-        "context":"类型460",
+        "context":"类型459",
         "key":"terminal.cape_selector.description",
         "original":"An app that allows you to equip GT capes that you've unlocked through advancements."
     },
     {
-        "context":"类型460",
+        "context":"类型459",
         "key":"terminal.teleport.description",
         "original":"Open portals to any coordinate in any dimension. Be careful not to teleport into a wall!"
     },
     {
-        "context":"类型461",
+        "context":"类型460",
         "key":"texture.modify_gui_texture.missing",
         "original":"Missing Texture"
     },
     {
-        "context":"类型461",
+        "context":"类型460",
         "key":"texture.url_texture.fail",
         "original":"Load Failed"
     },
     {
-        "context":"类型462",
+        "context":"类型461",
         "key":"terminal.hw.battery",
         "original":"Battery"
     },
     {
-        "context":"类型462",
+        "context":"类型461",
         "key":"terminal.hw.device",
         "original":"Device"
     },
     {
-        "context":"类型463",
+        "context":"类型462",
         "key":"terminal.os.shutdown_confirm",
         "original":"Confirm shutdown? (Press ESC again to see ok)"
     },
     {
-        "context":"类型463",
+        "context":"类型462",
         "key":"terminal.os.hw_demand",
         "original":"Missing mounting hardware:"
     },
     {
-        "context":"类型464",
+        "context":"类型463",
         "key":"terminal.system_call.null",
         "original":"NULL"
     },
     {
-        "context":"类型464",
+        "context":"类型463",
         "key":"terminal.system_call.call_menu",
         "original":"Call Menu"
     },
     {
-        "context":"类型464",
+        "context":"类型463",
         "key":"terminal.system_call.full_screen",
         "original":"Full Screen"
     },
     {
-        "context":"类型464",
+        "context":"类型463",
         "key":"terminal.system_call.minimize_focus_app",
         "original":"Back to Desktop"
     },
     {
-        "context":"类型464",
+        "context":"类型463",
         "key":"terminal.system_call.close_focus_app",
         "original":"Close App"
     },
     {
-        "context":"类型464",
+        "context":"类型463",
         "key":"terminal.system_call.shutdown",
         "original":"Shutdown"
     },
     {
-        "context":"类型464",
+        "context":"类型463",
         "key":"terminal.system_call.open_app",
         "original":"Open App"
     },
     {
-        "context":"类型465",
+        "context":"类型464",
         "key":"terminal.menu.close",
         "original":"Close App"
     },
     {
-        "context":"类型465",
+        "context":"类型464",
         "key":"terminal.menu.minimize",
         "original":"Minimize App"
     },
     {
-        "context":"类型465",
+        "context":"类型464",
         "key":"terminal.menu.maximize",
         "original":"Full Screen/Recover"
     },
     {
-        "context":"类型466",
+        "context":"类型465",
         "key":"terminal.component.new_page",
         "original":"New Page"
     },
     {
-        "context":"类型466",
+        "context":"类型465",
         "key":"terminal.component.page_name",
         "original":"Page Name"
     },
     {
-        "context":"类型466",
+        "context":"类型465",
         "key":"terminal.component.load_file",
         "original":"Load File"
     },
     {
-        "context":"类型466",
+        "context":"类型465",
         "key":"terminal.component.load_file.error",
         "original":"An error occurred while loading the file."
     },
     {
-        "context":"类型466",
+        "context":"类型465",
         "key":"terminal.component.save_file",
         "original":"Save File"
     },
     {
-        "context":"类型466",
+        "context":"类型465",
         "key":"terminal.component.save_file.error",
         "original":"An error occurred while saving the file."
     },
     {
-        "context":"类型466",
+        "context":"类型465",
         "key":"terminal.component.confirm",
         "original":"Are you sure?"
     },
     {
-        "context":"类型466",
+        "context":"类型465",
         "key":"terminal.component.error",
         "original":"ERROR"
     },
     {
-        "context":"类型466",
+        "context":"类型465",
         "key":"terminal.component.warning",
         "original":"WARNING"
     },
     {
-        "context":"类型466",
+        "context":"类型465",
         "key":"terminal.component.searching",
         "original":"searching"
     },
     {
-        "context":"类型466",
+        "context":"类型465",
         "key":"terminal.component.reload",
         "original":"reload resource"
     },
     {
-        "context":"类型467",
+        "context":"类型466",
         "key":"terminal.dialog.notice",
         "original":"NOTICE"
     },
     {
-        "context":"类型467",
+        "context":"类型466",
         "key":"terminal.dialog.error_path",
         "original":"error file path:"
     },
     {
-        "context":"类型467",
+        "context":"类型466",
         "key":"terminal.dialog.no_file_selected",
         "original":"No file selected."
     },
     {
-        "context":"类型467",
+        "context":"类型466",
         "key":"terminal.dialog.folder",
         "original":"Open Folder"
     },
     {
-        "context":"类型468",
+        "context":"类型467",
         "key":"terminal.guide_editor.description",
         "original":"An interactive guide page editor that allows you to create guide pages easily."
     },
     {
-        "context":"类型468",
+        "context":"类型467",
         "key":"terminal.guide_editor.up",
         "original":"Up"
     },
     {
-        "context":"类型468",
+        "context":"类型467",
         "key":"terminal.guide_editor.down",
         "original":"Down"
     },
     {
-        "context":"类型468",
+        "context":"类型467",
         "key":"terminal.guide_editor.remove",
         "original":"Remove"
     },
     {
-        "context":"类型468",
+        "context":"类型467",
         "key":"terminal.guide_editor.add_stream",
         "original":"Add to stream"
     },
     {
-        "context":"类型468",
+        "context":"类型467",
         "key":"terminal.guide_editor.add_fixed",
         "original":"Add to fixed"
     },
     {
-        "context":"类型468",
+        "context":"类型467",
         "key":"terminal.guide_editor.update",
         "original":"Update"
     },
     {
-        "context":"类型468",
+        "context":"类型467",
         "key":"terminal.guide_editor.add_slot",
         "original":"Add Slot"
     },
     {
-        "context":"类型468",
+        "context":"类型467",
         "key":"terminal.guide_editor.default",
         "original":"Default Value"
     },
     {
-        "context":"类型468",
+        "context":"类型467",
         "key":"terminal.guide_editor.page_config",
         "original":"Page Config"
     },
     {
-        "context":"类型468",
+        "context":"类型467",
         "key":"terminal.guide_editor.widgets_box",
         "original":"Widgets Box"
     },
     {
-        "context":"类型468",
+        "context":"类型467",
         "key":"terminal.guide_editor.widget_config",
         "original":"Widget Config"
     },
     {
-        "context":"类型468",
+        "context":"类型467",
         "key":"terminal.guide_editor.error_type",
         "original":"Item types do not match and will still be saved, but will not be seen in app."
     },
     {
-        "context":"类型469",
+        "context":"类型468",
         "key":"terminal.settings.description",
         "original":"The system settings for GTOS."
     },
     {
-        "context":"类型469",
+        "context":"类型468",
         "key":"terminal.settings.theme",
         "original":"Theme"
     },
     {
-        "context":"类型469",
+        "context":"类型468",
         "key":"terminal.settings.theme.color",
         "original":"Theme Color Settings"
     },
     {
-        "context":"类型469",
+        "context":"类型468",
         "key":"terminal.settings.theme.wallpaper",
         "original":"Wallpaper Settings"
     },
     {
-        "context":"类型469",
+        "context":"类型468",
         "key":"terminal.settings.theme.wallpaper.resource",
         "original":"resource"
     },
     {
-        "context":"类型469",
+        "context":"类型468",
         "key":"terminal.settings.theme.wallpaper.url",
         "original":"url"
     },
     {
-        "context":"类型469",
+        "context":"类型468",
         "key":"terminal.settings.theme.wallpaper.color",
         "original":"color"
     },
     {
-        "context":"类型469",
+        "context":"类型468",
         "key":"terminal.settings.theme.wallpaper.file",
         "original":"file"
     },
     {
-        "context":"类型469",
+        "context":"类型468",
         "key":"terminal.settings.theme.select",
         "original":"Select"
     },
     {
-        "context":"类型469",
+        "context":"类型468",
         "key":"terminal.settings.theme.image",
         "original":"Image File"
     },
     {
-        "context":"类型469",
+        "context":"类型468",
         "key":"terminal.settings.home",
         "original":"Home Button"
     },
     {
-        "context":"类型469",
+        "context":"类型468",
         "key":"terminal.settings.home.double",
         "original":"Double"
     },
     {
-        "context":"类型469",
+        "context":"类型468",
         "key":"terminal.settings.home.action",
         "original":"Click Action"
     },
     {
-        "context":"类型469",
+        "context":"类型468",
         "key":"terminal.settings.home.args",
         "original":"Args"
     },
     {
-        "context":"类型469",
+        "context":"类型468",
         "key":"terminal.settings.home.click",
         "original":"click"
     },
     {
-        "context":"类型469",
+        "context":"类型468",
         "key":"terminal.settings.home.double_click",
         "original":"double Click"
     },
     {
-        "context":"类型469",
+        "context":"类型468",
         "key":"terminal.settings.os",
         "original":"Os settings"
     },
     {
-        "context":"类型469",
+        "context":"类型468",
         "key":"terminal.settings.os.double_check",
         "original":"Double Check"
     },
     {
-        "context":"类型469",
+        "context":"类型468",
         "key":"terminal.settings.os.double_check.desc",
         "original":"Should Double Check when shutdown."
     },
     {
-        "context":"类型471",
+        "context":"类型470",
         "key":"terminal.recipe_chart.description",
         "original":"A tool for analyzing recipe chains, with which you can easily build a recipe graph and even calculate the ingredients needed like JEC."
     },
     {
-        "context":"类型471",
+        "context":"类型470",
         "key":"terminal.recipe_chart.limit",
         "original":"Page limit."
     },
     {
-        "context":"类型471",
+        "context":"类型470",
         "key":"terminal.recipe_chart.delete",
         "original":"Delete Page"
     },
     {
-        "context":"类型471",
+        "context":"类型470",
         "key":"terminal.recipe_chart.add_slot",
         "original":"Add Root Slot"
     },
     {
-        "context":"类型471",
+        "context":"类型470",
         "key":"terminal.recipe_chart.demand",
         "original":"Demand"
     },
     {
-        "context":"类型471",
+        "context":"类型470",
         "key":"terminal.recipe_chart.calculator",
         "original":"Calculator"
     },
     {
-        "context":"类型471",
+        "context":"类型470",
         "key":"terminal.recipe_chart.add",
         "original":"Set the item from inventory"
     },
     {
-        "context":"类型471",
+        "context":"类型470",
         "key":"terminal.recipe_chart.drag",
         "original":"Drag ingredients here."
     },
     {
-        "context":"类型471",
+        "context":"类型470",
         "key":"terminal.recipe_chart.visible",
         "original":"Visible"
     },
     {
-        "context":"类型471",
+        "context":"类型470",
         "key":"terminal.recipe_chart.jei",
         "original":"JEI Focus"
     },
     {
-        "context":"类型471",
+        "context":"类型470",
         "key":"terminal.recipe_chart.tier",
         "original":"Tier:"
     },
     {
-        "context":"类型471",
+        "context":"类型470",
         "key":"terminal.recipe_chart.ratio",
         "original":"Weight"
     },
     {
-        "context":"类型471",
+        "context":"类型470",
         "key":"terminal.recipe_chart.tier.0",
         "original":"cache of 5 pages"
     },
     {
-        "context":"类型471",
+        "context":"类型470",
         "key":"terminal.recipe_chart.tier.1",
         "original":"cache of 6 pages"
     },
     {
-        "context":"类型471",
+        "context":"类型470",
         "key":"terminal.recipe_chart.tier.2",
         "original":"cache of 7 pages"
     },
     {
-        "context":"类型471",
+        "context":"类型470",
         "key":"terminal.recipe_chart.tier.3",
         "original":"cache of 8 pages"
     },
     {
-        "context":"类型472",
+        "context":"类型471",
         "key":"terminal.prospector.vis_mode",
         "original":"Switch color mode"
     },
     {
-        "context":"类型472",
+        "context":"类型471",
         "key":"terminal.prospector.list",
         "original":"All Resources"
     },
     {
-        "context":"类型472",
+        "context":"类型471",
         "key":"terminal.prospector.ore",
         "original":"Ore Data"
     },
     {
-        "context":"类型472",
+        "context":"类型471",
         "key":"terminal.prospector.fluid",
         "original":"Fluid Deposit Data"
     },
     {
-        "context":"类型472",
+        "context":"类型471",
         "key":"terminal.prospector.fluid.info",
         "original":"%s %s - %s%%"
     },
     {
-        "context":"类型472",
+        "context":"类型471",
         "key":"terminal.prospector.waypoint.add",
         "original":"[Double §7Left click§r] to add waypoint"
     },
     {
-        "context":"类型473",
+        "context":"类型472",
         "key":"terminal.ore_prospector.description",
         "original":"Hate the scanner toy? Don't want to run around looking for ores? Come and look at it."
     },
     {
-        "context":"类型473",
+        "context":"类型472",
         "key":"terminal.ore_prospector.tier.0",
         "original":"radius size 1"
     },
     {
-        "context":"类型473",
+        "context":"类型472",
         "key":"terminal.ore_prospector.tier.1",
         "original":"radius size 2"
     },
     {
-        "context":"类型473",
+        "context":"类型472",
         "key":"terminal.ore_prospector.tier.2",
         "original":"radius size 3"
     },
     {
-        "context":"类型473",
+        "context":"类型472",
         "key":"terminal.ore_prospector.tier.3",
         "original":"radius size 4"
     },
     {
-        "context":"类型473",
+        "context":"类型472",
         "key":"terminal.ore_prospector.tier.4",
         "original":"radius size 5"
     },
     {
-        "context":"类型473",
+        "context":"类型472",
         "key":"terminal.ore_prospector.tier.5",
         "original":"radius size 6"
     },
     {
-        "context":"类型473",
+        "context":"类型472",
         "key":"terminal.ore_prospector.tier.6",
         "original":"radius size 7"
     },
     {
-        "context":"类型474",
+        "context":"类型473",
         "key":"terminal.fluid_prospector.description",
         "original":"You know, there's gold in bedrocks."
     },
     {
-        "context":"类型474",
+        "context":"类型473",
         "key":"terminal.fluid_prospector.tier.0",
         "original":"radius size 1"
     },
     {
-        "context":"类型474",
+        "context":"类型473",
         "key":"terminal.fluid_prospector.tier.1",
         "original":"radius size 2"
     },
     {
-        "context":"类型474",
+        "context":"类型473",
         "key":"terminal.fluid_prospector.tier.2",
         "original":"radius size 3"
     },
     {
-        "context":"类型474",
+        "context":"类型473",
         "key":"terminal.fluid_prospector.tier.3",
         "original":"radius size 4"
     },
     {
-        "context":"类型474",
+        "context":"类型473",
         "key":"terminal.fluid_prospector.tier.4",
         "original":"radius size 5"
     },
     {
-        "context":"类型474",
+        "context":"类型473",
         "key":"terminal.fluid_prospector.tier.5",
         "original":"radius size 6"
     },
     {
-        "context":"类型474",
+        "context":"类型473",
         "key":"terminal.fluid_prospector.tier.6",
         "original":"radius size 7"
     },
     {
-        "context":"类型475",
+        "context":"类型474",
         "key":"terminal.console.description",
         "original":"A tool to help you free your inventory, it's time to say goodbye to wrench, screwdriver, hammer, and crowbar."
     },
     {
-        "context":"类型475",
+        "context":"类型474",
         "key":"terminal.console.notice",
         "original":"Please shift-right-click a machine when opening the terminal."
     },
     {
-        "context":"类型475",
+        "context":"类型474",
         "key":"terminal.console.front",
         "original":"Set as front"
     },
     {
-        "context":"类型475",
+        "context":"类型474",
         "key":"terminal.console.items",
         "original":"set as items output"
     },
     {
-        "context":"类型475",
+        "context":"类型474",
         "key":"terminal.console.fluids",
         "original":"set as fluids output"
     },
     {
-        "context":"类型475",
+        "context":"类型474",
         "key":"terminal.console.auto_output",
         "original":"allow auto output"
     },
     {
-        "context":"类型475",
+        "context":"类型474",
         "key":"terminal.console.input",
         "original":"allow input from output"
     },
     {
-        "context":"类型475",
+        "context":"类型474",
         "key":"terminal.console.cover_rs",
         "original":"signal: %s"
     },
     {
-        "context":"类型475",
+        "context":"类型474",
         "key":"terminal.console.cover_gui",
         "original":"Gui"
     },
     {
-        "context":"类型475",
+        "context":"类型474",
         "key":"terminal.console.gui",
         "original":"Open machine gui"
     },
     {
-        "context":"类型475",
+        "context":"类型474",
         "key":"terminal.console.maintenance",
         "original":"Fix all problems"
     },
     {
-        "context":"类型475",
+        "context":"类型474",
         "key":"terminal.console.venting",
         "original":"set as venting"
     },
     {
-        "context":"类型475",
+        "context":"类型474",
         "key":"terminal.console.controllable",
         "original":"set working enable"
     },
     {
-        "context":"类型476",
+        "context":"类型475",
         "key":"terminal.hardware.description",
         "original":"Hardware Manager, masterpieces of elegance and precision. How can a tablet be without hardware?"
     },
     {
-        "context":"类型476",
+        "context":"类型475",
         "key":"terminal.hardware.select",
         "original":"Mounting hardware"
     },
     {
-        "context":"类型476",
+        "context":"类型475",
         "key":"terminal.hardware.remove",
         "original":"Remove hardware"
     },
     {
-        "context":"类型476",
+        "context":"类型475",
         "key":"terminal.hardware.remove.full",
         "original":"There are no empty slots in inventory"
     },
     {
-        "context":"类型476",
+        "context":"类型475",
         "key":"terminal.hardware.tip.remove",
         "original":"§4right-click remove the hardware"
     },
     {
-        "context":"类型477",
+        "context":"类型476",
         "key":"terminal.battery.description",
         "original":"Battery manager, visually analyze your app's energy consumption."
     },
     {
-        "context":"类型477",
+        "context":"类型476",
         "key":"terminal.battery.hover",
         "original":"%s: Usage %d eu/s"
     },
     {
-        "context":"类型477",
+        "context":"类型476",
         "key":"terminal.battery.low_energy",
         "original":"Low power! Plz recharge the terminal."
     },
     {
-        "context":"类型478",
+        "context":"类型477",
         "key":"terminal.store.description",
         "original":"App store, check out what you got? Install and upgrade the app."
     },
     {
-        "context":"类型478",
+        "context":"类型477",
         "key":"terminal.store.match",
         "original":"Detected required item in inventory, install/upgrade App?"
     },
     {
-        "context":"类型478",
+        "context":"类型477",
         "key":"terminal.store.miss",
         "original":"Requires %s (%d)."
     },
     {
-        "context":"类型478",
+        "context":"类型477",
         "key":"terminal.store.close",
         "original":"Close"
     },
     {
-        "context":"类型479",
+        "context":"类型478",
         "key":"terminal.ar.open",
         "original":"Open AR"
     },
     {
-        "context":"类型480",
+        "context":"类型479",
         "key":"terminal.multiblock_ar.description",
         "original":"Remember the §cFreedom Wrench§r?  Unfortunately, it it's gone. It doesn't matter, we have a new technology now. This app can also help you build your multi-block machine."
     },
     {
-        "context":"类型480",
+        "context":"类型479",
         "key":"terminal.multiblock_ar.tier.0",
         "original":"AR Camera"
     },
     {
-        "context":"类型480",
+        "context":"类型479",
         "key":"terminal.multiblock_ar.tier.1",
         "original":"3D Builder"
     },
     {
-        "context":"类型480",
+        "context":"类型479",
         "key":"terminal.multiblock_ar.unlock",
         "original":"Unlock this mode after the upgrade"
     },
     {
-        "context":"类型480",
+        "context":"类型479",
         "key":"terminal.multiblock_ar.builder.hover",
         "original":"3D Builder"
     },
     {
-        "context":"类型480",
+        "context":"类型479",
         "key":"terminal.multiblock_ar.builder.auto",
         "original":"Automatic Build"
     },
     {
-        "context":"类型480",
+        "context":"类型479",
         "key":"terminal.multiblock_ar.builder.place",
         "original":"Place block"
     },
     {
-        "context":"类型480",
+        "context":"类型479",
         "key":"terminal.multiblock_ar.builder.debug",
         "original":"Debug"
     },
     {
-        "context":"类型481",
+        "context":"类型480",
         "key":"terminal.world_prospector.description",
         "original":"\"I wish I had X-ray vision.\"\\n\"Sir, I'm sorry, but we don't sell superpowers. You should trust the science.\""
     },
     {
-        "context":"类型481",
+        "context":"类型480",
         "key":"terminal.world_prospector.tier.0",
         "original":"Radius 15m (1 slot)"
     },
     {
-        "context":"类型481",
+        "context":"类型480",
         "key":"terminal.world_prospector.tier.1",
         "original":"Radius 30m (2 slot)"
     },
     {
-        "context":"类型481",
+        "context":"类型480",
         "key":"terminal.world_prospector.tier.2",
         "original":"Radius 60m (4 slot)"
     },
     {
-        "context":"类型481",
+        "context":"类型480",
         "key":"terminal.world_prospector.radius",
         "original":"Radius %sm"
     },
     {
-        "context":"类型481",
+        "context":"类型480",
         "key":"terminal.world_prospector.reference",
         "original":"Select a reference"
     },
     {
-        "context":"类型481",
+        "context":"类型480",
         "key":"terminal.world_prospector.color",
         "original":"Select box color"
     },
     {
-        "context":"类型482",
+        "context":"类型481",
         "key":"terminal.vtank_viewer.description",
         "original":"Never lose any fluids to changing ender link frequencies again! Here's a scrollable list of every virtual tank that you have access to in your world."
     },
     {
-        "context":"类型482",
+        "context":"类型481",
         "key":"terminal.vtank_viewer.title",
         "original":"Virtual Tank Viewer"
     },
     {
-        "context":"类型482",
+        "context":"类型481",
         "key":"terminal.vtank_viewer.refresh",
         "original":"Refresh tank index"
     },
     {
-        "context":"类型483",
+        "context":"类型482",
         "key":"terminal.teleporter.dimension",
         "original":"Dimension:"
     },
     {
-        "context":"类型483",
+        "context":"类型482",
         "key":"terminal.teleporter.spawn_portal",
         "original":"Engage"
     },
     {
-        "context":"类型484",
+        "context":"类型483",
         "key":"terminal.maze.title",
         "original":"Theseus's Escape"
     },
     {
-        "context":"类型484",
+        "context":"类型483",
         "key":"terminal.maze.play",
         "original":"Play"
     },
     {
-        "context":"类型484",
+        "context":"类型483",
         "key":"terminal.maze.continue",
         "original":"Continue"
     },
     {
-        "context":"类型484",
+        "context":"类型483",
         "key":"terminal.maze.pause",
         "original":"Game Paused"
     },
     {
-        "context":"类型484",
+        "context":"类型483",
         "key":"terminal.maze.death.1",
         "original":"Oh no! You were eaten by the Minotaur!"
     },
     {
-        "context":"类型484",
+        "context":"类型483",
         "key":"terminal.maze.death.2",
         "original":"You got through %s mazes before losing."
     },
     {
-        "context":"类型484",
+        "context":"类型483",
         "key":"terminal.maze.death.3",
         "original":"Try again?"
     },
     {
-        "context":"类型484",
+        "context":"类型483",
         "key":"terminal.maze.retry",
         "original":"Retry"
     },
     {
-        "context":"类型485",
+        "context":"类型484",
         "key":"terminal.minesweeper.time",
         "original":"%s seconds elapsed"
     },
     {
-        "context":"类型485",
+        "context":"类型484",
         "key":"terminal.minesweeper.lose",
         "original":"You lost. Game will restart in %s seconds."
     },
     {
-        "context":"类型485",
+        "context":"类型484",
         "key":"terminal.minesweeper.win.1",
         "original":"You won in %s seconds!"
     },
     {
-        "context":"类型485",
+        "context":"类型484",
         "key":"terminal.minesweeper.win.2",
         "original":"Game will restart in %s"
     },
     {
-        "context":"类型486",
+        "context":"类型485",
         "key":"terminal.cape_selector.empty",
         "original":"It looks like you haven't unlocked any capes yet!"
     },
     {
-        "context":"类型486",
+        "context":"类型485",
         "key":"terminal.cape_selector.select",
         "original":"Click on an unlocked cape to select it!"
     },
     {
-        "context":"类型486",
+        "context":"类型485",
         "key":"terminal.cape_selector.tip",
         "original":"You can get these from high-level advancements."
     },
     {
-        "context":"类型487",
+        "context":"类型486",
         "key":"metaitem.cover.digital.title.mode",
         "original":"Mode:"
     },
     {
-        "context":"类型487",
+        "context":"类型486",
         "key":"metaitem.cover.digital.title.spin",
         "original":"Spin:"
     },
     {
-        "context":"类型487",
+        "context":"类型486",
         "key":"metaitem.cover.digital.wireless.tooltip.1",
         "original":"§fWirelessly§7 connects machines to the §fCentral Monitor§7 as §fCover§7."
     },
     {
-        "context":"类型487",
+        "context":"类型486",
         "key":"metaitem.cover.digital.wireless.tooltip.2",
         "original":"§fRight Click§7 on the §fCentral Monitor§7 to remotely bind to it."
     },
     {
-        "context":"类型487",
+        "context":"类型486",
         "key":"metaitem.cover.digital.wireless.tooltip.3",
         "original":"§fSneak Right Click§7 to remove the current binding."
     },
     {
-        "context":"类型487",
+        "context":"类型486",
         "key":"metaitem.cover.digital.wireless.tooltip.4",
         "original":"§aBinding: §f%s"
     },
     {
-        "context":"类型487",
+        "context":"类型486",
         "key":"monitor.gui.title.back",
         "original":"Back"
     },
     {
-        "context":"类型487",
+        "context":"类型486",
         "key":"monitor.gui.title.scale",
         "original":"Scale:"
     },
     {
-        "context":"类型487",
+        "context":"类型486",
         "key":"monitor.gui.title.argb",
         "original":"ARGB:"
     },
     {
-        "context":"类型487",
+        "context":"类型486",
         "key":"monitor.gui.title.slot",
         "original":"Slot:"
     },
     {
-        "context":"类型487",
+        "context":"类型486",
         "key":"monitor.gui.title.plugin",
         "original":"Plugin:"
     },
     {
-        "context":"类型487",
+        "context":"类型486",
         "key":"monitor.gui.title.config",
         "original":"Config"
     },
     {
-        "context":"类型488",
+        "context":"类型487",
         "key":"fluid.tile.lava",
         "original":"Lava"
     },
     {
-        "context":"类型488",
+        "context":"类型487",
         "key":"fluid.tile.water",
         "original":"Water"
     },
     {
-        "context":"类型489：Keybindings",
+        "context":"类型488：Keybindings",
         "key":"gregtech.key.armor_mode_switch",
         "original":"Armor Mode Switch"
     },
     {
-        "context":"类型489：Keybindings",
+        "context":"类型488：Keybindings",
         "key":"gregtech.key.armor_hover",
         "original":"Armor Hover Toggle"
     },
     {
-        "context":"类型489：Keybindings",
+        "context":"类型488：Keybindings",
         "key":"gregtech.key.armor_charging",
         "original":"Armor Charging to Inventory Toggle"
     },
     {
-        "context":"类型489：Keybindings",
+        "context":"类型488：Keybindings",
         "key":"gregtech.key.tool_aoe_change",
         "original":"Tool AoE Mode Switch"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.tick.forge_hammer",
         "original":"Hammer smashes"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.tick.macerator",
         "original":"Items macerating"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.tick.chemical_reactor",
         "original":"Chemicals reacting"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.tick.assembler",
         "original":"Items assembling"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.tick.centrifuge",
         "original":"Items separating"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.tick.compressor",
         "original":"Items compressing"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.tick.electrolyzer",
         "original":"Elements electrolyzing"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.tick.mixer",
         "original":"Dusts mixing"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.tick.replicator",
         "original":"Items replicating"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.tick.arc",
         "original":"Electricity arcing"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.tick.boiler",
         "original":"Liquid boiling"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.tick.furnace",
         "original":"Furnace smelting"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.tick.cooling",
         "original":"Ingot cooling"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.tick.fire",
         "original":"Fire burning"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.tick.bath",
         "original":"Items bathing"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.tick.motor",
         "original":"Motor turning"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.tick.cut",
         "original":"Blocks cutting"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.tick.turbine",
         "original":"Turbine spinning"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.tick.combustion",
         "original":"Fuel combusting"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.tick.miner",
         "original":"Miner drilling"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.tick.computation",
         "original":"Computers processing"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.use.wrench",
         "original":"Wrench turns"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.use.soft_hammer",
         "original":"Block smacked"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.use.drill",
         "original":"Blocks drilled"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.use.plunger",
         "original":"Fluid evacuated"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.use.file",
         "original":"Ingot filed"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.use.saw",
         "original":"Wood sawing"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.use.screwdriver",
         "original":"Screws turning"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.use.chainsaw",
         "original":"Chainsaw growls"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.use.wirecutter",
         "original":"Wires snip"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.use.spray_can",
         "original":"Paint sprays"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.use.tricorder",
         "original":"Beep beep"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.use.mortar",
         "original":"Grinding"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.record.sus",
         "original":"Sus"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.entity.portal_opening",
         "original":"Portal opens"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.entity.portal_closing",
         "original":"Portal closes"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.maintenance.electrical",
         "original":"Electrical breakdown"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.maintenance.mechanical",
         "original":"Mechanical breakdown"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.alarm",
         "original":"Alarm Whines"
     },
     {
-        "context":"类型490",
+        "context":"类型489",
         "key":"gregtech.subtitle.click",
         "original":"Something Clicks"
     },
     {
-        "context":"类型492：Debug messaging",
+        "context":"类型491：Debug messaging",
         "key":"gregtech.debug.f3_h.enabled",
         "original":"GregTech has modified the debug info! For Developers: enable the misc:debug config option in the GregTech config file to see more"
     },
     {
-        "context":"类型493：## Forestry Integration：Frames",
+        "context":"类型492：## Forestry Integration：Frames",
         "key":"item.gt.frame_working.name",
         "original":"Working Frame"
     },
     {
-        "context":"类型493：## Forestry Integration：Frames",
+        "context":"类型492：## Forestry Integration：Frames",
         "key":"item.gt.frame_mutagenic.name",
         "original":"Mutagenic Frame"
     },
     {
-        "context":"类型493：## Forestry Integration：Frames",
+        "context":"类型492：## Forestry Integration：Frames",
         "key":"item.gt.frame_accelerated.name",
         "original":"Accelerated Frame"
     },
     {
-        "context":"类型493：## Forestry Integration：Frames",
+        "context":"类型492：## Forestry Integration：Frames",
         "key":"item.gt.frame_stabilizing.name",
         "original":"Stabilizing Frame"
     },
     {
-        "context":"类型493：## Forestry Integration：Frames",
+        "context":"类型492：## Forestry Integration：Frames",
         "key":"item.gt.frame_arborist.name",
         "original":"Arborist's Frame"
     },
     {
-        "context":"类型493：## Forestry Integration：Frames",
+        "context":"类型492：## Forestry Integration：Frames",
         "key":"item.gt.frame_decaying.name",
         "original":"Decaying Frame"
     },
     {
-        "context":"类型493：## Forestry Integration：Frames",
+        "context":"类型492：## Forestry Integration：Frames",
         "key":"item.gt.frame_slowing.name",
         "original":"Slowing Frame"
     },
     {
-        "context":"类型494：Electrodes",
+        "context":"类型493：Electrodes",
         "key":"metaitem.electrode.apatite.name",
         "original":"Apatine Electrode"
     },
     {
-        "context":"类型494：Electrodes",
+        "context":"类型493：Electrodes",
         "key":"metaitem.electrode.blaze.name",
         "original":"Blazing Electrode"
     },
     {
-        "context":"类型494：Electrodes",
+        "context":"类型493：Electrodes",
         "key":"metaitem.electrode.bronze.name",
         "original":"Bronze Electrode"
     },
     {
-        "context":"类型494：Electrodes",
+        "context":"类型493：Electrodes",
         "key":"metaitem.electrode.copper.name",
         "original":"Copper Electrode"
     },
     {
-        "context":"类型494：Electrodes",
+        "context":"类型493：Electrodes",
         "key":"metaitem.electrode.diamond.name",
         "original":"Diamantine Electrode"
     },
     {
-        "context":"类型494：Electrodes",
+        "context":"类型493：Electrodes",
         "key":"metaitem.electrode.emerald.name",
         "original":"Emerald Electrode"
     },
     {
-        "context":"类型494：Electrodes",
+        "context":"类型493：Electrodes",
         "key":"metaitem.electrode.ender.name",
         "original":"Ender Electrode"
     },
     {
-        "context":"类型494：Electrodes",
+        "context":"类型493：Electrodes",
         "key":"metaitem.electrode.gold.name",
         "original":"Golden Electrode"
     },
     {
-        "context":"类型494：Electrodes",
+        "context":"类型493：Electrodes",
         "key":"metaitem.electrode.iron.name",
         "original":"Iron Electrode"
     },
     {
-        "context":"类型494：Electrodes",
+        "context":"类型493：Electrodes",
         "key":"metaitem.electrode.lapis.name",
         "original":"Lapis Electrode"
     },
     {
-        "context":"类型494：Electrodes",
+        "context":"类型493：Electrodes",
         "key":"metaitem.electrode.obsidian.name",
         "original":"Obsidian Electrode"
     },
     {
-        "context":"类型494：Electrodes",
+        "context":"类型493：Electrodes",
         "key":"metaitem.electrode.orchid.name",
         "original":"Orchid Electrode"
     },
     {
-        "context":"类型494：Electrodes",
+        "context":"类型493：Electrodes",
         "key":"metaitem.electrode.rubber.name",
         "original":"Rubberised Electrode"
     },
     {
-        "context":"类型494：Electrodes",
+        "context":"类型493：Electrodes",
         "key":"metaitem.electrode.tin.name",
         "original":"Tin Electrode"
     },
     {
-        "context":"类型495：Scoop",
+        "context":"类型494：Scoop",
         "key":"item.gt.tool.scoop.name",
         "original":"%s Scoop"
     },
     {
-        "context":"类型495：Scoop",
+        "context":"类型494：Scoop",
         "key":"item.gt.tool.behavior.scoop",
         "original":"§dArborist: §fCatches Butterflies on Left-Click"
     },
     {
-        "context":"类型495：Scoop",
+        "context":"类型494：Scoop",
         "key":"gt.tool.class.scoop",
         "original":"Scoop"
     },
     {
-        "context":"类型496：Drops",
+        "context":"类型495：Drops",
         "key":"item.gt.honey_drop.oil.name",
         "original":"Oil Drop"
     },
     {
-        "context":"类型496：Drops",
+        "context":"类型495：Drops",
         "key":"item.gt.honey_drop.biomass.name",
         "original":"Biomass Drop"
     },
     {
-        "context":"类型496：Drops",
+        "context":"类型495：Drops",
         "key":"item.gt.honey_drop.ethanol.name",
         "original":"Ethanol Drop"
     },
     {
-        "context":"类型496：Drops",
+        "context":"类型495：Drops",
         "key":"item.gt.honey_drop.mutagen.name",
         "original":"Mutagen Drop"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.coal.name",
         "original":"Coal Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.coke.name",
         "original":"Coke Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.stickyresin.name",
         "original":"Sticky Resin Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.oil.name",
         "original":"Oil Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.apatite.name",
         "original":"Apatite Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.ash.name",
         "original":"Ash Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.biomass.name",
         "original":"Biomass Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.energy.name",
         "original":"Energy Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.lapotron.name",
         "original":"Lapotron Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.redalloy.name",
         "original":"Red Alloy Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.stainlesssteel.name",
         "original":"Stainless Steel Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.stone.name",
         "original":"Stone Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.certus.name",
         "original":"Certus Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.redstone.name",
         "original":"Redstone Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.rareearth.name",
         "original":"Rare Earth Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.lapis.name",
         "original":"Lapis Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.ruby.name",
         "original":"Ruby Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.sapphire.name",
         "original":"Sapphire Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.diamond.name",
         "original":"Diamond Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.olivine.name",
         "original":"Olivine Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.emerald.name",
         "original":"Emerald Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.pyrope.name",
         "original":"Pyrope Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.grossular.name",
         "original":"Grossular Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.sparkling.name",
         "original":"Sparkling Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.slag.name",
         "original":"Slag Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.copper.name",
         "original":"Copper Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.tin.name",
         "original":"Tin Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.lead.name",
         "original":"Lead Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.iron.name",
         "original":"Iron Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.steel.name",
         "original":"Steel Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.nickel.name",
         "original":"Nickel Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.zinc.name",
         "original":"Zinc Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.silver.name",
         "original":"Silver Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.gold.name",
         "original":"Gold Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.sulfur.name",
         "original":"Sulfur Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.gallium.name",
         "original":"Gallium Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.arsenic.name",
         "original":"Arsenic Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.bauxite.name",
         "original":"Bauxite Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.aluminium.name",
         "original":"Aluminium Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.manganese.name",
         "original":"Manganese Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.magnesium.name",
         "original":"Magnesium Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.titanium.name",
         "original":"Titanium Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.chrome.name",
         "original":"Chrome Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.tungsten.name",
         "original":"Tungsten Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.platinum.name",
         "original":"Platinum Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.iridium.name",
         "original":"Iridium Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.molybdenum.name",
         "original":"Molybdenum Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.osmium.name",
         "original":"Osmium Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.lithium.name",
         "original":"Lithium Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.salt.name",
         "original":"Salt Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.electrotine.name",
         "original":"Electrotine Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.almandine.name",
         "original":"Almandine Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.uranium.name",
         "original":"Uranium Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.plutonium.name",
         "original":"Plutonium Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.naquadah.name",
         "original":"Naquadah Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.naquadria.name",
         "original":"Naquadria Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.thorium.name",
         "original":"Thorium Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.lutetium.name",
         "original":"Lutetium Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.americium.name",
         "original":"Americium Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.neutronium.name",
         "original":"Neutronium Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.phosphorus.name",
         "original":"Phosphorus Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.indium.name",
         "original":"Indium Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.trinium.name",
         "original":"Trinium Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.helium.name",
         "original":"Helium Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.argon.name",
         "original":"Argon Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.xenon.name",
         "original":"Xenon Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.neon.name",
         "original":"Neon Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.krypton.name",
         "original":"Krypton Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.nitrogen.name",
         "original":"Nitrogen Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.oxygen.name",
         "original":"Oxygen Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.hydrogen.name",
         "original":"Hydrogen Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.fluorine.name",
         "original":"Fluorine Comb"
     },
     {
-        "context":"类型497：Combs",
+        "context":"类型496：Combs",
         "key":"item.gt.comb.fluix.name",
         "original":"Fluix Comb"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.clay",
         "original":"Clay"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.slimeball",
         "original":"Slime Ball"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.peat",
         "original":"Peat"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.stickyresin",
         "original":"Sticky Resin"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.coal",
         "original":"Coal"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.oil",
         "original":"Oil"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.ash",
         "original":"Ash"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.apatite",
         "original":"Apatite"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.biomass",
         "original":"Biomass"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.redstone",
         "original":"Redstone"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.lapis",
         "original":"Lapis"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.certus",
         "original":"Certus Quartz"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.diamond",
         "original":"Diamond"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.ruby",
         "original":"Ruby"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.sapphire",
         "original":"Sapphire"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.olivine",
         "original":"Olivine"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.emerald",
         "original":"Emerald"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.copper",
         "original":"Copper"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.tin",
         "original":"Tin"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.lead",
         "original":"Lead"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.iron",
         "original":"Iron"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.steel",
         "original":"Steel"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.nickel",
         "original":"Nickel"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.zinc",
         "original":"Zinc"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.silver",
         "original":"Silver"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.gold",
         "original":"Gold"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.arsenic",
         "original":"Arsenic"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.aluminium",
         "original":"Aluminium"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.titanium",
         "original":"Titanium"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.chrome",
         "original":"Chrome"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.manganese",
         "original":"Manganese"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.tungsten",
         "original":"Tungsten"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.platinum",
         "original":"Platinum"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.iridium",
         "original":"Iridium"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.osmium",
         "original":"Osmium"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.salty",
         "original":"Salt"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.lithium",
         "original":"Lithium"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.electrotine",
         "original":"Electrotine"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.energy",
         "original":"Energy"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.lapotron",
         "original":"Lapotron"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.redalloy",
         "original":"Red Alloy"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.stainlesssteel",
         "original":"Stainless Steel"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.uranium",
         "original":"Uranium"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.plutonium",
         "original":"Plutonium"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.naquadah",
         "original":"Naquadah"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.naquadria",
         "original":"Naquadria"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.thorium",
         "original":"Thorium"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.lutetium",
         "original":"Lutetium"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.americium",
         "original":"Americium"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.neutronium",
         "original":"Neutronium"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.divided",
         "original":"Divided"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.sandwich",
         "original":"Sandwich"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.sparkling",
         "original":"Nether Star"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.fertilizer",
         "original":"Fertilizer"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.phosphorus",
         "original":"Phosphorus"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.sulfur",
         "original":"Sulfur"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.indium",
         "original":"Indium"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.explosive",
         "original":"Explosive"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.trinium",
         "original":"Trinium"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.helium",
         "original":"Helium"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.argon",
         "original":"Argon"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.neon",
         "original":"Neon"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.krypton",
         "original":"Krypton"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.xenon",
         "original":"Xenon"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.oxygen",
         "original":"Oxygen"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.hydrogen",
         "original":"Hydrogen"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.nitrogen",
         "original":"Nitrogen"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.fluorine",
         "original":"Fluorine"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.fluix",
         "original":"Fluix"
     },
     {
-        "context":"类型498：Bees",
+        "context":"类型497：Bees",
         "key":"for.bees.species.silicon",
         "original":"Silicon"
     },
     {
-        "context":"类型499：Bee Descriptions (many more to do)",
+        "context":"类型498：Bee Descriptions (many more to do)",
         "key":"for.bees.description.clay",
         "original":"An organic bee known to be industrious and diligent. Rumor has it that it can find mud in the right biome.|Beekeeping 101"
     },
     {
-        "context":"类型500：Scanner Information",
+        "context":"类型499：Scanner Information",
         "key":"gregtech.scanner.forestry.drone",
         "original":"§oScanned Drone"
     },
     {
-        "context":"类型500：Scanner Information",
+        "context":"类型499：Scanner Information",
         "key":"gregtech.scanner.forestry.princess",
         "original":"§oScanned Princess"
     },
     {
-        "context":"类型500：Scanner Information",
+        "context":"类型499：Scanner Information",
         "key":"gregtech.scanner.forestry.queen",
         "original":"§oScanned Queen"
     },
     {
-        "context":"类型500：Scanner Information",
+        "context":"类型499：Scanner Information",
         "key":"gregtech.scanner.forestry.sapling",
         "original":"§oScanned Sapling"
     },
     {
-        "context":"类型500：Scanner Information",
+        "context":"类型499：Scanner Information",
         "key":"gregtech.scanner.forestry.butterfly",
         "original":"§oScanned Butterfly"
     },
     {
-        "context":"类型500：Scanner Information",
+        "context":"类型499：Scanner Information",
         "key":"gregtech.scanner.forestry.larvae",
         "original":"§oScanned Larvae"
     },
     {
-        "context":"类型500：Scanner Information",
+        "context":"类型499：Scanner Information",
         "key":"gregtech.scanner.forestry.serum",
         "original":"§oScanned Serum"
     },
     {
-        "context":"类型500：Scanner Information",
+        "context":"类型499：Scanner Information",
         "key":"gregtech.scanner.forestry.caterpillar",
         "original":"§oScanned Caterpillar"
     },
     {
-        "context":"类型500：Scanner Information",
+        "context":"类型499：Scanner Information",
         "key":"gregtech.scanner.forestry.pollen",
         "original":"§oScanned Pollen"
     },
     {
-        "context":"类型501：Mutation",
+        "context":"类型500：Mutation",
         "key":"gregtech.mutation.block_of",
         "original":"Block of %s"
     },
     {
-        "context":"类型502",
+        "context":"类型501",
         "key":"record.sus",
         "original":"Leonz - Among Us Drip"
     }

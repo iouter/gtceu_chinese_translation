@@ -18796,6 +18796,18 @@
         "original":"Bauxite"
     },
     {
+        "key":"material.gtceu.bauxite_slag",
+        "original":"Bauxite Slag"
+    },
+    {
+        "key":"material.gtceu.bauxite_sludge",
+        "original":"Bauxite Sludge"
+    },
+    {
+        "key":"material.gtceu.bauxite_slurry",
+        "original":"Bauxite Slurry"
+    },
+    {
         "key":"material.gtceu.bentonite",
         "original":"Bentonite"
     },
@@ -19124,6 +19136,10 @@
         "original":"Copper"
     },
     {
+        "key":"material.gtceu.cracked_bauxite_slurry",
+        "original":"Cracked Bauxite Slurry"
+    },
+    {
         "key":"material.gtceu.creosote",
         "original":"Creosote"
     },
@@ -19166,6 +19182,10 @@
     {
         "key":"material.gtceu.darmstadtium",
         "original":"Darmstadtium"
+    },
+    {
+        "key":"material.gtceu.decalcified_bauxite_sludge",
+        "original":"Decalcified Bauxite Sludge"
     },
     {
         "key":"material.gtceu.deepslate",
@@ -19690,6 +19710,10 @@
     {
         "key":"material.gtceu.ilmenite",
         "original":"Ilmenite"
+    },
+    {
+        "key":"material.gtceu.ilmenite_slag",
+        "original":"Ilmenite Slag"
     },
     {
         "key":"material.gtceu.impure_enriched_naquadah_solution",
