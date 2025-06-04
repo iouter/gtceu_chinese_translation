@@ -8660,6 +8660,10 @@
         "original":"AND"
     },
     {
+        "key":"gtceu.chance_logic.first",
+        "original":"FIRST"
+    },
+    {
         "key":"gtceu.chance_logic.none",
         "original":"NONE"
     },
