@@ -13564,6 +13564,14 @@
         "original":"Packer"
     },
     {
+        "key":"gtceu.part_sharing.disabled",
+        "original":"Multiblock Sharing §4Disabled"
+    },
+    {
+        "key":"gtceu.part_sharing.enabled",
+        "original":"Multiblock Sharing §aEnabled"
+    },
+    {
         "key":"gtceu.plasma_generator",
         "original":"Plasma Generator"
     },
@@ -14322,14 +14330,6 @@
     {
         "key":"gtceu.universal.clear_nbt_recipe.tooltip",
         "original":"§cThis will destroy all contents!"
-    },
-    {
-        "key":"gtceu.universal.disabled",
-        "original":"Multiblock Sharing §4Disabled"
-    },
-    {
-        "key":"gtceu.universal.enabled",
-        "original":"Multiblock Sharing §aEnabled"
     },
     {
         "key":"gtceu.universal.kiloliters",
@@ -22070,6 +22070,10 @@
     {
         "key":"tagprefix.stone",
         "original":"%s Ore"
+    },
+    {
+        "key":"tagprefix.surface_rock",
+        "original":"%s Surface Rock"
     },
     {
         "key":"tagprefix.tiny_dust",
