@@ -12748,6 +12748,10 @@
         "original":"Providing data."
     },
     {
+        "key":"gtceu.multiblock.dimension",
+        "original":"§eDimensions: §r%sx%sx%s"
+    },
+    {
         "key":"gtceu.multiblock.distillation_tower.description",
         "original":"The Distillation Tower is a multiblock structure used for distilling the various types of Oil and some of their byproducts. Each layer must have exactly one output hatch, starting from the second one. The bottom layer can output items and insert fluids in any position."
     },
