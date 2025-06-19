@@ -3434,7 +3434,7 @@
   {
     "key": "block.gtceu.steel_machine_casing",
     "original": "Solid Steel Machine Casing",
-    "translation": "脱氧钢机械方块",
+    "translation": "牢固机械方块",
     "stage": 5
   },
   {
@@ -5521,20 +5521,20 @@
   },
   {
     "key": "cover.universal.manual_import_export.mode.disabled",
-    "original": "Manual I/O: §bDisabled\\n§7Items / Fluids will only move as specified by the cover and its filter.",
-    "translation": "特殊I/O模式：§b禁用\\n§7仅依照覆盖板与内部过滤器的指定规则传输。",
+    "original": "Manual I/O: §bDisabled\n§7Items / Fluids will only move as specified by the cover and its filter.",
+    "translation": "特殊I/O模式：§b禁用\n§7仅依照覆盖板与内部过滤器的指定规则传输。",
     "stage": 5
   },
   {
     "key": "cover.universal.manual_import_export.mode.filtered",
-    "original": "Manual I/O: §bFiltered\\n§7Items / Fluids can be extracted and inserted independently of the cover mode, as long as its filter matches (if any)",
-    "translation": "特殊I/O模式：§b过滤\\n§7外部I/O将只根据过滤器的指定规则传输，不受覆盖板的限制。",
+    "original": "Manual I/O: §bFiltered\n§7Items / Fluids can be extracted and inserted independently of the cover mode, as long as its filter matches (if any)",
+    "translation": "特殊I/O模式：§b过滤\n§7外部I/O将只根据过滤器的指定规则传输，不受覆盖板的限制。",
     "stage": 5
   },
   {
     "key": "cover.universal.manual_import_export.mode.unfiltered",
-    "original": "Manual I/O: §bUnfiltered\\n§7Items / Fluids can be moved independently of the cover mode. The filter only applies to what is inserted or extracted by this cover itself.",
-    "translation": "特殊I/O模式：§b无过滤\\n§7外部I/O无视所有传输规则，过滤器将仅控制覆盖板进行的I/O。",
+    "original": "Manual I/O: §bUnfiltered\n§7Items / Fluids can be moved independently of the cover mode. The filter only applies to what is inserted or extracted by this cover itself.",
+    "translation": "特殊I/O模式：§b无过滤\n§7外部I/O无视所有传输规则，过滤器将仅控制覆盖板进行的I/O。",
     "stage": 5
   },
   {
@@ -6410,7 +6410,7 @@
   {
     "key": "gtceu.gui.multiblock_no_voiding.1",
     "original": "§7Voiding Nothing",
-    "translation": "§7不进行销毁",
+    "translation": "§7不销毁",
     "stage": 5
   },
   {
@@ -9132,18 +9132,6 @@
     "stage": 5
   },
   {
-    "key": "gtceu.universal.disabled",
-    "original": "Multiblock Sharing §4Disabled",
-    "translation": "多方块结构共享：§4禁止",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.universal.enabled",
-    "original": "Multiblock Sharing §aEnabled",
-    "translation": "多方块结构共享：§a允许",
-    "stage": 5
-  },
-  {
     "key": "gtceu.universal.tooltip.amperage_in",
     "original": "§eAmperage IN: §f%dA",
     "translation": "§e输入电流：§f%dA",
@@ -10599,12 +10587,6 @@
     "key": "item.gtceu.lime_glass_lens",
     "original": "Glass Lens (Lime)",
     "translation": "玻璃透镜（黄绿色）",
-    "stage": 5
-  },
-  {
-    "key": "item.gtceu.long_rod_extruder_mold",
-    "original": "Extruder Mold (Long Rod)",
-    "translation": "模头（长杆）",
     "stage": 5
   },
   {
@@ -22490,7 +22472,7 @@
   {
     "key": "material.gtceu.bohrium",
     "original": "Bohrium",
-    "translation": "钅波",
+    "translation": "𬭛",
     "stage": 5
   },
   {
@@ -22832,7 +22814,7 @@
   {
     "key": "material.gtceu.copernicium",
     "original": "Copernicium",
-    "translation": "钅哥",
+    "translation": "鿔",
     "stage": 5
   },
   {
@@ -22904,7 +22886,7 @@
   {
     "key": "material.gtceu.darmstadtium",
     "original": "Darmstadtium",
-    "translation": "钅达",
+    "translation": "𫟼",
     "stage": 5
   },
   {
@@ -23036,7 +23018,7 @@
   {
     "key": "material.gtceu.dubnium",
     "original": "Dubnium",
-    "translation": "钅杜",
+    "translation": "𬭊",
     "stage": 5
   },
   {
@@ -23240,7 +23222,7 @@
   {
     "key": "material.gtceu.flerovium",
     "original": "Flerovium",
-    "translation": "钅夫",
+    "translation": "𫓧",
     "stage": 5
   },
   {
@@ -23468,7 +23450,7 @@
   {
     "key": "material.gtceu.hassium",
     "original": "Hassium",
-    "translation": "钅黑",
+    "translation": "𬭶",
     "stage": 5
   },
   {
@@ -23906,7 +23888,7 @@
   {
     "key": "material.gtceu.livermorium",
     "original": "Livermorium",
-    "translation": "钅立",
+    "translation": "𫟷",
     "stage": 5
   },
   {
@@ -24050,7 +24032,7 @@
   {
     "key": "material.gtceu.meitnerium",
     "original": "Meitnerium",
-    "translation": "钅麦",
+    "translation": "鿏",
     "stage": 5
   },
   {
@@ -24278,7 +24260,7 @@
   {
     "key": "material.gtceu.nihonium",
     "original": "Nihonium",
-    "translation": "钅尔",
+    "translation": "鿭",
     "stage": 5
   },
   {
@@ -24374,7 +24356,7 @@
   {
     "key": "material.gtceu.oganesson",
     "original": "Oganesson",
-    "translation": "气奥",
+    "translation": "鿫",
     "stage": 5
   },
   {
@@ -24872,7 +24854,7 @@
   {
     "key": "material.gtceu.roentgenium",
     "original": "Roentgenium",
-    "translation": "钅仑",
+    "translation": "𬬭",
     "stage": 5
   },
   {
@@ -24932,7 +24914,7 @@
   {
     "key": "material.gtceu.rutherfordium",
     "original": "Rutherfordium",
-    "translation": "钅卢",
+    "translation": "𬬻",
     "stage": 5
   },
   {
@@ -24998,7 +24980,7 @@
   {
     "key": "material.gtceu.seaborgium",
     "original": "Seaborgium",
-    "translation": "钅喜",
+    "translation": "𬭳",
     "stage": 5
   },
   {
@@ -25382,7 +25364,7 @@
   {
     "key": "material.gtceu.tennessine",
     "original": "Tennessine",
-    "translation": "石田",
+    "translation": "鿬",
     "stage": 5
   },
   {
@@ -27350,7 +27332,7 @@
   {
     "key": "gtceu.multiblock.fluid_rig.vein_depleted",
     "original": "Vein Depleted.",
-    "translation": "矿脉已殆尽",
+    "translation": "矿脉已枯竭",
     "stage": 5
   },
   {
@@ -31471,8 +31453,8 @@
   },
   {
     "key": "item.gtceu.basic_tape.tooltip",
-    "original": "§7Not strong enough for mechanical issues\\nCan be used to pick up crates without dropping their items",
-    "translation": "§7强度不足，无法解决机械故障\\n可以带走板条箱，且不丢失物品",
+    "original": "§7Not strong enough for mechanical issues\nCan be used to pick up crates without dropping their items",
+    "translation": "§7强度不足，无法解决机械故障\n可以带走板条箱，且不丢失物品",
     "stage": 5
   },
   {
@@ -33177,6 +33159,96 @@
     "key": "ldlib.gui.editor.register.widget.container.gtm_phantom_item_slot",
     "original": "GTM Phantom Item Slot",
     "translation": "GTM幻影物品槽位",
+    "stage": 5
+  },
+  {
+    "key": "material.gtceu.bauxite_slag",
+    "original": "Bauxite Slag",
+    "translation": "铝土矿渣",
+    "stage": 5
+  },
+  {
+    "key": "material.gtceu.bauxite_sludge",
+    "original": "Bauxite Sludge",
+    "translation": "铝土泥渣",
+    "stage": 5
+  },
+  {
+    "key": "material.gtceu.bauxite_slurry",
+    "original": "Bauxite Slurry",
+    "translation": "铝土浆液",
+    "stage": 5
+  },
+  {
+    "key": "material.gtceu.cracked_bauxite_slurry",
+    "original": "Cracked Bauxite Slurry",
+    "translation": "裂化铝土浆液",
+    "stage": 5
+  },
+  {
+    "key": "material.gtceu.decalcified_bauxite_sludge",
+    "original": "Decalcified Bauxite Sludge",
+    "translation": "脱钙铝土泥渣",
+    "stage": 5
+  },
+  {
+    "key": "material.gtceu.ilmenite_slag",
+    "original": "Ilmenite Slag",
+    "translation": "钛铁矿渣",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.chance_logic.first",
+    "original": "FIRST",
+    "translation": "第一",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.part_sharing.disabled",
+    "original": "Multiblock Sharing §4Disabled",
+    "translation": "多方块结构共享：§4禁止",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.part_sharing.enabled",
+    "original": "Multiblock Sharing §aEnabled",
+    "translation": "多方块结构共享：§a允许",
+    "stage": 5
+  },
+  {
+    "key": "tagprefix.surface_rock",
+    "original": "%s Surface Rock",
+    "translation": "地表岩石（%s）",
+    "stage": 5
+  },
+  {
+    "key": "cover.ender_fluid_link.tooltip.channel_description",
+    "original": "Set channel description with input text",
+    "translation": "把输入文本设为频道描述",
+    "stage": 5
+  },
+  {
+    "key": "cover.ender_fluid_link.tooltip.channel_name",
+    "original": "Set channel name with input text",
+    "translation": "把输入文本设为频道名",
+    "stage": 5
+  },
+  {
+    "key": "cover.ender_fluid_link.tooltip.clear_button",
+    "original": "Clear channel description",
+    "translation": "清除频道描述",
+    "stage": 5
+  },
+  {
+    "key": "cover.ender_fluid_link.tooltip.list_button",
+    "original": "Show channel list",
+    "translation": "显示频道列表",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.multiblock.dimension",
+    "original": "§eDimensions: §r%sx%sx%s",
+    "translation": "§e维度：§r%sx%sx%s",
     "stage": 5
   }
 ]
