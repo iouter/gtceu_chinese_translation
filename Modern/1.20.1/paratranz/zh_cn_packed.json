@@ -6816,6 +6816,42 @@
         "original":"Toggle Waypoint"
     },
     {
+        "key":"command.gtceu.cape.give.failed",
+        "original":"No new capes were unlocked"
+    },
+    {
+        "key":"command.gtceu.cape.give.success.multiple",
+        "original":"Unlocked %s capes for %s players"
+    },
+    {
+        "key":"command.gtceu.cape.give.success.single",
+        "original":"Unlocked %s capes for %s"
+    },
+    {
+        "key":"command.gtceu.cape.take.failed",
+        "original":"No capes could be removed"
+    },
+    {
+        "key":"command.gtceu.cape.take.success.multiple",
+        "original":"Took %s capes from %s players"
+    },
+    {
+        "key":"command.gtceu.cape.take.success.single",
+        "original":"Took %s capes from %s"
+    },
+    {
+        "key":"command.gtceu.cape.use.failed",
+        "original":"%s can't use cape %s because they don't have it (or it doesn't exist)!"
+    },
+    {
+        "key":"command.gtceu.cape.use.success",
+        "original":"%s is now using cape %s"
+    },
+    {
+        "key":"command.gtceu.cape.use.success.none",
+        "original":"%s is no longer using a cape"
+    },
+    {
         "key":"command.gtceu.dump_data.success",
         "original":"Dumped %s resources from registry %s to %s"
     },
@@ -12748,8 +12784,12 @@
         "original":"Providing data."
     },
     {
-        "key":"gtceu.multiblock.dimension",
-        "original":"§eDimensions: §r%sx%sx%s"
+        "key":"gtceu.multiblock.dimensions.0",
+        "original":"Dimensions: "
+    },
+    {
+        "key":"gtceu.multiblock.dimensions.1",
+        "original":"  §c§lWidth§r: %s, §a§lHeight§r: %s, §9§lDepth§r: %s "
     },
     {
         "key":"gtceu.multiblock.distillation_tower.description",
