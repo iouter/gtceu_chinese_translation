@@ -164,20 +164,12 @@
         "original":"%s ate lead (or mercury!)"
     },
     {
+        "key":"gtceu.multiblock.dimension",
+        "original":"§eDimensions: §r%sx%sx%s"
+    },
+    {
         "key":"gtceu.recipe.eu_to_start",
         "original":"EU To Start: %sEU (%s)"
-    },
-    {
-        "key":"item.gtceu.battery.charge_detailed.0",
-        "original":"§a%s/%s EU§7 - Tier %s §7(§a%s/%s %s remaining§7)"
-    },
-    {
-        "key":"item.gtceu.battery.charge_detailed.1",
-        "original":"§e%s/%s EU§7 - Tier %s §7(§e%s/%s %s remaining§7)"
-    },
-    {
-        "key":"item.gtceu.battery.charge_detailed.2",
-        "original":"§c%s/%s EU§7 - Tier %s §7(§c%s/%s %s remaining§7)"
     },
     {
         "key":"item.gtceu.smart_item_filter",
