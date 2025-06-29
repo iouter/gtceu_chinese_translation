@@ -6940,6 +6940,14 @@
         "original":"client"
     },
     {
+        "key":"config.gtceu.option.coloredTieredMachineOutline",
+        "original":"coloredTieredMachineOutline"
+    },
+    {
+        "key":"config.gtceu.option.coloredWireOutline",
+        "original":"coloredWireOutline"
+    },
+    {
         "key":"config.gtceu.option.compat",
         "original":"compat"
     },
@@ -12784,6 +12792,10 @@
         "original":"Providing data."
     },
     {
+        "key":"gtceu.multiblock.dimension",
+        "original":"§eDimensions: §r%sx%sx%s"
+    },
+    {
         "key":"gtceu.multiblock.dimensions.0",
         "original":"Dimensions: "
     },
@@ -14770,6 +14782,22 @@
     {
         "key":"item.gtceu.anvil_casting_mold.tooltip",
         "original":"§7Mold for shaping Anvils"
+    },
+    {
+        "key":"item.gtceu.armor.boots",
+        "original":"%s Boots"
+    },
+    {
+        "key":"item.gtceu.armor.chestplate",
+        "original":"%s Chestplate"
+    },
+    {
+        "key":"item.gtceu.armor.helmet",
+        "original":"%s Helmet"
+    },
+    {
+        "key":"item.gtceu.armor.leggings",
+        "original":"%s Leggings"
     },
     {
         "key":"item.gtceu.ash_dust",
