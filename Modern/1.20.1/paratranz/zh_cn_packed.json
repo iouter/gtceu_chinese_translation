@@ -6904,6 +6904,10 @@
         "original":"armorHud"
     },
     {
+        "key":"config.gtceu.option.batchDuration",
+        "original":"batchDuration"
+    },
+    {
         "key":"config.gtceu.option.bedrockOreDistance",
         "original":"bedrockOreDistance"
     },
@@ -10116,6 +10120,14 @@
         "original":"Disallow Input from Output Side: "
     },
     {
+        "key":"gtceu.machine.batch_disabled",
+        "original":"Batching Disabled"
+    },
+    {
+        "key":"gtceu.machine.batch_enabled",
+        "original":"Batching Enabled"
+    },
+    {
         "key":"gtceu.machine.bedrock_ore_miner.depletion",
         "original":"§bDepletion Rate: §f%s%%"
     },
@@ -12682,6 +12694,10 @@
     {
         "key":"gtceu.multiblock.assembly_line.description",
         "original":"The Assembly Line is a large multiblock structure consisting of 5 to 16 \"slices\". In theory, it's large Assembling Machine, used for creating advanced crafting components."
+    },
+    {
+        "key":"gtceu.multiblock.batch_enabled",
+        "original":"Batching Mode: Enabled (%sx)"
     },
     {
         "key":"gtceu.multiblock.blast_furnace.max_temperature",
