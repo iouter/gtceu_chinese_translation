@@ -13676,10 +13676,6 @@
         "original":"Pyrolyse Oven"
     },
     {
-        "key":"gtceu.recipe.amperage",
-        "original":"Amperage: %s"
-    },
-    {
         "key":"gtceu.recipe.category.arc_furnace_recycling",
         "original":"Plasma Scrapping"
     },
@@ -13794,6 +13790,14 @@
     {
         "key":"gtceu.recipe.total_computation",
         "original":"Computation: %s CWU"
+    },
+    {
+        "key":"gtceu.recipe.total_eu",
+        "original":"Total Usage: %s EU/t"
+    },
+    {
+        "key":"gtceu.recipe.voltage",
+        "original":"Voltage: %s V @ %s A"
     },
     {
         "key":"gtceu.recipe_logic.condition_fails",
