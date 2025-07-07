@@ -9300,6 +9300,14 @@
         "original":"§cNC§r"
     },
     {
+        "key":"gtceu.gui.content.chance_no_boost",
+        "original":"Chance: %s%%"
+    },
+    {
+        "key":"gtceu.gui.content.chance_no_boost_logic",
+        "original":"Chance: %s%% (%s)"
+    },
+    {
         "key":"gtceu.gui.content.chance_tier_boost_minus",
         "original":"Bonus Chance: -%s%%/tier"
     },
@@ -9310,6 +9318,10 @@
     {
         "key":"gtceu.gui.content.count_range",
         "original":"%s-%sx"
+    },
+    {
+        "key":"gtceu.gui.content.fluid_range",
+        "original":"%s-%smB"
     },
     {
         "key":"gtceu.gui.content.per_tick",
