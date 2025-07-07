@@ -1626,7 +1626,7 @@
   {
     "key": "metaitem.shape.extruder.file.name",
     "original": "Extruder Shape (File Head)",
-    "translation": "模头（锉刀刃）",
+    "translation": "模头（锉刀头）",
     "stage": 5,
     "context": "类型30"
   },
@@ -8346,7 +8346,7 @@
   {
     "key": "item.material.oreprefix.toolHeadFile",
     "original": "%s File Head",
-    "translation": "%s锉刀刃",
+    "translation": "%s锉刀头",
     "stage": 5,
     "context": "类型147：%s is a localized material name"
   },

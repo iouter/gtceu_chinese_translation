@@ -8706,12 +8706,6 @@
     "stage": 5
   },
   {
-    "key": "gtceu.recipe.amperage",
-    "original": "Amperage: %s",
-    "translation": "电流：%s",
-    "stage": 5
-  },
-  {
     "key": "gtceu.recipe.chance",
     "original": "Chance: %s +%s/tier",
     "translation": "概率：%s + %s/电压等级",
@@ -27740,25 +27734,25 @@
   {
     "key": "block.gtceu.chiseled_dark_concrete",
     "original": "Chiseled Dark Concrete",
-    "translation": "錾制深色混凝土",
+    "translation": "雕纹深色混凝土",
     "stage": 5
   },
   {
     "key": "block.gtceu.chiseled_light_concrete",
     "original": "Chiseled Light Concrete",
-    "translation": "錾制淡色混凝土",
+    "translation": "雕纹淡色混凝土",
     "stage": 5
   },
   {
     "key": "block.gtceu.chiseled_marble",
     "original": "Chiseled Marble",
-    "translation": "錾制大理岩",
+    "translation": "雕纹大理岩",
     "stage": 5
   },
   {
     "key": "block.gtceu.chiseled_red_granite",
     "original": "Chiseled Red Granite",
-    "translation": "錾制红花岗岩",
+    "translation": "雕纹红花岗岩",
     "stage": 5
   },
   {
@@ -33246,9 +33240,147 @@
     "stage": 5
   },
   {
+    "key": "command.gtceu.cape.give.failed",
+    "original": "No new capes were unlocked",
+    "translation": "没有解锁新的披风",
+    "stage": 5
+  },
+  {
+    "key": "command.gtceu.cape.give.success.multiple",
+    "original": "Unlocked %s capes for %s players",
+    "translation": "为%2$s名玩家解锁了%1$s件披风",
+    "stage": 5
+  },
+  {
+    "key": "command.gtceu.cape.give.success.single",
+    "original": "Unlocked %s capes for %s",
+    "translation": "为%2$s解锁了%1$s件披风",
+    "stage": 5
+  },
+  {
+    "key": "command.gtceu.cape.take.failed",
+    "original": "No capes could be removed",
+    "translation": "没有可以被移除的披风",
+    "stage": 5
+  },
+  {
+    "key": "command.gtceu.cape.take.success.multiple",
+    "original": "Took %s capes from %s players",
+    "translation": "为%2$s名玩家移除了%1$s件披风",
+    "stage": 5
+  },
+  {
+    "key": "command.gtceu.cape.take.success.single",
+    "original": "Took %s capes from %s",
+    "translation": "为%2$s移除了%1$s件披风",
+    "stage": 5
+  },
+  {
+    "key": "command.gtceu.cape.use.failed",
+    "original": "%s can't use cape %s because they don't have it (or it doesn't exist)!",
+    "translation": "%s无法使用披风%s，因为他没有此披风（或者此披风不存在）！",
+    "stage": 5
+  },
+  {
+    "key": "command.gtceu.cape.use.success",
+    "original": "%s is now using cape %s",
+    "translation": "%s已装备披风%s",
+    "stage": 5
+  },
+  {
+    "key": "command.gtceu.cape.use.success.none",
+    "original": "%s is no longer using a cape",
+    "translation": "%s不再装备披风",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.multiblock.dimensions.0",
+    "original": "Dimensions: ",
+    "translation": "尺寸：",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.multiblock.dimensions.1",
+    "original": "  §c§lWidth§r: %s, §a§lHeight§r: %s, §9§lDepth§r: %s ",
+    "translation": "  §c§l长§r：%s，§a§l高§r：%s，§9§l宽§r：%s ",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.coloredTieredMachineOutline",
+    "original": "coloredTieredMachineOutline",
+    "translation": "彩色电力机器轮廓",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.coloredWireOutline",
+    "original": "coloredWireOutline",
+    "translation": "彩色线缆轮廓",
+    "stage": 5
+  },
+  {
     "key": "gtceu.multiblock.dimension",
     "original": "§eDimensions: §r%sx%sx%s",
-    "translation": "§e维度：§r%sx%sx%s",
+    "translation": "§e尺寸：§r%sx%sx%s",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.armor.boots",
+    "original": "%s Boots",
+    "translation": "%s靴子",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.armor.chestplate",
+    "original": "%s Chestplate",
+    "translation": "%s胸甲",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.armor.helmet",
+    "original": "%s Helmet",
+    "translation": "%s头盔",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.armor.leggings",
+    "original": "%s Leggings",
+    "translation": "%s护腿",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.batchDuration",
+    "original": "batchDuration",
+    "translation": "批处理持续时间",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.machine.batch_disabled",
+    "original": "Batching Disabled",
+    "translation": "批处理已禁用",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.machine.batch_enabled",
+    "original": "Batching Enabled",
+    "translation": "批处理已启用",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.multiblock.batch_enabled",
+    "original": "Batching Mode: Enabled (%sx)",
+    "translation": "批处理模式：已启用（%sx）",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.recipe.total_eu",
+    "original": "Total Usage: %s EU/t",
+    "translation": "总功率：%s EU/t",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.recipe.voltage",
+    "original": "Voltage: %s V @ %s A",
+    "translation": "电压：%sV @ %sA",
     "stage": 5
   }
 ]

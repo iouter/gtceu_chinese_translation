@@ -240,24 +240,6 @@
     "stage": 5
   },
   {
-    "key": "item.gtceu.battery.charge_detailed.0",
-    "original": "§a%s/%s EU§7 - Tier %s §7(§a%s/%s %s remaining§7)",
-    "translation": "§a%s/%sEU-%s级§7（§a剩余供能时长：%s/%s%s§7）",
-    "stage": 5
-  },
-  {
-    "key": "item.gtceu.battery.charge_detailed.1",
-    "original": "§e%s/%s EU§7 - Tier %s §7(§e%s/%s %s remaining§7)",
-    "translation": "§e%s/%sEU-%s级§7（§e剩余供能时长：%s/%s%s§7）",
-    "stage": 5
-  },
-  {
-    "key": "item.gtceu.battery.charge_detailed.2",
-    "original": "§c%s/%s EU§7 - Tier %s §7(§c%s/%s %s remaining§7)",
-    "translation": "§c%s/%sEU-%s级§7（§c剩余供能时长：%s/%s%s§7）",
-    "stage": 5
-  },
-  {
     "key": "item.gtceu.smart_item_filter",
     "original": "Smart Item Filter",
     "translation": "智能物品过滤卡",
@@ -1023,6 +1005,12 @@
     "key": "recipe_category.gtceu.ore_forging",
     "original": "Ore Crushing",
     "translation": "锻造锤：矿物处理",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.multiblock.dimension",
+    "original": "§eDimensions: §r%sx%sx%s",
+    "translation": "§e尺寸：§r%sx%sx%s",
     "stage": 5
   }
 ]
