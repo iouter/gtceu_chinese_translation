@@ -33382,5 +33382,23 @@
     "original": "Voltage: %s V @ %s A",
     "translation": "电压：%sV @ %sA",
     "stage": 5
+  },
+  {
+    "key": "gtceu.gui.content.chance_no_boost",
+    "original": "Chance: %s%%",
+    "translation": "概率：%s%%",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.content.chance_no_boost_logic",
+    "original": "Chance: %s%% (%s)",
+    "translation": "概率：%s%%（%s）",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.content.fluid_range",
+    "original": "%s-%smB",
+    "translation": "%s-%smB",
+    "stage": 5
   }
 ]
