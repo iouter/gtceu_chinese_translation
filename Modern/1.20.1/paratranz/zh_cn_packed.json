@@ -13761,11 +13761,15 @@
     },
     {
         "key":"gtceu.recipe.eu",
-        "original":"Usage: %s EU/t"
+        "original":"Usage: %s A @ %s"
+    },
+    {
+        "key":"gtceu.recipe.eu.total",
+        "original":"%s EU/t"
     },
     {
         "key":"gtceu.recipe.eu_inverted",
-        "original":"Generation: %s EU/t"
+        "original":"Generation: %s A @ %s"
     },
     {
         "key":"gtceu.recipe.eu_to_start",
@@ -13809,7 +13813,7 @@
     },
     {
         "key":"gtceu.recipe.voltage",
-        "original":"Voltage: %s V @ %s A"
+        "original":"Usage: %s A @ %s"
     },
     {
         "key":"gtceu.recipe_logic.condition_fails",
