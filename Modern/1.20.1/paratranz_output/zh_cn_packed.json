@@ -8743,14 +8743,14 @@
   },
   {
     "key": "gtceu.recipe.eu",
-    "original": "Usage: %s EU/t",
-    "translation": "耗能功率：%s EU/t",
+    "original": "Usage: %s A @ %s",
+    "translation": "耗能功率：%sA @ %s",
     "stage": 5
   },
   {
     "key": "gtceu.recipe.eu_inverted",
-    "original": "Generation: %s EU/t",
-    "translation": "产能功率：%s EU/t",
+    "original": "Generation: %s A @ %s",
+    "translation": "产能功率：%sA @ %s",
     "stage": 5
   },
   {
@@ -33379,8 +33379,8 @@
   },
   {
     "key": "gtceu.recipe.voltage",
-    "original": "Voltage: %s V @ %s A",
-    "translation": "电压：%sV @ %sA",
+    "original": "Usage: %s A @ %s",
+    "translation": "耗能功率：%sA @ %s",
     "stage": 5
   },
   {
@@ -33399,6 +33399,12 @@
     "key": "gtceu.gui.content.fluid_range",
     "original": "%s-%smB",
     "translation": "%s-%smB",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.recipe.eu.total",
+    "original": "%s EU/t",
+    "translation": "%s EU/t",
     "stage": 5
   }
 ]

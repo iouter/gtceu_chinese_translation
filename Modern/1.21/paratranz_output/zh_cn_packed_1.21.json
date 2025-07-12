@@ -1008,9 +1008,21 @@
     "stage": 5
   },
   {
-    "key": "gtceu.multiblock.dimension",
-    "original": "§eDimensions: §r%sx%sx%s",
-    "translation": "§e尺寸：§r%sx%sx%s",
+    "key": "gtceu.recipe.eu",
+    "original": "Usage: %s EU/t",
+    "translation": "耗能功率：%s EU/t",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.recipe.eu_inverted",
+    "original": "Generation: %s EU/t",
+    "translation": "产能功率：%s EU/t",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.recipe.voltage",
+    "original": "Voltage: %s V @ %s A",
+    "translation": "电压：%sV @ %sA",
     "stage": 5
   }
 ]
