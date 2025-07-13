@@ -164,20 +164,8 @@
         "original":"%s ate lead (or mercury!)"
     },
     {
-        "key":"gtceu.recipe.eu",
-        "original":"Usage: %s EU/t"
-    },
-    {
-        "key":"gtceu.recipe.eu_inverted",
-        "original":"Generation: %s EU/t"
-    },
-    {
         "key":"gtceu.recipe.eu_to_start",
         "original":"EU To Start: %sEU (%s)"
-    },
-    {
-        "key":"gtceu.recipe.voltage",
-        "original":"Voltage: %s V @ %s A"
     },
     {
         "key":"item.gtceu.smart_item_filter",
