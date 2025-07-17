@@ -6816,6 +6816,10 @@
         "original":"Toggle Waypoint"
     },
     {
+        "key":"command.gtceu.cape.failure.does_not_exist",
+        "original":"Cape %s does not exist"
+    },
+    {
         "key":"command.gtceu.cape.give.failed",
         "original":"No new capes were unlocked"
     },
@@ -8762,110 +8766,6 @@
     {
         "key":"gtceu.combustion_generator",
         "original":"Combustion Generator"
-    },
-    {
-        "key":"gtceu.command.copy.click_to_copy",
-        "original":"Click to copy"
-    },
-    {
-        "key":"gtceu.command.copy.copied_and_click",
-        "original":"copied to clipboard. Click to copy again"
-    },
-    {
-        "key":"gtceu.command.copy.copied_end",
-        "original":"] to the clipboard"
-    },
-    {
-        "key":"gtceu.command.copy.copied_start",
-        "original":"Copied ["
-    },
-    {
-        "key":"gtceu.command.hand.electric",
-        "original":"Electric Info: %d / %d EU - Tier: %d; Is Battery: %s"
-    },
-    {
-        "key":"gtceu.command.hand.fluid",
-        "original":"Fluid Info: %d / %d mB; Can Fill: %s; Can Drain: %s"
-    },
-    {
-        "key":"gtceu.command.hand.fluid2",
-        "original":"Fluid Id:"
-    },
-    {
-        "key":"gtceu.command.hand.groovy",
-        "original":"Consider using §6/gs hand"
-    },
-    {
-        "key":"gtceu.command.hand.item_id",
-        "original":"Item: %s (Metadata: %d)"
-    },
-    {
-        "key":"gtceu.command.hand.material",
-        "original":"Material Id:"
-    },
-    {
-        "key":"gtceu.command.hand.meta_item",
-        "original":"MetaItem Id:"
-    },
-    {
-        "key":"gtceu.command.hand.no_item",
-        "original":"You must hold something in main hand or off hand before executing this command."
-    },
-    {
-        "key":"gtceu.command.hand.not_a_player",
-        "original":"This command is only usable by a player."
-    },
-    {
-        "key":"gtceu.command.hand.ore_prefix",
-        "original":"Ore prefix:"
-    },
-    {
-        "key":"gtceu.command.hand.tag_entries",
-        "original":"§3Tag entries:"
-    },
-    {
-        "key":"gtceu.command.hand.tool_stats",
-        "original":"Tool Stats Class: %s"
-    },
-    {
-        "key":"gtceu.command.hand.usage",
-        "original":"Usage: /gtceu hand"
-    },
-    {
-        "key":"gtceu.command.recipecheck.begin",
-        "original":"Starting recipe conflict check..."
-    },
-    {
-        "key":"gtceu.command.recipecheck.end",
-        "original":"Recipe conflict check found %d possible conflicts. Check the server log for more info"
-    },
-    {
-        "key":"gtceu.command.recipecheck.end_no_conflicts",
-        "original":"No recipe conflicts found!"
-    },
-    {
-        "key":"gtceu.command.recipecheck.usage",
-        "original":"Usage: /gtceu recipecheck"
-    },
-    {
-        "key":"gtceu.command.usage",
-        "original":"Usage: /gtceu <worldgen/hand/recipecheck>"
-    },
-    {
-        "key":"gtceu.command.worldgen.reload.failed",
-        "original":"Worldgen reload failed. Check console for errors."
-    },
-    {
-        "key":"gtceu.command.worldgen.reload.success",
-        "original":"Worldgen successfully reloaded from config."
-    },
-    {
-        "key":"gtceu.command.worldgen.reload.usage",
-        "original":"Usage: /gtceu worldgen reload"
-    },
-    {
-        "key":"gtceu.command.worldgen.usage",
-        "original":"Usage: /gtceu worldgen <reload>"
     },
     {
         "key":"gtceu.compressor",
