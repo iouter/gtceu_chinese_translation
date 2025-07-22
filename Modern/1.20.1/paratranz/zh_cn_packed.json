@@ -368,12 +368,12 @@
         "original":"Working Disabled"
     },
     {
-        "key":"behaviour.soft_hammer.enabled",
-        "original":"Working Enabled"
+        "key":"behaviour.soft_hammer.disabled_cycle",
+        "original":"Working Disabled after current cycle"
     },
     {
-        "key":"behaviour.soft_hammer.idle_after_cycle",
-        "original":"Pause machine after current cycle"
+        "key":"behaviour.soft_hammer.enabled",
+        "original":"Working Enabled"
     },
     {
         "key":"behaviour.wrench",
@@ -7332,10 +7332,6 @@
         "original":"prospectorEnergyUseMultiplier"
     },
     {
-        "key":"config.gtceu.option.recipeProgressLowEnergy",
-        "original":"recipeProgressLowEnergy"
-    },
-    {
         "key":"config.gtceu.option.recipes",
         "original":"recipes"
     },
@@ -9096,6 +9092,22 @@
         "original":"Gas Turbine"
     },
     {
+        "key":"gtceu.gui.adv_stocking_config.min_fluid_count",
+        "original":"Minimum Fluid Stack Size for Automated Pulling"
+    },
+    {
+        "key":"gtceu.gui.adv_stocking_config.min_item_count",
+        "original":"Minimum Item Stack Size for Automated Pulling"
+    },
+    {
+        "key":"gtceu.gui.adv_stocking_config.ticks_per_cycle",
+        "original":"Delay between item list updates"
+    },
+    {
+        "key":"gtceu.gui.adv_stocking_config.title",
+        "original":"Configure Automatic Stocking"
+    },
+    {
         "key":"gtceu.gui.auto_output.name",
         "original":"auto"
     },
@@ -9226,6 +9238,14 @@
     {
         "key":"gtceu.gui.content.per_tick",
         "original":"§aConsumed/Produced Per Tick§r"
+    },
+    {
+        "key":"gtceu.gui.content.range",
+        "original":"%s-%s"
+    },
+    {
+        "key":"gtceu.gui.content.times_item",
+        "original":"x %s"
     },
     {
         "key":"gtceu.gui.content.tips.per_second_short",
@@ -9472,6 +9492,18 @@
         "original":"Sort"
     },
     {
+        "key":"gtceu.gui.title.adv_stocking_config.min_fluid_count",
+        "original":"Min. Fluid Count"
+    },
+    {
+        "key":"gtceu.gui.title.adv_stocking_config.min_item_count",
+        "original":"Min. Item Count"
+    },
+    {
+        "key":"gtceu.gui.title.adv_stocking_config.ticks_per_cycle",
+        "original":"Ticks Per Cycle"
+    },
+    {
         "key":"gtceu.gui.title_bar.back",
         "original":"Back"
     },
@@ -9552,12 +9584,24 @@
         "original":"§9Priority: §f%d"
     },
     {
+        "key":"gtceu.jade.amperage_use",
+        "original":"%s A"
+    },
+    {
+        "key":"gtceu.jade.at",
+        "original":" @ "
+    },
+    {
         "key":"gtceu.jade.cleaned_this_second",
         "original":"Cleaned hazard: %s/s"
     },
     {
         "key":"gtceu.jade.energy_stored",
         "original":"%d / %d EU"
+    },
+    {
+        "key":"gtceu.jade.fluid_use",
+        "original":"%s mB/t"
     },
     {
         "key":"gtceu.jade.progress_computation",
@@ -10061,15 +10105,15 @@
     },
     {
         "key":"gtceu.machine.boiler.info.cooling.down",
-        "original":"§9Cooling down§r%s"
+        "original":"§9Cooling§r"
     },
     {
         "key":"gtceu.machine.boiler.info.heating.up",
-        "original":"§cHeating up§r%s"
+        "original":"§cHeating§r"
     },
     {
-        "key":"gtceu.machine.boiler.info.producing.steam",
-        "original":" §a(boiling water)"
+        "key":"gtceu.machine.boiler.info.production.data",
+        "original":"§aProducing %s§a mB/t"
     },
     {
         "key":"gtceu.machine.buffer.tooltip",
@@ -13589,7 +13633,7 @@
     },
     {
         "key":"gtceu.recipe.category.arc_furnace_recycling",
-        "original":"Plasma Scrapping"
+        "original":"Arc Scrapping"
     },
     {
         "key":"gtceu.recipe.category.chem_dyes",
@@ -14346,6 +14390,22 @@
     {
         "key":"gtceu.universal.liters",
         "original":"%s mB"
+    },
+    {
+        "key":"gtceu.universal.padded_parentheses",
+        "original":" (%s) "
+    },
+    {
+        "key":"gtceu.universal.padded_spaced_parentheses",
+        "original":" ( %s ) "
+    },
+    {
+        "key":"gtceu.universal.parentheses",
+        "original":"(%s)"
+    },
+    {
+        "key":"gtceu.universal.spaced_parentheses",
+        "original":"( %s )"
     },
     {
         "key":"gtceu.universal.tooltip.amperage_in",
@@ -21213,7 +21273,7 @@
     },
     {
         "key":"material.gtceu.yellow_limonite",
-        "original":"Yellow Limonite"
+        "original":"Limonite"
     },
     {
         "key":"material.gtceu.ytterbium",

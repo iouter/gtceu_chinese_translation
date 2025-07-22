@@ -40,6 +40,10 @@
         "original":"Salt Water Deposit"
     },
     {
+        "key":"behaviour.soft_hammer.idle_after_cycle",
+        "original":"Pause machine after current cycle"
+    },
+    {
         "key":"block.gtceu.filter_casing.tooltip",
         "original":"Creates a §aParticle-Free§7 environment"
     },
@@ -78,6 +82,10 @@
     {
         "key":"config.gtceu.option.doDatafixers",
         "original":"doDatafixers"
+    },
+    {
+        "key":"config.gtceu.option.recipeProgressLowEnergy",
+        "original":"recipeProgressLowEnergy"
     },
     {
         "key":"cover.smart_item_filter.filtering_mode.centrifuge",
@@ -164,6 +172,18 @@
         "original":"%s ate lead (or mercury!)"
     },
     {
+        "key":"gtceu.machine.boiler.info.cooling.down",
+        "original":"§9Cooling down§r%s"
+    },
+    {
+        "key":"gtceu.machine.boiler.info.heating.up",
+        "original":"§cHeating up§r%s"
+    },
+    {
+        "key":"gtceu.machine.boiler.info.producing.steam",
+        "original":" §a(boiling water)"
+    },
+    {
         "key":"gtceu.recipe.eu_to_start",
         "original":"EU To Start: %sEU (%s)"
     },
@@ -246,6 +266,10 @@
     {
         "key":"material.gtceu.uranium_238",
         "original":"Uranium 238"
+    },
+    {
+        "key":"material.gtceu.yellow_limonite",
+        "original":"Yellow Limonite"
     },
     {
         "key":"ore_vein.gtceu.apatite",
