@@ -440,6 +440,10 @@
         "original":"Auto Maintenance Hatch"
     },
     {
+        "key":"block.gtceu.basic_data_access_hatch",
+        "original":"Basic Data Access Hatch"
+    },
+    {
         "key":"block.gtceu.bio_hazard_sign_block",
         "original":"Bio Hazard Sign Block"
     },
@@ -554,6 +558,10 @@
     {
         "key":"block.gtceu.causality_hazard_sign_block",
         "original":"Causality Hazard Sign Block"
+    },
+    {
+        "key":"block.gtceu.central_monitor",
+        "original":"Central Monitor"
     },
     {
         "key":"block.gtceu.charcoal_pile_igniter",
@@ -3198,6 +3206,10 @@
     {
         "key":"block.gtceu.molybdenum_disilicide_coil_block",
         "original":"Molybdenum Disilicide Coil Block"
+    },
+    {
+        "key":"block.gtceu.monitor",
+        "original":"Monitor"
     },
     {
         "key":"block.gtceu.mossy_dark_concrete_bricks",
@@ -7232,6 +7244,10 @@
         "original":"machinesEmissiveTextures"
     },
     {
+        "key":"config.gtceu.option.machinesHaveBERsByDefault",
+        "original":"machinesHaveBERsByDefault"
+    },
+    {
         "key":"config.gtceu.option.meHatchEnergyUsage",
         "original":"meHatchEnergyUsage"
     },
@@ -8716,6 +8732,62 @@
         "original":"Canner"
     },
     {
+        "key":"gtceu.central_monitor.gui.create_group",
+        "original":"Create group"
+    },
+    {
+        "key":"gtceu.central_monitor.gui.currently_editing",
+        "original":"Currently editing: %s"
+    },
+    {
+        "key":"gtceu.central_monitor.gui.remove_from_group",
+        "original":"Remove from group"
+    },
+    {
+        "key":"gtceu.central_monitor.gui.set_target",
+        "original":"Set target"
+    },
+    {
+        "key":"gtceu.central_monitor.info_tooltip.0",
+        "original":"In order to use monitors, you have to split them into groups first. A group may only have 1 module in it."
+    },
+    {
+        "key":"gtceu.central_monitor.info_tooltip.1",
+        "original":"Select them by left-clicking, then click 'Create group'."
+    },
+    {
+        "key":"gtceu.central_monitor.info_tooltip.2",
+        "original":"Then in the settings page for the group you can insert a module, you can configure it in the same page."
+    },
+    {
+        "key":"gtceu.central_monitor.info_tooltip.3",
+        "original":"To delete a group, select all of it's components and click 'Remove from group'."
+    },
+    {
+        "key":"gtceu.central_monitor.info_tooltip.4",
+        "original":"You can quickly select all components of a group by clicking on it's name. Click again to unselect."
+    },
+    {
+        "key":"gtceu.central_monitor.info_tooltip.5",
+        "original":"Some modules may display things depending on the block they target, to set a target for a group select any component of that group and right-click on the target component."
+    },
+    {
+        "key":"gtceu.central_monitor.info_tooltip.6",
+        "original":"You may wish to select a target that is not in the multiblock, you have to use the wireless transmitter cover for that."
+    },
+    {
+        "key":"gtceu.central_monitor.info_tooltip.7",
+        "original":"Place the cover on the target block, right-click it with a data stick and put that data stick into a data access hatch in the multiblock."
+    },
+    {
+        "key":"gtceu.central_monitor.info_tooltip.8",
+        "original":"Then select the data access hatch as the target, and set the slot index of your data stick in the number field that appeared."
+    },
+    {
+        "key":"gtceu.central_monitor.size",
+        "original":"Size: (%d+1+%d)x(%d+1+%d)"
+    },
+    {
         "key":"gtceu.centrifuge",
         "original":"Centrifuge"
     },
@@ -8766,6 +8838,66 @@
     {
         "key":"gtceu.compressor",
         "original":"Compressor"
+    },
+    {
+        "key":"gtceu.computer_monitor_cover.error.bf_invalid",
+        "original":"Invalid character at %d"
+    },
+    {
+        "key":"gtceu.computer_monitor_cover.error.bf_invalid_num",
+        "original":"Invalid number at index %d when processing symbol number %d"
+    },
+    {
+        "key":"gtceu.computer_monitor_cover.error.exception",
+        "original":"Unexpected exception occurred: %s"
+    },
+    {
+        "key":"gtceu.computer_monitor_cover.error.invalid_args",
+        "original":"Invalid arguments!"
+    },
+    {
+        "key":"gtceu.computer_monitor_cover.error.invalid_number",
+        "original":"Invalid number '%s'!"
+    },
+    {
+        "key":"gtceu.computer_monitor_cover.error.missing_item",
+        "original":"Missing %s in slot %d!"
+    },
+    {
+        "key":"gtceu.computer_monitor_cover.error.no_ae",
+        "original":"Cover holder does not have an AE2 network!"
+    },
+    {
+        "key":"gtceu.computer_monitor_cover.error.no_cover",
+        "original":"No cover!"
+    },
+    {
+        "key":"gtceu.computer_monitor_cover.error.no_placeholder",
+        "original":"No such placeholder: '%s'!"
+    },
+    {
+        "key":"gtceu.computer_monitor_cover.error.not_enough_args",
+        "original":"Expected at least %d args, got %d!"
+    },
+    {
+        "key":"gtceu.computer_monitor_cover.error.not_in_range",
+        "original":"Expected %s to be between %d and %d (inclusive), got %d"
+    },
+    {
+        "key":"gtceu.computer_monitor_cover.error.not_supported",
+        "original":"This feature is not supported by this block/cover!"
+    },
+    {
+        "key":"gtceu.computer_monitor_cover.error.unclosed_bracket",
+        "original":"Unclosed bracket!"
+    },
+    {
+        "key":"gtceu.computer_monitor_cover.error.unexpected_bracket",
+        "original":"Unexpected closing bracket!"
+    },
+    {
+        "key":"gtceu.computer_monitor_cover.error.wrong_number_of_args",
+        "original":"Expected %d args, got %d!"
     },
     {
         "key":"gtceu.cover.activity_detector.message_activity_inverted",
@@ -8906,6 +9038,14 @@
     {
         "key":"gtceu.direction.tooltip.up",
         "original":"Up"
+    },
+    {
+        "key":"gtceu.display_source.computer_monitor_cover",
+        "original":"Computer Monitor Cover"
+    },
+    {
+        "key":"gtceu.display_target.computer_monitor_cover",
+        "original":"Computer Monitor Cover"
     },
     {
         "key":"gtceu.distillation_tower",
@@ -9112,6 +9252,22 @@
         "original":"auto"
     },
     {
+        "key":"gtceu.gui.central_monitor.group",
+        "original":"Group: %s"
+    },
+    {
+        "key":"gtceu.gui.central_monitor.group_default_name",
+        "original":"Group #%d"
+    },
+    {
+        "key":"gtceu.gui.central_monitor.none",
+        "original":"none"
+    },
+    {
+        "key":"gtceu.gui.central_monitor.text_scale",
+        "original":"Text scale"
+    },
+    {
         "key":"gtceu.gui.charger_slot.tooltip.0",
         "original":"§fCharger Slot§r"
     },
@@ -9142,6 +9298,54 @@
     {
         "key":"gtceu.gui.circuit.title",
         "original":"Circuit Settings"
+    },
+    {
+        "key":"gtceu.gui.computer_monitor_cover.edit_blank_placeholders",
+        "original":"Edit blank placeholders"
+    },
+    {
+        "key":"gtceu.gui.computer_monitor_cover.edit_displayed_text",
+        "original":"Edit displayed text"
+    },
+    {
+        "key":"gtceu.gui.computer_monitor_cover.main_textbox_tooltip.0",
+        "original":"Input string to display on line %d here."
+    },
+    {
+        "key":"gtceu.gui.computer_monitor_cover.main_textbox_tooltip.1",
+        "original":"It can have placeholders, for example: 'Energy: {energy}/{energyCapacity} EU'"
+    },
+    {
+        "key":"gtceu.gui.computer_monitor_cover.main_textbox_tooltip.2",
+        "original":"Placeholders can also be inside other placeholders."
+    },
+    {
+        "key":"gtceu.gui.computer_monitor_cover.placeholder_reference.0",
+        "original":"All placeholders:"
+    },
+    {
+        "key":"gtceu.gui.computer_monitor_cover.placeholder_reference.1",
+        "original":"(hover for more info)"
+    },
+    {
+        "key":"gtceu.gui.computer_monitor_cover.second_page_textbox_tooltip.0",
+        "original":"Input placeholder to be used in place of %s '{}' here."
+    },
+    {
+        "key":"gtceu.gui.computer_monitor_cover.second_page_textbox_tooltip.1",
+        "original":"For example, you can have a string 'Energy: {}/{} EU' and 'energy' and 'energyCapacity' in these text boxes."
+    },
+    {
+        "key":"gtceu.gui.computer_monitor_cover.slot_tooltip.0",
+        "original":"A slot for items that some placeholders can reference"
+    },
+    {
+        "key":"gtceu.gui.computer_monitor_cover.slot_tooltip.1",
+        "original":"Slot number: %d"
+    },
+    {
+        "key":"gtceu.gui.computer_monitor_cover.update_interval",
+        "original":"Update interval (in ticks)"
     },
     {
         "key":"gtceu.gui.config_slot",
@@ -10633,7 +10837,7 @@
     },
     {
         "key":"gtceu.machine.hp_steam_macerator.tooltip",
-        "original":"§7Macerating your Ores"
+        "original":"§7Macerating your Ores without Byproducts"
     },
     {
         "key":"gtceu.machine.hp_steam_rock_crusher.tooltip",
@@ -11185,7 +11389,7 @@
     },
     {
         "key":"gtceu.machine.lp_steam_macerator.tooltip",
-        "original":"§7Macerating your Ores"
+        "original":"§7Macerating your Ores without Byproducts"
     },
     {
         "key":"gtceu.machine.lp_steam_rock_crusher.tooltip",
@@ -13616,6 +13820,666 @@
         "original":"Multiblock Sharing §aEnabled"
     },
     {
+        "key":"gtceu.placeholder_info.active.0",
+        "original":"Returns a 1 if the block the cover is attached to is currently running a recipe, 0 otherwise."
+    },
+    {
+        "key":"gtceu.placeholder_info.active.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.active.2",
+        "original":"  {active} -> whether there's a currently running recipe"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2crafting.0",
+        "original":"Returns information about auto-crafting in the ME network of the block this cover is on."
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2crafting.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2crafting.10",
+        "original":"  {ae2crafting get <index> time} -> the amount of time elapsed from the start of the craft (in nanoseconds), or 0 if the CPU is idle"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2crafting.2",
+        "original":"  {ae2crafting get amount} -> the amount of crafting CPUs in the ME network"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2crafting.3",
+        "original":"  {ae2crafting get <index> storage} -> the amount of crafting storage the specified CPU has"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2crafting.4",
+        "original":"  {ae2crafting get <index> threads} -> the amount of co-processors the specified CPU has"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2crafting.5",
+        "original":"  {ae2crafting get <index> name} -> the name of the specified crafting CPU"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2crafting.6",
+        "original":"  {ae2crafting get <index> selectionMode} -> the selection mode of the specified crafting CPU (used for manual, automatic or both requests)"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2crafting.7",
+        "original":"  {ae2crafting get <index> amount} -> the amount of the item that was requested, or 0 if the CPU is idle"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2crafting.8",
+        "original":"  {ae2crafting get <index> item} -> the display name of the item that was requested, or 0 if the CPU is idle"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2crafting.9",
+        "original":"  {ae2crafting get <index> progress} -> the crafting job progress, or 0 if the CPU is idle"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2energy.0",
+        "original":"Returns the energy currently stored in the ME network of the block this cover is on."
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2energy.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2energy.2",
+        "original":"  {ae2energy} -> the energy in the ME network (in AE units)"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2fluidCount.0",
+        "original":"Same as fluidCount, but counts items in the ME network of the block this cover is attached to."
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2fluidCount.1",
+        "original":"Note that counting all fluids may cause lag!"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2fluidCount.2",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2fluidCount.3",
+        "original":"  {fluidCount [fluidId]} -> the amount of all fluids, or the fluid with fluidId if specified"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2itemCount.0",
+        "original":"Same as itemCount, but counts items in the ME network of the block this cover is attached to."
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2itemCount.1",
+        "original":"Note that counting by filter or all items may cause lag!"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2itemCount.2",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2itemCount.3",
+        "original":"  {itemCount} -> total item amount"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2itemCount.4",
+        "original":"  {itemCount <item_id>} -> amount of items with ids equal to item_id"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2itemCount.5",
+        "original":"  {itemCount filter <slot_id>} -> amount of items matching filter in specified slot of this cover"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2maxPower.0",
+        "original":"Returns the energy capacity of the ME network of the block this cover is on."
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2maxPower.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2maxPower.2",
+        "original":"  {ae2maxPower} -> the energy capacity of the ME network"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2powerUsage.0",
+        "original":"Returns the energy consumption of the ME network of the block this cover is on."
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2powerUsage.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2powerUsage.2",
+        "original":"  {ae2powerUsage} -> the energy consumption of the ME network"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2spatial.0",
+        "original":"Returns information about spatial I/O in the ME network of the block this cover is on."
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2spatial.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2spatial.2",
+        "original":"  {ae2spatial power} -> the amount of power required to initiate spatial I/O"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2spatial.3",
+        "original":"  {ae2spatial efficiency} -> the efficiency of the Spatial Containment Structure (SPS)"
+    },
+    {
+        "key":"gtceu.placeholder_info.ae2spatial.4",
+        "original":"  {ae2spatial size<X|Y|Z>} -> the size of the SPS along the specified axis (example: 'Size: {sizeX}x{sizeY}x{sizeZ}')"
+    },
+    {
+        "key":"gtceu.placeholder_info.amperage.0",
+        "original":"Returns the amperage in the wire/cable the cover is on."
+    },
+    {
+        "key":"gtceu.placeholder_info.amperage.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.amperage.2",
+        "original":"  {amperage} -> the amperate in the wire/cable"
+    },
+    {
+        "key":"gtceu.placeholder_info.bf.0",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.bf.1",
+        "original":"  {bf <data_item_slot_index> <code>} -> empty string"
+    },
+    {
+        "key":"gtceu.placeholder_info.block.0",
+        "original":"Returns the block symbol (█)."
+    },
+    {
+        "key":"gtceu.placeholder_info.block.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.block.2",
+        "original":"  {block} -> '█'"
+    },
+    {
+        "key":"gtceu.placeholder_info.calc.0",
+        "original":"Returns the result of a math function or operation."
+    },
+    {
+        "key":"gtceu.placeholder_info.calc.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.calc.2",
+        "original":"  {calc <any_string>} -> any_string"
+    },
+    {
+        "key":"gtceu.placeholder_info.calc.3",
+        "original":"  {calc <round|floor|ceil|sqrt|~> <arg>} -> the result of the specified operation"
+    },
+    {
+        "key":"gtceu.placeholder_info.calc.4",
+        "original":"  {calc <first_arg> <+|-|*|/|//|>>|<<|%> <second_arg>} -> the result of the specified operation"
+    },
+    {
+        "key":"gtceu.placeholder_info.cmd.0",
+        "original":"Executes Minecraft commands and returns their output."
+    },
+    {
+        "key":"gtceu.placeholder_info.cmd.1",
+        "original":"Requires a data item bound to a player, bind any data item to yourself by right-clicking with it."
+    },
+    {
+        "key":"gtceu.placeholder_info.cmd.2",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.cmd.3",
+        "original":"  {cmd <slot_index> <command>} -> command output"
+    },
+    {
+        "key":"gtceu.placeholder_info.cmp.0",
+        "original":"Returns a 1 or 0 based on the expression in it's arguments"
+    },
+    {
+        "key":"gtceu.placeholder_info.cmp.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.cmp.2",
+        "original":"  {cmp <a> <operator> <b>} -> 1 or 0, operator is one of >, <, >=, <=, ==, !="
+    },
+    {
+        "key":"gtceu.placeholder_info.color.0",
+        "original":"Returns the text from the second argument, colored with the color from the first argument. All default minecraft chat colors can be used."
+    },
+    {
+        "key":"gtceu.placeholder_info.color.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.color.2",
+        "original":"  {color <color> <text>} -> colored text"
+    },
+    {
+        "key":"gtceu.placeholder_info.combine.0",
+        "original":"Combines all of it's arguments into a single string (by escaping all spaces between the arguments)"
+    },
+    {
+        "key":"gtceu.placeholder_info.combine.1",
+        "original":"Example: {combine abc def ghi jkl mno} -> \"abc\\ def\\ ghi\\ jkl\\ mno\""
+    },
+    {
+        "key":"gtceu.placeholder_info.combine.2",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.combine.3",
+        "original":"  {combine [arg1] [arg2] [arg3] ...} -> a string that will be treated as a single argument in further placeholders"
+    },
+    {
+        "key":"gtceu.placeholder_info.count.0",
+        "original":"Returns how many of the provided arguments are equal to the first (compared as strings, so \"0\" != \"0.0\")"
+    },
+    {
+        "key":"gtceu.placeholder_info.count.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.count.2",
+        "original":"  {count <arg1> [arg2] [arg3] [arg4] ...} -> the amount of arguments that are equal to the first"
+    },
+    {
+        "key":"gtceu.placeholder_info.data.0",
+        "original":"Stores or retrieves some data from a data item (data stick/orb/module) in one of the slots."
+    },
+    {
+        "key":"gtceu.placeholder_info.data.1",
+        "original":"If you leave the <index> argument empty, it will be replaced with the value p (p is an integer from 0 to (capacity - 1) that is stored in the data item nbt)."
+    },
+    {
+        "key":"gtceu.placeholder_info.data.2",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.data.3",
+        "original":"  {data get <slot> <index>} -> the data stored in the item in the specified slot"
+    },
+    {
+        "key":"gtceu.placeholder_info.data.4",
+        "original":"  {data set <slot> <index> <value>} -> sets the data stored in the item in the specified slot, returns an empty string"
+    },
+    {
+        "key":"gtceu.placeholder_info.data.5",
+        "original":"  {data getp <slot>} -> p"
+    },
+    {
+        "key":"gtceu.placeholder_info.data.6",
+        "original":"  {data setp <slot> <value>} -> sets p, returns an empty string"
+    },
+    {
+        "key":"gtceu.placeholder_info.data.7",
+        "original":"  {data inc <slot>} -> increments p by 1, if p becomes more than or equal to capacity, sets p to 0"
+    },
+    {
+        "key":"gtceu.placeholder_info.data.8",
+        "original":"  {data dec <slot>} -> decrements p by 1, if p becomes less than 0, sets p to (capacity - 1)"
+    },
+    {
+        "key":"gtceu.placeholder_info.displayTarget.0",
+        "original":"Returns the specified line that was transmitted to this cover using a display link."
+    },
+    {
+        "key":"gtceu.placeholder_info.displayTarget.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.displayTarget.2",
+        "original":"  {displayTarget <line_number>} -> the text on the specified line (line number is 1-100)"
+    },
+    {
+        "key":"gtceu.placeholder_info.energy.0",
+        "original":"Returns the amount of energy stored."
+    },
+    {
+        "key":"gtceu.placeholder_info.energy.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.energy.2",
+        "original":"  {energy} -> the amount of energy stored"
+    },
+    {
+        "key":"gtceu.placeholder_info.energyCapacity.0",
+        "original":"Returns the max amount of energy that can be stored"
+    },
+    {
+        "key":"gtceu.placeholder_info.energyCapacity.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.energyCapacity.2",
+        "original":"{energyCapacity} -> the energy capacity"
+    },
+    {
+        "key":"gtceu.placeholder_info.fluidCount.0",
+        "original":"Returns the amount of fluids (can be filtered)."
+    },
+    {
+        "key":"gtceu.placeholder_info.fluidCount.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.fluidCount.2",
+        "original":"  {fluidCount [fluidId]} -> the amount of all fluids, or the fluid with fluidId if specified"
+    },
+    {
+        "key":"gtceu.placeholder_info.formatInt.0",
+        "original":"Returns a string representation of the provided integer"
+    },
+    {
+        "key":"gtceu.placeholder_info.formatInt.1",
+        "original":"Example: {formatInt 1236457} -> 1.24M"
+    },
+    {
+        "key":"gtceu.placeholder_info.formatInt.2",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.formatInt.3",
+        "original":"  {formatInt <arg>} -> string representation of the int"
+    },
+    {
+        "key":"gtceu.placeholder_info.fromAscii.0",
+        "original":"Returns the character represented by the provided ASCII code"
+    },
+    {
+        "key":"gtceu.placeholder_info.fromAscii.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.fromAscii.2",
+        "original":"  {fromAscii <char_code>} -> a character"
+    },
+    {
+        "key":"gtceu.placeholder_info.if.0",
+        "original":"Returns one of the arguments depending on the condition. The condition is considered true if it is not an empty string and is not equal to 0."
+    },
+    {
+        "key":"gtceu.placeholder_info.if.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.if.2",
+        "original":"  {if <condition> <returned_if_true> [returned_if_false]}"
+    },
+    {
+        "key":"gtceu.placeholder_info.itemCount.0",
+        "original":"Returns the amount of items (can be filtered)."
+    },
+    {
+        "key":"gtceu.placeholder_info.itemCount.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.itemCount.2",
+        "original":"  {itemCount} -> total item amount"
+    },
+    {
+        "key":"gtceu.placeholder_info.itemCount.3",
+        "original":"  {itemCount <item_id>} -> amount of items with ids equal to item_id"
+    },
+    {
+        "key":"gtceu.placeholder_info.itemCount.4",
+        "original":"  {itemCount filter <slot_id>} -> amount of items matching filter in specified slot of this cover"
+    },
+    {
+        "key":"gtceu.placeholder_info.maintenance.0",
+        "original":"Returns a 1 if there are maintenance problems in the block the cover is attached to, 0 otherwise."
+    },
+    {
+        "key":"gtceu.placeholder_info.maintenance.1",
+        "original":"Example: 'Maintenance status: {if {maintenance} FIXING\\ REQUIRED OK}'"
+    },
+    {
+        "key":"gtceu.placeholder_info.maintenance.2",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.maintenance.3",
+        "original":"  {maintenance} -> whether there are maintenance problems"
+    },
+    {
+        "key":"gtceu.placeholder_info.maxProgress.0",
+        "original":"Returns the maximum progress of the currently running recipe of the block this cover is attached to."
+    },
+    {
+        "key":"gtceu.placeholder_info.maxProgress.1",
+        "original":"Example: 'Progress: {calc {calc {progress} / {maxProgress}} * 100}%'"
+    },
+    {
+        "key":"gtceu.placeholder_info.maxProgress.2",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.maxProgress.3",
+        "original":"  {maxProgress} -> the max progress of the currently running recipe"
+    },
+    {
+        "key":"gtceu.placeholder_info.nbt.0",
+        "original":"Returns the nbt data of the item in the specified slot"
+    },
+    {
+        "key":"gtceu.placeholder_info.nbt.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.nbt.2",
+        "original":"  {nbt <slot>} -> nbt data"
+    },
+    {
+        "key":"gtceu.placeholder_info.obf.0",
+        "original":"Returns the text from the first argument, obfuscated."
+    },
+    {
+        "key":"gtceu.placeholder_info.obf.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.obf.2",
+        "original":"  {obf <text>} -> obfuscated text"
+    },
+    {
+        "key":"gtceu.placeholder_info.previousText.0",
+        "original":"Returns the text that was previously displayed by this cover at the specified line (before line-wrapping)."
+    },
+    {
+        "key":"gtceu.placeholder_info.previousText.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.previousText.2",
+        "original":"  {previousText <line>} -> the text previously displayed on the specified line (index starts at 1)"
+    },
+    {
+        "key":"gtceu.placeholder_info.progress.0",
+        "original":"Returns the progress of the currently running recipe of the block this cover is attached to."
+    },
+    {
+        "key":"gtceu.placeholder_info.progress.1",
+        "original":"Note that progress is an integer between 0 and {maxProgress}"
+    },
+    {
+        "key":"gtceu.placeholder_info.progress.2",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.progress.3",
+        "original":"  {progress} -> the progress of the currently running recipe"
+    },
+    {
+        "key":"gtceu.placeholder_info.random.0",
+        "original":"Returns a random number in the specified interval (inclusive)."
+    },
+    {
+        "key":"gtceu.placeholder_info.random.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.random.2",
+        "original":"  {random <min> <max>} -> a random number between min and max (inclusive)"
+    },
+    {
+        "key":"gtceu.placeholder_info.redstone.0",
+        "original":"Returns the redstone signal strength or sets the redstone output strength"
+    },
+    {
+        "key":"gtceu.placeholder_info.redstone.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.redstone.2",
+        "original":"  {redstone get <up|down|north|south|east|west>} -> redstone signal strength (0-15) at the specified side"
+    },
+    {
+        "key":"gtceu.placeholder_info.redstone.3",
+        "original":"  {redstone get link <slot_index> <freq_slot_index>} -> redstone signal strength of a Create redstone link frequency specified by a linked controller in slot #slot_index. freq_slot_index is the index of the frequency inside the controller (from left to right, 0-6)"
+    },
+    {
+        "key":"gtceu.placeholder_info.redstone.4",
+        "original":"  {redstone set <power>} -> empty string, sets the redstone output strength from this cover's side"
+    },
+    {
+        "key":"gtceu.placeholder_info.redstone.5",
+        "original":"  {redstone set link <slot_index> <freq_slot_index> <power>} -> empty string, broadcasts the specified redstone power on the specified Create redstone link frequency"
+    },
+    {
+        "key":"gtceu.placeholder_info.repeat.0",
+        "original":"Returns the text from the second arguments, repeated the amount of times specified in the first argument."
+    },
+    {
+        "key":"gtceu.placeholder_info.repeat.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.repeat.2",
+        "original":"  {repeat <amount> <text>} -> text repeated the specified amount of times"
+    },
+    {
+        "key":"gtceu.placeholder_info.select.0",
+        "original":"Returns the argument at the specified index (starting from 0)"
+    },
+    {
+        "key":"gtceu.placeholder_info.select.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.select.2",
+        "original":"  {select <index> [arg1] [arg2] [arg3] ... -> argument at the specified index"
+    },
+    {
+        "key":"gtceu.placeholder_info.strike.0",
+        "original":"Returns the text from the first text, displaying it as if it was crossed out"
+    },
+    {
+        "key":"gtceu.placeholder_info.strike.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.strike.2",
+        "original":"  {strike <text>} -> crossed-out text"
+    },
+    {
+        "key":"gtceu.placeholder_info.subList.0",
+        "original":"Returns arguments from with indexes from l (inclusive) to r (exclusive) (starting from 0)"
+    },
+    {
+        "key":"gtceu.placeholder_info.subList.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.subList.2",
+        "original":"  {subList <left> <right> [arg0] [arg1] ...} -> all arguments with indexes from l to r separated by spaces"
+    },
+    {
+        "key":"gtceu.placeholder_info.tick.0",
+        "original":"Returns the amount of ticks passed from when this cover was placed."
+    },
+    {
+        "key":"gtceu.placeholder_info.tick.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.tick.2",
+        "original":"  {tick} -> the amount of ticks"
+    },
+    {
+        "key":"gtceu.placeholder_info.tm.0",
+        "original":"Returns the ™ symbol"
+    },
+    {
+        "key":"gtceu.placeholder_info.tm.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.tm.2",
+        "original":"  {tm} -> the ™ symbol"
+    },
+    {
+        "key":"gtceu.placeholder_info.toAscii.0",
+        "original":"Returns the ASCII code of the provided character"
+    },
+    {
+        "key":"gtceu.placeholder_info.toAscii.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.toAscii.2",
+        "original":"  {toAscii <character>} -> ASCII code of the character"
+    },
+    {
+        "key":"gtceu.placeholder_info.toChars.0",
+        "original":"Returns the characters of the provided string with spaces between them"
+    },
+    {
+        "key":"gtceu.placeholder_info.toChars.1",
+        "original":"Example: {toChars example} -> 'e x a m p l e'"
+    },
+    {
+        "key":"gtceu.placeholder_info.toChars.2",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.toChars.3",
+        "original":"  {toChars <arg>} -> characters"
+    },
+    {
+        "key":"gtceu.placeholder_info.underline.0",
+        "original":"Returns the text from the first argument, underlined"
+    },
+    {
+        "key":"gtceu.placeholder_info.underline.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.underline.2",
+        "original":"  {underline <text>} -> underlined text"
+    },
+    {
+        "key":"gtceu.placeholder_info.voltage.0",
+        "original":"Returns the voltage in the wire/cable the cover is on."
+    },
+    {
+        "key":"gtceu.placeholder_info.voltage.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.voltage.2",
+        "original":"  {voltage} -> the voltage in the wire/cable"
+    },
+    {
         "key":"gtceu.plasma_generator",
         "original":"Plasma Generator"
     },
@@ -13630,6 +14494,10 @@
     {
         "key":"gtceu.pyrolyse_oven",
         "original":"Pyrolyse Oven"
+    },
+    {
+        "key":"gtceu.recipe.byproduct_tier",
+        "original":"Byproducts from %s§r+"
     },
     {
         "key":"gtceu.recipe.category.arc_furnace_recycling",
@@ -14148,6 +15016,14 @@
         "original":"§8Use Wrench to set Facing"
     },
     {
+        "key":"gtceu.tooltip.computer_monitor_config",
+        "original":"Storing computer monitor cover configuration data"
+    },
+    {
+        "key":"gtceu.tooltip.computer_monitor_data",
+        "original":"Storing data: %s"
+    },
+    {
         "key":"gtceu.tooltip.fluid_pipe_hold_shift",
         "original":"§7Hold SHIFT to show Fluid Containment Info"
     },
@@ -14158,6 +15034,10 @@
     {
         "key":"gtceu.tooltip.hold_shift",
         "original":"§7Hold SHIFT for more info"
+    },
+    {
+        "key":"gtceu.tooltip.player_bind",
+        "original":"Bound to player: %s"
     },
     {
         "key":"gtceu.tooltip.potion.each",
@@ -14186,6 +15066,10 @@
     {
         "key":"gtceu.tooltip.tool_fluid_hold_shift",
         "original":"§7Hold SHIFT to show Fluid Containment and Tool Info"
+    },
+    {
+        "key":"gtceu.tooltip.wireless_transmitter_bind",
+        "original":"Binding to a transmitter cover at %s %s %s facing %s"
     },
     {
         "key":"gtceu.top.allow_output_input",
@@ -15866,6 +16750,10 @@
     {
         "key":"item.gtceu.ilc_wafer.tooltip",
         "original":"§7Raw Integrated Circuit"
+    },
+    {
+        "key":"item.gtceu.image_module",
+        "original":"Image Module"
     },
     {
         "key":"item.gtceu.impure_bentonite_dust",
@@ -17604,6 +18492,10 @@
         "original":"Shift + R-Click on a controller to automatically build the multi-block"
     },
     {
+        "key":"item.gtceu.text_module",
+        "original":"Text Module"
+    },
+    {
         "key":"item.gtceu.tiny_ash_dust",
         "original":"Tiny Pile of Ashes"
     },
@@ -18530,6 +19422,10 @@
     {
         "key":"item.gtceu.wire_extruder_mold.tooltip",
         "original":"§7Extruder Shape for making Wires"
+    },
+    {
+        "key":"item.gtceu.wireless_transmitter_cover",
+        "original":"Wireless Transmitter"
     },
     {
         "key":"item.gtceu.wood_bolt",
