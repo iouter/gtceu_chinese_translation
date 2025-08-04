@@ -4926,12 +4926,6 @@
     "stage": 5
   },
   {
-    "key": "config.gtceu.option.recipeProgressLowEnergy",
-    "original": "recipeProgressLowEnergy",
-    "translation": "跳电时，机器进度将",
-    "stage": 5
-  },
-  {
     "key": "config.gtceu.option.recipes",
     "original": "recipes",
     "translation": "配方",
@@ -5697,156 +5691,6 @@
     "key": "gtceu.chat.cape",
     "original": "§5Congrats: you just unlocked a new cape! See the Cape Selector terminal app to use it.§r",
     "translation": "§5恭喜你：你刚刚解锁了一件新披风！查看终端应用程序“披风选择器”来使用它。§r",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.copy.click_to_copy",
-    "original": "Click to copy",
-    "translation": "点击复制",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.copy.copied_and_click",
-    "original": "copied to clipboard. Click to copy again",
-    "translation": "已复制到剪贴板，点击再次复制",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.copy.copied_end",
-    "original": "] to the clipboard",
-    "translation": "]到剪贴板",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.copy.copied_start",
-    "original": "Copied [",
-    "translation": "已复制[",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.hand.electric",
-    "original": "Electric Info: %d / %d EU - Tier: %d; Is Battery: %s",
-    "translation": "电量信息：%d / %d EU - 等级：%d; 是否为电池：%s",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.hand.fluid",
-    "original": "Fluid Info: %d / %d mB; Can Fill: %s; Can Drain: %s",
-    "translation": "流体信息：%d / %d mB;是否可输入：%s; 是否可输出：%s",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.hand.fluid2",
-    "original": "Fluid Id:",
-    "translation": "流体 ID：",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.hand.groovy",
-    "original": "Consider using §6/gs hand",
-    "translation": "考虑使用§6/gs hand",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.hand.item_id",
-    "original": "Item: %s (Metadata: %d)",
-    "translation": "物品：%s（元数据：%d）",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.hand.material",
-    "original": "Material Id:",
-    "translation": "材料 ID：",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.hand.meta_item",
-    "original": "MetaItem Id:",
-    "translation": "元物品 ID：",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.hand.no_item",
-    "original": "You must hold something in main hand or off hand before executing this command.",
-    "translation": "在执行此命令之前，您的主手或副手必须拿着物品。",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.hand.not_a_player",
-    "original": "This command is only usable by a player.",
-    "translation": "这个命令只有玩家可以使用。",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.hand.ore_prefix",
-    "original": "Ore prefix:",
-    "translation": "矿物前缀：",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.hand.tool_stats",
-    "original": "Tool Stats Class: %s",
-    "translation": "工具状态类：%s",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.hand.usage",
-    "original": "Usage: /gtceu hand",
-    "translation": "用法：/gtceu hand",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.recipecheck.begin",
-    "original": "Starting recipe conflict check...",
-    "translation": "开始配方冲突检查...",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.recipecheck.end",
-    "original": "Recipe conflict check found %d possible conflicts. Check the server log for more info",
-    "translation": "配方冲突检查找到%d可能存在的冲突，查看服务器日志以了解更多信息",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.recipecheck.end_no_conflicts",
-    "original": "No recipe conflicts found!",
-    "translation": "未发现配方冲突！",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.recipecheck.usage",
-    "original": "Usage: /gtceu recipecheck",
-    "translation": "用法：/gtceu recipecheck",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.usage",
-    "original": "Usage: /gtceu <worldgen/hand/recipecheck>",
-    "translation": "用法：/gtceu <worldgen/hand/recipecheck>",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.worldgen.reload.failed",
-    "original": "Worldgen reload failed. Check console for errors.",
-    "translation": "Worldgen重新加载失败。检查控制台是否有错误。",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.worldgen.reload.success",
-    "original": "Worldgen successfully reloaded from config.",
-    "translation": "Worldgen已成功从配置重新加载。",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.worldgen.reload.usage",
-    "original": "Usage: /gtceu worldgen reload",
-    "translation": "用法：/gtceu worldgen reload",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.command.worldgen.usage",
-    "original": "Usage: /gtceu worldgen <reload>",
-    "translation": "用法：/gtceu worldgen <reload>",
     "stage": 5
   },
   {
@@ -12836,7 +12680,7 @@
   {
     "key": "recipe.condition.steam_vent.tooltip",
     "original": "Clean steam vent",
-    "translation": "清洁蒸汽排气口",
+    "translation": "排气口堵塞",
     "stage": 5
   },
   {
@@ -17791,9 +17635,9 @@
   },
   {
     "key": "gtceu.machine.hp_steam_macerator.tooltip",
-    "original": "§7Macerating your Ores",
-    "translation": "§7粉碎你的矿石",
-    "stage": 5
+    "original": "§7Macerating your Ores without Byproducts",
+    "translation": "§7粉碎你的矿石，但没有副产物",
+    "stage": 3
   },
   {
     "key": "gtceu.machine.hp_steam_rock_crusher.tooltip",
@@ -18319,9 +18163,9 @@
   },
   {
     "key": "gtceu.machine.lp_steam_macerator.tooltip",
-    "original": "§7Macerating your Ores",
-    "translation": "§7粉碎你的矿石",
-    "stage": 5
+    "original": "§7Macerating your Ores without Byproducts",
+    "translation": "§7粉碎你的矿石，但没有副产物",
+    "stage": 3
   },
   {
     "key": "gtceu.machine.lp_steam_rock_crusher.tooltip",
@@ -25693,9 +25537,9 @@
   },
   {
     "key": "material.gtceu.yellow_limonite",
-    "original": "Yellow Limonite",
-    "translation": "黄褐铁矿",
-    "stage": 5
+    "original": "Limonite",
+    "translation": "褐铁矿",
+    "stage": 3
   },
   {
     "key": "material.gtceu.ytterbium",
@@ -32233,9 +32077,9 @@
   },
   {
     "key": "gtceu.recipe.category.arc_furnace_recycling",
-    "original": "Plasma Scrapping",
-    "translation": "电弧炉：等离子回收",
-    "stage": 5
+    "original": "Arc Scrapping",
+    "translation": "电弧炉：回收",
+    "stage": 3
   },
   {
     "key": "gtceu.recipe.category.extractor_recycling",
@@ -32253,12 +32097,6 @@
     "key": "behavior.prospector.added_waypoint",
     "original": "Created waypoint named %s!",
     "translation": "已创建路径点：%s！",
-    "stage": 5
-  },
-  {
-    "key": "behaviour.soft_hammer.idle_after_cycle",
-    "original": "Pause machine after current cycle",
-    "translation": "当前周期结束后暂停机器",
     "stage": 5
   },
   {
@@ -32460,12 +32298,6 @@
     "stage": 5
   },
   {
-    "key": "gtceu.command.hand.tag_entries",
-    "original": "§3Tag entries:",
-    "translation": "§3标签条目：",
-    "stage": 5
-  },
-  {
     "key": "gtceu.gui.fisher_mode.tooltip.0",
     "original": "Toggle junk items",
     "translation": "捕捉垃圾物品",
@@ -32479,21 +32311,15 @@
   },
   {
     "key": "gtceu.machine.boiler.info.cooling.down",
-    "original": "§9Cooling down§r%s",
-    "translation": "§9冷却中§r%s",
-    "stage": 5
+    "original": "§9Cooling§r",
+    "translation": "§9冷却中§r",
+    "stage": 3
   },
   {
     "key": "gtceu.machine.boiler.info.heating.up",
-    "original": "§cHeating up§r%s",
-    "translation": "§c加热中§r%s",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.machine.boiler.info.producing.steam",
-    "original": " §a(boiling water)",
-    "translation": " §a（沸腾）",
-    "stage": 5
+    "original": "§cHeating§r",
+    "translation": "§c加热中§r",
+    "stage": 3
   },
   {
     "key": "gtceu.recipe.category.chem_dyes",
@@ -33406,5 +33232,1463 @@
     "original": "%s EU/t",
     "translation": "%s EU/t",
     "stage": 5
+  },
+  {
+    "key": "command.gtceu.cape.failure.does_not_exist",
+    "original": "Cape %s does not exist",
+    "translation": "披风%s不存在",
+    "stage": 5
+  },
+  {
+    "key": "behaviour.soft_hammer.disabled_cycle",
+    "original": "Working Disabled after current cycle",
+    "translation": "本运行周期后暂停工作",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.gui.adv_stocking_config.min_fluid_count",
+    "original": "Minimum Fluid Stack Size for Automated Pulling",
+    "translation": "自动拉取的最小流体量",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.gui.adv_stocking_config.min_item_count",
+    "original": "Minimum Item Stack Size for Automated Pulling",
+    "translation": "自动拉取的最小物品量",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.gui.adv_stocking_config.ticks_per_cycle",
+    "original": "Delay between item list updates",
+    "translation": "物品列表更新之间的延迟",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.gui.adv_stocking_config.title",
+    "original": "Configure Automatic Stocking",
+    "translation": "配置库存自动拉取",
+    "stage": 1
+  },
+  {
+    "key": "gtceu.gui.content.range",
+    "original": "%s-%s",
+    "translation": "%s-%s",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.gui.content.times_item",
+    "original": "x %s",
+    "translation": "x %s",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.gui.title.adv_stocking_config.min_fluid_count",
+    "original": "Min. Fluid Count",
+    "translation": "最小流体量",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.gui.title.adv_stocking_config.min_item_count",
+    "original": "Min. Item Count",
+    "translation": "最小物品量",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.gui.title.adv_stocking_config.ticks_per_cycle",
+    "original": "Ticks Per Cycle",
+    "translation": "每次输出间隔Tick",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.jade.amperage_use",
+    "original": "%s A",
+    "translation": "%s A",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.jade.at",
+    "original": " @ ",
+    "translation": " @ ",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.jade.fluid_use",
+    "original": "%s mB/t",
+    "translation": "%s mB/t",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.machine.boiler.info.production.data",
+    "original": "§aProducing %s§a mB/t",
+    "translation": "§a产出速率：%s§a mB/t",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.universal.padded_parentheses",
+    "original": " (%s) ",
+    "translation": " (%s) ",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.universal.padded_spaced_parentheses",
+    "original": " ( %s ) ",
+    "translation": " ( %s ) ",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.universal.parentheses",
+    "original": "(%s)",
+    "translation": "(%s)",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.universal.spaced_parentheses",
+    "original": "( %s )",
+    "translation": "( %s )",
+    "stage": 3
+  },
+  {
+    "key": "block.gtceu.basic_data_access_hatch",
+    "original": "Basic Data Access Hatch",
+    "translation": "基础数据访问仓",
+    "stage": 3
+  },
+  {
+    "key": "block.gtceu.central_monitor",
+    "original": "Central Monitor",
+    "translation": "中央监控器",
+    "stage": 3
+  },
+  {
+    "key": "block.gtceu.monitor",
+    "original": "Monitor",
+    "translation": "监控器",
+    "stage": 3
+  },
+  {
+    "key": "config.gtceu.option.machinesHaveBERsByDefault",
+    "original": "machinesHaveBERsByDefault",
+    "translation": "机器是否默认启用方块实体渲染",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.central_monitor.gui.create_group",
+    "original": "Create group",
+    "translation": "创建群组",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.central_monitor.gui.currently_editing",
+    "original": "Currently editing: %s",
+    "translation": "当前编辑：%s",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.central_monitor.gui.remove_from_group",
+    "original": "Remove from group",
+    "translation": "从群组中移除",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.central_monitor.gui.set_target",
+    "original": "Set target",
+    "translation": "设置目标",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.central_monitor.info_tooltip.0",
+    "original": "In order to use monitors, you have to split them into groups first. A group may only have 1 module in it.",
+    "translation": "若需使用监控器，你须先将它们分组。每个组中只能包含一个模块。",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.central_monitor.info_tooltip.1",
+    "original": "Select them by left-clicking, then click 'Create group'.",
+    "translation": "单击左键选中它们，然后点击“创建群组”",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.central_monitor.info_tooltip.2",
+    "original": "Then in the settings page for the group you can insert a module, you can configure it in the same page.",
+    "translation": "然后在该组的设置界面中，你可以插入一个模块，并在同一页面对其进行配置。",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.central_monitor.info_tooltip.3",
+    "original": "To delete a group, select all of it's components and click 'Remove from group'.",
+    "translation": "要删除一个组，请选中所有组件并点击“从群组中移除”。",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.central_monitor.info_tooltip.4",
+    "original": "You can quickly select all components of a group by clicking on it's name. Click again to unselect.",
+    "translation": "你可以通过点击组的名称一键选择这组的所有组件。再次单击可取消选择。",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.central_monitor.info_tooltip.5",
+    "original": "Some modules may display things depending on the block they target, to set a target for a group select any component of that group and right-click on the target component.",
+    "translation": "某些模块会根据其目标方块显示相关信息。如需为某一组设置目标，请先选择该组中的任意组件，然后右键点击目标组件。",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.central_monitor.info_tooltip.6",
+    "original": "You may wish to select a target that is not in the multiblock, you have to use the wireless transmitter cover for that.",
+    "translation": "若需选择非多方块结构内的目标，则必须使用无线发射器覆盖板。",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.central_monitor.info_tooltip.7",
+    "original": "Place the cover on the target block, right-click it with a data stick and put that data stick into a data access hatch in the multiblock.",
+    "translation": "将覆盖板装在目标方块上，使用闪存右键点击绑定，并将该闪存放入多方块结构的数据访问仓。",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.central_monitor.info_tooltip.8",
+    "original": "Then select the data access hatch as the target, and set the slot index of your data stick in the number field that appeared.",
+    "translation": "然后选择数据访问仓作为目标，并在显示的数字栏中设为闪存的插槽索引。",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.central_monitor.size",
+    "original": "Size: (%d+1+%d)x(%d+1+%d)",
+    "translation": "尺寸：（%d+1+%d）x（%d+1+%d）",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.computer_monitor_cover.error.bf_invalid",
+    "original": "Invalid character at %d",
+    "translation": "无效字符位于%d",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.computer_monitor_cover.error.bf_invalid_num",
+    "original": "Invalid number at index %d when processing symbol number %d",
+    "translation": "处理符号编号%2$d时，索引%1$d处的数无效。",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.computer_monitor_cover.error.exception",
+    "original": "Unexpected exception occurred: %s",
+    "translation": "发生了意外异常：%s",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.computer_monitor_cover.error.invalid_args",
+    "original": "Invalid arguments!",
+    "translation": "无效参数！",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.computer_monitor_cover.error.invalid_number",
+    "original": "Invalid number '%s'!",
+    "translation": "无效的数字'%s'！",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.computer_monitor_cover.error.missing_item",
+    "original": "Missing %s in slot %d!",
+    "translation": "插槽%d中缺少%s！",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.computer_monitor_cover.error.no_ae",
+    "original": "Cover holder does not have an AE2 network!",
+    "translation": "覆盖板支架未接入AE2网络！",
+    "stage": 1
+  },
+  {
+    "key": "gtceu.computer_monitor_cover.error.no_cover",
+    "original": "No cover!",
+    "translation": "无覆盖板！",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.computer_monitor_cover.error.no_placeholder",
+    "original": "No such placeholder: '%s'!",
+    "translation": "不存在占位符“%s”！",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.computer_monitor_cover.error.not_enough_args",
+    "original": "Expected at least %d args, got %d!",
+    "translation": "至少需要%d个参数，但实际只有%d个！",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.computer_monitor_cover.error.not_in_range",
+    "original": "Expected %s to be between %d and %d (inclusive), got %d",
+    "translation": "期望%s在%d和%d之间（含边界），但得到%d",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.computer_monitor_cover.error.not_supported",
+    "original": "This feature is not supported by this block/cover!",
+    "translation": "该方块/覆盖板不支持此功能！",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.computer_monitor_cover.error.unclosed_bracket",
+    "original": "Unclosed bracket!",
+    "translation": "括号未闭合！",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.computer_monitor_cover.error.unexpected_bracket",
+    "original": "Unexpected closing bracket!",
+    "translation": "出现意外的闭合括号！",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.computer_monitor_cover.error.wrong_number_of_args",
+    "original": "Expected %d args, got %d!",
+    "translation": "预期接收%d个参数，实际传入%d个！",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.display_source.computer_monitor_cover",
+    "original": "Computer Monitor Cover",
+    "translation": "电脑屏幕覆盖板",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.display_target.computer_monitor_cover",
+    "original": "Computer Monitor Cover",
+    "translation": "电脑屏幕覆盖板",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.gui.central_monitor.group",
+    "original": "Group: %s",
+    "translation": "群组：%s",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.gui.central_monitor.group_default_name",
+    "original": "Group #%d",
+    "translation": "群组#%d",
+    "stage": 1
+  },
+  {
+    "key": "gtceu.gui.central_monitor.none",
+    "original": "none",
+    "translation": "空",
+    "stage": 1
+  },
+  {
+    "key": "gtceu.gui.central_monitor.text_scale",
+    "original": "Text scale",
+    "translation": "文字大小",
+    "stage": 1
+  },
+  {
+    "key": "gtceu.gui.computer_monitor_cover.edit_blank_placeholders",
+    "original": "Edit blank placeholders",
+    "translation": "编辑空白占位符",
+    "stage": 1
+  },
+  {
+    "key": "gtceu.gui.computer_monitor_cover.edit_displayed_text",
+    "original": "Edit displayed text",
+    "translation": "编辑显示文本",
+    "stage": 1
+  },
+  {
+    "key": "gtceu.gui.computer_monitor_cover.main_textbox_tooltip.0",
+    "original": "Input string to display on line %d here.",
+    "translation": "此处输入在第%d行显示的文本。",
+    "stage": 1
+  },
+  {
+    "key": "gtceu.gui.computer_monitor_cover.main_textbox_tooltip.1",
+    "original": "It can have placeholders, for example: 'Energy: {energy}/{energyCapacity} EU'",
+    "translation": "它可以包含占位符，例如：“能量：{energy}/{energyCapacity} EU”",
+    "stage": 2
+  },
+  {
+    "key": "gtceu.gui.computer_monitor_cover.main_textbox_tooltip.2",
+    "original": "Placeholders can also be inside other placeholders.",
+    "translation": "占位符也可以嵌套在其他占位符中。",
+    "stage": 1
+  },
+  {
+    "key": "gtceu.gui.computer_monitor_cover.placeholder_reference.0",
+    "original": "All placeholders:",
+    "translation": "所有占位符：",
+    "stage": 1
+  },
+  {
+    "key": "gtceu.gui.computer_monitor_cover.placeholder_reference.1",
+    "original": "(hover for more info)",
+    "translation": "（悬停以获得更多信息）",
+    "stage": 1
+  },
+  {
+    "key": "gtceu.gui.computer_monitor_cover.second_page_textbox_tooltip.0",
+    "original": "Input placeholder to be used in place of %s '{}' here.",
+    "translation": "输入占位符，用于在此处代替%s‘{}’。",
+    "stage": 1
+  },
+  {
+    "key": "gtceu.gui.computer_monitor_cover.second_page_textbox_tooltip.1",
+    "original": "For example, you can have a string 'Energy: {}/{} EU' and 'energy' and 'energyCapacity' in these text boxes.",
+    "translation": "例如，你可以设字符串为“能量：{}/{} EU”，并在文本框中填入“energy”和“energyCapacity”。",
+    "stage": 1
+  },
+  {
+    "key": "gtceu.gui.computer_monitor_cover.slot_tooltip.0",
+    "original": "A slot for items that some placeholders can reference",
+    "translation": "可供某些占位符引用的物品槽",
+    "stage": 1
+  },
+  {
+    "key": "gtceu.gui.computer_monitor_cover.slot_tooltip.1",
+    "original": "Slot number: %d",
+    "translation": "槽位编号：%d",
+    "stage": 1
+  },
+  {
+    "key": "gtceu.gui.computer_monitor_cover.update_interval",
+    "original": "Update interval (in ticks)",
+    "translation": "更新间隔（单位：tick）",
+    "stage": 1
+  },
+  {
+    "key": "gtceu.placeholder_info.active.0",
+    "original": "Returns a 1 if the block the cover is attached to is currently running a recipe, 0 otherwise.",
+    "translation": "若覆盖板所贴附的方块处于工作状态，则返回1；否则返回0。",
+    "stage": 1
+  },
+  {
+    "key": "gtceu.placeholder_info.active.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.active.2",
+    "original": "  {active} -> whether there's a currently running recipe",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2crafting.0",
+    "original": "Returns information about auto-crafting in the ME network of the block this cover is on.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2crafting.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2crafting.10",
+    "original": "  {ae2crafting get <index> time} -> the amount of time elapsed from the start of the craft (in nanoseconds), or 0 if the CPU is idle",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2crafting.2",
+    "original": "  {ae2crafting get amount} -> the amount of crafting CPUs in the ME network",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2crafting.3",
+    "original": "  {ae2crafting get <index> storage} -> the amount of crafting storage the specified CPU has",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2crafting.4",
+    "original": "  {ae2crafting get <index> threads} -> the amount of co-processors the specified CPU has",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2crafting.5",
+    "original": "  {ae2crafting get <index> name} -> the name of the specified crafting CPU",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2crafting.6",
+    "original": "  {ae2crafting get <index> selectionMode} -> the selection mode of the specified crafting CPU (used for manual, automatic or both requests)",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2crafting.7",
+    "original": "  {ae2crafting get <index> amount} -> the amount of the item that was requested, or 0 if the CPU is idle",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2crafting.8",
+    "original": "  {ae2crafting get <index> item} -> the display name of the item that was requested, or 0 if the CPU is idle",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2crafting.9",
+    "original": "  {ae2crafting get <index> progress} -> the crafting job progress, or 0 if the CPU is idle",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2energy.0",
+    "original": "Returns the energy currently stored in the ME network of the block this cover is on.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2energy.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2energy.2",
+    "original": "  {ae2energy} -> the energy in the ME network (in AE units)",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2fluidCount.0",
+    "original": "Same as fluidCount, but counts items in the ME network of the block this cover is attached to.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2fluidCount.1",
+    "original": "Note that counting all fluids may cause lag!",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2fluidCount.2",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2fluidCount.3",
+    "original": "  {fluidCount [fluidId]} -> the amount of all fluids, or the fluid with fluidId if specified",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2itemCount.0",
+    "original": "Same as itemCount, but counts items in the ME network of the block this cover is attached to.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2itemCount.1",
+    "original": "Note that counting by filter or all items may cause lag!",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2itemCount.2",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2itemCount.3",
+    "original": "  {itemCount} -> total item amount",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2itemCount.4",
+    "original": "  {itemCount <item_id>} -> amount of items with ids equal to item_id",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2itemCount.5",
+    "original": "  {itemCount filter <slot_id>} -> amount of items matching filter in specified slot of this cover",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2maxPower.0",
+    "original": "Returns the energy capacity of the ME network of the block this cover is on.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2maxPower.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2maxPower.2",
+    "original": "  {ae2maxPower} -> the energy capacity of the ME network",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2powerUsage.0",
+    "original": "Returns the energy consumption of the ME network of the block this cover is on.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2powerUsage.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2powerUsage.2",
+    "original": "  {ae2powerUsage} -> the energy consumption of the ME network",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2spatial.0",
+    "original": "Returns information about spatial I/O in the ME network of the block this cover is on.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2spatial.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2spatial.2",
+    "original": "  {ae2spatial power} -> the amount of power required to initiate spatial I/O",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2spatial.3",
+    "original": "  {ae2spatial efficiency} -> the efficiency of the Spatial Containment Structure (SPS)",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.ae2spatial.4",
+    "original": "  {ae2spatial size<X|Y|Z>} -> the size of the SPS along the specified axis (example: 'Size: {sizeX}x{sizeY}x{sizeZ}')",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.amperage.0",
+    "original": "Returns the amperage in the wire/cable the cover is on.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.amperage.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.amperage.2",
+    "original": "  {amperage} -> the amperate in the wire/cable",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.bf.0",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.bf.1",
+    "original": "  {bf <data_item_slot_index> <code>} -> empty string",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.block.0",
+    "original": "Returns the block symbol (█).",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.block.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.block.2",
+    "original": "  {block} -> '█'",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.calc.0",
+    "original": "Returns the result of a math function or operation.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.calc.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.calc.2",
+    "original": "  {calc <any_string>} -> any_string",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.calc.3",
+    "original": "  {calc <round|floor|ceil|sqrt|~> <arg>} -> the result of the specified operation",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.calc.4",
+    "original": "  {calc <first_arg> <+|-|*|/|//|>>|<<|%> <second_arg>} -> the result of the specified operation",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.cmd.0",
+    "original": "Executes Minecraft commands and returns their output.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.cmd.1",
+    "original": "Requires a data item bound to a player, bind any data item to yourself by right-clicking with it.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.cmd.2",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.cmd.3",
+    "original": "  {cmd <slot_index> <command>} -> command output",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.cmp.0",
+    "original": "Returns a 1 or 0 based on the expression in it's arguments",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.cmp.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.cmp.2",
+    "original": "  {cmp <a> <operator> <b>} -> 1 or 0, operator is one of >, <, >=, <=, ==, !=",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.color.0",
+    "original": "Returns the text from the second argument, colored with the color from the first argument. All default minecraft chat colors can be used.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.color.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.color.2",
+    "original": "  {color <color> <text>} -> colored text",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.combine.0",
+    "original": "Combines all of it's arguments into a single string (by escaping all spaces between the arguments)",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.combine.1",
+    "original": "Example: {combine abc def ghi jkl mno} -> \"abc\\ def\\ ghi\\ jkl\\ mno\"",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.combine.2",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.combine.3",
+    "original": "  {combine [arg1] [arg2] [arg3] ...} -> a string that will be treated as a single argument in further placeholders",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.count.0",
+    "original": "Returns how many of the provided arguments are equal to the first (compared as strings, so \"0\" != \"0.0\")",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.count.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.count.2",
+    "original": "  {count <arg1> [arg2] [arg3] [arg4] ...} -> the amount of arguments that are equal to the first",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.data.0",
+    "original": "Stores or retrieves some data from a data item (data stick/orb/module) in one of the slots.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.data.1",
+    "original": "If you leave the <index> argument empty, it will be replaced with the value p (p is an integer from 0 to (capacity - 1) that is stored in the data item nbt).",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.data.2",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.data.3",
+    "original": "  {data get <slot> <index>} -> the data stored in the item in the specified slot",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.data.4",
+    "original": "  {data set <slot> <index> <value>} -> sets the data stored in the item in the specified slot, returns an empty string",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.data.5",
+    "original": "  {data getp <slot>} -> p",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.data.6",
+    "original": "  {data setp <slot> <value>} -> sets p, returns an empty string",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.data.7",
+    "original": "  {data inc <slot>} -> increments p by 1, if p becomes more than or equal to capacity, sets p to 0",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.data.8",
+    "original": "  {data dec <slot>} -> decrements p by 1, if p becomes less than 0, sets p to (capacity - 1)",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.displayTarget.0",
+    "original": "Returns the specified line that was transmitted to this cover using a display link.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.displayTarget.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.displayTarget.2",
+    "original": "  {displayTarget <line_number>} -> the text on the specified line (line number is 1-100)",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.energy.0",
+    "original": "Returns the amount of energy stored.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.energy.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.energy.2",
+    "original": "  {energy} -> the amount of energy stored",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.energyCapacity.0",
+    "original": "Returns the max amount of energy that can be stored",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.energyCapacity.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.energyCapacity.2",
+    "original": "{energyCapacity} -> the energy capacity",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.fluidCount.0",
+    "original": "Returns the amount of fluids (can be filtered).",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.fluidCount.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.fluidCount.2",
+    "original": "  {fluidCount [fluidId]} -> the amount of all fluids, or the fluid with fluidId if specified",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.formatInt.0",
+    "original": "Returns a string representation of the provided integer",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.formatInt.1",
+    "original": "Example: {formatInt 1236457} -> 1.24M",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.formatInt.2",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.formatInt.3",
+    "original": "  {formatInt <arg>} -> string representation of the int",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.fromAscii.0",
+    "original": "Returns the character represented by the provided ASCII code",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.fromAscii.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.fromAscii.2",
+    "original": "  {fromAscii <char_code>} -> a character",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.if.0",
+    "original": "Returns one of the arguments depending on the condition. The condition is considered true if it is not an empty string and is not equal to 0.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.if.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.if.2",
+    "original": "  {if <condition> <returned_if_true> [returned_if_false]}",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.itemCount.0",
+    "original": "Returns the amount of items (can be filtered).",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.itemCount.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.itemCount.2",
+    "original": "  {itemCount} -> total item amount",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.itemCount.3",
+    "original": "  {itemCount <item_id>} -> amount of items with ids equal to item_id",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.itemCount.4",
+    "original": "  {itemCount filter <slot_id>} -> amount of items matching filter in specified slot of this cover",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.maintenance.0",
+    "original": "Returns a 1 if there are maintenance problems in the block the cover is attached to, 0 otherwise.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.maintenance.1",
+    "original": "Example: 'Maintenance status: {if {maintenance} FIXING\\ REQUIRED OK}'",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.maintenance.2",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.maintenance.3",
+    "original": "  {maintenance} -> whether there are maintenance problems",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.maxProgress.0",
+    "original": "Returns the maximum progress of the currently running recipe of the block this cover is attached to.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.maxProgress.1",
+    "original": "Example: 'Progress: {calc {calc {progress} / {maxProgress}} * 100}%'",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.maxProgress.2",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.maxProgress.3",
+    "original": "  {maxProgress} -> the max progress of the currently running recipe",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.nbt.0",
+    "original": "Returns the nbt data of the item in the specified slot",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.nbt.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.nbt.2",
+    "original": "  {nbt <slot>} -> nbt data",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.obf.0",
+    "original": "Returns the text from the first argument, obfuscated.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.obf.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.obf.2",
+    "original": "  {obf <text>} -> obfuscated text",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.previousText.0",
+    "original": "Returns the text that was previously displayed by this cover at the specified line (before line-wrapping).",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.previousText.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.previousText.2",
+    "original": "  {previousText <line>} -> the text previously displayed on the specified line (index starts at 1)",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.progress.0",
+    "original": "Returns the progress of the currently running recipe of the block this cover is attached to.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.progress.1",
+    "original": "Note that progress is an integer between 0 and {maxProgress}",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.progress.2",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.progress.3",
+    "original": "  {progress} -> the progress of the currently running recipe",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.random.0",
+    "original": "Returns a random number in the specified interval (inclusive).",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.random.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.random.2",
+    "original": "  {random <min> <max>} -> a random number between min and max (inclusive)",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.redstone.0",
+    "original": "Returns the redstone signal strength or sets the redstone output strength",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.redstone.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.redstone.2",
+    "original": "  {redstone get <up|down|north|south|east|west>} -> redstone signal strength (0-15) at the specified side",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.redstone.3",
+    "original": "  {redstone get link <slot_index> <freq_slot_index>} -> redstone signal strength of a Create redstone link frequency specified by a linked controller in slot #slot_index. freq_slot_index is the index of the frequency inside the controller (from left to right, 0-6)",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.redstone.4",
+    "original": "  {redstone set <power>} -> empty string, sets the redstone output strength from this cover's side",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.redstone.5",
+    "original": "  {redstone set link <slot_index> <freq_slot_index> <power>} -> empty string, broadcasts the specified redstone power on the specified Create redstone link frequency",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.repeat.0",
+    "original": "Returns the text from the second arguments, repeated the amount of times specified in the first argument.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.repeat.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.repeat.2",
+    "original": "  {repeat <amount> <text>} -> text repeated the specified amount of times",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.select.0",
+    "original": "Returns the argument at the specified index (starting from 0)",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.select.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.select.2",
+    "original": "  {select <index> [arg1] [arg2] [arg3] ... -> argument at the specified index",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.strike.0",
+    "original": "Returns the text from the first text, displaying it as if it was crossed out",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.strike.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.strike.2",
+    "original": "  {strike <text>} -> crossed-out text",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.subList.0",
+    "original": "Returns arguments from with indexes from l (inclusive) to r (exclusive) (starting from 0)",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.subList.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.subList.2",
+    "original": "  {subList <left> <right> [arg0] [arg1] ...} -> all arguments with indexes from l to r separated by spaces",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.tick.0",
+    "original": "Returns the amount of ticks passed from when this cover was placed.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.tick.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.tick.2",
+    "original": "  {tick} -> the amount of ticks",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.tm.0",
+    "original": "Returns the ™ symbol",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.tm.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.tm.2",
+    "original": "  {tm} -> the ™ symbol",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.toAscii.0",
+    "original": "Returns the ASCII code of the provided character",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.toAscii.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.toAscii.2",
+    "original": "  {toAscii <character>} -> ASCII code of the character",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.toChars.0",
+    "original": "Returns the characters of the provided string with spaces between them",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.toChars.1",
+    "original": "Example: {toChars example} -> 'e x a m p l e'",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.toChars.2",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.toChars.3",
+    "original": "  {toChars <arg>} -> characters",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.underline.0",
+    "original": "Returns the text from the first argument, underlined",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.underline.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.underline.2",
+    "original": "  {underline <text>} -> underlined text",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.voltage.0",
+    "original": "Returns the voltage in the wire/cable the cover is on.",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.voltage.1",
+    "original": "Usage:",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.placeholder_info.voltage.2",
+    "original": "  {voltage} -> the voltage in the wire/cable",
+    "translation": "",
+    "stage": 0
+  },
+  {
+    "key": "gtceu.recipe.byproduct_tier",
+    "original": "Byproducts from %s§r+",
+    "translation": "来自%s§r+的副产品",
+    "stage": 2
+  },
+  {
+    "key": "gtceu.tooltip.computer_monitor_config",
+    "original": "Storing computer monitor cover configuration data",
+    "translation": "存储电脑屏幕覆盖板配置数据",
+    "stage": 1
+  },
+  {
+    "key": "gtceu.tooltip.computer_monitor_data",
+    "original": "Storing data: %s",
+    "translation": "保存数据：%s",
+    "stage": 1
+  },
+  {
+    "key": "gtceu.tooltip.player_bind",
+    "original": "Bound to player: %s",
+    "translation": "绑定至玩家：%s",
+    "stage": 1
+  },
+  {
+    "key": "gtceu.tooltip.wireless_transmitter_bind",
+    "original": "Binding to a transmitter cover at %s %s %s facing %s",
+    "translation": "绑定至发射器覆盖板，位于 %s %s %s，朝向 %s",
+    "stage": 1
+  },
+  {
+    "key": "item.gtceu.image_module",
+    "original": "Image Module",
+    "translation": "图像模块",
+    "stage": 1
+  },
+  {
+    "key": "item.gtceu.text_module",
+    "original": "Text Module",
+    "translation": "文本模块",
+    "stage": 1
+  },
+  {
+    "key": "item.gtceu.wireless_transmitter_cover",
+    "original": "Wireless Transmitter",
+    "translation": "无线发信器",
+    "stage": 1
   }
 ]
