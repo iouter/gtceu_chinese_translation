@@ -7248,6 +7248,10 @@
         "original":"machinesHaveBERsByDefault"
     },
     {
+        "key":"config.gtceu.option.maintenanceTime",
+        "original":"maintenanceTime"
+    },
+    {
         "key":"config.gtceu.option.meHatchEnergyUsage",
         "original":"meHatchEnergyUsage"
     },
