@@ -16644,6 +16644,10 @@
         "original":"§7Raw High Power Circuit"
     },
     {
+        "key":"item.gtceu.huge_pipe_casting_mold",
+        "original":"Casting Mold (Huge Pipe)"
+    },
+    {
         "key":"item.gtceu.huge_pipe_extruder_mold",
         "original":"Extruder Mold (Huge Pipe)"
     },
@@ -16978,6 +16982,10 @@
     {
         "key":"item.gtceu.lapotronic_energy_orb_cluster.tooltip",
         "original":"§7Reusable Battery"
+    },
+    {
+        "key":"item.gtceu.large_pipe_casting_mold",
+        "original":"Casting Mold (Large Pipe)"
     },
     {
         "key":"item.gtceu.large_pipe_extruder_mold",
@@ -17616,6 +17624,10 @@
         "original":"§7Raw Logic Gate"
     },
     {
+        "key":"item.gtceu.normal_pipe_casting_mold",
+        "original":"Casting Mold (Normal Pipe)"
+    },
+    {
         "key":"item.gtceu.normal_pipe_extruder_mold",
         "original":"Extruder Mold (Normal Pipe)"
     },
@@ -17744,20 +17756,40 @@
         "original":"Glass Lens (Pink)"
     },
     {
+        "key":"item.gtceu.pipe.huge_casting_mold.tooltip",
+        "original":"§7Mold for making full Block Pipes"
+    },
+    {
         "key":"item.gtceu.pipe.huge_extruder_mold.tooltip",
         "original":"§7Extruder Shape for making full Block Pipes"
+    },
+    {
+        "key":"item.gtceu.pipe.large_casting_mold.tooltip",
+        "original":"§7Mold for making large Pipes"
     },
     {
         "key":"item.gtceu.pipe.large_extruder_mold.tooltip",
         "original":"§7Extruder Shape for making large Pipes"
     },
     {
+        "key":"item.gtceu.pipe.normal_casting_mold.tooltip",
+        "original":"§7Mold for making Pipes"
+    },
+    {
         "key":"item.gtceu.pipe.normal_extruder_mold.tooltip",
         "original":"§7Extruder Shape for making Pipes"
     },
     {
+        "key":"item.gtceu.pipe.small_casting_mold.tooltip",
+        "original":"§7Mold for making small Pipes"
+    },
+    {
         "key":"item.gtceu.pipe.small_extruder_mold.tooltip",
         "original":"§7Extruder Shape for making small Pipes"
+    },
+    {
+        "key":"item.gtceu.pipe.tiny_casting_mold.tooltip",
+        "original":"§7Mold for making tiny Pipes"
     },
     {
         "key":"item.gtceu.pipe.tiny_extruder_mold.tooltip",
@@ -18296,6 +18328,10 @@
         "original":"Small Pile of Chad"
     },
     {
+        "key":"item.gtceu.small_pipe_casting_mold",
+        "original":"Casting Mold (Small Pipe)"
+    },
+    {
         "key":"item.gtceu.small_pipe_extruder_mold",
         "original":"Extruder Mold (Small Pipe)"
     },
@@ -18570,6 +18606,10 @@
     {
         "key":"item.gtceu.tiny_paper_dust",
         "original":"Tiny Pile of Chad"
+    },
+    {
+        "key":"item.gtceu.tiny_pipe_casting_mold",
+        "original":"Casting Mold (Tiny Pipe)"
     },
     {
         "key":"item.gtceu.tiny_pipe_extruder_mold",
