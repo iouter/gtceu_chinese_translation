@@ -1,11 +1,11 @@
 [
     {
-        "key":"behavior.data_item.assemblyline.data",
+        "key":"behavior.data_item.data",
         "original":"- §a%s"
     },
     {
-        "key":"behavior.data_item.assemblyline.title",
-        "original":"§nAssembly Line Construction Data:"
+        "key":"behavior.data_item.title",
+        "original":"§n%s Construction Data:"
     },
     {
         "key":"behavior.item_magnet.disabled",
@@ -6373,7 +6373,7 @@
     },
     {
         "key":"block.gtceu.wire_coil.tooltip_energy_smelter",
-        "original":"  §aEnergy Usage: §f%s EU/t §8per recipe"
+        "original":"  §aEnergy Usage: §f%s EU/t"
     },
     {
         "key":"block.gtceu.wire_coil.tooltip_extended_info",
@@ -6916,6 +6916,10 @@
         "original":"animationTime"
     },
     {
+        "key":"config.gtceu.option.arcRecyclingYield",
+        "original":"arcRecyclingYield"
+    },
+    {
         "key":"config.gtceu.option.armorHud",
         "original":"armorHud"
     },
@@ -7020,12 +7024,24 @@
         "original":"dumpRecipes"
     },
     {
+        "key":"config.gtceu.option.enableArcRecycling",
+        "original":"enableArcRecycling"
+    },
+    {
         "key":"config.gtceu.option.enableCleanroom",
         "original":"enableCleanroom"
     },
     {
+        "key":"config.gtceu.option.enableExtractorRecycling",
+        "original":"enableExtractorRecycling"
+    },
+    {
         "key":"config.gtceu.option.enableFEConverters",
         "original":"enableFEConverters"
+    },
+    {
+        "key":"config.gtceu.option.enableMaceratorRecycling",
+        "original":"enableMaceratorRecycling"
     },
     {
         "key":"config.gtceu.option.enableMaintenance",
@@ -7070,6 +7086,10 @@
     {
         "key":"config.gtceu.option.euToFeRatio",
         "original":"euToFeRatio"
+    },
+    {
+        "key":"config.gtceu.option.extractorRecyclingYield",
+        "original":"extractorRecyclingYield"
     },
     {
         "key":"config.gtceu.option.feToEuRatio",
@@ -7230,6 +7250,10 @@
     {
         "key":"config.gtceu.option.liquidBoilerBaseOutput",
         "original":"liquidBoilerBaseOutput"
+    },
+    {
+        "key":"config.gtceu.option.maceratorRecyclingYield",
+        "original":"maceratorRecyclingYield"
     },
     {
         "key":"config.gtceu.option.machineSounds",
@@ -18708,6 +18732,10 @@
         "original":"§4Damage Boost: §fExtra damage against %s"
     },
     {
+        "key":"item.gtceu.tool.behavior.dowse_campfire",
+        "original":"§Firefighter: §fDowses Campfires"
+    },
+    {
         "key":"item.gtceu.tool.behavior.grass_path",
         "original":"§eLandscaper: §fCreates Grass Paths"
     },
@@ -19006,6 +19034,10 @@
     {
         "key":"item.gtceu.tool.tooltip.crafting_uses",
         "original":"%s §aCrafting Uses"
+    },
+    {
+        "key":"item.gtceu.tool.tooltip.default_enchantments",
+        "original":"§5Default Enchantments:"
     },
     {
         "key":"item.gtceu.tool.tooltip.general_uses",
@@ -22712,7 +22744,7 @@
         "original":"Rain Level: %d"
     },
     {
-        "key":"recipe.condition.rock_breaker.tooltip",
+        "key":"recipe.condition.adjacent_fluid.tooltip",
         "original":"Fluid blocks around"
     },
     {
