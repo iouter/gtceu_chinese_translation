@@ -8196,6 +8196,10 @@
         "original":"Min Redstone Strength: %d"
     },
     {
+        "key":"cover.machine_controller.suspend_powerfail",
+        "original":"Prevent Power Failing:"
+    },
+    {
         "key":"cover.machine_controller.title",
         "original":"Machine Controller Settings"
     },
@@ -22696,6 +22700,10 @@
         "original":"Blocks around"
     },
     {
+        "key":"recipe.condition.adjacent_fluid.tooltip",
+        "original":"Fluid blocks around"
+    },
+    {
         "key":"recipe.condition.biome.tooltip",
         "original":"Biome: %s"
     },
@@ -22742,10 +22750,6 @@
     {
         "key":"recipe.condition.rain.tooltip",
         "original":"Rain Level: %d"
-    },
-    {
-        "key":"recipe.condition.adjacent_fluid.tooltip",
-        "original":"Fluid blocks around"
     },
     {
         "key":"recipe.condition.steam_vent.tooltip",
