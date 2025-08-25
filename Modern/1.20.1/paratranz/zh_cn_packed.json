@@ -9112,6 +9112,18 @@
         "original":"Electromagnetic Separator"
     },
     {
+        "key":"gtceu.ender_item_link_cover.title",
+        "original":"Ender Item Link"
+    },
+    {
+        "key":"gtceu.ender_redstone_link_cover.label",
+        "original":"Redstone power: %d"
+    },
+    {
+        "key":"gtceu.ender_redstone_link_cover.title",
+        "original":"Ender Redstone Link"
+    },
+    {
         "key":"gtceu.extractor",
         "original":"Extractor"
     },
@@ -14172,6 +14184,38 @@
         "original":"  {displayTarget <line_number>} -> the text on the specified line (line number is 1-100)"
     },
     {
+        "key":"gtceu.placeholder_info.ender.0",
+        "original":"Interacts with ender link covers"
+    },
+    {
+        "key":"gtceu.placeholder_info.ender.1",
+        "original":"Can interact with private channels if provided with a data item bound to a player"
+    },
+    {
+        "key":"gtceu.placeholder_info.ender.2",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.ender.3",
+        "original":"  {ender item <channel> [player_data_item_slot]} -> item count"
+    },
+    {
+        "key":"gtceu.placeholder_info.ender.4",
+        "original":"  {ender fluid <channel> [player_data_item_slot]} -> fluid count"
+    },
+    {
+        "key":"gtceu.placeholder_info.ender.5",
+        "original":"  {ender redstone <channel> [player_data_item_slot] -> redstone signal level"
+    },
+    {
+        "key":"gtceu.placeholder_info.ender.6",
+        "original":"  {ender redstone <channel> <player_data_item_slot> <signal> -> sets the redstone signal outputed to the ender redstone link, returns empty string"
+    },
+    {
+        "key":"gtceu.placeholder_info.ender.7",
+        "original":"The player_data_item_slot argument may be left empty (not 0, empty string)"
+    },
+    {
         "key":"gtceu.placeholder_info.energy.0",
         "original":"Returns the amount of energy stored."
     },
@@ -16226,6 +16270,14 @@
     {
         "key":"item.gtceu.ender_fluid_link_cover.tooltip",
         "original":"§7Transports §fFluids§7 with a §fWireless §dEnder§f Connection§7 as §fCover§7."
+    },
+    {
+        "key":"item.gtceu.ender_item_link_cover",
+        "original":"Ender Item Link"
+    },
+    {
+        "key":"item.gtceu.ender_redstone_link_cover",
+        "original":"Ender Redstone Link"
     },
     {
         "key":"item.gtceu.energium_dust",
