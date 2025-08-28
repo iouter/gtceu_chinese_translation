@@ -7016,6 +7016,10 @@
         "original":"doesExplosionDamagesTerrain"
     },
     {
+        "key":"config.gtceu.option.drum",
+        "original":"drum"
+    },
+    {
         "key":"config.gtceu.option.dumpAssets",
         "original":"dumpAssets"
     },
@@ -7376,6 +7380,10 @@
         "original":"prospectorEnergyUseMultiplier"
     },
     {
+        "key":"config.gtceu.option.quantumTank",
+        "original":"quantumTank"
+    },
+    {
         "key":"config.gtceu.option.recipes",
         "original":"recipes"
     },
@@ -7474,6 +7482,10 @@
     {
         "key":"config.gtceu.option.surfaceRockProspectRange",
         "original":"surfaceRockProspectRange"
+    },
+    {
+        "key":"config.gtceu.option.tankItemFluidPreview",
+        "original":"tankItemFluidPreview"
     },
     {
         "key":"config.gtceu.option.titaniumBoilerHeatSpeed",
@@ -7998,6 +8010,14 @@
     {
         "key":"cover.ender_fluid_link.tooltip.list_button",
         "original":"Show channel list"
+    },
+    {
+        "key":"cover.ender_item_link.title",
+        "original":"Ender Item Link"
+    },
+    {
+        "key":"cover.ender_redstone_link.title",
+        "original":"Ender Redstone Link"
     },
     {
         "key":"cover.filter.blacklist.disabled",
@@ -9622,6 +9642,10 @@
     {
         "key":"gtceu.gui.machinemode",
         "original":"Active Machine Mode: %s"
+    },
+    {
+        "key":"gtceu.gui.machinemode.tab_tooltip",
+        "original":"Change active Machine Mode"
     },
     {
         "key":"gtceu.gui.machinemode.title",
