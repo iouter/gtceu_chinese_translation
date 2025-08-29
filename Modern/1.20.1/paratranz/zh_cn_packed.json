@@ -524,8 +524,16 @@
         "original":"Bronze Machine Casing"
     },
     {
+        "key":"block.gtceu.bronze_multiblock_tank",
+        "original":"Bronze Multiblock Tank"
+    },
+    {
         "key":"block.gtceu.bronze_pipe_casing",
         "original":"Bronze Pipe Casing"
+    },
+    {
+        "key":"block.gtceu.bronze_tank_valve",
+        "original":"Bronze Tank Valve"
     },
     {
         "key":"block.gtceu.brown_borderless_lamp",
