@@ -400,6 +400,10 @@
         "original":"Advanced Data Access Hatch"
     },
     {
+        "key":"block.gtceu.advanced_monitor",
+        "original":"Advanced Monitor"
+    },
+    {
         "key":"block.gtceu.alloy_blast_smelter",
         "original":"Alloy Blast Smelter"
     },
@@ -14100,6 +14104,26 @@
         "original":"  {calc <first_arg> <+|-|*|/|//|>>|<<|%> <second_arg>} -> the result of the specified operation"
     },
     {
+        "key":"gtceu.placeholder_info.click.0",
+        "original":"Returns whether the targeted advanced monitor was clicked before the current tick"
+    },
+    {
+        "key":"gtceu.placeholder_info.click.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.click.2",
+        "original":"  {click} -> \"1\" if the targeted advanced monitor was clicked, \"0\" otherwise"
+    },
+    {
+        "key":"gtceu.placeholder_info.click.3",
+        "original":"  {click x} -> the x position of the last click (between 0 and 1)"
+    },
+    {
+        "key":"gtceu.placeholder_info.click.4",
+        "original":"  {click y} -> the y position of the last click (between 0 and 1)"
+    },
+    {
         "key":"gtceu.placeholder_info.cmd.0",
         "original":"Executes Minecraft commands and returns their output."
     },
@@ -14224,6 +14248,10 @@
         "original":"Can interact with private channels if provided with a data item bound to a player"
     },
     {
+        "key":"gtceu.placeholder_info.ender.10",
+        "original":"The player_data_item_slot argument may be left empty (not 0, empty string)"
+    },
+    {
         "key":"gtceu.placeholder_info.ender.2",
         "original":"Usage:"
     },
@@ -14233,19 +14261,27 @@
     },
     {
         "key":"gtceu.placeholder_info.ender.4",
-        "original":"  {ender fluid <channel> [player_data_item_slot]} -> fluid count"
+        "original":"  {ender itemPull <channel> [player_data_item_slot]} -> pull 1 item from the ender link's buffer"
     },
     {
         "key":"gtceu.placeholder_info.ender.5",
-        "original":"  {ender redstone <channel> [player_data_item_slot] -> redstone signal level"
+        "original":"  {ender itemPush <channel> [player_data_item_slot]} -> push 1 item to the ender link's buffer"
     },
     {
         "key":"gtceu.placeholder_info.ender.6",
-        "original":"  {ender redstone <channel> <player_data_item_slot> <signal> -> sets the redstone signal outputed to the ender redstone link, returns empty string"
+        "original":"  {ender itemId <channel> [player_data_item_slot]} -> the id of the item in the ender link's buffer (ex. \"26 minecraft:dirt\")"
     },
     {
         "key":"gtceu.placeholder_info.ender.7",
-        "original":"The player_data_item_slot argument may be left empty (not 0, empty string)"
+        "original":"  {ender fluid <channel> [player_data_item_slot]} -> fluid count"
+    },
+    {
+        "key":"gtceu.placeholder_info.ender.8",
+        "original":"  {ender redstone <channel> [player_data_item_slot] -> redstone signal level"
+    },
+    {
+        "key":"gtceu.placeholder_info.ender.9",
+        "original":"  {ender redstone <channel> <player_data_item_slot> <signal> -> sets the redstone signal outputed to the ender redstone link, returns empty string"
     },
     {
         "key":"gtceu.placeholder_info.energy.0",
@@ -14385,7 +14421,7 @@
     },
     {
         "key":"gtceu.placeholder_info.nbt.2",
-        "original":"  {nbt <slot>} -> nbt data"
+        "original":"  {nbt <slot> [key1] [key2] [key3] ...} -> item_nbt[key1][key2][key3][...]"
     },
     {
         "key":"gtceu.placeholder_info.obf.0",
@@ -15177,7 +15213,7 @@
     },
     {
         "key":"gtceu.tooltip.wireless_transmitter_bind",
-        "original":"Binding to a transmitter cover at %s %s %s facing %s"
+        "original":"Binding to a transmitter cover at %s %s %s facing %s in %s"
     },
     {
         "key":"gtceu.top.allow_output_input",
