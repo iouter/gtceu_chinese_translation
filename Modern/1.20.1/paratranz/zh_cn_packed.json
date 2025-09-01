@@ -14308,6 +14308,30 @@
         "original":"{energyCapacity} -> the energy capacity"
     },
     {
+        "key":"gtceu.placeholder_info.eval.0",
+        "original":"Returns the result of evaluating the provided string which may placeholders"
+    },
+    {
+        "key":"gtceu.placeholder_info.eval.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.eval.2",
+        "original":"  {eval abcdefg} -> abcdefg"
+    },
+    {
+        "key":"gtceu.placeholder_info.eval.3",
+        "original":"  {eval \"repeating a: {repeat 5 \\\"a \\\"}\" -> repeating a: a a a a a "
+    },
+    {
+        "key":"gtceu.placeholder_info.eval.4",
+        "original":"  {eval \\\"\"{some random text}\"\\\" -> {some random text}"
+    },
+    {
+        "key":"gtceu.placeholder_info.eval.5",
+        "original":"  {eval \"text \"\\\"\"{something with spaces}\"\\\"\" more text\" -> text {something with spaces} more text"
+    },
+    {
         "key":"gtceu.placeholder_info.fluidCount.0",
         "original":"Returns the amount of fluids (can be filtered)."
     },
