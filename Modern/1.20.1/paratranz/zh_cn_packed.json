@@ -7921,15 +7921,15 @@
     },
     {
         "key":"cover.conveyor.distribution.round_robin_prio.0",
-        "original":"Distribution Mode: §bRound Robin with Priority"
+        "original":"Distribution Mode: §bRound Robin with Restriction"
     },
     {
         "key":"cover.conveyor.distribution.round_robin_prio.1",
-        "original":"§7Tries to split items across connected inventories and considers higher priorities first."
+        "original":"§7Tries to split items equally across connected inventories."
     },
     {
         "key":"cover.conveyor.distribution.round_robin_prio.2",
-        "original":"§7Restrictive item pipes lower the priority of a path."
+        "original":"§7Will not send items down Restrictive item pipes unless no other paths are available."
     },
     {
         "key":"cover.conveyor.item_filter.title",
