@@ -688,6 +688,10 @@
         "original":"Creative Tank"
     },
     {
+        "key":"block.gtceu.creosote",
+        "original":"Creosote"
+    },
+    {
         "key":"block.gtceu.crushing_wheels",
         "original":"Crushing Wheels"
     },
@@ -3610,6 +3614,10 @@
     {
         "key":"block.gtceu.object_holder",
         "original":"Object Holder"
+    },
+    {
+        "key":"block.gtceu.oil",
+        "original":"Oil"
     },
     {
         "key":"block.gtceu.oil_heavy",
@@ -6924,6 +6932,10 @@
         "original":"allUniqueStoneTypes"
     },
     {
+        "key":"config.gtceu.option.allowDrumsInputFluidsFromOutputSide",
+        "original":"allowDrumsInputFluidsFromOutputSide"
+    },
+    {
         "key":"config.gtceu.option.animationTime",
         "original":"animationTime"
     },
@@ -7288,8 +7300,8 @@
         "original":"machinesHaveBERsByDefault"
     },
     {
-        "key":"config.gtceu.option.maintenanceTime",
-        "original":"maintenanceTime"
+        "key":"config.gtceu.option.maintenanceCheckRate",
+        "original":"maintenanceCheckRate"
     },
     {
         "key":"config.gtceu.option.meHatchEnergyUsage",
@@ -7422,6 +7434,10 @@
     {
         "key":"config.gtceu.option.renderFluids",
         "original":"renderFluids"
+    },
+    {
+        "key":"config.gtceu.option.renderGrowingPlants",
+        "original":"renderGrowingPlants"
     },
     {
         "key":"config.gtceu.option.renderer",
@@ -18894,6 +18910,26 @@
     {
         "key":"item.gtceu.tool.behavior.plunger",
         "original":"§9Plumber: §fDrains Fluids"
+    },
+    {
+        "key":"item.gtceu.tool.behavior.prospecting.air",
+        "original":"Found an air pocket"
+    },
+    {
+        "key":"item.gtceu.tool.behavior.prospecting.changing",
+        "original":"Detected material change"
+    },
+    {
+        "key":"item.gtceu.tool.behavior.prospecting.lava",
+        "original":"Found lava"
+    },
+    {
+        "key":"item.gtceu.tool.behavior.prospecting.ore",
+        "original":"Found ore: %s"
+    },
+    {
+        "key":"item.gtceu.tool.behavior.prospecting.water",
+        "original":"Found water"
     },
     {
         "key":"item.gtceu.tool.behavior.rail_rotation",
