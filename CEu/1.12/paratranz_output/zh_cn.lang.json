@@ -29318,14 +29318,14 @@
   {
     "key": "gregtech.machine.data_bank.tooltip.4",
     "original": "Uses §f%s EU/t§7 per Data/Optical Hatch normally.",
-    "translation": "每个数据/光学仓耗能为§f%s EU/t§7。",
+    "translation": "通常，每个数据/光学仓耗能为§f%s EU/t§7。",
     "stage": 5,
     "context": "类型356"
   },
   {
     "key": "gregtech.machine.data_bank.tooltip.5",
     "original": "Uses §f%s EU/t§7 per Data/Optical Hatch when chained.",
-    "translation": "每个已连接的数据/光学仓耗能为§f%s EU/t§7。",
+    "translation": "安装了靶仓时，每个数据/光学仓耗能为§f%s EU/t§7。",
     "stage": 5,
     "context": "类型356"
   },

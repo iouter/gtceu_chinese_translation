@@ -6728,7 +6728,7 @@
   {
     "key": "gtceu.machine.cleanroom.tooltip.2",
     "original": "Overclocking increases cleaning per cycle.",
-    "translation": "超频增加每个周期的清洁度。",
+    "translation": "超频可提升每个周期的清洁度。",
     "stage": 5
   },
   {
@@ -16411,20 +16411,20 @@
   },
   {
     "key": "cover.conveyor.distribution.round_robin_prio.0",
-    "original": "Distribution Mode: §bRound Robin with Priority",
-    "translation": "分配模式：§b轮询调度（次序式）",
+    "original": "Distribution Mode: §bRound Robin with Restriction",
+    "translation": "分配模式：§b轮询调度（加固管道）",
     "stage": 5
   },
   {
     "key": "cover.conveyor.distribution.round_robin_prio.1",
-    "original": "§7Tries to split items across connected inventories and considers higher priorities first.",
-    "translation": "§7尝试将物品平分至相连的物品存储空间，并优先考虑优先级更高的。",
+    "original": "§7Tries to split items equally across connected inventories.",
+    "translation": "§7尝试将物品平分至相连的物品存储空间。",
     "stage": 5
   },
   {
     "key": "cover.conveyor.distribution.round_robin_prio.2",
-    "original": "§7Restrictive item pipes lower the priority of a path.",
-    "translation": "§7加固物品管道会降低管道路径的优先级。",
+    "original": "§7Will not send items down Restrictive item pipes unless no other paths are available.",
+    "translation": "§7除非没有其他可用路径，否则不会发送物品至加固物品管道。",
     "stage": 5
   },
   {
@@ -26798,13 +26798,13 @@
   {
     "key": "gtceu.machine.data_bank.tooltip.3",
     "original": "Uses §f%s EU/t§7 per Data/Optical Hatch normally.",
-    "translation": "每个数据/光学仓耗能为§f%s EU/t§7。",
+    "translation": "通常，每个数据/光学仓耗能为§f%s EU/t§7。",
     "stage": 5
   },
   {
     "key": "gtceu.machine.data_bank.tooltip.4",
     "original": "Uses §f%s EU/t§7 per Data/Optical Hatch when chained.",
-    "translation": "每个已连接的数据/光学仓耗能为§f%s EU/t§7。",
+    "translation": "安装了靶仓时，每个数据/光学仓耗能为§f%s EU/t§7。",
     "stage": 5
   },
   {
@@ -34321,8 +34321,8 @@
   },
   {
     "key": "gtceu.placeholder_info.nbt.2",
-    "original": "  {nbt <slot>} -> nbt data",
-    "translation": "  {nbt <槽位>} -> NBT数据",
+    "original": "  {nbt <slot> [key1] [key2] [key3] ...} -> item_nbt[key1][key2][key3][...]",
+    "translation": "  {nbt <槽位> [键1] [键2] [键3] …} -> 物品NBT [键1] [键2] [键3] […]",
     "stage": 5
   },
   {
@@ -34651,8 +34651,8 @@
   },
   {
     "key": "gtceu.tooltip.wireless_transmitter_bind",
-    "original": "Binding to a transmitter cover at %s %s %s facing %s",
-    "translation": "绑定至无线发信器，位于%s %s %s，朝向%s",
+    "original": "Binding to a transmitter cover at %s %s %s facing %s in %s",
+    "translation": "绑定至无线发信器，其位于%5$s，%1$s %2$s %3$s，朝向%4$s",
     "stage": 5
   },
   {
@@ -34671,12 +34671,6 @@
     "key": "item.gtceu.wireless_transmitter_cover",
     "original": "Wireless Transmitter",
     "translation": "无线发信器",
-    "stage": 5
-  },
-  {
-    "key": "config.gtceu.option.maintenanceTime",
-    "original": "maintenanceTime",
-    "translation": "维护时间",
     "stage": 5
   },
   {
@@ -34855,26 +34849,26 @@
   },
   {
     "key": "gtceu.placeholder_info.ender.4",
-    "original": "  {ender fluid <channel> [player_data_item_slot]} -> fluid count",
-    "translation": "  {ender fluid <频道> [数据容器(玩家)槽位]} -> 流体量",
+    "original": "  {ender itemPull <channel> [player_data_item_slot]} -> pull 1 item from the ender link's buffer",
+    "translation": "  {ender itemPull <频道> [数据容器(玩家)槽位]} -> 从末影连接缓存中拉取一个物品",
     "stage": 5
   },
   {
     "key": "gtceu.placeholder_info.ender.5",
-    "original": "  {ender redstone <channel> [player_data_item_slot] -> redstone signal level",
-    "translation": "  {ender redstone <频道> [数据容器(玩家)槽位] -> 红石信号强度",
+    "original": "  {ender itemPush <channel> [player_data_item_slot]} -> push 1 item to the ender link's buffer",
+    "translation": "  {ender itemPush <频道> [数据容器(玩家)槽位] -> 推送一个物品至末影连接缓存",
     "stage": 5
   },
   {
     "key": "gtceu.placeholder_info.ender.6",
-    "original": "  {ender redstone <channel> <player_data_item_slot> <signal> -> sets the redstone signal outputed to the ender redstone link, returns empty string",
-    "translation": "  {ender redstone <频道> <数据容器(玩家)槽位> <红石信号强度> -> 设置输出到末影红石连接覆盖板的红石信号强度，返回空字符串",
+    "original": "  {ender itemId <channel> [player_data_item_slot]} -> the id of the item in the ender link's buffer (ex. \"26 minecraft:dirt\")",
+    "translation": "  {ender itemId <频道> [数据容器(玩家)槽位]} -> 末影连接缓存里物品的id（例：\"26 minecraft:dirt\"）",
     "stage": 5
   },
   {
     "key": "gtceu.placeholder_info.ender.7",
-    "original": "The player_data_item_slot argument may be left empty (not 0, empty string)",
-    "translation": "数据容器(玩家)槽位参数可以留空（不是0，空字符串）",
+    "original": "  {ender fluid <channel> [player_data_item_slot]} -> fluid count",
+    "translation": "  {ender fluid <channel> [数据容器(玩家)槽位]} -> 流体量",
     "stage": 5
   },
   {
@@ -34899,7 +34893,7 @@
     "key": "config.gtceu.option.quantumTank",
     "original": "quantumTank",
     "translation": "超级/量子缸",
-    "stage": 3
+    "stage": 5
   },
   {
     "key": "config.gtceu.option.tankItemFluidPreview",
@@ -34923,6 +34917,168 @@
     "key": "gtceu.gui.machinemode.tab_tooltip",
     "original": "Change active Machine Mode",
     "translation": "更改当前机器模式",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.bronze_multiblock_tank",
+    "original": "Bronze Multiblock Tank",
+    "translation": "青铜多方块储罐",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.bronze_tank_valve",
+    "original": "Bronze Tank Valve",
+    "translation": "青铜储罐阀门",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.advanced_monitor",
+    "original": "Advanced Monitor",
+    "translation": "高级监控器",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.click.0",
+    "original": "Returns whether the targeted advanced monitor was clicked before the current tick",
+    "translation": "返回在当前tick之前，目标高级监控器是否被点击",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.click.1",
+    "original": "Usage:",
+    "translation": "用法：",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.click.2",
+    "original": "  {click} -> \"1\" if the targeted advanced monitor was clicked, \"0\" otherwise",
+    "translation": "  {click} -> 如果目标高级监控器被点击，返回\"1\"，否则返回\"0\"",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.click.3",
+    "original": "  {click x} -> the x position of the last click (between 0 and 1)",
+    "translation": "  {click x} -> 最后一次点击时，x的坐标（0到1之间）",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.click.4",
+    "original": "  {click y} -> the y position of the last click (between 0 and 1)",
+    "translation": "  {click y} -> 最后一次点击时，y的坐标（0到1之间）",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.ender.10",
+    "original": "The player_data_item_slot argument may be left empty (not 0, empty string)",
+    "translation": "数据容器(玩家)槽位参数可留空（不是0，空字符串）",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.ender.8",
+    "original": "  {ender redstone <channel> [player_data_item_slot] -> redstone signal level",
+    "translation": "  {ender redstone <频道> [数据容器(玩家)槽位] -> 红石信号等级",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.ender.9",
+    "original": "  {ender redstone <channel> <player_data_item_slot> <signal> -> sets the redstone signal outputed to the ender redstone link, returns empty string",
+    "translation": "  {ender redstone <频道> <数据容器(玩家)槽位> <信号等级>} -> 设置末影红石连接输出的红石信号，返回空字符串",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.eval.0",
+    "original": "Returns the result of evaluating the provided string which may placeholders",
+    "translation": "返回对提供的字符串执行的结果，其中可能包含占位符",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.eval.1",
+    "original": "Usage:",
+    "translation": "用法：",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.eval.2",
+    "original": "  {eval abcdefg} -> abcdefg",
+    "translation": "  {eval abcdefg} -> abcdefg",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.eval.3",
+    "original": "  {eval \"repeating a: {repeat 5 \\\"a \\\"}\" -> repeating a: a a a a a ",
+    "translation": "  {eval \"repeating a: {repeat 5 \\\"a \\\"}\" -> repeating a: a a a a a ",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.eval.4",
+    "original": "  {eval \\\"\"{some random text}\"\\\" -> {some random text}",
+    "translation": "  {eval \\\"\"{some random text}\"\\\" -> {some random text}",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.eval.5",
+    "original": "  {eval \"text \"\\\"\"{something with spaces}\"\\\"\" more text\" -> text {something with spaces} more text",
+    "translation": "  {eval \"text \"\\\"\"{something with spaces}\"\\\"\" more text\" -> text {something with spaces} more text",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.creosote",
+    "original": "Creosote",
+    "translation": "杂酚油",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.oil",
+    "original": "Oil",
+    "translation": "石油",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.allowDrumsInputFluidsFromOutputSide",
+    "original": "allowDrumsInputFluidsFromOutputSide",
+    "translation": "允许桶从输出面输入流体",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.maintenanceCheckRate",
+    "original": "maintenanceCheckRate",
+    "translation": "检查维护的频率",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.renderGrowingPlants",
+    "original": "renderGrowingPlants",
+    "translation": "渲染作物",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.tool.behavior.prospecting.air",
+    "original": "Found an air pocket",
+    "translation": "找到个空腔",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.tool.behavior.prospecting.changing",
+    "original": "Detected material change",
+    "translation": "探测到材质有所改变",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.tool.behavior.prospecting.lava",
+    "original": "Found lava",
+    "translation": "找到了熔岩",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.tool.behavior.prospecting.ore",
+    "original": "Found ore: %s",
+    "translation": "找到矿石：%s",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.tool.behavior.prospecting.water",
+    "original": "Found water",
+    "translation": "找到了水",
     "stage": 5
   }
 ]
