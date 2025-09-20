@@ -7628,6 +7628,10 @@
         "original":"[GTCEu] Controllable"
     },
     {
+        "key":"config.jade.plugin_gtceu.data_bank",
+        "original":"[GTCEu] Data Bank Info"
+    },
+    {
         "key":"config.jade.plugin_gtceu.electric_container_provider",
         "original":"[GTCEu] Electric Container"
     },
