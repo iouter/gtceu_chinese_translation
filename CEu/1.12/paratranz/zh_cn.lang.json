@@ -677,7 +677,7 @@
     {
         "context":"类型20",
         "key":"gregtech.multiblock.large_boiler.description",
-        "original":"Large Boilers are multiblocks that generate steam from an energy source and water. Said energy source is either any Solid Fuel with a Burn Time, or a Diesel/Semi-Fluid Fuel. Can be throttled back in increments of 5%% to reduce Steam output and Fuel consumption."
+        "original":"Large Boilers are multiblocks that generate steam from an energy source and water. Said energy source is either any Solid Fuel with a Burn Time, or a Diesel/Semi-Fluid Fuel. Can be throttled back to reduce Steam output and Fuel consumption."
     },
     {
         "context":"类型20",
