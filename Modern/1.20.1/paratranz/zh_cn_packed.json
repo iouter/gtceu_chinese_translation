@@ -7000,6 +7000,10 @@
         "original":"compat"
     },
     {
+        "key":"config.gtceu.option.createCompat",
+        "original":"createCompat"
+    },
+    {
         "key":"config.gtceu.option.debug",
         "original":"debug"
     },
@@ -12957,7 +12961,7 @@
     },
     {
         "key":"gtceu.multiblock.batch_enabled",
-        "original":"Batching Mode: Enabled (%sx)"
+        "original":"- %dx from Batching"
     },
     {
         "key":"gtceu.multiblock.blast_furnace.max_temperature",
@@ -13481,7 +13485,7 @@
     },
     {
         "key":"gtceu.multiblock.parallel.exact",
-        "original":"Performing %d Recipes in Parallel"
+        "original":"- %dx from Parallels"
     },
     {
         "key":"gtceu.multiblock.parallelizable.tooltip",
@@ -13744,8 +13748,16 @@
         "original":"A Multi Smelter at the Steam Age. Requires at least 6 Bronze Casings to form. Cannot use normal Input/Output busses, nor Fluid Hatches other than the Steam Hatch. Steam Hatch must be on the bottom layer, no more than one."
     },
     {
+        "key":"gtceu.multiblock.subtick_parallels",
+        "original":"- %dx from Overclocking"
+    },
+    {
         "key":"gtceu.multiblock.title",
         "original":"Multiblock Pattern"
+    },
+    {
+        "key":"gtceu.multiblock.total_runs",
+        "original":"Performing %d Recipes at once"
     },
     {
         "key":"gtceu.multiblock.turbine.efficiency",
