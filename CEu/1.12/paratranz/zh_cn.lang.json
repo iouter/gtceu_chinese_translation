@@ -25566,6 +25566,16 @@
     },
     {
         "context":"类型422",
+        "key":"gregtech.gui.item_lock.tooltip.enabled",
+        "original":"Item Locking Enabled"
+    },
+    {
+        "context":"类型422",
+        "key":"gregtech.gui.item_lock.tooltip.disabled",
+        "original":"Item Locking Disabled"
+    },
+    {
+        "context":"类型422",
         "key":"gregtech.gui.fluid_voiding.tooltip.enabled",
         "original":"Excess Fluid Voiding Enabled"
     },
