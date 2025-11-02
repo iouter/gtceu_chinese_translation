@@ -14116,6 +14116,18 @@
         "original":"  {block} -> '█'"
     },
     {
+        "key":"gtceu.placeholder_info.bufferText.0",
+        "original":"Returns the text from a buffer accessible by ComputerCraft"
+    },
+    {
+        "key":"gtceu.placeholder_info.bufferText.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.bufferText.2",
+        "original":"  {bufferText <line>} -> text from the buffer on the specified line (line is 1-100)"
+    },
+    {
         "key":"gtceu.placeholder_info.calc.0",
         "original":"Returns the result of a math function or operation."
     },
