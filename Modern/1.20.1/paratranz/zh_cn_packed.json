@@ -11972,6 +11972,10 @@
         "original":"§7takes §f%ds §7per Block"
     },
     {
+        "key":"gtceu.machine.miner.progress",
+        "original":"Progress: %d/%d"
+    },
+    {
         "key":"gtceu.machine.miner.radius",
         "original":"Radius: %d"
     },
