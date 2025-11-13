@@ -27181,6 +27181,41 @@
     },
     {
         "context":"类型450",
+        "key":"gregtech.command.benchmark.usage",
+        "original":"Usage: /gregtech benchmark <system>"
+    },
+    {
+        "context":"类型450",
+        "key":"gregtech.command.benchmark.abort.usage",
+        "original":"Usage: /gregtech benchmark abort"
+    },
+    {
+        "context":"类型450",
+        "key":"gregtech.command.benchmark.lookup.usage",
+        "original":"Usage: /gregtech benchmark lookup <trials> <rate>"
+    },
+    {
+        "context":"类型450",
+        "key":"gregtech.command.benchmark.lookup.progress",
+        "original":"Analysis at %s / %s trials complete."
+    },
+    {
+        "context":"类型450",
+        "key":"gregtech.command.benchmark.lookup.failures",
+        "original":"%s recipe samples failed test verification. Check the log for details."
+    },
+    {
+        "context":"类型450",
+        "key":"gregtech.command.benchmark.lookup.success",
+        "original":"Analysis complete and outputted to log file."
+    },
+    {
+        "context":"类型450",
+        "key":"gregtech.command.benchmark.lookup.written",
+        "original":"Results successfully saved to 'benchmark-lookup-results.csv' in the config folder."
+    },
+    {
+        "context":"类型450",
         "key":"gregtech.command.copy.copied_and_click",
         "original":"copied to clipboard. Click to copy again"
     },

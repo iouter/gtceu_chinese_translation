@@ -9700,20 +9700,20 @@
         "original":"Network Status: §2Online§r"
     },
     {
+        "key":"gtceu.gui.multiblock_all_voiding.0",
+        "original":"Voiding Mode"
+    },
+    {
+        "key":"gtceu.gui.multiblock_all_voiding.1",
+        "original":"§7Voiding All"
+    },
+    {
         "key":"gtceu.gui.multiblock_fluid_voiding.0",
         "original":"Voiding Mode"
     },
     {
         "key":"gtceu.gui.multiblock_fluid_voiding.1",
         "original":"§7Voiding §9Fluids"
-    },
-    {
-        "key":"gtceu.gui.multiblock_item_fluid_voiding.0",
-        "original":"Voiding Mode"
-    },
-    {
-        "key":"gtceu.gui.multiblock_item_fluid_voiding.1",
-        "original":"§7Voiding §6Items §7and §9Fluids"
     },
     {
         "key":"gtceu.gui.multiblock_item_voiding.0",
