@@ -9348,6 +9348,10 @@
         "original":"Configure Automatic Stocking"
     },
     {
+        "key":"gtceu.gui.all_voiding",
+        "original":"§7Voiding §cAll"
+    },
+    {
         "key":"gtceu.gui.auto_output.name",
         "original":"auto"
     },
@@ -9624,6 +9628,10 @@
         "original":"Fluid Locking Enabled"
     },
     {
+        "key":"gtceu.gui.fluid_voiding",
+        "original":"§7Voiding §9Fluids"
+    },
+    {
         "key":"gtceu.gui.fluid_voiding_partial.tooltip.disabled",
         "original":"Fluid Voiding Disabled"
     },
@@ -9668,6 +9676,10 @@
         "original":"Item Locking Enabled"
     },
     {
+        "key":"gtceu.gui.item_voiding",
+        "original":"§7Voiding §6Items"
+    },
+    {
         "key":"gtceu.gui.item_voiding_partial.tooltip.disabled",
         "original":"Item Voiding Disabled"
     },
@@ -9700,35 +9712,11 @@
         "original":"Network Status: §2Online§r"
     },
     {
-        "key":"gtceu.gui.multiblock_all_voiding.0",
-        "original":"Voiding Mode"
+        "key":"gtceu.gui.multiblock.voiding_mode",
+        "original":"Voiding Mode:"
     },
     {
-        "key":"gtceu.gui.multiblock_all_voiding.1",
-        "original":"§7Voiding All"
-    },
-    {
-        "key":"gtceu.gui.multiblock_fluid_voiding.0",
-        "original":"Voiding Mode"
-    },
-    {
-        "key":"gtceu.gui.multiblock_fluid_voiding.1",
-        "original":"§7Voiding §9Fluids"
-    },
-    {
-        "key":"gtceu.gui.multiblock_item_voiding.0",
-        "original":"Voiding Mode"
-    },
-    {
-        "key":"gtceu.gui.multiblock_item_voiding.1",
-        "original":"§7Voiding §6Items"
-    },
-    {
-        "key":"gtceu.gui.multiblock_no_voiding.0",
-        "original":"Voiding Mode"
-    },
-    {
-        "key":"gtceu.gui.multiblock_no_voiding.1",
+        "key":"gtceu.gui.no_voiding",
         "original":"§7Voiding Nothing"
     },
     {
