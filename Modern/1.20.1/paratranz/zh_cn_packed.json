@@ -7452,6 +7452,10 @@
         "original":"replaceMinedBlocksWith"
     },
     {
+        "key":"config.gtceu.option.replaceWithCobbleVersion",
+        "original":"replaceWithCobbleVersion"
+    },
+    {
         "key":"config.gtceu.option.requireGTToolsForBlocks",
         "original":"requireGTToolsForBlocks"
     },
@@ -9612,12 +9616,40 @@
         "original":"allow fluids input from the output side"
     },
     {
+        "key":"gtceu.gui.fluid_auto_output.disabled",
+        "original":"Fluid Auto Output: §cDisabled"
+    },
+    {
+        "key":"gtceu.gui.fluid_auto_output.enabled",
+        "original":"Fluid Auto Output: §aEnabled"
+    },
+    {
+        "key":"gtceu.gui.fluid_auto_output.other_direction.0",
+        "original":"Fluid Auto Output: §6Other Direction"
+    },
+    {
+        "key":"gtceu.gui.fluid_auto_output.other_direction.1",
+        "original":"§7The machine's fluid output is set to another direction."
+    },
+    {
+        "key":"gtceu.gui.fluid_auto_output.other_direction.2",
+        "original":"§7Click to move the output to the currently selected side."
+    },
+    {
         "key":"gtceu.gui.fluid_auto_output.tooltip.disabled",
         "original":"Fluid Auto-Output Disabled"
     },
     {
         "key":"gtceu.gui.fluid_auto_output.tooltip.enabled",
         "original":"Fluid Auto-Output Enabled"
+    },
+    {
+        "key":"gtceu.gui.fluid_auto_output.unselected.0",
+        "original":"Fluid Auto Output"
+    },
+    {
+        "key":"gtceu.gui.fluid_auto_output.unselected.1",
+        "original":"§7Select a side of the machine to configure its output."
     },
     {
         "key":"gtceu.gui.fluid_lock.tooltip.disabled",
@@ -9660,12 +9692,40 @@
         "original":"allow items input from the output side"
     },
     {
+        "key":"gtceu.gui.item_auto_output.disabled",
+        "original":"Item Auto Output: §cDisabled"
+    },
+    {
+        "key":"gtceu.gui.item_auto_output.enabled",
+        "original":"Item Auto Output: §aEnabled"
+    },
+    {
+        "key":"gtceu.gui.item_auto_output.other_direction.0",
+        "original":"Item Auto Output: §6Other Direction"
+    },
+    {
+        "key":"gtceu.gui.item_auto_output.other_direction.1",
+        "original":"§7The machine's item output is set to another direction."
+    },
+    {
+        "key":"gtceu.gui.item_auto_output.other_direction.2",
+        "original":"§7Click to move the output to the currently selected side."
+    },
+    {
         "key":"gtceu.gui.item_auto_output.tooltip.disabled",
         "original":"Item Auto-Output Disabled"
     },
     {
         "key":"gtceu.gui.item_auto_output.tooltip.enabled",
         "original":"Item Auto-Output Enabled"
+    },
+    {
+        "key":"gtceu.gui.item_auto_output.unselected.0",
+        "original":"Item Auto Output"
+    },
+    {
+        "key":"gtceu.gui.item_auto_output.unselected.1",
+        "original":"§7Select a side of the machine to configure its output."
     },
     {
         "key":"gtceu.gui.item_lock.tooltip.disabled",
