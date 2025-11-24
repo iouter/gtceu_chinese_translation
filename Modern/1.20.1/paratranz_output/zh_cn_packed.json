@@ -6210,54 +6210,6 @@
     "stage": 5
   },
   {
-    "key": "gtceu.gui.multiblock_fluid_voiding.0",
-    "original": "Voiding Mode",
-    "translation": "销毁模式",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.gui.multiblock_fluid_voiding.1",
-    "original": "§7Voiding §9Fluids",
-    "translation": "§7销毁§9流体",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.gui.multiblock_item_fluid_voiding.0",
-    "original": "Voiding Mode",
-    "translation": "销毁模式",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.gui.multiblock_item_fluid_voiding.1",
-    "original": "§7Voiding §6Items §7and §9Fluids",
-    "translation": "§7销毁§6物品§7和§9流体",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.gui.multiblock_item_voiding.0",
-    "original": "Voiding Mode",
-    "translation": "销毁模式",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.gui.multiblock_item_voiding.1",
-    "original": "§7Voiding §6Items",
-    "translation": "§7销毁§6物品",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.gui.multiblock_no_voiding.0",
-    "original": "Voiding Mode",
-    "translation": "销毁模式",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.gui.multiblock_no_voiding.1",
-    "original": "§7Voiding Nothing",
-    "translation": "§7不销毁",
-    "stage": 5
-  },
-  {
     "key": "gtceu.gui.output_setting.title",
     "original": "Output Settings",
     "translation": "输出设置",
@@ -7856,7 +7808,7 @@
   {
     "key": "gtceu.multiblock.large_boiler.description",
     "original": "Large Boilers are multiblocks that generate steam from an energy source and water. Said energy source is either any Solid Fuel with a Burn Time, or a Diesel/Semi-Fluid Fuel. Can be throttled back in increments of 5%% to reduce Steam output and Fuel consumption.",
-    "translation": "大型锅炉是一种使用水和能量源产生蒸汽的多方块结构。这里说的“能量源”通常是指固体燃料和高密度流体。不同等级的锅炉仅在蒸汽产量上有所差别。",
+    "translation": "大型锅炉是种用水和能量源生产蒸汽的多方块结构。这里说的“能量源”通常是指任何可以烧的固体燃料，或者柴油/半流质燃料。能够以每次5%%的幅度节流来减少蒸汽产出和燃料消耗。",
     "stage": 5
   },
   {
@@ -10904,7 +10856,7 @@
   {
     "key": "item.gtceu.normal_pipe_extruder_mold",
     "original": "Extruder Mold (Normal Pipe)",
-    "translation": "模头（普通管道）",
+    "translation": "模头（标准管道）",
     "stage": 5
   },
   {
@@ -12926,7 +12878,7 @@
   {
     "key": "tagprefix.pipe_normal_fluid",
     "original": "Normal %s Fluid Pipe",
-    "translation": "普通%s流体管道",
+    "translation": "标准%s流体管道",
     "stage": 5
   },
   {
@@ -13934,7 +13886,7 @@
   {
     "key": "tagprefix.pipe_huge_restrictive",
     "original": "Huge Restrictive %s Item Pipe",
-    "translation": "巨型加固%s物品管道",
+    "translation": "巨型低优先%s物品管道",
     "stage": 5
   },
   {
@@ -13946,19 +13898,19 @@
   {
     "key": "tagprefix.pipe_large_restrictive",
     "original": "Large Restrictive %s Item Pipe",
-    "translation": "大型加固%s物品管道",
+    "translation": "大型低优先%s物品管道",
     "stage": 5
   },
   {
     "key": "tagprefix.pipe_normal_item",
     "original": "Normal %s Item Pipe",
-    "translation": "普通%s物品管道",
+    "translation": "标准%s物品管道",
     "stage": 5
   },
   {
     "key": "tagprefix.pipe_normal_restrictive",
     "original": "Normal Restrictive %s Item Pipe",
-    "translation": "普通加固%s物品管道",
+    "translation": "标准低优先%s物品管道",
     "stage": 5
   },
   {
@@ -13970,7 +13922,7 @@
   {
     "key": "tagprefix.pipe_small_restrictive",
     "original": "Small Restrictive %s Item Pipe",
-    "translation": "小型加固%s物品管道",
+    "translation": "小型低优先%s物品管道",
     "stage": 5
   },
   {
@@ -16394,7 +16346,7 @@
   {
     "key": "cover.conveyor.distribution.insert_first.2",
     "original": "§7Restrictive item pipes lower the priority of a path.",
-    "translation": "§7加固物品管道会降低管道路径的优先级。",
+    "translation": "§7低优先物品管道会降低管道路径的优先级。",
     "stage": 5
   },
   {
@@ -16412,7 +16364,7 @@
   {
     "key": "cover.conveyor.distribution.round_robin_prio.0",
     "original": "Distribution Mode: §bRound Robin with Restriction",
-    "translation": "分配模式：§b轮询调度（加固管道）",
+    "translation": "分配模式：§b轮询调度（低优先管道）",
     "stage": 5
   },
   {
@@ -16424,7 +16376,7 @@
   {
     "key": "cover.conveyor.distribution.round_robin_prio.2",
     "original": "§7Will not send items down Restrictive item pipes unless no other paths are available.",
-    "translation": "§7除非没有其他可用路径，否则不会发送物品至加固物品管道。",
+    "translation": "§7除非没有其他可用路径，否则不会发送物品至低优先物品管道。",
     "stage": 5
   },
   {
@@ -17042,7 +16994,7 @@
   {
     "key": "block.gtceu.normal_laser_pipe",
     "original": "Normal Laser Pipe",
-    "translation": "普通激光管道",
+    "translation": "标准激光管道",
     "stage": 5
   },
   {
@@ -29204,7 +29156,7 @@
   {
     "key": "block.gtceu.normal_duct_pipe",
     "original": "Normal Duct Pipe",
-    "translation": "普通风管",
+    "translation": "标准风管",
     "stage": 5
   },
   {
@@ -31861,8 +31813,8 @@
   },
   {
     "key": "item.gtceu.facade_cover.tooltip.1",
-    "original": "§7Crafted using 3 Iron Plates and any block",
-    "translation": "§7使用三个铁板与任意方块合成",
+    "original": "§7Crafted using an Iron Plate and any block",
+    "translation": "§7使用铁板与任意方块合成",
     "stage": 5
   },
   {
@@ -32707,8 +32659,8 @@
   },
   {
     "key": "gtceu.multiblock.parallel.exact",
-    "original": "Performing %d Recipes in Parallel",
-    "translation": "同时处理%d个配方",
+    "original": "- %dx from Parallels",
+    "translation": "- %dx 来自并行",
     "stage": 5
   },
   {
@@ -33175,8 +33127,8 @@
   },
   {
     "key": "gtceu.multiblock.batch_enabled",
-    "original": "Batching Mode: Enabled (%sx)",
-    "translation": "批处理模式：已启用（%sx）",
+    "original": "- %dx from Batching",
+    "translation": "- %dx 来自批处理",
     "stage": 5
   },
   {
@@ -34688,7 +34640,7 @@
   {
     "key": "item.gtceu.normal_pipe_casting_mold",
     "original": "Casting Mold (Normal Pipe)",
-    "translation": "模具（普通管道）",
+    "translation": "模具（标准管道）",
     "stage": 5
   },
   {
@@ -35079,6 +35031,174 @@
     "key": "item.gtceu.tool.behavior.prospecting.water",
     "original": "Found water",
     "translation": "找到了水",
+    "stage": 5
+  },
+  {
+    "key": "config.jade.plugin_gtceu.data_bank",
+    "original": "[GTCEu] Data Bank Info",
+    "translation": "[GTCEu] 数据库信息",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.createCompat",
+    "original": "createCompat",
+    "translation": "机械动力兼容",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.multiblock.subtick_parallels",
+    "original": "- %dx from Overclocking",
+    "translation": "- %dx 来自超频",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.multiblock.total_runs",
+    "original": "Performing %d Recipes at once",
+    "translation": "同时处理%d个配方",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.bufferText.0",
+    "original": "Returns the text from a buffer accessible by ComputerCraft",
+    "translation": "返回ComputerCraft可访问的缓冲区中的文本",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.bufferText.1",
+    "original": "Usage:",
+    "translation": "用法：",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.bufferText.2",
+    "original": "  {bufferText <line>} -> text from the buffer on the specified line (line is 1-100)",
+    "translation": "  {bufferText <行>} -> 缓冲区中指定行的文本（行号为1-100）",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.machine.miner.progress",
+    "original": "Progress: %d/%d",
+    "translation": "进度：%d/%d",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.all_voiding",
+    "original": "§7Voiding §cAll",
+    "translation": "§7销毁§c全部",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.fluid_voiding",
+    "original": "§7Voiding §9Fluids",
+    "translation": "§7销毁§9流体",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.item_voiding",
+    "original": "§7Voiding §6Items",
+    "translation": "§7销毁§6物品",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.multiblock.voiding_mode",
+    "original": "Voiding Mode:",
+    "translation": "销毁模式：",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.no_voiding",
+    "original": "§7Voiding Nothing",
+    "translation": "§7不销毁",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.replaceWithCobbleVersion",
+    "original": "replaceWithCobbleVersion",
+    "translation": "以特色圆石替换",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.fluid_auto_output.disabled",
+    "original": "Fluid Auto Output: §cDisabled",
+    "translation": "流体自动输出：§c已禁用",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.fluid_auto_output.enabled",
+    "original": "Fluid Auto Output: §aEnabled",
+    "translation": "流体自动输出：§a已启用",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.fluid_auto_output.other_direction.0",
+    "original": "Fluid Auto Output: §6Other Direction",
+    "translation": "流体自动输出：§6其他面",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.fluid_auto_output.other_direction.1",
+    "original": "§7The machine's fluid output is set to another direction.",
+    "translation": "§7本机器的流体输出口不在当前面。",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.fluid_auto_output.other_direction.2",
+    "original": "§7Click to move the output to the currently selected side.",
+    "translation": "§7单击将输出口移动至当前面。",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.fluid_auto_output.unselected.0",
+    "original": "Fluid Auto Output",
+    "translation": "流体自动输出",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.fluid_auto_output.unselected.1",
+    "original": "§7Select a side of the machine to configure its output.",
+    "translation": "§7选择机器的一面来配置输出。",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.item_auto_output.disabled",
+    "original": "Item Auto Output: §cDisabled",
+    "translation": "物品自动输出：§c已禁用",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.item_auto_output.enabled",
+    "original": "Item Auto Output: §aEnabled",
+    "translation": "物品自动输出：§a已启用",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.item_auto_output.other_direction.0",
+    "original": "Item Auto Output: §6Other Direction",
+    "translation": "物品自动输出：§6其他面",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.item_auto_output.other_direction.1",
+    "original": "§7The machine's item output is set to another direction.",
+    "translation": "§7本机器的物品输出口不在当前面。",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.item_auto_output.other_direction.2",
+    "original": "§7Click to move the output to the currently selected side.",
+    "translation": "§7单击将输出口移动至当前面。",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.item_auto_output.unselected.0",
+    "original": "Item Auto Output",
+    "translation": "物品自动输出",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.item_auto_output.unselected.1",
+    "original": "§7Select a side of the machine to configure its output.",
+    "translation": "§7选择机器的一面来配置输出。",
     "stage": 5
   }
 ]
