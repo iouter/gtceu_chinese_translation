@@ -6928,10 +6928,6 @@
         "original":"ae2"
     },
     {
-        "key":"config.gtceu.option.allUniqueStoneTypes",
-        "original":"allUniqueStoneTypes"
-    },
-    {
         "key":"config.gtceu.option.allowDrumsInputFluidsFromOutputSide",
         "original":"allowDrumsInputFluidsFromOutputSide"
     },
