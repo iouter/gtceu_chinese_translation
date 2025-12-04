@@ -16460,8 +16460,16 @@
         "original":"Ender Item Link"
     },
     {
+        "key":"item.gtceu.ender_item_link_cover.tooltip",
+        "original":"§7Transports §fItems§7 with a §fWireless §dEnder§f Connection§7 as §fCover§7."
+    },
+    {
         "key":"item.gtceu.ender_redstone_link_cover",
         "original":"Ender Redstone Link"
+    },
+    {
+        "key":"item.gtceu.ender_redstone_link_cover.tooltip",
+        "original":"§7Transmits §fRedstone signals§7 with a §fWireless §dEnder§f Connection§7 as §fCover§7."
     },
     {
         "key":"item.gtceu.energium_dust",
