@@ -6362,7 +6362,7 @@
     {
         "context":"类型144",
         "key":"cover.generic.advanced_detector.latch_tooltip",
-        "original":"Change the redstone behavior of this Cover. /n§eContinuous§7 - Default; values less than the minimum output 0; values higher than the maximum output 15; values between min and max output between 0 and 15 /n§eLatched§7 - output 15 until above max, then output 0 until below min"
+        "original":"Change the redstone behavior of this Cover. \\n§eContinuous§7 - Default\\n  Values less than the minimum output §b0§7\\n  Values higher than the maximum output §b15§7\\n  Values between min and max output between §b0§7 and §b15§7 \\n§eLatched§7\\n  Output §b15§7 until above max, then output §b0§7 until below min"
     },
     {
         "context":"类型144",
@@ -6397,7 +6397,7 @@
     {
         "context":"类型145",
         "key":"cover.advanced_energy_detector.invert_tooltip",
-        "original":"Toggle to invert the redstone logic/nBy default, redstone is emitted when less than the minimum EU, and stops emitting when greater than the max EU"
+        "original":"Toggle to invert the redstone logic\\nBy default, redstone is emitted when less than the minimum EU, and stops emitting when greater than the max EU"
     },
     {
         "context":"类型145",
