@@ -9576,6 +9576,14 @@
         "original":"Cover Settings"
     },
     {
+        "key":"gtceu.gui.directional_setting.tab_tooltip",
+        "original":"Change Directional Setting"
+    },
+    {
+        "key":"gtceu.gui.directional_setting.title",
+        "original":"Directional Setting"
+    },
+    {
         "key":"gtceu.gui.editor.group.recipe_type",
         "original":"cap"
     },
@@ -14162,6 +14170,22 @@
     {
         "key":"gtceu.placeholder_info.block.2",
         "original":"  {block} -> '█'"
+    },
+    {
+        "key":"gtceu.placeholder_info.blockNbt.0",
+        "original":"Returns the NBT of the block entity"
+    },
+    {
+        "key":"gtceu.placeholder_info.blockNbt.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.blockNbt.2",
+        "original":"  {blockNbt} -> full block entity nbt"
+    },
+    {
+        "key":"gtceu.placeholder_info.blockNbt.3",
+        "original":"  {blockNbt [key1] [key2] ...} -> part of the nbt"
     },
     {
         "key":"gtceu.placeholder_info.bufferText.0",
