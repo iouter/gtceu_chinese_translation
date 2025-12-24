@@ -40,8 +40,12 @@
         "original":"Salt Water Deposit"
     },
     {
-        "key":"behaviour.soft_hammer.idle_after_cycle",
-        "original":"Pause machine after current cycle"
+        "key":"behavior.data_item.assemblyline.data",
+        "original":"- §a%s"
+    },
+    {
+        "key":"behavior.data_item.assemblyline.title",
+        "original":"§nAssembly Line Construction Data:"
     },
     {
         "key":"block.gtceu.filter_casing.tooltip",
@@ -60,10 +64,6 @@
         "original":"Natural Gas"
     },
     {
-        "key":"block.gtceu.oil",
-        "original":"Oil"
-    },
-    {
         "key":"block.gtceu.palladium_substation_casing",
         "original":"Palladium Substation Casing"
     },
@@ -80,12 +80,12 @@
         "original":"Creates a §aSterilized§7 environment"
     },
     {
-        "key":"config.gtceu.option.doDatafixers",
-        "original":"doDatafixers"
+        "key":"block.gtceu.wire_coil.tooltip_energy_smelter",
+        "original":"  §aEnergy Usage: §f%s EU/t §8per recipe"
     },
     {
-        "key":"config.gtceu.option.recipeProgressLowEnergy",
-        "original":"recipeProgressLowEnergy"
+        "key":"config.gtceu.option.doDatafixers",
+        "original":"doDatafixers"
     },
     {
         "key":"cover.smart_item_filter.filtering_mode.centrifuge",
@@ -172,20 +172,16 @@
         "original":"%s ate lead (or mercury!)"
     },
     {
-        "key":"gtceu.machine.boiler.info.cooling.down",
-        "original":"§9Cooling down§r%s"
-    },
-    {
-        "key":"gtceu.machine.boiler.info.heating.up",
-        "original":"§cHeating up§r%s"
-    },
-    {
-        "key":"gtceu.machine.boiler.info.producing.steam",
-        "original":" §a(boiling water)"
-    },
-    {
         "key":"gtceu.recipe.eu_to_start",
         "original":"EU To Start: %sEU (%s)"
+    },
+    {
+        "key":"gtceu.tooltip.player_name.placeholder_processor",
+        "original":"Placeholder processor"
+    },
+    {
+        "key":"gtceu.tooltip.player_name.unknown",
+        "original":"Unknown player"
     },
     {
         "key":"item.gtceu.smart_item_filter",
@@ -430,38 +426,6 @@
     {
         "key":"ore_vein.gtceu.topaz",
         "original":"Topaz"
-    },
-    {
-        "key":"recipe_category.gtceu.arc_furnace_recycling",
-        "original":"Plasma Scrapping"
-    },
-    {
-        "key":"recipe_category.gtceu.chem_dyes",
-        "original":"Chemical Dyeing"
-    },
-    {
-        "key":"recipe_category.gtceu.extractor_recycling",
-        "original":"Scrap Remelting"
-    },
-    {
-        "key":"recipe_category.gtceu.ingot_molding",
-        "original":"Metal Molding"
-    },
-    {
-        "key":"recipe_category.gtceu.macerator_recycling",
-        "original":"Part Grinding"
-    },
-    {
-        "key":"recipe_category.gtceu.ore_bathing",
-        "original":"Ore Treating"
-    },
-    {
-        "key":"recipe_category.gtceu.ore_crushing",
-        "original":"Ore Grinding"
-    },
-    {
-        "key":"recipe_category.gtceu.ore_forging",
-        "original":"Ore Crushing"
     },
     {
         "key":"recipe_type.gtceu.air_scrubber",
