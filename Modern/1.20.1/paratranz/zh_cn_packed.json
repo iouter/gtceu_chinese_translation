@@ -7652,6 +7652,10 @@
         "original":"[GTCEu] Hazard Cleaner"
     },
     {
+        "key":"config.jade.plugin_gtceu.ldp_endpoint",
+        "original":"[GTCEu] Long Distance Pipeline Endpoint Info"
+    },
+    {
         "key":"config.jade.plugin_gtceu.machine_mode",
         "original":"[GTCEu] Machine Mode"
     },
@@ -15440,6 +15444,22 @@
         "original":"Item Output: %s"
     },
     {
+        "key":"gtceu.top.ldp_endpoint.io_type",
+        "original":"IO Type: %s"
+    },
+    {
+        "key":"gtceu.top.ldp_endpoint.is_formed",
+        "original":"§aPipeline Formed§r"
+    },
+    {
+        "key":"gtceu.top.ldp_endpoint.not_formed",
+        "original":"§cPipeline Incomplete§r"
+    },
+    {
+        "key":"gtceu.top.ldp_endpoint.output_direction",
+        "original":"Output Direction: %s"
+    },
+    {
         "key":"gtceu.top.link_cover.color",
         "original":"Color:"
     },
@@ -22398,6 +22418,10 @@
     {
         "key":"material.gtceu.trona",
         "original":"Trona"
+    },
+    {
+        "key":"material.gtceu.tuff",
+        "original":"Tuff"
     },
     {
         "key":"material.gtceu.tungstate",
