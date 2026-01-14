@@ -260,12 +260,44 @@
         "original":"Remaining uses: %d"
     },
     {
-        "key":"behaviour.meta.machine.config.copy.tooltip",
-        "original":"§7Sneak + R-Click to copy machine configuration"
+        "key":"behaviour.memory_card.client_msg.cleared",
+        "original":"Stored configuration cleared"
     },
     {
-        "key":"behaviour.meta.machine.config.paste.tooltip",
+        "key":"behaviour.memory_card.client_msg.copied",
+        "original":"Copied machine configuration"
+    },
+    {
+        "key":"behaviour.memory_card.client_msg.pasted",
+        "original":"Applied machine configuration"
+    },
+    {
+        "key":"behaviour.memory_card.copy_target",
+        "original":"Copying: %s"
+    },
+    {
+        "key":"behaviour.memory_card.disabled",
+        "original":"§cDisabled§r"
+    },
+    {
+        "key":"behaviour.memory_card.enabled",
+        "original":"§aEnabled§r"
+    },
+    {
+        "key":"behaviour.memory_card.tooltip.copy",
+        "original":"§7Sneak + R-Click to copy configuration, or clear stored data if a block other than a machine or pipe is targeted."
+    },
+    {
+        "key":"behaviour.memory_card.tooltip.items_to_paste",
+        "original":"The following items are needed to paste this configuration:"
+    },
+    {
+        "key":"behaviour.memory_card.tooltip.paste",
         "original":"§7R-Click to paste machine configuration"
+    },
+    {
+        "key":"behaviour.memory_card.tooltip.view_stored",
+        "original":"§8<Sneak to view stored configuration>"
     },
     {
         "key":"behaviour.paintspray.black.tooltip",
@@ -344,20 +376,40 @@
         "original":"Usable for Prospecting"
     },
     {
-        "key":"behaviour.setting.allow.input.from.output.tooltip",
-        "original":"%s input from output side is %s"
+        "key":"behaviour.setting.tooltip.allow_input",
+        "original":"§2Allow Input§r"
     },
     {
-        "key":"behaviour.setting.item_auto_output.tooltip",
-        "original":"%s auto-output is %s"
+        "key":"behaviour.setting.tooltip.auto_output",
+        "original":"§2Auto Output§r"
     },
     {
-        "key":"behaviour.setting.muffled.tooltip",
+        "key":"behaviour.setting.tooltip.auto_output_allow_input",
+        "original":"§2Auto Output/Allow Input§r"
+    },
+    {
+        "key":"behaviour.setting.tooltip.circuit_config",
+        "original":"Programmed Circuit: "
+    },
+    {
+        "key":"behaviour.setting.tooltip.fluid_io",
+        "original":"Fluid Output: %s (%s)"
+    },
+    {
+        "key":"behaviour.setting.tooltip.item_io",
+        "original":"Item Output: %s (%s)"
+    },
+    {
+        "key":"behaviour.setting.tooltip.muffled",
         "original":"Muffling %s"
     },
     {
-        "key":"behaviour.setting.output.direction.tooltip",
-        "original":"%s output direction: %s"
+        "key":"behaviour.setting.tooltip.pipe_blocked_connections",
+        "original":"Pipe shuttered sides: %s"
+    },
+    {
+        "key":"behaviour.setting.tooltip.pipe_connections",
+        "original":"Pipe connections: %s"
     },
     {
         "key":"behaviour.soft_hammer",
@@ -19914,10 +19966,6 @@
     {
         "key":"item.netherrack_nether_quartz",
         "original":"Nether Quartz Ore"
-    },
-    {
-        "key":"item.toggle.advanced.info.tooltip",
-        "original":"§8<Sneak to view stored configuration>"
     },
     {
         "key":"itemGroup.gtceu.decoration",
