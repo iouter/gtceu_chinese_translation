@@ -7680,6 +7680,10 @@
         "original":"[GTCEu] Auto Output Info"
     },
     {
+        "key":"config.jade.plugin_gtceu.battery_info",
+        "original":"[GTCEu] Battery info"
+    },
+    {
         "key":"config.jade.plugin_gtceu.cable_info",
         "original":"[GTCEu] Cable Info"
     },
@@ -10020,8 +10024,16 @@
         "original":" @ "
     },
     {
+        "key":"gtceu.jade.changes_eu_sec",
+        "original":"%s EU/s"
+    },
+    {
         "key":"gtceu.jade.cleaned_this_second",
         "original":"Cleaned hazard: %s/s"
+    },
+    {
+        "key":"gtceu.jade.days",
+        "original":"%s days"
     },
     {
         "key":"gtceu.jade.energy_stored",
@@ -10030,6 +10042,14 @@
     {
         "key":"gtceu.jade.fluid_use",
         "original":"%s mB/t"
+    },
+    {
+        "key":"gtceu.jade.hours",
+        "original":"%s hours"
+    },
+    {
+        "key":"gtceu.jade.minutes",
+        "original":"%s minutes"
     },
     {
         "key":"gtceu.jade.progress_computation",
@@ -10042,6 +10062,22 @@
     {
         "key":"gtceu.jade.progress_tick",
         "original":"%s / %s t"
+    },
+    {
+        "key":"gtceu.jade.remaining_charge_time",
+        "original":"Until charged: %s"
+    },
+    {
+        "key":"gtceu.jade.remaining_discharge_time",
+        "original":"Until empty: %s"
+    },
+    {
+        "key":"gtceu.jade.seconds",
+        "original":"%s seconds"
+    },
+    {
+        "key":"gtceu.jade.years",
+        "original":"%s years"
     },
     {
         "key":"gtceu.jei.bedrock_fluid.heavy_oil_deposit",
@@ -10434,6 +10470,10 @@
     {
         "key":"gtceu.key.tool_aoe_change",
         "original":"Tool AoE Mode Switch"
+    },
+    {
+        "key":"gtceu.key.enable_step_assist",
+        "original":"Enable StepAssist"
     },
     {
         "key":"gtceu.large_boiler",
@@ -19232,6 +19272,14 @@
         "original":"%s Drill (HV)"
     },
     {
+        "key":"item.gtceu.tool.hv_screwdriver",
+        "original":"%s Screwdriver (HV)"
+    },
+    {
+        "key":"item.gtceu.tool.hv_screwdriver.tooltip",
+        "original":"§8Adjusts Covers and Machines"
+    },
+    {
         "key":"item.gtceu.tool.hv_wirecutter",
         "original":"%s Wire Cutter (HV)"
     },
@@ -19244,8 +19292,20 @@
         "original":"§8Hold left click to dismantle Machines"
     },
     {
+        "key":"item.gtceu.tool.iv_chainsaw",
+        "original":"%s Chainsaw (IV)"
+    },
+    {
         "key":"item.gtceu.tool.iv_drill",
         "original":"%s Drill (IV)"
+    },
+    {
+        "key":"item.gtceu.tool.iv_screwdriver",
+        "original":"%s Screwdriver (IV)"
+    },
+    {
+        "key":"item.gtceu.tool.iv_screwdriver.tooltip",
+        "original":"§8Adjusts Covers and Machines"
     },
     {
         "key":"item.gtceu.tool.iv_wirecutter",
@@ -22740,12 +22800,12 @@
         "original":"§cNot enough power!"
     },
     {
-        "key":"metaarmor.nms.boosted_jump.disabled",
-        "original":"NanoMuscle™ Suite: Jump Boost Disabled"
+        "key":"metaarmor.message.step_assist.disabled",
+        "original":"StepAssist: §cOff"
     },
     {
-        "key":"metaarmor.nms.boosted_jump.enabled",
-        "original":"NanoMuscle™ Suite: Jump Boost Enabled"
+        "key":"metaarmor.message.step_assist.enabled",
+        "original":"StepAssist: §aOn"
     },
     {
         "key":"metaarmor.nms.nightvision.disabled",
@@ -22760,18 +22820,6 @@
         "original":"NanoMuscle™ Suite: §cNot enough power!"
     },
     {
-        "key":"metaarmor.nms.share.disable",
-        "original":"NanoMuscle™ Suite: Charging Disabled"
-    },
-    {
-        "key":"metaarmor.nms.share.enable",
-        "original":"NanoMuscle™ Suite: Charging Enabled"
-    },
-    {
-        "key":"metaarmor.nms.share.error",
-        "original":"NanoMuscle™ Suite: §cNot enough power for charging!"
-    },
-    {
         "key":"metaarmor.qts.nightvision.disabled",
         "original":"QuarkTech™ Suite: NightVision Disabled"
     },
@@ -22784,6 +22832,34 @@
         "original":"QuarkTech™ Suite: §cNot enough power!"
     },
     {
+        "key":"metaarmor.nms.step_assist.disabled",
+        "original":"NanoMuscle™ Suite: StepAssist Disabled"
+    },
+    {
+        "key":"metaarmor.nms.step_assist.enabled",
+        "original":"NanoMuscle™ Suite: StepAssist Enabled"
+    },
+    {
+        "key":"metaarmor.qts.step_assist.disabled",
+        "original":"QuarkTech™ Suite: StepAssist Disabled"
+    },
+    {
+        "key":"metaarmor.qts.step_assist.enabled",
+        "original":"QuarkTech™ Suite: StepAssist Enabled"
+    },
+    {
+        "key":"metaarmor.nms.share.disable",
+        "original":"NanoMuscle™ Suite: Charging Disabled"
+    },
+    {
+        "key":"metaarmor.nms.share.enable",
+        "original":"NanoMuscle™ Suite: Charging Enabled"
+    },
+    {
+        "key":"metaarmor.nms.share.error",
+        "original":"NanoMuscle™ Suite: §cNot enough power for charging!"
+    },
+    {
         "key":"metaarmor.qts.share.disable",
         "original":"QuarkTech™ Suite: Charging Disabled"
     },
@@ -22794,6 +22870,14 @@
     {
         "key":"metaarmor.qts.share.error",
         "original":"QuarkTech™ Suite: §cNot enough power for charging!"
+    },
+    {
+        "key":"metaarmor.qts.boosted_jump.disabled",
+        "original":"QuarkTech™ Suite: Jump Boost Disabled"
+    },
+    {
+        "key":"metaarmor.qts.boosted_jump.enabled",
+        "original":"QuarkTech™ Suite: Jump Boost Enabled"
     },
     {
         "key":"metaarmor.tooltip.autoeat",
