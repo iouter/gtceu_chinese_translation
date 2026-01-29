@@ -5104,8 +5104,8 @@
   },
   {
     "key": "metaitem.cover.controller.tooltip",
-    "original": "Turns Machines §fON/OFF§7 as §fCover§7.",
-    "translation": "作§f覆盖板§7时可以§f开/关§7机器。",
+    "original": "Turns Machines §fON/OFF§7 using Redstone as §fCover§7.",
+    "translation": "作§f覆盖板§7时可以用红石§f开/关§7机器。",
     "stage": 5,
     "context": "类型82"
   },
@@ -7862,8 +7862,8 @@
   },
   {
     "key": "cover.advanced_energy_detector.invert_tooltip",
-    "original": "Toggle to invert the redstone logic/nBy default, redstone is emitted when less than the minimum EU, and stops emitting when greater than the max EU",
-    "translation": "启用反相以反转红石逻辑/n默认情况下，能量小于所设定的最小EU时覆盖板将发出红石信号，大于最大EU时则停止发出红石信号",
+    "original": "Toggle to invert the redstone logic\\nBy default, redstone is emitted when less than the minimum EU, and stops emitting when greater than the max EU",
+    "translation": "启用反相以反转红石逻辑\\n默认情况下，能量小于所设定的最小EU时覆盖板将发出红石信号，大于最大EU时则停止发出红石信号 ",
     "stage": 5,
     "context": "类型145"
   },
@@ -7912,7 +7912,7 @@
   {
     "key": "cover.advanced_fluid_detector.label",
     "original": "Advanced Fluid Detector",
-    "translation": "进阶流体探测器",
+    "translation": "进阶流体探测覆盖板",
     "stage": 5,
     "context": "类型146"
   },
@@ -7933,7 +7933,7 @@
   {
     "key": "cover.advanced_item_detector.label",
     "original": "Advanced Item Detector",
-    "translation": "进阶物品探测器",
+    "translation": "进阶物品探测覆盖板",
     "stage": 5,
     "context": "类型146"
   },
@@ -38347,8 +38347,8 @@
   },
   {
     "key": "cover.generic.advanced_detector.latch_tooltip",
-    "original": "Change the redstone behavior of this Cover. /n§eContinuous§7 - Default; values less than the minimum output 0; values higher than the maximum output 15; values between min and max output between 0 and 15 /n§eLatched§7 - output 15 until above max, then output 0 until below min",
-    "translation": "更改此覆盖板的红石行为。/n§e线性§7 - 默认模式；物品数量小于最小值时不发出红石信号，大于最大值时发出信号强度15的红石信号，数量介于二者之间发出信号强度在0 - 15之间的红石信号/n§e锁存§7 - 发出满级红石信号，直到物品数量大于最大值；然后停止发出红石信号，直到数量低于最小值。",
+    "original": "Change the redstone behavior of this Cover. \\n§eContinuous§7 - Default\\n  Values less than the minimum output §b0§7\\n  Values higher than the maximum output §b15§7\\n  Values between min and max output between §b0§7 and §b15§7 \\n§eLatched§7\\n  Output §b15§7 until above max, then output §b0§7 until below min",
+    "translation": "更改此覆盖板的红石行为。\\n§e线性§7（默认模式）：\\n  物品数量小于最小值时§b不§7发出红石信号，\\n  大于最大值时发出信号强度§b15§7的红石信号，\\n  数量介于二者之间发出信号强度在§b0§7 - §b15§7之间的红石信号。\\n§e锁存§7：\\n  发出§b满级§7红石信号，直到物品数量大于最大值；然后§b停止§7发出红石信号，直到数量低于最小值。",
     "stage": 5,
     "context": "类型144"
   },

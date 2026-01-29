@@ -84,12 +84,6 @@
     "stage": 5
   },
   {
-    "key": "block.gtceu.oil",
-    "original": "Oil",
-    "translation": "石油",
-    "stage": 5
-  },
-  {
     "key": "block.gtceu.palladium_substation_casing",
     "original": "Palladium Substation Casing",
     "translation": "镀钯变电站机械方块",
@@ -960,87 +954,39 @@
     "stage": 5
   },
   {
-    "key": "recipe_category.gtceu.arc_furnace_recycling",
-    "original": "Plasma Scrapping",
-    "translation": "电弧炉：等离子回收",
-    "stage": 5
-  },
-  {
-    "key": "recipe_category.gtceu.chem_dyes",
-    "original": "Chemical Dyeing",
-    "translation": "化学浸洗机：化学染色",
-    "stage": 5
-  },
-  {
-    "key": "recipe_category.gtceu.extractor_recycling",
-    "original": "Scrap Remelting",
-    "translation": "流体提取机：重熔回收",
-    "stage": 5
-  },
-  {
-    "key": "recipe_category.gtceu.ingot_molding",
-    "original": "Metal Molding",
-    "translation": "合金炉：金属成型",
-    "stage": 5
-  },
-  {
-    "key": "recipe_category.gtceu.macerator_recycling",
-    "original": "Part Grinding",
-    "translation": "研磨机：粉碎回收",
-    "stage": 5
-  },
-  {
-    "key": "recipe_category.gtceu.ore_bathing",
-    "original": "Ore Treating",
-    "translation": "化学浸洗机：矿物处理",
-    "stage": 5
-  },
-  {
-    "key": "recipe_category.gtceu.ore_crushing",
-    "original": "Ore Grinding",
-    "translation": "研磨机：矿物处理",
-    "stage": 5
-  },
-  {
-    "key": "recipe_category.gtceu.ore_forging",
-    "original": "Ore Crushing",
-    "translation": "锻造锤：矿物处理",
-    "stage": 5
-  },
-  {
-    "key": "behaviour.soft_hammer.idle_after_cycle",
-    "original": "Pause machine after current cycle",
-    "translation": "本运行周期后暂停机器",
-    "stage": 5
-  },
-  {
-    "key": "config.gtceu.option.recipeProgressLowEnergy",
-    "original": "recipeProgressLowEnergy",
-    "translation": "低能量时配方进度",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.machine.boiler.info.cooling.down",
-    "original": "§9Cooling down§r%s",
-    "translation": "§9冷却中§r%s",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.machine.boiler.info.heating.up",
-    "original": "§cHeating up§r%s",
-    "translation": "§c加热中§r%s",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.machine.boiler.info.producing.steam",
-    "original": " §a(boiling water)",
-    "translation": "§a（沸腾）",
-    "stage": 5
-  },
-  {
     "key": "material.gtceu.yellow_limonite",
     "original": "Yellow Limonite",
     "translation": "黄褐铁矿",
+    "stage": 5
+  },
+  {
+    "key": "behavior.data_item.assemblyline.data",
+    "original": "- §a%s",
+    "translation": "- §a%s",
+    "stage": 5
+  },
+  {
+    "key": "behavior.data_item.assemblyline.title",
+    "original": "§nAssembly Line Construction Data:",
+    "translation": "§n装配线结构数据：",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.wire_coil.tooltip_energy_smelter",
+    "original": "  §aEnergy Usage: §f%s EU/t §8per recipe",
+    "translation": "  §a功耗：§8每个配方 §f%s EU/t",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.tooltip.player_name.placeholder_processor",
+    "original": "Placeholder processor",
+    "translation": "占位符处理器",
+    "stage": 2
+  },
+  {
+    "key": "gtceu.tooltip.player_name.unknown",
+    "original": "Unknown player",
+    "translation": "未知玩家",
     "stage": 5
   }
 ]

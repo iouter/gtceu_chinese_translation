@@ -4734,12 +4734,6 @@
     "stage": 5
   },
   {
-    "key": "config.gtceu.option.allUniqueStoneTypes",
-    "original": "allUniqueStoneTypes",
-    "translation": "所有独特石头类型",
-    "stage": 5
-  },
-  {
     "key": "config.gtceu.option.bedrockOreDropTagPrefix",
     "original": "bedrockOreDropTagPrefix",
     "translation": "基岩矿石掉落Tag",
@@ -5018,7 +5012,7 @@
   {
     "key": "cover.advanced_fluid_detector.label",
     "original": "Advanced Fluid Detector",
-    "translation": "进阶流体探测器",
+    "translation": "进阶流体探测覆盖板",
     "stage": 5
   },
   {
@@ -5036,7 +5030,7 @@
   {
     "key": "cover.advanced_item_detector.label",
     "original": "Advanced Item Detector",
-    "translation": "进阶物品探测器",
+    "translation": "进阶物品探测覆盖板",
     "stage": 5
   },
   {
@@ -5899,8 +5893,8 @@
   },
   {
     "key": "gtceu.fluid.temperature",
-    "original": "§cTemperature: %d K",
-    "translation": "§c温度：%d K",
+    "original": "§cTemperature: %s",
+    "translation": "§c温度：%s",
     "stage": 5
   },
   {
@@ -5947,8 +5941,8 @@
   },
   {
     "key": "gtceu.fluid_pipe.max_temperature",
-    "original": "§cTemperature Limit: §f%d K",
-    "translation": "§c温度上限：§f%d K",
+    "original": "§cTemperature Limit: §f%s",
+    "translation": "§c温度上限：§f%s",
     "stage": 5
   },
   {
@@ -8569,8 +8563,8 @@
   },
   {
     "key": "gtceu.recipe.temperature",
-    "original": "Temp: %sK",
-    "translation": "温度：%sK",
+    "original": "Temp: %s",
+    "translation": "温度：%s",
     "stage": 5
   },
   {
@@ -9182,7 +9176,7 @@
   {
     "key": "item.gtceu.advanced_activity_detector_cover",
     "original": "Advanced Activity Detector",
-    "translation": "进阶活跃状态探测器",
+    "translation": "进阶活跃状态探测覆盖板",
     "stage": 5
   },
   {
@@ -9194,7 +9188,7 @@
   {
     "key": "item.gtceu.advanced_fluid_detector_cover",
     "original": "Advanced Fluid Detector",
-    "translation": "进阶流体探测器",
+    "translation": "进阶流体探测覆盖板",
     "stage": 5
   },
   {
@@ -9212,7 +9206,7 @@
   {
     "key": "item.gtceu.advanced_item_detector_cover",
     "original": "Advanced Item Detector",
-    "translation": "进阶物品探测器",
+    "translation": "进阶物品探测覆盖板",
     "stage": 5
   },
   {
@@ -31194,18 +31188,6 @@
     "stage": 5
   },
   {
-    "key": "metaarmor.nms.boosted_jump.disabled",
-    "original": "NanoMuscle™ Suite: Jump Boost Disabled",
-    "translation": "纳米肌体™套装：跳跃提升已禁用",
-    "stage": 5
-  },
-  {
-    "key": "metaarmor.nms.boosted_jump.enabled",
-    "original": "NanoMuscle™ Suite: Jump Boost Enabled",
-    "translation": "纳米肌体™套装：跳跃提升已启用",
-    "stage": 5
-  },
-  {
     "key": "recipe.condition.dimension_marker.tooltip",
     "original": "Dimension:",
     "translation": "维度：",
@@ -32328,42 +32310,6 @@
     "stage": 5
   },
   {
-    "key": "behaviour.meta.machine.config.copy.tooltip",
-    "original": "§7Sneak + R-Click to copy machine configuration",
-    "translation": "§7潜行右键单击以复制机器配置",
-    "stage": 5
-  },
-  {
-    "key": "behaviour.meta.machine.config.paste.tooltip",
-    "original": "§7R-Click to paste machine configuration",
-    "translation": "§7右键单击以粘贴机器配置",
-    "stage": 5
-  },
-  {
-    "key": "behaviour.setting.allow.input.from.output.tooltip",
-    "original": "%s input from output side is %s",
-    "translation": "%s-允许从输出面输入：%s",
-    "stage": 5
-  },
-  {
-    "key": "behaviour.setting.item_auto_output.tooltip",
-    "original": "%s auto-output is %s",
-    "translation": "%s-自动输出：%s",
-    "stage": 5
-  },
-  {
-    "key": "behaviour.setting.muffled.tooltip",
-    "original": "Muffling %s",
-    "translation": "静音：%s",
-    "stage": 5
-  },
-  {
-    "key": "behaviour.setting.output.direction.tooltip",
-    "original": "%s output direction: %s",
-    "translation": "%s-输出面方向：%s",
-    "stage": 5
-  },
-  {
     "key": "block.gtceu.opv_rotor_holder",
     "original": "§9§lOpV Rotor Holder",
     "translation": "§9§lOpV§r转子支架",
@@ -32511,12 +32457,6 @@
     "key": "item.gtceu.tool.tooltip.max_uses",
     "original": "%s §eTotal Durability",
     "translation": "§e最大耐久度§r：%s",
-    "stage": 5
-  },
-  {
-    "key": "item.toggle.advanced.info.tooltip",
-    "original": "§8<Sneak to view stored configuration>",
-    "translation": "§8<按住Shift查阅已存储配置信息>",
     "stage": 5
   },
   {
@@ -34735,8 +34675,8 @@
   },
   {
     "key": "item.gtceu.tool.behavior.dowse_campfire",
-    "original": "§Firefighter: §fDowses Campfires",
-    "translation": "§F消防战士：§f扑灭营火",
+    "original": "§1Firefighter: §fDowses Campfires",
+    "translation": "§1消防战士：§f扑灭营火",
     "stage": 5
   },
   {
@@ -35199,6 +35139,348 @@
     "key": "gtceu.gui.item_auto_output.unselected.1",
     "original": "§7Select a side of the machine to configure its output.",
     "translation": "§7选择机器的一面来配置输出。",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.directional_setting.tab_tooltip",
+    "original": "Change Directional Setting",
+    "translation": "更改方向设置",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.gui.directional_setting.title",
+    "original": "Directional Setting",
+    "translation": "方向设置",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.blockNbt.0",
+    "original": "Returns the NBT of the block entity",
+    "translation": "返回方块实体的NBT",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.blockNbt.1",
+    "original": "Usage:",
+    "translation": "用法：",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.blockNbt.2",
+    "original": "  {blockNbt} -> full block entity nbt",
+    "translation": "  {blockNbt} -> 方块实体的全部NBT",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.blockNbt.3",
+    "original": "  {blockNbt [key1] [key2] ...} -> part of the nbt",
+    "translation": "  {blockNbt [键1] [键2] ...} -> 部分NBT",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.ender_item_link_cover.tooltip",
+    "original": "§7Transports §fItems§7 with a §fWireless §dEnder§f Connection§7 as §fCover§7.",
+    "translation": "作§f覆盖板§7时利用§f无线§7§d末影§f连接§7传输§f物品§7。",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.ender_redstone_link_cover.tooltip",
+    "original": "§7Transmits §fRedstone signals§7 with a §fWireless §dEnder§f Connection§7 as §fCover§7.",
+    "translation": "作§f覆盖板§7时利用§f无线§7§d末影§f连接§7传输§f红石信号§7。",
+    "stage": 5
+  },
+  {
+    "key": "config.jade.plugin_gtceu.ldp_endpoint",
+    "original": "[GTCEu] Long Distance Pipeline Endpoint Info",
+    "translation": "[GTCEu] 长距离管道接口信息",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.top.ldp_endpoint.io_type",
+    "original": "IO Type: %s",
+    "translation": "IO类型：%s",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.top.ldp_endpoint.is_formed",
+    "original": "§aPipeline Formed§r",
+    "translation": "§a管路已成型§r",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.top.ldp_endpoint.not_formed",
+    "original": "§cPipeline Incomplete§r",
+    "translation": "§c管路未连接§r",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.top.ldp_endpoint.output_direction",
+    "original": "Output Direction: %s",
+    "translation": "输出方向：%s",
+    "stage": 5
+  },
+  {
+    "key": "material.gtceu.tuff",
+    "original": "Tuff",
+    "translation": "凝灰岩",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.temperaturesInKelvin",
+    "original": "temperaturesInKelvin",
+    "translation": "开尔文温度",
+    "stage": 5
+  },
+  {
+    "key": "behaviour.memory_card.client_msg.cleared",
+    "original": "Stored configuration cleared",
+    "translation": "已清除存储的配置",
+    "stage": 5
+  },
+  {
+    "key": "behaviour.memory_card.client_msg.copied",
+    "original": "Copied machine configuration",
+    "translation": "已复制机器配置",
+    "stage": 5
+  },
+  {
+    "key": "behaviour.memory_card.client_msg.pasted",
+    "original": "Applied machine configuration",
+    "translation": "已应用机器配置",
+    "stage": 5
+  },
+  {
+    "key": "behaviour.memory_card.copy_target",
+    "original": "Copying: %s",
+    "translation": "复制源：%s",
+    "stage": 5
+  },
+  {
+    "key": "behaviour.memory_card.disabled",
+    "original": "§cDisabled§r",
+    "translation": "§c已禁用§r",
+    "stage": 5
+  },
+  {
+    "key": "behaviour.memory_card.enabled",
+    "original": "§aEnabled§r",
+    "translation": "§a已启用§r",
+    "stage": 5
+  },
+  {
+    "key": "behaviour.memory_card.tooltip.copy",
+    "original": "§7Sneak + R-Click to copy configuration, or clear stored data if a block other than a machine or pipe is targeted.",
+    "translation": "§7潜行+右键单击机器或管道复制配置，单击其他方块则会清除数据",
+    "stage": 5
+  },
+  {
+    "key": "behaviour.memory_card.tooltip.items_to_paste",
+    "original": "The following items are needed to paste this configuration:",
+    "translation": "应用此配置需要以下物品：",
+    "stage": 5
+  },
+  {
+    "key": "behaviour.memory_card.tooltip.paste",
+    "original": "§7R-Click to paste machine configuration",
+    "translation": "§7右键单击以粘贴机器配置",
+    "stage": 5
+  },
+  {
+    "key": "behaviour.memory_card.tooltip.view_stored",
+    "original": "§8<Sneak to view stored configuration>",
+    "translation": "§8<潜行以查看存储的配置>",
+    "stage": 5
+  },
+  {
+    "key": "behaviour.setting.tooltip.allow_input",
+    "original": "§2Allow Input§r",
+    "translation": "§2允许输入§r",
+    "stage": 5
+  },
+  {
+    "key": "behaviour.setting.tooltip.auto_output",
+    "original": "§2Auto Output§r",
+    "translation": "§2自动输出§r",
+    "stage": 5
+  },
+  {
+    "key": "behaviour.setting.tooltip.auto_output_allow_input",
+    "original": "§2Auto Output/Allow Input§r",
+    "translation": "§2自动输出/允许输入§r",
+    "stage": 5
+  },
+  {
+    "key": "behaviour.setting.tooltip.circuit_config",
+    "original": "Programmed Circuit: ",
+    "translation": "编程电路：",
+    "stage": 5
+  },
+  {
+    "key": "behaviour.setting.tooltip.fluid_io",
+    "original": "Fluid Output: %s (%s)",
+    "translation": "流体输出：%s（%s）",
+    "stage": 5
+  },
+  {
+    "key": "behaviour.setting.tooltip.item_io",
+    "original": "Item Output: %s (%s)",
+    "translation": "物品输出：%s（%s）",
+    "stage": 5
+  },
+  {
+    "key": "behaviour.setting.tooltip.muffled",
+    "original": "Muffling %s",
+    "translation": "静音%s",
+    "stage": 5
+  },
+  {
+    "key": "behaviour.setting.tooltip.pipe_blocked_connections",
+    "original": "Pipe shuttered sides: %s",
+    "translation": "管道禁入：%s",
+    "stage": 5
+  },
+  {
+    "key": "behaviour.setting.tooltip.pipe_connections",
+    "original": "Pipe connections: %s",
+    "translation": "管道连接：%s",
+    "stage": 5
+  },
+  {
+    "key": "config.jade.plugin_gtceu.battery_info",
+    "original": "[GTCEu] Battery info",
+    "translation": "[GTCEu] 电池信息",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.jade.changes_eu_sec",
+    "original": "%s EU/s",
+    "translation": "%sEU/s",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.jade.days",
+    "original": "%s days",
+    "translation": "%s天",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.jade.hours",
+    "original": "%s hours",
+    "translation": "%s小时",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.jade.minutes",
+    "original": "%s minutes",
+    "translation": "%s分钟",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.jade.remaining_charge_time",
+    "original": "Until charged: %s",
+    "translation": "预计充满时间：%s",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.jade.remaining_discharge_time",
+    "original": "Until empty: %s",
+    "translation": "预计耗空时间：%s",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.jade.seconds",
+    "original": "%s seconds",
+    "translation": "%s秒",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.jade.years",
+    "original": "%s years",
+    "translation": "%s年",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.key.enable_step_assist",
+    "original": "Enable StepAssist",
+    "translation": "启用步行辅助",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.tool.hv_screwdriver",
+    "original": "%s Screwdriver (HV)",
+    "translation": "%s螺丝刀（§6HV§r）",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.tool.hv_screwdriver.tooltip",
+    "original": "§8Adjusts Covers and Machines",
+    "translation": "§8调整覆盖板和机器",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.tool.iv_chainsaw",
+    "original": "%s Chainsaw (IV)",
+    "translation": "%s链锯（§9IV§r）",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.tool.iv_screwdriver",
+    "original": "%s Screwdriver (IV)",
+    "translation": "%s螺丝刀（§9IV§r）",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.tool.iv_screwdriver.tooltip",
+    "original": "§8Adjusts Covers and Machines",
+    "translation": "§8调整覆盖板和机器",
+    "stage": 5
+  },
+  {
+    "key": "metaarmor.message.step_assist.disabled",
+    "original": "StepAssist: §cOff",
+    "translation": "步行辅助：§c关",
+    "stage": 5
+  },
+  {
+    "key": "metaarmor.message.step_assist.enabled",
+    "original": "StepAssist: §aOn",
+    "translation": "步行辅助：§a开",
+    "stage": 5
+  },
+  {
+    "key": "metaarmor.nms.step_assist.disabled",
+    "original": "NanoMuscle™ Suite: StepAssist Disabled",
+    "translation": "纳米肌体™套装：步行辅助已禁用",
+    "stage": 5
+  },
+  {
+    "key": "metaarmor.nms.step_assist.enabled",
+    "original": "NanoMuscle™ Suite: StepAssist Enabled",
+    "translation": "纳米肌体™套装：步行辅助已启用",
+    "stage": 5
+  },
+  {
+    "key": "metaarmor.qts.step_assist.disabled",
+    "original": "QuarkTech™ Suite: StepAssist Disabled",
+    "translation": "夸克高科™套装：步行辅助已禁用",
+    "stage": 5
+  },
+  {
+    "key": "metaarmor.qts.step_assist.enabled",
+    "original": "QuarkTech™ Suite: StepAssist Enabled",
+    "translation": "夸克高科™套装：步行辅助已启用",
+    "stage": 5
+  },
+  {
+    "key": "metaarmor.qts.boosted_jump.disabled",
+    "original": "QuarkTech™ Suite: Jump Boost Disabled",
+    "translation": "夸克高科™套装：跳跃提升已禁用",
+    "stage": 5
+  },
+  {
+    "key": "metaarmor.qts.boosted_jump.enabled",
+    "original": "QuarkTech™ Suite: Jump Boost Enabled",
+    "translation": "夸克高科™套装：跳跃提升已启用",
     "stage": 5
   }
 ]
