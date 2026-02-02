@@ -268,6 +268,10 @@
         "original":"Copied machine configuration"
     },
     {
+        "key":"behaviour.memory_card.client_msg.missing_items",
+        "original":"Missing items required to paste configuration"
+    },
+    {
         "key":"behaviour.memory_card.client_msg.pasted",
         "original":"Applied machine configuration"
     },
@@ -6984,6 +6988,10 @@
         "original":"allowDrumsInputFluidsFromOutputSide"
     },
     {
+        "key":"config.gtceu.option.allowedImageDomains",
+        "original":"allowedImageDomains"
+    },
+    {
         "key":"config.gtceu.option.animationTime",
         "original":"animationTime"
     },
@@ -7572,8 +7580,8 @@
         "original":"tankItemFluidPreview"
     },
     {
-        "key":"config.gtceu.option.temperaturesInKelvin",
-        "original":"temperaturesInKelvin"
+        "key":"config.gtceu.option.temperaturesInCelsius",
+        "original":"temperaturesInCelsius"
     },
     {
         "key":"config.gtceu.option.titaniumBoilerHeatSpeed",
@@ -10468,12 +10476,12 @@
         "original":"Enable Jetpack"
     },
     {
-        "key":"gtceu.key.tool_aoe_change",
-        "original":"Tool AoE Mode Switch"
-    },
-    {
         "key":"gtceu.key.enable_step_assist",
         "original":"Enable StepAssist"
+    },
+    {
+        "key":"gtceu.key.tool_aoe_change",
+        "original":"Tool AoE Mode Switch"
     },
     {
         "key":"gtceu.large_boiler",
@@ -18941,7 +18949,7 @@
     },
     {
         "key":"item.gtceu.terminal.tooltip",
-        "original":"Shift + R-Click on a controller to automatically build the multi-block"
+        "original":"Shift + R-Click on a controller to automatically build a multiblock with items from your inventory"
     },
     {
         "key":"item.gtceu.text_module",
@@ -22800,14 +22808,6 @@
         "original":"§cNot enough power!"
     },
     {
-        "key":"metaarmor.message.step_assist.disabled",
-        "original":"StepAssist: §cOff"
-    },
-    {
-        "key":"metaarmor.message.step_assist.enabled",
-        "original":"StepAssist: §aOn"
-    },
-    {
         "key":"metaarmor.nms.nightvision.disabled",
         "original":"NanoMuscle™ Suite: NightVision Disabled"
     },
@@ -22818,34 +22818,6 @@
     {
         "key":"metaarmor.nms.nightvision.error",
         "original":"NanoMuscle™ Suite: §cNot enough power!"
-    },
-    {
-        "key":"metaarmor.qts.nightvision.disabled",
-        "original":"QuarkTech™ Suite: NightVision Disabled"
-    },
-    {
-        "key":"metaarmor.qts.nightvision.enabled",
-        "original":"QuarkTech™ Suite: NightVision Enabled"
-    },
-    {
-        "key":"metaarmor.qts.nightvision.error",
-        "original":"QuarkTech™ Suite: §cNot enough power!"
-    },
-    {
-        "key":"metaarmor.nms.step_assist.disabled",
-        "original":"NanoMuscle™ Suite: StepAssist Disabled"
-    },
-    {
-        "key":"metaarmor.nms.step_assist.enabled",
-        "original":"NanoMuscle™ Suite: StepAssist Enabled"
-    },
-    {
-        "key":"metaarmor.qts.step_assist.disabled",
-        "original":"QuarkTech™ Suite: StepAssist Disabled"
-    },
-    {
-        "key":"metaarmor.qts.step_assist.enabled",
-        "original":"QuarkTech™ Suite: StepAssist Enabled"
     },
     {
         "key":"metaarmor.nms.share.disable",
@@ -22860,6 +22832,34 @@
         "original":"NanoMuscle™ Suite: §cNot enough power for charging!"
     },
     {
+        "key":"metaarmor.nms.step_assist.disabled",
+        "original":"NanoMuscle™ Suite: StepAssist Disabled"
+    },
+    {
+        "key":"metaarmor.nms.step_assist.enabled",
+        "original":"NanoMuscle™ Suite: StepAssist Enabled"
+    },
+    {
+        "key":"metaarmor.qts.boosted_jump.disabled",
+        "original":"QuarkTech™ Suite: Jump Boost Disabled"
+    },
+    {
+        "key":"metaarmor.qts.boosted_jump.enabled",
+        "original":"QuarkTech™ Suite: Jump Boost Enabled"
+    },
+    {
+        "key":"metaarmor.qts.nightvision.disabled",
+        "original":"QuarkTech™ Suite: NightVision Disabled"
+    },
+    {
+        "key":"metaarmor.qts.nightvision.enabled",
+        "original":"QuarkTech™ Suite: NightVision Enabled"
+    },
+    {
+        "key":"metaarmor.qts.nightvision.error",
+        "original":"QuarkTech™ Suite: §cNot enough power!"
+    },
+    {
         "key":"metaarmor.qts.share.disable",
         "original":"QuarkTech™ Suite: Charging Disabled"
     },
@@ -22872,12 +22872,12 @@
         "original":"QuarkTech™ Suite: §cNot enough power for charging!"
     },
     {
-        "key":"metaarmor.qts.boosted_jump.disabled",
-        "original":"QuarkTech™ Suite: Jump Boost Disabled"
+        "key":"metaarmor.qts.step_assist.disabled",
+        "original":"QuarkTech™ Suite: StepAssist Disabled"
     },
     {
-        "key":"metaarmor.qts.boosted_jump.enabled",
-        "original":"QuarkTech™ Suite: Jump Boost Enabled"
+        "key":"metaarmor.qts.step_assist.enabled",
+        "original":"QuarkTech™ Suite: StepAssist Enabled"
     },
     {
         "key":"metaarmor.tooltip.autoeat",
