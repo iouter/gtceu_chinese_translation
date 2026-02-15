@@ -137,7 +137,7 @@
     },
     {
         "key":"behavior.portable_scanner.mode.show_all_info",
-        "original":"Show all info"
+        "original":"Show all info (excluding internal info)"
     },
     {
         "key":"behavior.portable_scanner.mode.show_block_info",
@@ -150,6 +150,10 @@
     {
         "key":"behavior.portable_scanner.mode.show_environmental_info",
         "original":"Show environmental info"
+    },
+    {
+        "key":"behavior.portable_scanner.mode.show_internal_info",
+        "original":"Show internal debugging info"
     },
     {
         "key":"behavior.portable_scanner.mode.show_machine_info",
