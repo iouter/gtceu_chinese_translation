@@ -20534,8 +20534,8 @@
   {
     "key": "item.gtceu.pipe.huge_extruder_mold.tooltip",
     "original": "§7Extruder Shape for making full Block Pipes",
-    "translation": "§7用来制作占据整个方块的管道的模头",
-    "stage": 5
+    "translation": "§7用来制作巨型管道的模头",
+    "stage": 3
   },
   {
     "key": "item.gtceu.pipe.large_extruder_mold.tooltip",
@@ -26041,8 +26041,8 @@
   },
   {
     "key": "behavior.portable_scanner.mode.show_all_info",
-    "original": "Show all info",
-    "translation": "显示所有信息",
+    "original": "Show all info (excluding internal info)",
+    "translation": "显示所有信息（不含内部信息）",
     "stage": 5
   },
   {
@@ -29468,7 +29468,7 @@
   {
     "key": "death.attack.gtceu.buzzsaw",
     "original": "%s got buzzed by %s",
-    "translation": "%2$手中圆锯的嗞嗞声成为了%1$s生命中最后听到的声音",
+    "translation": "%2$s手中圆锯的嗞嗞声成为了%1$s生命中最后听到的声音",
     "stage": 5
   },
   {
@@ -32276,7 +32276,7 @@
   {
     "key": "item.gtceu.item_smart_filter.tooltip.0",
     "original": "§7Filters §fItem§7 I/O with §fMachine Recipes§7 as §fCover§7.",
-    "translation": "作§f覆盖板§7时以§f机器的配方§7过滤§f物品§7的输入/输出。",
+    "translation": "§7作§f覆盖板§7时以§f机器的配方§7过滤§f物品§7的输入/输出。",
     "stage": 5
   },
   {
@@ -32449,8 +32449,8 @@
   },
   {
     "key": "item.gtceu.terminal.tooltip",
-    "original": "Shift + R-Click on a controller to automatically build the multi-block",
-    "translation": "潜行右击多方块控制器以自动搭建此多方块结构",
+    "original": "Shift + R-Click on a controller to automatically build a multiblock with items from your inventory",
+    "translation": "潜行右击多方块控制器，以用你物品栏中的物品自动搭建此结构",
     "stage": 5
   },
   {
@@ -34202,7 +34202,7 @@
   {
     "key": "gtceu.placeholder_info.nbt.0",
     "original": "Returns the nbt data of the item in the specified slot",
-    "translation": "指定的插槽内物品的NBT数据",
+    "translation": "返回指定的插槽内物品的NBT数据",
     "stage": 5
   },
   {
@@ -35226,12 +35226,6 @@
     "stage": 5
   },
   {
-    "key": "config.gtceu.option.temperaturesInKelvin",
-    "original": "temperaturesInKelvin",
-    "translation": "开尔文温度",
-    "stage": 5
-  },
-  {
     "key": "behaviour.memory_card.client_msg.cleared",
     "original": "Stored configuration cleared",
     "translation": "已清除存储的配置",
@@ -35436,18 +35430,6 @@
     "stage": 5
   },
   {
-    "key": "metaarmor.message.step_assist.disabled",
-    "original": "StepAssist: §cOff",
-    "translation": "步行辅助：§c关",
-    "stage": 5
-  },
-  {
-    "key": "metaarmor.message.step_assist.enabled",
-    "original": "StepAssist: §aOn",
-    "translation": "步行辅助：§a开",
-    "stage": 5
-  },
-  {
     "key": "metaarmor.nms.step_assist.disabled",
     "original": "NanoMuscle™ Suite: StepAssist Disabled",
     "translation": "纳米肌体™套装：步行辅助已禁用",
@@ -35481,6 +35463,72 @@
     "key": "metaarmor.qts.boosted_jump.enabled",
     "original": "QuarkTech™ Suite: Jump Boost Enabled",
     "translation": "夸克高科™套装：跳跃提升已启用",
+    "stage": 5
+  },
+  {
+    "key": "behaviour.memory_card.client_msg.missing_items",
+    "original": "Missing items required to paste configuration",
+    "translation": "缺少粘贴配置所需要的物品",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.allowedImageDomains",
+    "original": "allowedImageDomains",
+    "translation": "图片域名白名单",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.temperaturesInCelsius",
+    "original": "temperaturesInCelsius",
+    "translation": "使用摄氏度",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.coloredMaterialBlockOutline",
+    "original": "coloredMaterialBlockOutline",
+    "translation": "材料块的彩色描边",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.recipe_logic.recipe_waiting",
+    "original": "Recipe Waiting: ",
+    "translation": "配方等待中：",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.recipe_logic.setup_fail",
+    "original": "Fail to setup recipe: ",
+    "translation": "配方设置失败：",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.recipe_modifier.coil_temperature_too_low",
+    "original": "Coil Temperature Too Low",
+    "translation": "线圈温度不足",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.recipe_modifier.default_fail",
+    "original": "Recipe Modifier Fail",
+    "translation": "配方修改失败",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.recipe_modifier.insufficient_eu_to_start_fusion",
+    "original": "Insufficient Energy to Initiate Fusion Reaction",
+    "translation": "能量不足以启动聚变反应",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.recipe_modifier.insufficient_voltage",
+    "original": "Voltage Tier Too Low",
+    "translation": "电压等级不足",
+    "stage": 5
+  },
+  {
+    "key": "behavior.portable_scanner.mode.show_internal_info",
+    "original": "Show internal debugging info",
+    "translation": "显示内部调试信息",
     "stage": 5
   }
 ]
