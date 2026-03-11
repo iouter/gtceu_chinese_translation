@@ -22840,6 +22840,14 @@
         "original":"§cNot enough power!"
     },
     {
+        "key":"metaarmor.message.step_assist.disabled",
+        "original":"§bStep-Assist: §cOff"
+    },
+    {
+        "key":"metaarmor.message.step_assist.enabled",
+        "original":"§bStep-Assist: §aOn"
+    },
+    {
         "key":"metaarmor.nms.nightvision.disabled",
         "original":"NanoMuscle™ Suite: NightVision Disabled"
     },
