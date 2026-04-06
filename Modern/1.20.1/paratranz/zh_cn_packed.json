@@ -6952,20 +6952,68 @@
         "original":"Dumped %s resources from registry %s to %s"
     },
     {
+        "key":"command.gtceu.medical_condition.clear.everything.failed",
+        "original":"Target has no conditions to remove"
+    },
+    {
+        "key":"command.gtceu.medical_condition.clear.everything.success.multiple",
+        "original":"Removed all conditions from %s targets"
+    },
+    {
+        "key":"command.gtceu.medical_condition.clear.everything.success.single",
+        "original":"Removed all conditions from %s"
+    },
+    {
+        "key":"command.gtceu.medical_condition.clear.specific.failed",
+        "original":"Target doesn't have the requested condition"
+    },
+    {
+        "key":"command.gtceu.medical_condition.clear.specific.success.multiple",
+        "original":"Removed %s from %s targets"
+    },
+    {
+        "key":"command.gtceu.medical_condition.clear.specific.success.single",
+        "original":"Removed %s from %s"
+    },
+    {
         "key":"command.gtceu.medical_condition.get",
-        "original":"Player %s has these medical conditions:"
+        "original":"%s has"
     },
     {
         "key":"command.gtceu.medical_condition.get.element",
-        "original":"Condition %s§r: %s minutes %s seconds"
+        "original":"- %s for %s minutes %s seconds"
     },
     {
         "key":"command.gtceu.medical_condition.get.element.permanent",
-        "original":"Condition %s§r: %s minutes %s seconds (permanent)"
+        "original":"- %s for %s minutes %s seconds (permanent)"
     },
     {
         "key":"command.gtceu.medical_condition.get.empty",
-        "original":"Player %s has no medical conditions."
+        "original":"%s is perfectly healthy."
+    },
+    {
+        "key":"command.gtceu.medical_condition.get.symptoms",
+        "original":"Currently %s has these symptoms:"
+    },
+    {
+        "key":"command.gtceu.medical_condition.get.symptoms.element",
+        "original":"- %s"
+    },
+    {
+        "key":"command.gtceu.medical_condition.get.symptoms.empty",
+        "original":"%s has no symptoms."
+    },
+    {
+        "key":"command.gtceu.medical_condition.give.failed",
+        "original":"Unable to apply this condition (invalid target)"
+    },
+    {
+        "key":"command.gtceu.medical_condition.give.success.multiple",
+        "original":"Applied %s to %s targets"
+    },
+    {
+        "key":"command.gtceu.medical_condition.give.success.single",
+        "original":"Applied %s to %s"
     },
     {
         "key":"command.gtceu.place_vein.failure",
@@ -6988,10 +7036,6 @@
         "original":"ae2"
     },
     {
-        "key":"config.gtceu.option.allowDrumsInputFluidsFromOutputSide",
-        "original":"allowDrumsInputFluidsFromOutputSide"
-    },
-    {
         "key":"config.gtceu.option.allowedImageDomains",
         "original":"allowedImageDomains"
     },
@@ -7006,6 +7050,10 @@
     {
         "key":"config.gtceu.option.armorHud",
         "original":"armorHud"
+    },
+    {
+        "key":"config.gtceu.option.autoRebuildResources",
+        "original":"autoRebuildResources"
     },
     {
         "key":"config.gtceu.option.batchDuration",
@@ -8533,7 +8581,7 @@
     },
     {
         "key":"death.attack.gtceu.axe",
-        "original":"%s has been chopped by %s"
+        "original":"%s was chopped by %s"
     },
     {
         "key":"death.attack.gtceu.butchery_knife",
@@ -8541,7 +8589,7 @@
     },
     {
         "key":"death.attack.gtceu.buzzsaw",
-        "original":"%s got buzzed by %s"
+        "original":"%s was buzzed by %s"
     },
     {
         "key":"death.attack.gtceu.chainsaw_lv",
@@ -8580,14 +8628,6 @@
         "original":"%s was electrocuted"
     },
     {
-        "key":"death.attack.gtceu.explosion",
-        "original":"%s exploded"
-    },
-    {
-        "key":"death.attack.gtceu.explosion.player",
-        "original":"%s exploded with help of %s"
-    },
-    {
         "key":"death.attack.gtceu.file",
         "original":"%s has been filed D for 'Dead' by %s"
     },
@@ -8617,7 +8657,7 @@
     },
     {
         "key":"death.attack.gtceu.mallet",
-        "original":"%s got hammered to death by %s"
+        "original":"%s was hammered to death by %s"
     },
     {
         "key":"death.attack.gtceu.medical_condition/arsenicosis",
@@ -8653,7 +8693,7 @@
     },
     {
         "key":"death.attack.gtceu.medical_condition/nausea",
-        "original":"%s died of nausea"
+        "original":"%s succumbed to nausea"
     },
     {
         "key":"death.attack.gtceu.medical_condition/none",
@@ -8665,11 +8705,11 @@
     },
     {
         "key":"death.attack.gtceu.medical_condition/silicosis",
-        "original":"%s didn't die of tuberculosis. it was silicosis."
+        "original":"%s didn't die of tuberculosis. It was silicosis"
     },
     {
         "key":"death.attack.gtceu.medical_condition/weak_poison",
-        "original":"%s ate lead (or mercury!)"
+        "original":"%s ate lead"
     },
     {
         "key":"death.attack.gtceu.mining_hammer",
@@ -8681,7 +8721,7 @@
     },
     {
         "key":"death.attack.gtceu.pickaxe",
-        "original":"%s got mined by %s"
+        "original":"%s was mined by %s"
     },
     {
         "key":"death.attack.gtceu.radiation",
@@ -8701,11 +8741,11 @@
     },
     {
         "key":"death.attack.gtceu.shovel",
-        "original":"%s got dug up by %s"
+        "original":"%s was dug up by %s"
     },
     {
         "key":"death.attack.gtceu.spade",
-        "original":"%s got excavated by %s"
+        "original":"%s was excavated by %s"
     },
     {
         "key":"death.attack.gtceu.turbine",
@@ -8725,7 +8765,7 @@
     },
     {
         "key":"death.attack.gtceu.wrench_iv",
-        "original":"%s had a Monkey Wrench thrown into their plans by %s"
+        "original":"%s had a wrench thrown into their plans by %s"
     },
     {
         "key":"death.attack.gtceu.wrench_lv",
@@ -9182,6 +9222,14 @@
     {
         "key":"gtceu.debug.f3_h.enabled",
         "original":"GregTech has modified the debug info! For Developers: enable the misc:debug config option in the GregTech config file to see more"
+    },
+    {
+        "key":"gtceu.debug.resource_rebuild.done",
+        "original":"Gradle resource rebuild done in %s"
+    },
+    {
+        "key":"gtceu.debug.resource_rebuild.start",
+        "original":"Invoking gradle resource rebuild (./gradlew :processResources)"
     },
     {
         "key":"gtceu.direction.tooltip.back",
@@ -9970,30 +10018,6 @@
     {
         "key":"gtceu.gui.waiting_list",
         "original":"Sending Queue:"
-    },
-    {
-        "key":"gtceu.hazard_trigger.any",
-        "original":"Any contact"
-    },
-    {
-        "key":"gtceu.hazard_trigger.description",
-        "original":"Caused by:"
-    },
-    {
-        "key":"gtceu.hazard_trigger.inhalation",
-        "original":"Inhalation"
-    },
-    {
-        "key":"gtceu.hazard_trigger.none",
-        "original":"Nothing"
-    },
-    {
-        "key":"gtceu.hazard_trigger.protection.description",
-        "original":"Protects from:"
-    },
-    {
-        "key":"gtceu.hazard_trigger.skin_contact",
-        "original":"Skin contact"
     },
     {
         "key":"gtceu.implosion_compressor",
@@ -13016,82 +13040,6 @@
         "original":"Maintenance problems will occur at normal rate. Change configuration to update."
     },
     {
-        "key":"gtceu.medical_condition.antidote.description",
-        "original":"§aAntidote §7Hold Shift to show details"
-    },
-    {
-        "key":"gtceu.medical_condition.antidote.description.effect_removed",
-        "original":"Removes %s%% of current conditions' effects"
-    },
-    {
-        "key":"gtceu.medical_condition.antidote.description.effect_removed.all",
-        "original":"Removes all of current conditions' effects"
-    },
-    {
-        "key":"gtceu.medical_condition.antidote.description_shift",
-        "original":"§aCures these conditions:"
-    },
-    {
-        "key":"gtceu.medical_condition.arsenicosis",
-        "original":"§bArsenicosis"
-    },
-    {
-        "key":"gtceu.medical_condition.asbestosis",
-        "original":"§dAsbestosis"
-    },
-    {
-        "key":"gtceu.medical_condition.berylliosis",
-        "original":"§5Berylliosis"
-    },
-    {
-        "key":"gtceu.medical_condition.carbon_monoxide_poisoning",
-        "original":"§7Carbon Monoxide Poisoning"
-    },
-    {
-        "key":"gtceu.medical_condition.carcinogen",
-        "original":"§eCarcinogenic"
-    },
-    {
-        "key":"gtceu.medical_condition.chemical_burns",
-        "original":"§5Chemical burns"
-    },
-    {
-        "key":"gtceu.medical_condition.description",
-        "original":"§l§cHAZARDOUS §7Hold Shift to show details"
-    },
-    {
-        "key":"gtceu.medical_condition.description_shift",
-        "original":"§l§cHAZARDOUS:"
-    },
-    {
-        "key":"gtceu.medical_condition.irritant",
-        "original":"§6Irritant"
-    },
-    {
-        "key":"gtceu.medical_condition.methanol_poisoning",
-        "original":"§6Methanol Poisoning"
-    },
-    {
-        "key":"gtceu.medical_condition.nausea",
-        "original":"§3Nauseating"
-    },
-    {
-        "key":"gtceu.medical_condition.none",
-        "original":"§2Not Dangerous"
-    },
-    {
-        "key":"gtceu.medical_condition.poison",
-        "original":"§2Poisonous"
-    },
-    {
-        "key":"gtceu.medical_condition.silicosis",
-        "original":"§1Silicosis"
-    },
-    {
-        "key":"gtceu.medical_condition.weak_poison",
-        "original":"§aWeakly poisonous"
-    },
-    {
         "key":"gtceu.minimap.ore_vein.depleted",
         "original":"Depleted"
     },
@@ -14624,6 +14572,18 @@
         "original":"  {if <condition> <returned_if_true> [returned_if_false]}"
     },
     {
+        "key":"gtceu.placeholder_info.item.0",
+        "original":"Returns the amount and id of the item in a specified slot"
+    },
+    {
+        "key":"gtceu.placeholder_info.item.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.item.2",
+        "original":"  {item <slot>} -> \"31 minecraft:diamond\" (for example)"
+    },
+    {
         "key":"gtceu.placeholder_info.itemCount.0",
         "original":"Returns the amount of items (can be filtered)."
     },
@@ -14674,6 +14634,18 @@
     {
         "key":"gtceu.placeholder_info.maxProgress.3",
         "original":"  {maxProgress} -> the max progress of the currently running recipe"
+    },
+    {
+        "key":"gtceu.placeholder_info.module.0",
+        "original":"Renders the module in the specified slot onto the central monitor (does not work in a cover)"
+    },
+    {
+        "key":"gtceu.placeholder_info.module.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.module.2",
+        "original":"  {module <slot> <x> <y>} -> empty string"
     },
     {
         "key":"gtceu.placeholder_info.nbt.0",
@@ -14728,6 +14700,18 @@
         "original":"  {progress} -> the progress of the currently running recipe"
     },
     {
+        "key":"gtceu.placeholder_info.quad.0",
+        "original":"Draws a quad (must specify parameters for all 4 vertices)"
+    },
+    {
+        "key":"gtceu.placeholder_info.quad.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.quad.2",
+        "original":"  {quad <x1> <y1> <x2> <y2> <x3> <y3> <x4> <y4> <color1> <color2> <color3> <color4>} -> empty string"
+    },
+    {
         "key":"gtceu.placeholder_info.random.0",
         "original":"Returns a random number in the specified interval (inclusive)."
     },
@@ -14738,6 +14722,22 @@
     {
         "key":"gtceu.placeholder_info.random.2",
         "original":"  {random <min> <max>} -> a random number between min and max (inclusive)"
+    },
+    {
+        "key":"gtceu.placeholder_info.rect.0",
+        "original":"Draws a rectangle at the specified position with the specified coordinates and size"
+    },
+    {
+        "key":"gtceu.placeholder_info.rect.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.rect.2",
+        "original":"  {rect <x> <y> <width> <height> <colorARGB>} -> empty string"
+    },
+    {
+        "key":"gtceu.placeholder_info.rect.3",
+        "original":"  {rect 0.5 0.25 2 1 0xFFFFFFFF} -> draws a white rectangle at (0.5, 0.25) with the size (2, 1)"
     },
     {
         "key":"gtceu.placeholder_info.redstone.0",
@@ -14786,6 +14786,18 @@
     {
         "key":"gtceu.placeholder_info.select.2",
         "original":"  {select <index> [arg1] [arg2] [arg3] ... -> argument at the specified index"
+    },
+    {
+        "key":"gtceu.placeholder_info.setImage.0",
+        "original":"Sets the image URL in an image module in the specified slot"
+    },
+    {
+        "key":"gtceu.placeholder_info.setImage.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.setImage.2",
+        "original":"  {setImage <slot> <url>} -> empty string"
     },
     {
         "key":"gtceu.placeholder_info.strike.0",
@@ -19161,7 +19173,7 @@
     },
     {
         "key":"item.gtceu.tool.behavior.dowse_campfire",
-        "original":"§1Firefighter: §fDowses Campfires"
+        "original":"§6Firefighter: §fDowses Campfires"
     },
     {
         "key":"item.gtceu.tool.behavior.grass_path",
@@ -22752,6 +22764,74 @@
         "original":"Zirconium"
     },
     {
+        "key":"medical_condition.gtceu.arsenicosis",
+        "original":"§bArsenicosis"
+    },
+    {
+        "key":"medical_condition.gtceu.asbestosis",
+        "original":"§dAsbestosis"
+    },
+    {
+        "key":"medical_condition.gtceu.carbon_monoxide_poisoning",
+        "original":"§7Carbon Monoxide Poisoning"
+    },
+    {
+        "key":"medical_condition.gtceu.carcinogen",
+        "original":"§eCarcinogenic"
+    },
+    {
+        "key":"medical_condition.gtceu.carcinogen.affected",
+        "original":"§eCancer"
+    },
+    {
+        "key":"medical_condition.gtceu.chemical_burns",
+        "original":"§5Chemical burns"
+    },
+    {
+        "key":"medical_condition.gtceu.irritant",
+        "original":"§6Irritant"
+    },
+    {
+        "key":"medical_condition.gtceu.irritant.affected",
+        "original":"§6Irritation"
+    },
+    {
+        "key":"medical_condition.gtceu.methanol_poisoning",
+        "original":"§6Methanol Poisoning"
+    },
+    {
+        "key":"medical_condition.gtceu.nausea",
+        "original":"§3Nauseating"
+    },
+    {
+        "key":"medical_condition.gtceu.nausea.affected",
+        "original":"§3Nausea"
+    },
+    {
+        "key":"medical_condition.gtceu.none",
+        "original":"§2Not Dangerous"
+    },
+    {
+        "key":"medical_condition.gtceu.none.affected",
+        "original":"§2Nothing?"
+    },
+    {
+        "key":"medical_condition.gtceu.poison",
+        "original":"§2Poisonous"
+    },
+    {
+        "key":"medical_condition.gtceu.poison.affected",
+        "original":"§2Poisoning"
+    },
+    {
+        "key":"medical_condition.gtceu.weak_poison",
+        "original":"§aWeakly poisonous"
+    },
+    {
+        "key":"medical_condition.gtceu.weak_poison.affected",
+        "original":"§aMinor poisoning"
+    },
+    {
         "key":"message.gtceu.new_veins.amount",
         "original":"Prospected %d new veins!"
     },
@@ -23248,6 +23328,62 @@
         "original":"Thunder Level: %d"
     },
     {
+        "key":"symptom.gtceu.air_supply_debuff",
+        "original":"Lowered lung capacity"
+    },
+    {
+        "key":"symptom.gtceu.blindness",
+        "original":"Blindness"
+    },
+    {
+        "key":"symptom.gtceu.darkness",
+        "original":"Darkness"
+    },
+    {
+        "key":"symptom.gtceu.death",
+        "original":"Death"
+    },
+    {
+        "key":"symptom.gtceu.health_debuff",
+        "original":"Lowered maximum health"
+    },
+    {
+        "key":"symptom.gtceu.hunger",
+        "original":"Increased appetite"
+    },
+    {
+        "key":"symptom.gtceu.mining_fatigue",
+        "original":"Fatigue"
+    },
+    {
+        "key":"symptom.gtceu.nausea",
+        "original":"Nausea"
+    },
+    {
+        "key":"symptom.gtceu.poisoning",
+        "original":"Poisoning"
+    },
+    {
+        "key":"symptom.gtceu.random_damage",
+        "original":"Occasional damage"
+    },
+    {
+        "key":"symptom.gtceu.slowness",
+        "original":"Slowness"
+    },
+    {
+        "key":"symptom.gtceu.weak_poisoning",
+        "original":"Weak poisoning"
+    },
+    {
+        "key":"symptom.gtceu.weakness",
+        "original":"Weakness"
+    },
+    {
+        "key":"symptom.gtceu.wither",
+        "original":"Necrosis"
+    },
+    {
         "key":"tagprefix.andesite",
         "original":"Andesite %s Ore"
     },
@@ -23694,5 +23830,53 @@
     {
         "key":"tile.gtceu.seal.name",
         "original":"Sealed Block"
+    },
+    {
+        "key":"tooltip.gtceu.antidote.description",
+        "original":"§aAntidote §7Hold Shift to show details"
+    },
+    {
+        "key":"tooltip.gtceu.antidote.description.effect_removed",
+        "original":"Removes %s%% of current conditions' effects"
+    },
+    {
+        "key":"tooltip.gtceu.antidote.description.effect_removed.all",
+        "original":"Removes all of current conditions' effects"
+    },
+    {
+        "key":"tooltip.gtceu.antidote.description_shift",
+        "original":"§aCures these conditions:"
+    },
+    {
+        "key":"tooltip.gtceu.hazard_trigger",
+        "original":"Caused by:"
+    },
+    {
+        "key":"tooltip.gtceu.hazard_trigger.any",
+        "original":"Any contact"
+    },
+    {
+        "key":"tooltip.gtceu.hazard_trigger.inhalation",
+        "original":"Inhalation"
+    },
+    {
+        "key":"tooltip.gtceu.hazard_trigger.none",
+        "original":"Nothing"
+    },
+    {
+        "key":"tooltip.gtceu.hazard_trigger.protection",
+        "original":"Protects from:"
+    },
+    {
+        "key":"tooltip.gtceu.hazard_trigger.skin_contact",
+        "original":"Skin contact"
+    },
+    {
+        "key":"tooltip.gtceu.medical_condition.description",
+        "original":"§l§cHAZARDOUS §7Hold Shift to show details"
+    },
+    {
+        "key":"tooltip.gtceu.medical_condition.description_shift",
+        "original":"§l§cHAZARDOUS:"
     }
 ]
