@@ -14912,6 +14912,10 @@
         "original":"Primitive Blast Furnace"
     },
     {
+        "key":"gtceu.provider.computer_monitor_cover.error.no_target",
+        "original":"No target selected for the monitor group"
+    },
+    {
         "key":"gtceu.pyrolyse_oven",
         "original":"Pyrolyse Oven"
     },
