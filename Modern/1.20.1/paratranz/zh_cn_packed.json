@@ -14389,30 +14389,34 @@
     },
     {
         "key":"gtceu.placeholder_info.data.2",
-        "original":"Usage:"
+        "original":"If the slot argument is equal to 0, this placeholder will manipulate the data stick that is currently targeted by this text module inside a data hatch."
     },
     {
         "key":"gtceu.placeholder_info.data.3",
-        "original":"  {data get <slot> <index>} -> the data stored in the item in the specified slot"
+        "original":"Usage:"
     },
     {
         "key":"gtceu.placeholder_info.data.4",
-        "original":"  {data set <slot> <index> <value>} -> sets the data stored in the item in the specified slot, returns an empty string"
+        "original":"  {data get <slot> <index>} -> the data stored in the item in the specified slot"
     },
     {
         "key":"gtceu.placeholder_info.data.5",
-        "original":"  {data getp <slot>} -> p"
+        "original":"  {data set <slot> <index> <value>} -> sets the data stored in the item in the specified slot, returns an empty string"
     },
     {
         "key":"gtceu.placeholder_info.data.6",
-        "original":"  {data setp <slot> <value>} -> sets p, returns an empty string"
+        "original":"  {data getp <slot>} -> p"
     },
     {
         "key":"gtceu.placeholder_info.data.7",
-        "original":"  {data inc <slot>} -> increments p by 1, if p becomes more than or equal to capacity, sets p to 0"
+        "original":"  {data setp <slot> <value>} -> sets p, returns an empty string"
     },
     {
         "key":"gtceu.placeholder_info.data.8",
+        "original":"  {data inc <slot>} -> increments p by 1, if p becomes more than or equal to capacity, sets p to 0"
+    },
+    {
+        "key":"gtceu.placeholder_info.data.9",
         "original":"  {data dec <slot>} -> decrements p by 1, if p becomes less than 0, sets p to (capacity - 1)"
     },
     {
@@ -14800,6 +14804,26 @@
         "original":"  {setImage <slot> <url>} -> empty string"
     },
     {
+        "key":"gtceu.placeholder_info.setTargetSlot.0",
+        "original":"Sets the index of the targeted data hatch slot."
+    },
+    {
+        "key":"gtceu.placeholder_info.setTargetSlot.1",
+        "original":"The change will take effect immediately after this placeholder executes."
+    },
+    {
+        "key":"gtceu.placeholder_info.setTargetSlot.2",
+        "original":"(Further placeholders will reference the new target)"
+    },
+    {
+        "key":"gtceu.placeholder_info.setTargetSlot.3",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.setTargetSlot.4",
+        "original":"  {setTargetSlot <slot>} -> empty string"
+    },
+    {
         "key":"gtceu.placeholder_info.strike.0",
         "original":"Returns the text from the first text, displaying it as if it was crossed out"
     },
@@ -14822,6 +14846,18 @@
     {
         "key":"gtceu.placeholder_info.subList.2",
         "original":"  {subList <left> <right> [arg0] [arg1] ...} -> all arguments with indexes from l to r separated by spaces"
+    },
+    {
+        "key":"gtceu.placeholder_info.targetSlot.0",
+        "original":"Returns the index of the targeted data hatch slot"
+    },
+    {
+        "key":"gtceu.placeholder_info.targetSlot.1",
+        "original":"Usage:"
+    },
+    {
+        "key":"gtceu.placeholder_info.targetSlot.2",
+        "original":"  {targetSlot} -> <slot> (from 1 to 4/9/16)"
     },
     {
         "key":"gtceu.placeholder_info.tick.0",
