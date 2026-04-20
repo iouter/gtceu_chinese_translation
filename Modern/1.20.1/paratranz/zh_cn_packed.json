@@ -60,10 +60,6 @@
         "original":" invalid!"
     },
     {
-        "key":"behavior.portable_scanner.debug_machine_invalid_null=invalid! MetaTileEntity =",
-        "original":" null!"
-    },
-    {
         "key":"behavior.portable_scanner.debug_machine_valid",
         "original":" valid"
     },
