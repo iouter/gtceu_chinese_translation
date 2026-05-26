@@ -19264,6 +19264,10 @@
         "original":"§bPolisher: §fRemoves Oxidation"
     },
     {
+        "key":"item.gtceu.tool.behavior.shears",
+        "original":"§aGardener: §fShears blocks and mobs"
+    },
+    {
         "key":"item.gtceu.tool.behavior.shield_disable",
         "original":"§cBrute: §fDisables Shields"
     },
