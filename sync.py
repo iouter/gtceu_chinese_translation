@@ -143,7 +143,7 @@ def get_local_modified_time(project, version) -> datetime | None:
     r.raise_for_status()
     data = r.json()
     iso_str = data["commit"]["committer"]["date"]
-    return datetime.fromisoformat(iso_str.replace("Z", "+00:00")) convert to UTC
+    return datetime.fromisoformat(iso_str.replace("Z", "+00:00"))
 
 
 def process_version(project: str, version: str, base_ver: str = None):
