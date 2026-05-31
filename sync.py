@@ -132,16 +132,18 @@ def get_remote_modified_time(project, version) -> datetime:
     return datetime.fromisoformat(iso_str.replace("Z", "+00:00"))  # convert to UTC
 
 
-def get_local_modified_time(project, version) -> datetime:
-    url = "https://api.github.com/repos/iouter/gtceu_chinese_translation/commits"
+def get_local_modified_time(project, version) -> datetime | None:
     branch = "master"
     file_path = f"{project}/{version}/original/" + CONFIG["projects"][project]["original_name"]
-    params = {"path": file_path, "sha": branch, "per_page": 1}
+    url = f"https://api.github.com/repos/iouter/gtceu_chinese_translation/contents/{file_path}"
+    params = {"ref": branch}
     r = requests.get(url, params=params)
+    if r.status_code == 404:
+        return None
     r.raise_for_status()
     data = r.json()
-    iso_str = data[0]["commit"]["committer"]["date"]
-    return datetime.fromisoformat(iso_str.replace("Z", "+00:00"))  # convert to UTC
+    iso_str = data["commit"]["committer"]["date"]
+    return datetime.fromisoformat(iso_str.replace("Z", "+00:00")) convert to UTC
 
 
 def process_version(project: str, version: str, base_ver: str = None):
