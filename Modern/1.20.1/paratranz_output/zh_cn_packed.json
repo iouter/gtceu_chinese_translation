@@ -20535,7 +20535,7 @@
     "key": "item.gtceu.pipe.huge_extruder_mold.tooltip",
     "original": "§7Extruder Shape for making full Block Pipes",
     "translation": "§7用来制作巨型管道的模头",
-    "stage": 3
+    "stage": 5
   },
   {
     "key": "item.gtceu.pipe.large_extruder_mold.tooltip",
@@ -25974,12 +25974,6 @@
     "stage": 5
   },
   {
-    "key": "behavior.portable_scanner.debug_machine_invalid_null=invalid! MetaTileEntity =",
-    "original": " null!",
-    "translation": " null!",
-    "stage": -1
-  },
-  {
     "key": "behavior.portable_scanner.debug_machine_valid",
     "original": " valid",
     "translation": "无效！",
@@ -26461,7 +26455,7 @@
   },
   {
     "key": "death.attack.gtceu.axe",
-    "original": "%s has been chopped by %s",
+    "original": "%s was chopped by %s",
     "translation": "%s被%s用斧子砍死了",
     "stage": 5
   },
@@ -26526,18 +26520,6 @@
     "stage": 5
   },
   {
-    "key": "death.attack.gtceu.explosion",
-    "original": "%s exploded",
-    "translation": "%s爆炸了",
-    "stage": 5
-  },
-  {
-    "key": "death.attack.gtceu.explosion.player",
-    "original": "%s exploded with help of %s",
-    "translation": "拜%2$s所赐，%1$s爆炸了",
-    "stage": 5
-  },
-  {
     "key": "death.attack.gtceu.file",
     "original": "%s has been filed D for 'Dead' by %s",
     "translation": "%s历尽了%s的“锉”折",
@@ -26581,7 +26563,7 @@
   },
   {
     "key": "death.attack.gtceu.mallet",
-    "original": "%s got hammered to death by %s",
+    "original": "%s was hammered to death by %s",
     "translation": "%s被%s用锤头活活敲死了",
     "stage": 5
   },
@@ -26599,7 +26581,7 @@
   },
   {
     "key": "death.attack.gtceu.pickaxe",
-    "original": "%s got mined by %s",
+    "original": "%s was mined by %s",
     "translation": "%s被%s用镐子凿死了",
     "stage": 5
   },
@@ -26629,13 +26611,13 @@
   },
   {
     "key": "death.attack.gtceu.shovel",
-    "original": "%s got dug up by %s",
+    "original": "%s was dug up by %s",
     "translation": "%s被%s用锹掏死了",
     "stage": 5
   },
   {
     "key": "death.attack.gtceu.spade",
-    "original": "%s got excavated by %s",
+    "original": "%s was excavated by %s",
     "translation": "%s被%s用铲子挖死了",
     "stage": 5
   },
@@ -26665,7 +26647,7 @@
   },
   {
     "key": "death.attack.gtceu.wrench_iv",
-    "original": "%s had a Monkey Wrench thrown into their plans by %s",
+    "original": "%s had a wrench thrown into their plans by %s",
     "translation": "%2$s一扳手下去，扳倒了%1$s的美好人生",
     "stage": 5
   },
@@ -29161,26 +29143,26 @@
   },
   {
     "key": "command.gtceu.medical_condition.get",
-    "original": "Player %s has these medical conditions:",
-    "translation": "玩家%s有以下疾病：",
+    "original": "%s has",
+    "translation": "%s有",
     "stage": 5
   },
   {
     "key": "command.gtceu.medical_condition.get.element",
-    "original": "Condition %s§r: %s minutes %s seconds",
-    "translation": "症状【%s】§r：%s分%s秒",
+    "original": "- %s for %s minutes %s seconds",
+    "translation": "- %s：%s分%s秒",
     "stage": 5
   },
   {
     "key": "command.gtceu.medical_condition.get.element.permanent",
-    "original": "Condition %s§r: %s minutes %s seconds (permanent)",
-    "translation": "症状【%s】§r：%s分%s秒（永久）",
+    "original": "- %s for %s minutes %s seconds (permanent)",
+    "translation": "- %s：%s分%s秒（永久）",
     "stage": 5
   },
   {
     "key": "command.gtceu.medical_condition.get.empty",
-    "original": "Player %s has no medical conditions.",
-    "translation": "玩家%s没有疾病。",
+    "original": "%s is perfectly healthy.",
+    "translation": "%s很健康。",
     "stage": 5
   },
   {
@@ -29251,7 +29233,7 @@
   },
   {
     "key": "death.attack.gtceu.medical_condition/nausea",
-    "original": "%s died of nausea",
+    "original": "%s succumbed to nausea",
     "translation": "%s死于恶心",
     "stage": 5
   },
@@ -29269,128 +29251,14 @@
   },
   {
     "key": "death.attack.gtceu.medical_condition/silicosis",
-    "original": "%s didn't die of tuberculosis. it was silicosis.",
+    "original": "%s didn't die of tuberculosis. It was silicosis",
     "translation": "%s不是死于肺结核，而是矽肺病",
     "stage": 5
   },
   {
     "key": "death.attack.gtceu.medical_condition/weak_poison",
-    "original": "%s ate lead (or mercury!)",
-    "translation": "%s吞下了铅（或水银！）",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.medical_condition.antidote.description",
-    "original": "§aAntidote §7Hold Shift to show details",
-    "translation": "§a解毒剂 §7按住Shift以显示详情",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.medical_condition.antidote.description.effect_removed",
-    "original": "Removes %s%% of current conditions' effects",
-    "translation": "疾病效果持续时间降低%s%%",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.medical_condition.antidote.description.effect_removed.all",
-    "original": "Removes all of current conditions' effects",
-    "translation": "消除所有疾病效果",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.medical_condition.antidote.description_shift",
-    "original": "§aCures these conditions:",
-    "translation": "§a治愈以下疾病：",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.medical_condition.arsenicosis",
-    "original": "§bArsenicosis",
-    "translation": "§b砷中毒",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.medical_condition.asbestosis",
-    "original": "§dAsbestosis",
-    "translation": "§d石棉肺",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.medical_condition.berylliosis",
-    "original": "§5Berylliosis",
-    "translation": "§5铍中毒",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.medical_condition.carbon_monoxide_poisoning",
-    "original": "§7Carbon Monoxide Poisoning",
-    "translation": "§7一氧化碳污染",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.medical_condition.carcinogen",
-    "original": "§eCarcinogenic",
-    "translation": "§e致癌",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.medical_condition.chemical_burns",
-    "original": "§5Chemical burns",
-    "translation": "§5化学烧伤",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.medical_condition.description",
-    "original": "§l§cHAZARDOUS §7Hold Shift to show details",
-    "translation": "§c§l危险物质 §7按住Shift以显示详情",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.medical_condition.description_shift",
-    "original": "§l§cHAZARDOUS:",
-    "translation": "§c§l危险物质：",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.medical_condition.irritant",
-    "original": "§6Irritant",
-    "translation": "§6刺激性",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.medical_condition.methanol_poisoning",
-    "original": "§6Methanol Poisoning",
-    "translation": "§6甲醇中毒",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.medical_condition.nausea",
-    "original": "§3Nauseating",
-    "translation": "§3恶心",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.medical_condition.none",
-    "original": "§2Not Dangerous",
-    "translation": "§2无害",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.medical_condition.poison",
-    "original": "§2Poisonous",
-    "translation": "§2中毒",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.medical_condition.silicosis",
-    "original": "§1Silicosis",
-    "translation": "§1矽肺病",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.medical_condition.weak_poison",
-    "original": "§aWeakly poisonous",
-    "translation": "§a轻度中毒",
+    "original": "%s ate lead",
+    "translation": "%s吞下了铅",
     "stage": 5
   },
   {
@@ -29467,7 +29335,7 @@
   },
   {
     "key": "death.attack.gtceu.buzzsaw",
-    "original": "%s got buzzed by %s",
+    "original": "%s was buzzed by %s",
     "translation": "%2$s手中圆锯的嗞嗞声成为了%1$s生命中最后听到的声音",
     "stage": 5
   },
@@ -30219,42 +30087,6 @@
     "key": "gtceu.duct_pipe.transfer_rate",
     "original": "§bAir transfer rate: %s",
     "translation": "§b空气传输速率：%s",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.hazard_trigger.any",
-    "original": "Any contact",
-    "translation": "任何方式",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.hazard_trigger.description",
-    "original": "Caused by:",
-    "translation": "由此导致：",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.hazard_trigger.inhalation",
-    "original": "Inhalation",
-    "translation": "吸入",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.hazard_trigger.none",
-    "original": "Nothing",
-    "translation": "无",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.hazard_trigger.protection.description",
-    "original": "Protects from:",
-    "translation": "免受：",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.hazard_trigger.skin_contact",
-    "original": "Skin contact",
-    "translation": "皮肤接触",
     "stage": 5
   },
   {
@@ -33949,44 +33781,44 @@
   },
   {
     "key": "gtceu.placeholder_info.data.2",
+    "original": "If the slot argument is equal to 0, this placeholder will manipulate the data stick that is currently targeted by this text module inside a data hatch.",
+    "translation": "如果槽位参数等于0，该占位符将操作此文本模块当前在数据仓内所指向的闪存。",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.data.3",
     "original": "Usage:",
     "translation": "用法：",
     "stage": 5
   },
   {
-    "key": "gtceu.placeholder_info.data.3",
+    "key": "gtceu.placeholder_info.data.4",
     "original": "  {data get <slot> <index>} -> the data stored in the item in the specified slot",
-    "translation": "  {data get <插槽> <索引编号>} -> 指定的插槽内物品存储的数据",
+    "translation": "  {data get <槽位> <索引编号>} -> 指定的插槽内物品存储的数据",
     "stage": 5
   },
   {
-    "key": "gtceu.placeholder_info.data.4",
+    "key": "gtceu.placeholder_info.data.5",
     "original": "  {data set <slot> <index> <value>} -> sets the data stored in the item in the specified slot, returns an empty string",
     "translation": "  {data set <槽位> <索引编号> <值>} -> 设置指定插槽内物品存储的数据，返回一个空字符串",
     "stage": 5
   },
   {
-    "key": "gtceu.placeholder_info.data.5",
+    "key": "gtceu.placeholder_info.data.6",
     "original": "  {data getp <slot>} -> p",
     "translation": "  {data getp <槽位>} -> p",
     "stage": 5
   },
   {
-    "key": "gtceu.placeholder_info.data.6",
+    "key": "gtceu.placeholder_info.data.7",
     "original": "  {data setp <slot> <value>} -> sets p, returns an empty string",
     "translation": "  {data setp <槽位> <值>} -> 设置p，返回一个空字符串",
     "stage": 5
   },
   {
-    "key": "gtceu.placeholder_info.data.7",
+    "key": "gtceu.placeholder_info.data.8",
     "original": "  {data inc <slot>} -> increments p by 1, if p becomes more than or equal to capacity, sets p to 0",
     "translation": "  {data inc <槽位>} -> 将p加1，如果p大于等于容量，则把p设为0",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.placeholder_info.data.8",
-    "original": "  {data dec <slot>} -> decrements p by 1, if p becomes less than 0, sets p to (capacity - 1)",
-    "translation": "  {data dec <槽位>} -> 将p减1，如果p小于0，则把p设为容量-1",
     "stage": 5
   },
   {
@@ -34675,8 +34507,8 @@
   },
   {
     "key": "item.gtceu.tool.behavior.dowse_campfire",
-    "original": "§1Firefighter: §fDowses Campfires",
-    "translation": "§1消防战士：§f扑灭营火",
+    "original": "§6Firefighter: §fDowses Campfires",
+    "translation": "§6消防战士：§f扑灭营火",
     "stage": 5
   },
   {
@@ -34923,12 +34755,6 @@
     "key": "block.gtceu.oil",
     "original": "Oil",
     "translation": "石油",
-    "stage": 5
-  },
-  {
-    "key": "config.gtceu.option.allowDrumsInputFluidsFromOutputSide",
-    "original": "allowDrumsInputFluidsFromOutputSide",
-    "translation": "允许桶从输出面输入流体",
     "stage": 5
   },
   {
@@ -35487,7 +35313,7 @@
     "key": "config.gtceu.option.coloredMaterialBlockOutline",
     "original": "coloredMaterialBlockOutline",
     "translation": "材料块的彩色描边",
-    "stage": 3
+    "stage": 5
   },
   {
     "key": "gtceu.recipe_logic.recipe_waiting",
@@ -35529,6 +35355,534 @@
     "key": "behavior.portable_scanner.mode.show_internal_info",
     "original": "Show internal debugging info",
     "translation": "显示内部调试信息",
+    "stage": 5
+  },
+  {
+    "key": "metaarmor.message.step_assist.disabled",
+    "original": "§bStep-Assist: §cOff",
+    "translation": "§b步行辅助：§c关",
+    "stage": 5
+  },
+  {
+    "key": "metaarmor.message.step_assist.enabled",
+    "original": "§bStep-Assist: §aOn",
+    "translation": "§b步行辅助：§a开",
+    "stage": 5
+  },
+  {
+    "key": "command.gtceu.medical_condition.clear.everything.failed",
+    "original": "Target has no conditions to remove",
+    "translation": "目标没有可移除的疾病",
+    "stage": 5
+  },
+  {
+    "key": "command.gtceu.medical_condition.clear.everything.success.multiple",
+    "original": "Removed all conditions from %s targets",
+    "translation": "已从%s个目标身上移除了所有疾病",
+    "stage": 5
+  },
+  {
+    "key": "command.gtceu.medical_condition.clear.everything.success.single",
+    "original": "Removed all conditions from %s",
+    "translation": "已从%s身上移除了所有疾病",
+    "stage": 5
+  },
+  {
+    "key": "command.gtceu.medical_condition.clear.specific.failed",
+    "original": "Target doesn't have the requested condition",
+    "translation": "目标身上没有此疾病",
+    "stage": 5
+  },
+  {
+    "key": "command.gtceu.medical_condition.clear.specific.success.multiple",
+    "original": "Removed %s from %s targets",
+    "translation": "已从%2$s个目标身上移除了%1$s",
+    "stage": 5
+  },
+  {
+    "key": "command.gtceu.medical_condition.clear.specific.success.single",
+    "original": "Removed %s from %s",
+    "translation": "已从%2$s身上移除了%1$s",
+    "stage": 5
+  },
+  {
+    "key": "command.gtceu.medical_condition.get.symptoms",
+    "original": "Currently %s has these symptoms:",
+    "translation": "%s目前有这些症状：",
+    "stage": 5
+  },
+  {
+    "key": "command.gtceu.medical_condition.get.symptoms.element",
+    "original": "- %s",
+    "translation": "- %s",
+    "stage": 5
+  },
+  {
+    "key": "command.gtceu.medical_condition.get.symptoms.empty",
+    "original": "%s has no symptoms.",
+    "translation": "%s没有任何症状。",
+    "stage": 5
+  },
+  {
+    "key": "command.gtceu.medical_condition.give.failed",
+    "original": "Unable to apply this condition (invalid target)",
+    "translation": "无法施加此疾病（目标无效）",
+    "stage": 5
+  },
+  {
+    "key": "command.gtceu.medical_condition.give.success.multiple",
+    "original": "Applied %s to %s targets",
+    "translation": "已对%2$s个目标施加了%1$s",
+    "stage": 5
+  },
+  {
+    "key": "command.gtceu.medical_condition.give.success.single",
+    "original": "Applied %s to %s",
+    "translation": "已对%2$s施加了%1$s",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.autoRebuildResources",
+    "original": "autoRebuildResources",
+    "translation": "自动重建资源",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.debug.resource_rebuild.done",
+    "original": "Gradle resource rebuild done in %s",
+    "translation": "Gradle资源重建在%s内完成",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.debug.resource_rebuild.start",
+    "original": "Invoking gradle resource rebuild (./gradlew :processResources)",
+    "translation": "正在调用Gradle资源重建（./gradlew :processResources）",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.item.0",
+    "original": "Returns the amount and id of the item in a specified slot",
+    "translation": "返回指定的插槽内物品的数量和ID",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.item.1",
+    "original": "Usage:",
+    "translation": "用法：",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.item.2",
+    "original": "  {item <slot>} -> \"31 minecraft:diamond\" (for example)",
+    "translation": "  {item <插槽>} -> \"31 minecraft:diamond\"（例）",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.module.0",
+    "original": "Renders the module in the specified slot onto the central monitor (does not work in a cover)",
+    "translation": "将指定的插槽内的模块渲染到中央监控器上（不适用于覆盖板）",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.module.1",
+    "original": "Usage:",
+    "translation": "用法：",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.module.2",
+    "original": "  {module <slot> <x> <y>} -> empty string",
+    "translation": "  {module <插槽> <x> <y>} -> 空字符串",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.quad.0",
+    "original": "Draws a quad (must specify parameters for all 4 vertices)",
+    "translation": "绘制一个四边形（必须为所有四个顶点指定参数）",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.quad.1",
+    "original": "Usage:",
+    "translation": "用法：",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.quad.2",
+    "original": "  {quad <x1> <y1> <x2> <y2> <x3> <y3> <x4> <y4> <color1> <color2> <color3> <color4>} -> empty string",
+    "translation": "  {quad <x1> <y1> <x2> <y2> <x3> <y3> <x4> <y4> <color1> <color2> <color3> <color4>} -> 空字符串",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.rect.0",
+    "original": "Draws a rectangle at the specified position with the specified coordinates and size",
+    "translation": "以指定大小，在指定坐标绘制一个矩形",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.rect.1",
+    "original": "Usage:",
+    "translation": "用法：",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.rect.2",
+    "original": "  {rect <x> <y> <width> <height> <colorARGB>} -> empty string",
+    "translation": "  {rect <x> <y> <宽> <高> <ARGB颜色>} -> 空字符串",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.rect.3",
+    "original": "  {rect 0.5 0.25 2 1 0xFFFFFFFF} -> draws a white rectangle at (0.5, 0.25) with the size (2, 1)",
+    "translation": "  {rect 0.5 0.25 2 1 0xFFFFFFFF} -> 在(0.5, 0.25)处绘制一个大小为(2, 1)的白色矩形",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.setImage.0",
+    "original": "Sets the image URL in an image module in the specified slot",
+    "translation": "为指定插槽的图像模块设置图像URL",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.setImage.1",
+    "original": "Usage:",
+    "translation": "用法：",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.setImage.2",
+    "original": "  {setImage <slot> <url>} -> empty string",
+    "translation": "  {setImage <槽位> <URL>} -> 空字符串",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.arsenicosis",
+    "original": "§bArsenicosis",
+    "translation": "§b砷中毒",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.asbestosis",
+    "original": "§dAsbestosis",
+    "translation": "§d石棉肺",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.carbon_monoxide_poisoning",
+    "original": "§7Carbon Monoxide Poisoning",
+    "translation": "§7一氧化碳中毒",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.carcinogen",
+    "original": "§eCarcinogenic",
+    "translation": "§e致癌物",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.carcinogen.affected",
+    "original": "§eCancer",
+    "translation": "§e癌症",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.chemical_burns",
+    "original": "§5Chemical burns",
+    "translation": "§5化学烧伤",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.irritant",
+    "original": "§6Irritant",
+    "translation": "§6刺激性物质",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.irritant.affected",
+    "original": "§6Irritation",
+    "translation": "§6刺激",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.methanol_poisoning",
+    "original": "§6Methanol Poisoning",
+    "translation": "§6甲醇中毒",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.nausea",
+    "original": "§3Nauseating",
+    "translation": "§3令人作呕",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.nausea.affected",
+    "original": "§3Nausea",
+    "translation": "§3恶心",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.none",
+    "original": "§2Not Dangerous",
+    "translation": "§2无害",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.none.affected",
+    "original": "§2Nothing?",
+    "translation": "§2无？",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.poison",
+    "original": "§2Poisonous",
+    "translation": "§2有毒物质",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.poison.affected",
+    "original": "§2Poisoning",
+    "translation": "§2中毒",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.weak_poison",
+    "original": "§aWeakly poisonous",
+    "translation": "§a轻度有毒",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.weak_poison.affected",
+    "original": "§aMinor poisoning",
+    "translation": "§a轻度中毒",
+    "stage": 5
+  },
+  {
+    "key": "symptom.gtceu.air_supply_debuff",
+    "original": "Lowered lung capacity",
+    "translation": "肺活量下降",
+    "stage": 5
+  },
+  {
+    "key": "symptom.gtceu.blindness",
+    "original": "Blindness",
+    "translation": "失明",
+    "stage": 5
+  },
+  {
+    "key": "symptom.gtceu.darkness",
+    "original": "Darkness",
+    "translation": "黑暗",
+    "stage": 5
+  },
+  {
+    "key": "symptom.gtceu.death",
+    "original": "Death",
+    "translation": "死亡",
+    "stage": 5
+  },
+  {
+    "key": "symptom.gtceu.health_debuff",
+    "original": "Lowered maximum health",
+    "translation": "最大生命值降低",
+    "stage": 5
+  },
+  {
+    "key": "symptom.gtceu.hunger",
+    "original": "Increased appetite",
+    "translation": "食欲增加",
+    "stage": 5
+  },
+  {
+    "key": "symptom.gtceu.mining_fatigue",
+    "original": "Fatigue",
+    "translation": "疲劳",
+    "stage": 5
+  },
+  {
+    "key": "symptom.gtceu.nausea",
+    "original": "Nausea",
+    "translation": "反胃",
+    "stage": 5
+  },
+  {
+    "key": "symptom.gtceu.poisoning",
+    "original": "Poisoning",
+    "translation": "中毒",
+    "stage": 5
+  },
+  {
+    "key": "symptom.gtceu.random_damage",
+    "original": "Occasional damage",
+    "translation": "间歇性伤害",
+    "stage": 5
+  },
+  {
+    "key": "symptom.gtceu.slowness",
+    "original": "Slowness",
+    "translation": "缓慢",
+    "stage": 5
+  },
+  {
+    "key": "symptom.gtceu.weak_poisoning",
+    "original": "Weak poisoning",
+    "translation": "轻度中毒",
+    "stage": 5
+  },
+  {
+    "key": "symptom.gtceu.weakness",
+    "original": "Weakness",
+    "translation": "虚弱",
+    "stage": 5
+  },
+  {
+    "key": "symptom.gtceu.wither",
+    "original": "Necrosis",
+    "translation": "坏死",
+    "stage": 5
+  },
+  {
+    "key": "tooltip.gtceu.antidote.description",
+    "original": "§aAntidote §7Hold Shift to show details",
+    "translation": "§a解毒剂 §7按住Shift以显示详情",
+    "stage": 5
+  },
+  {
+    "key": "tooltip.gtceu.antidote.description.effect_removed",
+    "original": "Removes %s%% of current conditions' effects",
+    "translation": "当前疾病效果持续时间降低%s%%",
+    "stage": 5
+  },
+  {
+    "key": "tooltip.gtceu.antidote.description.effect_removed.all",
+    "original": "Removes all of current conditions' effects",
+    "translation": "消除当前所有疾病效果",
+    "stage": 5
+  },
+  {
+    "key": "tooltip.gtceu.antidote.description_shift",
+    "original": "§aCures these conditions:",
+    "translation": "§a治愈以下疾病：",
+    "stage": 5
+  },
+  {
+    "key": "tooltip.gtceu.hazard_trigger",
+    "original": "Caused by:",
+    "translation": "由此导致：",
+    "stage": 5
+  },
+  {
+    "key": "tooltip.gtceu.hazard_trigger.any",
+    "original": "Any contact",
+    "translation": "任何方式",
+    "stage": 5
+  },
+  {
+    "key": "tooltip.gtceu.hazard_trigger.inhalation",
+    "original": "Inhalation",
+    "translation": "吸入",
+    "stage": 5
+  },
+  {
+    "key": "tooltip.gtceu.hazard_trigger.none",
+    "original": "Nothing",
+    "translation": "无",
+    "stage": 5
+  },
+  {
+    "key": "tooltip.gtceu.hazard_trigger.protection",
+    "original": "Protects from:",
+    "translation": "免受：",
+    "stage": 5
+  },
+  {
+    "key": "tooltip.gtceu.hazard_trigger.skin_contact",
+    "original": "Skin contact",
+    "translation": "皮肤接触",
+    "stage": 5
+  },
+  {
+    "key": "tooltip.gtceu.medical_condition.description",
+    "original": "§l§cHAZARDOUS §7Hold Shift to show details",
+    "translation": "§c§l危险物质 §7按住Shift以显示详情",
+    "stage": 5
+  },
+  {
+    "key": "tooltip.gtceu.medical_condition.description_shift",
+    "original": "§l§cHAZARDOUS:",
+    "translation": "§c§l危险物质：",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.provider.computer_monitor_cover.error.no_target",
+    "original": "No target selected for the monitor group",
+    "translation": "未为监控器组选择目标",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.data.9",
+    "original": "  {data dec <slot>} -> decrements p by 1, if p becomes less than 0, sets p to (capacity - 1)",
+    "translation": "  {data dec <槽位>} -> 将p减1，如果p小于0，则把p设为容量-1",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.setTargetSlot.0",
+    "original": "Sets the index of the targeted data hatch slot.",
+    "translation": "设置目标数据仓的槽位索引。",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.setTargetSlot.1",
+    "original": "The change will take effect immediately after this placeholder executes.",
+    "translation": "更改将在该占位符执行后立即生效。",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.setTargetSlot.2",
+    "original": "(Further placeholders will reference the new target)",
+    "translation": "（后续占位符将引用新目标）",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.setTargetSlot.3",
+    "original": "Usage:",
+    "translation": "用法：",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.setTargetSlot.4",
+    "original": "  {setTargetSlot <slot>} -> empty string",
+    "translation": "  {setTargetSlot <槽位>} -> 空字符串",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.targetSlot.0",
+    "original": "Returns the index of the targeted data hatch slot",
+    "translation": "返回目标数据仓的槽位索引。",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.targetSlot.1",
+    "original": "Usage:",
+    "translation": "用法：",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.placeholder_info.targetSlot.2",
+    "original": "  {targetSlot} -> <slot> (from 1 to 4/9/16)",
+    "translation": "  {targetSlot} -> <槽位> (从1到4/9/16)",
+    "stage": 5
+  },
+  {
+    "key": "config.screen.gtceu",
+    "original": "GregTechCEu Configuration",
+    "translation": "格雷科技CEu 配置",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.tool.behavior.shears",
+    "original": "§aGardener: §fShears blocks and mobs",
+    "translation": "§a园艺修剪：§f剪断方块和生物",
     "stage": 5
   }
 ]

@@ -1522,7 +1522,7 @@
     "key": "metaitem.shape.extruder.pipe.huge.tooltip",
     "original": "Extruder Shape for making full Block Pipes",
     "translation": "用来制作巨型管道的模头",
-    "stage": 3,
+    "stage": 5,
     "context": "类型30"
   },
   {
