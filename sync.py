@@ -141,6 +141,17 @@ def get_local_modified_time(project, version) -> datetime | None:
     if r.status_code == 404:
         return None
     r.raise_for_status()
+
+    url_commits = f"https://api.github.com/repos/iouter/gtceu_chinese_translation/commits"
+    params_commits = {"path": file_path, "sha": branch, "per_page": 1}
+    r_commits = requests.get(url_commits, params=params_commits)
+    r_commits.raise_for_status()
+    data = r_commits.json()
+    if not data:
+        return None
+    iso_str = data[0]["commit"]["committer"]["date"]
+    return datetime.fromisoformat(iso_str.replace("Z", "+00:00"))
+    
     data = r.json()
     iso_str = data["commit"]["committer"]["date"]
     return datetime.fromisoformat(iso_str.replace("Z", "+00:00"))
