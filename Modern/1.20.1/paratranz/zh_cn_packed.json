@@ -752,6 +752,10 @@
         "original":"Crushing Wheels"
     },
     {
+        "key":"block.gtceu.ctm_test",
+        "original":"Connected Texture Test Block"
+    },
+    {
         "key":"block.gtceu.cupronickel_coil_block",
         "original":"Cupronickel Coil Block"
     },
@@ -7052,6 +7056,10 @@
         "original":"autoRebuildResources"
     },
     {
+        "key":"config.gtceu.option.baseBrightness",
+        "original":"baseBrightness"
+    },
+    {
         "key":"config.gtceu.option.batchDuration",
         "original":"batchDuration"
     },
@@ -7062,6 +7070,14 @@
     {
         "key":"config.gtceu.option.bedrockOreDropTagPrefix",
         "original":"bedrockOreDropTagPrefix"
+    },
+    {
+        "key":"config.gtceu.option.bloom",
+        "original":"bloom"
+    },
+    {
+        "key":"config.gtceu.option.bloomType.load_error",
+        "original":"Could not load shaders for the bloom effect, see %s for details"
     },
     {
         "key":"config.gtceu.option.borderColor",
@@ -7162,6 +7178,10 @@
     {
         "key":"config.gtceu.option.dumpRecipes",
         "original":"dumpRecipes"
+    },
+    {
+        "key":"config.gtceu.option.emissiveTexturesHaveBloom",
+        "original":"emissiveTexturesHaveBloom"
     },
     {
         "key":"config.gtceu.option.enableArcRecycling",
@@ -7416,8 +7436,16 @@
         "original":"maintenanceCheckRate"
     },
     {
+        "key":"config.gtceu.option.maxBrightness",
+        "original":"maxBrightness"
+    },
+    {
         "key":"config.gtceu.option.meHatchEnergyUsage",
         "original":"meHatchEnergyUsage"
+    },
+    {
+        "key":"config.gtceu.option.minBrightness",
+        "original":"minBrightness"
     },
     {
         "key":"config.gtceu.option.minerSpeed",
@@ -7624,6 +7652,14 @@
         "original":"steelSteamMultiblocks"
     },
     {
+        "key":"config.gtceu.option.step",
+        "original":"step"
+    },
+    {
+        "key":"config.gtceu.option.strength",
+        "original":"strength"
+    },
+    {
         "key":"config.gtceu.option.surfaceRockProspectRange",
         "original":"surfaceRockProspectRange"
     },
@@ -7670,6 +7706,10 @@
     {
         "key":"config.gtceu.option.tungstensteelBoilerMaxTemperature",
         "original":"tungstensteelBoilerMaxTemperature"
+    },
+    {
+        "key":"config.gtceu.option.type",
+        "original":"type"
     },
     {
         "key":"config.gtceu.option.universalHazards",
