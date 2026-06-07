@@ -35884,5 +35884,65 @@
     "original": "§aGardener: §fShears blocks and mobs",
     "translation": "§a园艺修剪：§f剪断方块和生物",
     "stage": 5
+  },
+  {
+    "key": "block.gtceu.ctm_test",
+    "original": "Connected Texture Test Block",
+    "translation": "连接纹理测试方块",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.baseBrightness",
+    "original": "baseBrightness",
+    "translation": "基础亮度",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.bloom",
+    "original": "bloom",
+    "translation": "泛光效果",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.bloomType.load_error",
+    "original": "Could not load shaders for the bloom effect, see %s for details",
+    "translation": "无法加载泛光效果所需的着色器，查看%s以了解详细信息",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.emissiveTexturesHaveBloom",
+    "original": "emissiveTexturesHaveBloom",
+    "translation": "自发光纹理具有泛光效果",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.maxBrightness",
+    "original": "maxBrightness",
+    "translation": "最高亮度",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.minBrightness",
+    "original": "minBrightness",
+    "translation": "最低亮度",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.step",
+    "original": "step",
+    "translation": "步长",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.strength",
+    "original": "strength",
+    "translation": "强度",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.type",
+    "original": "type",
+    "translation": "类型",
+    "stage": 5
   }
 ]
