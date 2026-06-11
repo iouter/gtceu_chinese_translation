@@ -432,6 +432,10 @@
         "original":"Working Enabled"
     },
     {
+        "key":"behaviour.soft_hammer.ignored",
+        "original":"Machine cannot be disabled"
+    },
+    {
         "key":"behaviour.wrench",
         "original":"Rotates Blocks on Rightclick"
     },
