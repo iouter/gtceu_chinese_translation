@@ -10204,6 +10204,14 @@
         "original":"Bedrock Ore Diagram"
     },
     {
+        "key":"gtceu.jei.bedrock_vein_diagram.depleted",
+        "original":"Depleted: %s"
+    },
+    {
+        "key":"gtceu.jei.bedrock_vein_diagram.yield",
+        "original":"Yield: %s"
+    },
+    {
         "key":"gtceu.jei.fluid.dep_amount_hover",
         "original":"The amount the vein will be depleted by"
     },
