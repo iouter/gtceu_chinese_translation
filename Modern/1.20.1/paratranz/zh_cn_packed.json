@@ -15628,6 +15628,10 @@
         "original":"Amperage: "
     },
     {
+        "key":"gtceu.top.cable_overloaded",
+        "original":"§4OVERHEATING: %s%%§r"
+    },
+    {
         "key":"gtceu.top.cable_voltage",
         "original":"Voltage: "
     },
