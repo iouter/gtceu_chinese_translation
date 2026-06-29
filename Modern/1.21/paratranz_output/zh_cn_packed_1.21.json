@@ -1,17 +1,5 @@
 [
   {
-    "key": "behavior.portable_scanner.mode.show_all_info",
-    "original": "Show all info",
-    "translation": "显示所有信息",
-    "stage": 5
-  },
-  {
-    "key": "argument.medical_condition.id.invalid",
-    "original": "Unknown medical condition '%s'",
-    "translation": "未知疾病 '%s'",
-    "stage": 5
-  },
-  {
     "key": "bedrock_fluid.gtceu.heavy_oil_deposit",
     "original": "Heavy Oil Deposit",
     "translation": "重油矿藏",
@@ -60,12 +48,6 @@
     "stage": 5
   },
   {
-    "key": "behavior.portable_scanner.debug_machine_invalid_null",
-    "original": " invalid! MetaTileEntity = null!",
-    "translation": "无效！MetaTileEntity == null！",
-    "stage": 5
-  },
-  {
     "key": "block.gtceu.filter_casing.tooltip",
     "original": "Creates a §aParticle-Free§7 environment",
     "translation": "创建一个§a无尘§7环境",
@@ -87,12 +69,6 @@
     "key": "block.gtceu.natural_gas",
     "original": "Natural Gas",
     "translation": "天然气",
-    "stage": 5
-  },
-  {
-    "key": "block.gtceu.netherrack_nether_quartz_ore",
-    "original": "Nether Quartz Ore",
-    "translation": "下界石英矿石",
     "stage": 5
   },
   {
@@ -120,165 +96,9 @@
     "stage": 5
   },
   {
-    "key": "block.gtceu.surface_rock",
-    "original": "%s Surface Rock",
-    "translation": "地表岩石（%s）",
-    "stage": 5
-  },
-  {
     "key": "block.gtceu.wire_coil.tooltip_energy_smelter",
     "original": "  §aEnergy Usage: §f%s EU/t §8per recipe",
     "translation": "  §a功耗：§8每个配方 §f%s EU/t",
-    "stage": 5
-  },
-  {
-    "key": "config.gtceu.option.doDatafixers",
-    "original": "doDatafixers",
-    "translation": "执行数据修复",
-    "stage": 5
-  },
-  {
-    "key": "cover.smart_item_filter.filtering_mode.centrifuge",
-    "original": "Centrifuge",
-    "translation": "离心机",
-    "stage": 5
-  },
-  {
-    "key": "cover.smart_item_filter.filtering_mode.description.0",
-    "original": "Select Machine this Smart Filter will use for filtering.",
-    "translation": "为该智能覆盖板选择目标机器。",
-    "stage": 5
-  },
-  {
-    "key": "cover.smart_item_filter.filtering_mode.description.1",
-    "original": "It will automatically pick right portions of items for robotic arm.",
-    "translation": "它能够自动挑选符合机器配方的物品。",
-    "stage": 5
-  },
-  {
-    "key": "cover.smart_item_filter.filtering_mode.electrolyzer",
-    "original": "Electrolyzer",
-    "translation": "电解机",
-    "stage": 5
-  },
-  {
-    "key": "cover.smart_item_filter.filtering_mode.sifter",
-    "original": "Sifter",
-    "translation": "筛选机",
-    "stage": 5
-  },
-  {
-    "key": "cover.smart_item_filter.title",
-    "original": "Smart Item Filter",
-    "translation": "智能物品过滤",
-    "stage": 5
-  },
-  {
-    "key": "cover.tag_filter.info.9",
-    "original": "The 'c:' namespace is assumed if one isn't provided.",
-    "translation": "如果没有提供命名空间，则为'c:'。",
-    "stage": 5
-  },
-  {
-    "key": "death.attack.gtceu.lv_buzzsaw",
-    "original": "%s got buzzed by %s",
-    "translation": "%2$s手中圆锯的嗞嗞声成为了%1$s生命中最后听到的声音",
-    "stage": 5
-  },
-  {
-    "key": "death.attack.gtceu.medical_condition.arsenicosis",
-    "original": "%s got arsenic poisoning",
-    "translation": "%s死于砷中毒",
-    "stage": 5
-  },
-  {
-    "key": "death.attack.gtceu.medical_condition.asbestosis",
-    "original": "%s got mesothelioma",
-    "translation": "%s得了间皮瘤",
-    "stage": 5
-  },
-  {
-    "key": "death.attack.gtceu.medical_condition.berylliosis",
-    "original": "%s mined emeralds a bit too greedily",
-    "translation": "%s贪婪地挖掘绿宝石，结果有点过火了",
-    "stage": 5
-  },
-  {
-    "key": "death.attack.gtceu.medical_condition.carbon_monoxide_poisoning",
-    "original": "%s left the stove on",
-    "translation": "%s离开时炉子还开着",
-    "stage": 5
-  },
-  {
-    "key": "death.attack.gtceu.medical_condition.carcinogen",
-    "original": "%s got leukemia",
-    "translation": "%s身患白血病",
-    "stage": 5
-  },
-  {
-    "key": "death.attack.gtceu.medical_condition.chemical_burns",
-    "original": "%s had a chemical accident",
-    "translation": "%s历经了一场化学事故",
-    "stage": 5
-  },
-  {
-    "key": "death.attack.gtceu.medical_condition.irritant",
-    "original": "%s got a §n§lREALLY§r bad rash",
-    "translation": "%s身上长了§n§l极其严重§r的皮疹",
-    "stage": 5
-  },
-  {
-    "key": "death.attack.gtceu.medical_condition.methanol_poisoning",
-    "original": "%s tried to drink moonshine during the prohibition",
-    "translation": "%s在禁酒令下尝试饮用私酿烈酒",
-    "stage": 5
-  },
-  {
-    "key": "death.attack.gtceu.medical_condition.nausea",
-    "original": "%s died of nausea",
-    "translation": "%s死于恶心",
-    "stage": 5
-  },
-  {
-    "key": "death.attack.gtceu.medical_condition.none",
-    "original": "%s died of... nothing?",
-    "translation": "%s死于...什么都没有？",
-    "stage": 5
-  },
-  {
-    "key": "death.attack.gtceu.medical_condition.poison",
-    "original": "%s forgot that poisonous materials are, in fact, poisonous",
-    "translation": "%s忘了毒物的确有毒",
-    "stage": 5
-  },
-  {
-    "key": "death.attack.gtceu.medical_condition.silicosis",
-    "original": "%s didn't die of tuberculosis. it was silicosis.",
-    "translation": "%s不是死于肺结核，而是矽肺病",
-    "stage": 5
-  },
-  {
-    "key": "death.attack.gtceu.medical_condition.weak_poison",
-    "original": "%s ate lead (or mercury!)",
-    "translation": "%s吞下了铅（或水银！）",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.recipe.eu_to_start",
-    "original": "EU To Start: %sEU (%s)",
-    "translation": "启动耗能：%sEU（%s）",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.tooltip.player_name.placeholder_processor",
-    "original": "Placeholder processor",
-    "translation": "占位符处理器",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.tooltip.player_name.unknown",
-    "original": "Unknown player",
-    "translation": "未知玩家",
     "stage": 5
   },
   {
@@ -385,21 +205,9 @@
   },
   {
     "key": "item.gtceu.tool.lv_buzzsaw",
-    "original": "%s Buzzsaw (LV)",
+    "original": "Lv Buzzsaw",
     "translation": "%s圆锯（§7LV§r）",
-    "stage": 5
-  },
-  {
-    "key": "item.gtceu.tool.lv_buzzsaw.tooltip",
-    "original": "§8Not suitable for harvesting Blocks",
-    "translation": "§8并不适合用来采掘方块",
-    "stage": 5
-  },
-  {
-    "key": "item.gtceu.tool.tooltip.innate_enchantments",
-    "original": "§5Innate Enchantments:",
-    "translation": "§5自带附魔：",
-    "stage": 5
+    "stage": 1
   },
   {
     "key": "itemGroup.gtceu.decoration",
@@ -1128,279 +936,291 @@
     "stage": 5
   },
   {
-    "key": "command.gtceu.medical_condition.get",
-    "original": "Player %s has these medical conditions:",
-    "translation": "玩家%s有以下疾病：",
-    "stage": 5
+    "key": "config.screen.gtceu",
+    "original": "GTCEu Configuration",
+    "translation": "格雷科技CEu 配置",
+    "stage": 1
   },
   {
-    "key": "command.gtceu.medical_condition.get.element",
-    "original": "Condition %s§r: %s minutes %s seconds",
-    "translation": "疾病【%s】§r：%s分%s秒",
-    "stage": 5
+    "key": "material.gtceu.cooperite",
+    "original": "Cooperite",
+    "translation": "谢尔顿矿",
+    "stage": 1
   },
   {
-    "key": "command.gtceu.medical_condition.get.element.permanent",
-    "original": "Condition %s§r: %s minutes %s seconds (permanent)",
-    "translation": "疾病【%s】§r：%s分%s秒（永久）",
-    "stage": 5
+    "key": "material.gtceu.fullers_earth",
+    "original": "Fullers Earth",
+    "translation": "漂白土",
+    "stage": 1
   },
   {
-    "key": "command.gtceu.medical_condition.get.empty",
-    "original": "Player %s has no medical conditions.",
-    "translation": "玩家%s没有疾病。",
-    "stage": 5
+    "key": "material.gtceu.hastelloy_c_276",
+    "original": "Hastelloy C 276",
+    "translation": "哈斯特洛依合金 C-276",
+    "stage": 1
   },
   {
-    "key": "config.gtceu.option.allowDrumsInputFluidsFromOutputSide",
-    "original": "allowDrumsInputFluidsFromOutputSide",
-    "translation": "允许桶从输出面输入流体",
-    "stage": 5
+    "key": "material.gtceu.hsla_steel",
+    "original": "Hsla Steel",
+    "translation": "HSLA钢",
+    "stage": 1
   },
   {
-    "key": "death.attack.gtceu.axe",
-    "original": "%s has been chopped by %s",
-    "translation": "%s被%s用斧子砍死了",
-    "stage": 5
+    "key": "material.gtceu.hsse",
+    "original": "Hsse",
+    "translation": "高速钢-E",
+    "stage": 1
   },
   {
-    "key": "death.attack.gtceu.explosion",
-    "original": "%s exploded",
-    "translation": "%s爆炸了",
-    "stage": 5
+    "key": "material.gtceu.hssg",
+    "original": "Hssg",
+    "translation": "高速钢-G",
+    "stage": 1
   },
   {
-    "key": "death.attack.gtceu.explosion.player",
-    "original": "%s exploded with help of %s",
-    "translation": "拜%2$s所赐，%1$s爆炸了",
-    "stage": 5
+    "key": "material.gtceu.hsss",
+    "original": "Hsss",
+    "translation": "高速钢-S",
+    "stage": 1
   },
   {
-    "key": "death.attack.gtceu.mallet",
-    "original": "%s got hammered to death by %s",
-    "translation": "%s被%s用锤头活活敲死了",
-    "stage": 5
+    "key": "material.gtceu.hydro_cracked_butadiene",
+    "original": "Hydro Cracked Butadiene",
+    "translation": "加氢裂化丁二烯",
+    "stage": 1
   },
   {
-    "key": "death.attack.gtceu.pickaxe",
-    "original": "%s got mined by %s",
-    "translation": "%s被%s用镐子凿死了",
-    "stage": 5
+    "key": "material.gtceu.hydro_cracked_butane",
+    "original": "Hydro Cracked Butane",
+    "translation": "加氢裂化丁烷",
+    "stage": 1
   },
   {
-    "key": "death.attack.gtceu.shovel",
-    "original": "%s got dug up by %s",
-    "translation": "%s被%s用锹掏死了",
-    "stage": 5
+    "key": "material.gtceu.hydro_cracked_butene",
+    "original": "Hydro Cracked Butene",
+    "translation": "加氢裂化丁烯",
+    "stage": 1
   },
   {
-    "key": "death.attack.gtceu.spade",
-    "original": "%s got excavated by %s",
-    "translation": "%s被%s用铲子挖死了",
-    "stage": 5
+    "key": "material.gtceu.hydro_cracked_ethane",
+    "original": "Hydro Cracked Ethane",
+    "translation": "加氢裂化乙烷",
+    "stage": 1
   },
   {
-    "key": "death.attack.gtceu.wrench_iv",
-    "original": "%s had a Monkey Wrench thrown into their plans by %s",
-    "translation": "%2$s一扳手下去，扳倒了%1$s的美好人生",
-    "stage": 5
+    "key": "material.gtceu.hydro_cracked_ethylene",
+    "original": "Hydro Cracked Ethylene",
+    "translation": "加氢裂化乙烯",
+    "stage": 1
   },
   {
-    "key": "gtceu.hazard_trigger.any",
-    "original": "Any contact",
-    "translation": "任何方式",
-    "stage": 5
+    "key": "material.gtceu.hydro_cracked_propane",
+    "original": "Hydro Cracked Propane",
+    "translation": "加氢裂化丙烷",
+    "stage": 1
   },
   {
-    "key": "gtceu.hazard_trigger.description",
-    "original": "Caused by:",
-    "translation": "由此导致：",
-    "stage": 5
+    "key": "material.gtceu.hydro_cracked_propene",
+    "original": "Hydro Cracked Propene",
+    "translation": "加氢裂化丙烯",
+    "stage": 1
   },
   {
-    "key": "gtceu.hazard_trigger.inhalation",
-    "original": "Inhalation",
-    "translation": "吸入",
-    "stage": 5
+    "key": "material.gtceu.incoloy_ma_956",
+    "original": "Incoloy Ma 956",
+    "translation": "耐热铬铁合金 MA-956",
+    "stage": 1
   },
   {
-    "key": "gtceu.hazard_trigger.none",
-    "original": "Nothing",
-    "translation": "无",
-    "stage": 5
+    "key": "material.gtceu.iron_ii_chloride",
+    "original": "Iron Ii Chloride",
+    "translation": "氯化亚铁",
+    "stage": 1
   },
   {
-    "key": "gtceu.hazard_trigger.protection.description",
-    "original": "Protects from:",
-    "translation": "免受：",
-    "stage": 5
+    "key": "material.gtceu.iron_iii_chloride",
+    "original": "Iron Iii Chloride",
+    "translation": "氯化铁",
+    "stage": 1
   },
   {
-    "key": "gtceu.hazard_trigger.skin_contact",
-    "original": "Skin contact",
-    "translation": "皮肤接触",
-    "stage": 5
+    "key": "material.gtceu.lightly_hydro_cracked_gas",
+    "original": "Lightly Hydro Cracked Gas",
+    "translation": "轻度加氢裂化炼油气",
+    "stage": 1
   },
   {
-    "key": "gtceu.medical_condition.antidote.description",
-    "original": "§aAntidote §7Hold Shift to show details",
-    "translation": "§a解毒剂 §7按住Shift以显示详情",
-    "stage": 5
+    "key": "material.gtceu.lightly_hydro_cracked_heavy_fuel",
+    "original": "Lightly Hydro Cracked Heavy Fuel",
+    "translation": "轻度加氢裂化重燃油",
+    "stage": 1
   },
   {
-    "key": "gtceu.medical_condition.antidote.description.effect_removed",
-    "original": "Removes %s%% of current conditions' effects",
-    "translation": "当前疾病效果持续时间降低%s%%",
-    "stage": 5
+    "key": "material.gtceu.lightly_hydro_cracked_light_fuel",
+    "original": "Lightly Hydro Cracked Light Fuel",
+    "translation": "轻度加氢裂化轻燃油",
+    "stage": 1
   },
   {
-    "key": "gtceu.medical_condition.antidote.description.effect_removed.all",
-    "original": "Removes all of current conditions' effects",
-    "translation": "消除当前所有疾病效果",
-    "stage": 5
+    "key": "material.gtceu.lightly_hydro_cracked_naphtha",
+    "original": "Lightly Hydro Cracked Naphtha",
+    "translation": "轻度加氢裂化石脑油",
+    "stage": 1
   },
   {
-    "key": "gtceu.medical_condition.antidote.description_shift",
-    "original": "§aCures these conditions:",
-    "translation": "§a治愈以下疾病：",
-    "stage": 5
+    "key": "material.gtceu.lightly_steam_cracked_gas",
+    "original": "Lightly Steam Cracked Gas",
+    "translation": "轻度蒸汽裂化炼油气",
+    "stage": 1
   },
   {
-    "key": "gtceu.medical_condition.arsenicosis",
-    "original": "§bArsenicosis",
-    "translation": "§b砷中毒",
-    "stage": 5
+    "key": "material.gtceu.lightly_steam_cracked_heavy_fuel",
+    "original": "Lightly Steam Cracked Heavy Fuel",
+    "translation": "轻度蒸汽裂化重燃油",
+    "stage": 1
   },
   {
-    "key": "gtceu.medical_condition.asbestosis",
-    "original": "§dAsbestosis",
-    "translation": "§d石棉肺",
-    "stage": 5
+    "key": "material.gtceu.lightly_steam_cracked_light_fuel",
+    "original": "Lightly Steam Cracked Light Fuel",
+    "translation": "轻度蒸汽裂化轻燃油",
+    "stage": 1
   },
   {
-    "key": "gtceu.medical_condition.berylliosis",
-    "original": "§5Berylliosis",
-    "translation": "§5铍中毒",
-    "stage": 5
+    "key": "material.gtceu.lightly_steam_cracked_naphtha",
+    "original": "Lightly Steam Cracked Naphtha",
+    "translation": "轻度蒸汽裂化石脑油",
+    "stage": 1
   },
   {
-    "key": "gtceu.medical_condition.carbon_monoxide_poisoning",
-    "original": "§7Carbon Monoxide Poisoning",
-    "translation": "§7一氧化碳中毒",
-    "stage": 5
+    "key": "material.gtceu.lpg",
+    "original": "Lpg",
+    "translation": "液化石油气",
+    "stage": 1
   },
   {
-    "key": "gtceu.medical_condition.carcinogen",
-    "original": "§eCarcinogenic",
-    "translation": "§e癌症",
-    "stage": 5
+    "key": "material.gtceu.pcb_coolant",
+    "original": "Pcb Coolant",
+    "translation": "多氯联苯冷却液 ",
+    "stage": 1
   },
   {
-    "key": "gtceu.medical_condition.chemical_burns",
-    "original": "§5Chemical burns",
-    "translation": "§5化学烧伤",
-    "stage": 5
+    "key": "material.gtceu.rtm_alloy",
+    "original": "Rtm Alloy",
+    "translation": "钌钨钼合金",
+    "stage": 1
   },
   {
-    "key": "gtceu.medical_condition.description",
-    "original": "§l§cHAZARDOUS §7Hold Shift to show details",
-    "translation": "§c§l危险物质 §7按住Shift以显示详情",
-    "stage": 5
+    "key": "material.gtceu.severely_hydro_cracked_gas",
+    "original": "Severely Hydro Cracked Gas",
+    "translation": "重度加氢裂化炼油气",
+    "stage": 1
   },
   {
-    "key": "gtceu.medical_condition.description_shift",
-    "original": "§l§cHAZARDOUS:",
-    "translation": "§c§l危险物质：",
-    "stage": 5
+    "key": "material.gtceu.severely_hydro_cracked_heavy_fuel",
+    "original": "Severely Hydro Cracked Heavy Fuel",
+    "translation": "重度加氢裂化重燃油",
+    "stage": 1
   },
   {
-    "key": "gtceu.medical_condition.irritant",
-    "original": "§6Irritant",
-    "translation": "§6刺激",
-    "stage": 5
+    "key": "material.gtceu.severely_hydro_cracked_light_fuel",
+    "original": "Severely Hydro Cracked Light Fuel",
+    "translation": "重度加氢裂化轻燃油",
+    "stage": 1
   },
   {
-    "key": "gtceu.medical_condition.methanol_poisoning",
-    "original": "§6Methanol Poisoning",
-    "translation": "§6甲醇中毒",
-    "stage": 5
+    "key": "material.gtceu.severely_hydro_cracked_naphtha",
+    "original": "Severely Hydro Cracked Naphtha",
+    "translation": "重度加氢裂化石脑油",
+    "stage": 1
   },
   {
-    "key": "gtceu.medical_condition.nausea",
-    "original": "§3Nauseating",
-    "translation": "§3恶心",
-    "stage": 5
+    "key": "material.gtceu.severely_steam_cracked_gas",
+    "original": "Severely Steam Cracked Gas",
+    "translation": "重度蒸汽裂化炼油气",
+    "stage": 1
   },
   {
-    "key": "gtceu.medical_condition.none",
-    "original": "§2Not Dangerous",
-    "translation": "§2无害",
-    "stage": 5
+    "key": "material.gtceu.severely_steam_cracked_heavy_fuel",
+    "original": "Severely Steam Cracked Heavy Fuel",
+    "translation": "重度蒸汽裂化重燃油",
+    "stage": 1
   },
   {
-    "key": "gtceu.medical_condition.poison",
-    "original": "§2Poisonous",
-    "translation": "§2中毒",
-    "stage": 5
+    "key": "material.gtceu.severely_steam_cracked_light_fuel",
+    "original": "Severely Steam Cracked Light Fuel",
+    "translation": "重度蒸汽裂化轻燃油",
+    "stage": 1
   },
   {
-    "key": "gtceu.medical_condition.silicosis",
-    "original": "§1Silicosis",
-    "translation": "§1矽肺病",
-    "stage": 5
+    "key": "material.gtceu.severely_steam_cracked_naphtha",
+    "original": "Severely Steam Cracked Naphtha",
+    "translation": "重度蒸汽裂化石脑油",
+    "stage": 1
   },
   {
-    "key": "gtceu.medical_condition.weak_poison",
-    "original": "§aWeakly poisonous",
-    "translation": "§a轻度中毒",
-    "stage": 5
+    "key": "material.gtceu.steam_cracked_butadiene",
+    "original": "Steam Cracked Butadiene",
+    "translation": "蒸汽裂化丁二烯",
+    "stage": 1
   },
   {
-    "key": "gtceu.placeholder_info.data.2",
-    "original": "Usage:",
-    "translation": "用法：",
-    "stage": 5
+    "key": "material.gtceu.steam_cracked_butane",
+    "original": "Steam Cracked Butane",
+    "translation": "蒸汽裂化丁烷",
+    "stage": 1
   },
   {
-    "key": "gtceu.placeholder_info.data.3",
-    "original": "  {data get <slot> <index>} -> the data stored in the item in the specified slot",
-    "translation": "  {data get <槽位> <索引编号>} -> 指定的插槽内物品存储的数据",
-    "stage": 5
+    "key": "material.gtceu.steam_cracked_butene",
+    "original": "Steam Cracked Butene",
+    "translation": "蒸汽裂化丁烯",
+    "stage": 1
   },
   {
-    "key": "gtceu.placeholder_info.data.4",
-    "original": "  {data set <slot> <index> <value>} -> sets the data stored in the item in the specified slot, returns an empty string",
-    "translation": "  {data set <槽位> <索引编号> <值>} -> 设置指定插槽内物品存储的数据，返回一个空字符串",
-    "stage": 5
+    "key": "material.gtceu.steam_cracked_ethane",
+    "original": "Steam Cracked Ethane",
+    "translation": "蒸汽裂化乙烷",
+    "stage": 1
   },
   {
-    "key": "gtceu.placeholder_info.data.5",
-    "original": "  {data getp <slot>} -> p",
-    "translation": "  {data getp <槽位>} -> p",
-    "stage": 5
+    "key": "material.gtceu.steam_cracked_ethylene",
+    "original": "Steam Cracked Ethylene",
+    "translation": "蒸汽裂化乙烯",
+    "stage": 1
   },
   {
-    "key": "gtceu.placeholder_info.data.6",
-    "original": "  {data setp <slot> <value>} -> sets p, returns an empty string",
-    "translation": "  {data setp <槽位> <值>} -> 设置p，返回一个空字符串",
-    "stage": 5
+    "key": "material.gtceu.steam_cracked_propane",
+    "original": "Steam Cracked Propane",
+    "translation": "蒸汽裂化丙烷",
+    "stage": 1
   },
   {
-    "key": "gtceu.placeholder_info.data.7",
-    "original": "  {data inc <slot>} -> increments p by 1, if p becomes more than or equal to capacity, sets p to 0",
-    "translation": "  {data inc <槽位>} -> 将p加1，如果p大于等于容量，则把p设为0",
-    "stage": 5
+    "key": "material.gtceu.steam_cracked_propene",
+    "original": "Steam Cracked Propene",
+    "translation": "蒸汽裂化丙烯",
+    "stage": 1
   },
   {
-    "key": "gtceu.placeholder_info.data.8",
-    "original": "  {data dec <slot>} -> decrements p by 1, if p becomes less than 0, sets p to (capacity - 1)",
-    "translation": "  {data dec <槽位>} -> 将p减1，如果p小于0，则把p设为容量-1",
-    "stage": 5
+    "key": "material.gtceu.stellite_100",
+    "original": "Stellite 100",
+    "translation": "司太立-100",
+    "stage": 1
   },
   {
-    "key": "item.gtceu.tool.behavior.dowse_campfire",
-    "original": "§1Firefighter: §fDowses Campfires",
-    "translation": "§1消防战士：§f扑灭营火",
-    "stage": 5
+    "key": "material.gtceu.tungsten_steel",
+    "original": "Tungsten Steel",
+    "translation": "钨钢",
+    "stage": 1
+  },
+  {
+    "key": "material.gtceu.uu_matter",
+    "original": "Uu Matter",
+    "translation": "UU物质",
+    "stage": 1
+  },
+  {
+    "key": "material.gtceu.zeron_100",
+    "original": "Zeron 100",
+    "translation": "赛龙-100",
+    "stage": 1
   }
 ]
