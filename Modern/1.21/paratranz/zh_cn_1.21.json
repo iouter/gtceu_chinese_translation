@@ -68,6 +68,10 @@
         "original":"  §aEnergy Usage: §f%s EU/t §8per recipe"
     },
     {
+        "key":"block.gtceu.surface_rock",
+        "original":"%s Surface Rock"
+    },
+    {
         "key":"config.screen.gtceu",
         "original":"GTCEu Configuration"
     },
