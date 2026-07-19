@@ -10844,11 +10844,11 @@
         "original":"Disallow Input from Output Side: "
     },
     {
-        "key":"gtceu.machine.batch_disabled",
+        "key":"gtceu.machine.batching.disabled",
         "original":"Batching Disabled"
     },
     {
-        "key":"gtceu.machine.batch_enabled",
+        "key":"gtceu.machine.batching.enabled",
         "original":"Batching Enabled"
     },
     {
@@ -11861,11 +11861,11 @@
     },
     {
         "key":"gtceu.machine.large_combustion_engine.tooltip.boost_extreme",
-        "original":"Supply §f80 mB/s§7 of Liquid Oxygen to produce up to §f%s EU/t§7 at §f2x§7 fuel consumption."
+        "original":"Supply §f80 mB/s§7 of §9Liquid Oxygen§7 to produce up to §f%s EU/t§7 at §f2x§7 fuel consumption."
     },
     {
         "key":"gtceu.machine.large_combustion_engine.tooltip.boost_regular",
-        "original":"Supply §f20 mB/s§7 of Oxygen to produce up to §f%s EU/t§7 at §f2x§7 fuel consumption."
+        "original":"Supply §f20 mB/s§7 of §bOxygen§7 to produce up to §f%s EU/t§7 at §f2x§7 fuel consumption."
     },
     {
         "key":"gtceu.machine.large_miner.ev.tooltip",
