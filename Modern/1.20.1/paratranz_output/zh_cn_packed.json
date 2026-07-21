@@ -6985,15 +6985,15 @@
   },
   {
     "key": "gtceu.machine.large_combustion_engine.tooltip.boost_extreme",
-    "original": "Supply §f80 mB/s§7 of Liquid Oxygen to produce up to §f%s EU/t§7 at §f2x§7 fuel consumption.",
-    "translation": "提供§f80 mB/s§7的液态氧，并消耗§f双倍§7燃料以产生高达§f%s§7EU/t的功率。",
-    "stage": 5
+    "original": "Supply §f80 mB/s§7 of §9Liquid Oxygen§7 to produce up to §f%s EU/t§7 at §f2x§7 fuel consumption.",
+    "translation": "提供§f80 mB/s§7的§9液态氧§7，并消耗§f双倍§7燃料以产生高达§f%s§7EU/t的功率。",
+    "stage": 3
   },
   {
     "key": "gtceu.machine.large_combustion_engine.tooltip.boost_regular",
-    "original": "Supply §f20 mB/s§7 of Oxygen to produce up to §f%s EU/t§7 at §f2x§7 fuel consumption.",
-    "translation": "提供§f20 mB/s§7的氧气，并消耗§f双倍§7燃料以产生高达§f%s§7EU/t的功率。",
-    "stage": 5
+    "original": "Supply §f20 mB/s§7 of §bOxygen§7 to produce up to §f%s EU/t§7 at §f2x§7 fuel consumption.",
+    "translation": "提供§f20 mB/s§7的§b氧气§7，并消耗§f双倍§7燃料以产生高达§f%s§7EU/t的功率。",
+    "stage": 3
   },
   {
     "key": "gtceu.machine.large_miner.ev.tooltip",
@@ -26792,7 +26792,7 @@
   {
     "key": "gtceu.multiblock.computation.max",
     "original": "Max CWU/t: %s",
-    "translation": "最大算力：%s",
+    "translation": "最大CWU/t：%s",
     "stage": 5
   },
   {
@@ -28285,8 +28285,8 @@
   },
   {
     "key": "item.gtceu.sus_record.desc",
-    "original": "§7sussy!",
-    "translation": "§7可疑！",
+    "original": "sussy!",
+    "translation": "可疑！",
     "stage": 5
   },
   {
@@ -30675,7 +30675,7 @@
     "key": "gtceu.creative.computation.average",
     "original": "Average CWU/tick: %d",
     "translation": "平均CWU/t：%d",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "gtceu.gui.content.count_range",
@@ -31539,7 +31539,7 @@
     "key": "gtceu.minimap.ore_vein.depleted",
     "original": "Depleted Vein",
     "translation": "矿脉枯竭",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "gtceu.multiblock.progress_percent",
@@ -31563,7 +31563,7 @@
     "key": "gtceu.button.ore_veins",
     "original": "Show Ore Veins",
     "translation": "显示矿脉",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "gtceu.recipe.category.arc_furnace_recycling",
@@ -32589,18 +32589,6 @@
     "key": "config.gtceu.option.batchDuration",
     "original": "batchDuration",
     "translation": "批处理持续时间",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.machine.batch_disabled",
-    "original": "Batching Disabled",
-    "translation": "批处理已禁用",
-    "stage": 5
-  },
-  {
-    "key": "gtceu.machine.batch_enabled",
-    "original": "Batching Enabled",
-    "translation": "批处理已启用",
     "stage": 5
   },
   {
@@ -34860,12 +34848,6 @@
     "stage": 5
   },
   {
-    "key": "gtceu.jade.changes_eu_sec",
-    "original": "%s EU/s",
-    "translation": "%sEU/s",
-    "stage": 5
-  },
-  {
     "key": "gtceu.jade.days",
     "original": "%s days",
     "translation": "%s天",
@@ -35637,696 +35619,720 @@
     "key": "behaviour.soft_hammer.ignored",
     "original": "Machine cannot be disabled",
     "translation": "机器无法被暂停",
-    "stage": 3
+    "stage": 5
   },
   {
     "key": "gtceu.jei.bedrock_vein_diagram.depleted",
     "original": "Depleted: %s",
     "translation": "已枯竭：%s",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "gtceu.jei.bedrock_vein_diagram.yield",
     "original": "Yield: %s",
     "translation": "产量：%s",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "gtceu.top.cable_overloaded",
     "original": "§4OVERHEATING: %s%%§r",
     "translation": "§4过热：%s %%§r",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "behavior.prospector.display_all",
     "original": "All resources",
     "translation": "全部资源",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "behavior.prospector.mode.bedrock_ore",
     "original": "§bBedrock Ore Prospection Mode",
     "translation": "§b基岩矿石勘探模式",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "behavior.prospector.mode.fluid",
     "original": "§bFluid Prospection Mode",
     "translation": "§b流体勘探模式",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "behavior.prospector.mode.ores",
     "original": "§aOre Prospection Mode",
     "translation": "§a矿物勘探模式",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "behavior.prospector.tooltip.modes",
     "original": "Available Modes:",
     "translation": "可用模式：",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "behavior.prospector.tooltip.radius",
     "original": "Scans resources in a %s Chunk Radius",
-    "translation": "在半径为%s个区块的范围内扫描矿物",
-    "stage": 1
+    "translation": "扫描半径：%s",
+    "stage": 5
   },
   {
     "key": "block.gtceu.test_mui",
     "original": "Test Mui",
-    "translation": "测试多方块",
-    "stage": 1
+    "translation": "测试MUI",
+    "stage": 5
   },
   {
     "key": "config.gtceu.option.escRestoresLastText",
     "original": "escRestoresLastText",
     "translation": "按ESC恢复最后文本",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "config.gtceu.option.replaceVanillaTooltips",
     "original": "replaceVanillaTooltips",
     "translation": "替换原版Tooltip",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "config.gtceu.option.smoothProgressBar",
     "original": "smoothProgressBar",
     "translation": "平滑的进度条",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "config.gtceu.option.tooltipPos",
     "original": "tooltipPos",
     "translation": "Tooltip坐标",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "config.gtceu.option.ui",
     "original": "ui",
     "translation": "UI",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "config.gtceu.option.useDarkThemeByDefault",
     "original": "useDarkThemeByDefault",
     "translation": "默认使用深色模式",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "cover.disable_with_redstone",
     "original": "Disable with Redstone",
     "translation": "接收红石信号时关闭",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "cover.distribution.mode.insert_first",
     "original": "Priority",
     "translation": "优先级",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "cover.distribution.mode.round_robin_global",
     "original": "Round Robin",
     "translation": "轮询调度",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "cover.distribution.mode.round_robin_prio",
     "original": "Round Robin with Restriction",
     "translation": "轮询调度（低优先管道）",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "cover.distribution.mode.title",
     "original": "Distribution Mode",
     "translation": "分配模式",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "cover.enable_with_redstone",
     "original": "Enable with Redstone",
     "translation": "接收红石信号时开启",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "cover.ender_link.description_empty",
     "original": "Empty Description",
     "translation": "空描述",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "cover.ender_link.private.tooltip",
     "original": "Private mode: Only accessible to the player who placed this cover",
-    "translation": "",
-    "stage": 0
+    "translation": "私有模式：仅限放置此覆盖板的玩家访问",
+    "stage": 5
   },
   {
     "key": "cover.ender_link.protected.tooltip",
     "original": "Protected Mode: Accessible to players on the same team.",
-    "translation": "",
-    "stage": 0
+    "translation": "保护模式：所有在同一个团队的玩家都可以访问",
+    "stage": 5
   },
   {
     "key": "cover.ender_link.public.tooltip",
     "original": "Public mode: Accessible to all players",
-    "translation": "",
-    "stage": 0
+    "translation": "公共模式：所有玩家都可访问",
+    "stage": 5
   },
   {
     "key": "cover.ender_link.tooltip.channel_description",
     "original": "Channel description",
-    "translation": "",
-    "stage": 0
+    "translation": "频道描述",
+    "stage": 5
   },
   {
     "key": "cover.ender_link.tooltip.channel_name",
     "original": "Channel ID (32-bit hexadecimal value)",
-    "translation": "",
-    "stage": 0
+    "translation": "频道ID（32位十六进制值）",
+    "stage": 5
   },
   {
     "key": "cover.ender_link.tooltip.clear_button",
     "original": "Clear channel description",
-    "translation": "",
-    "stage": 0
+    "translation": "清除频道描述",
+    "stage": 5
   },
   {
     "key": "cover.ender_link.tooltip.list_button",
     "original": "Show channel list",
-    "translation": "",
-    "stage": 0
+    "translation": "显示频道列表",
+    "stage": 5
   },
   {
     "key": "cover.filter.mode.title",
     "original": "Filter Mode",
-    "translation": "",
-    "stage": 0
+    "translation": "过滤模式",
+    "stage": 5
   },
   {
     "key": "cover.machine_controller.control",
     "original": "Controller Target",
-    "translation": "",
-    "stage": 0
+    "translation": "控制目标",
+    "stage": 5
   },
   {
     "key": "cover.machine_controller.cover_not_controllable",
     "original": "Cover not controllable",
-    "translation": "",
-    "stage": 0
+    "translation": "覆盖板不可控制",
+    "stage": 5
   },
   {
     "key": "cover.machine_controller.this_cover",
     "original": "This cover",
-    "translation": "",
-    "stage": 0
+    "translation": "此覆盖板",
+    "stage": 5
   },
   {
     "key": "cover.manual.mode.disabled",
     "original": "§bDisabled§r",
-    "translation": "",
-    "stage": 0
+    "translation": "§b已禁用§r",
+    "stage": 5
   },
   {
     "key": "cover.manual.mode.filtered",
     "original": "§bFiltered§r",
-    "translation": "",
-    "stage": 0
+    "translation": "§b已过滤§r",
+    "stage": 5
   },
   {
     "key": "cover.manual.mode.title",
     "original": "Manual I/O",
-    "translation": "",
-    "stage": 0
+    "translation": "特殊I/O模式",
+    "stage": 5
   },
   {
     "key": "cover.manual.mode.unfiltered",
     "original": "§bUnfiltered§r",
-    "translation": "",
-    "stage": 0
+    "translation": "§b未过滤§r",
+    "stage": 5
   },
   {
     "key": "cover.robotic_arm.transfer_mode.title",
     "original": "Transfer Mode",
-    "translation": "",
-    "stage": 0
+    "translation": "传输模式",
+    "stage": 5
   },
   {
     "key": "gtceu.central_monitor.gui.data_slot",
     "original": "Set slot number of data stick",
-    "translation": "",
-    "stage": 0
+    "translation": "设置闪存的插槽号",
+    "stage": 5
   },
   {
     "key": "gtceu.central_monitor.gui.group_editor",
     "original": "Editing monitor group",
-    "translation": "",
-    "stage": 0
+    "translation": "编辑监控器组",
+    "stage": 5
   },
   {
     "key": "gtceu.central_monitor.gui.group_name",
     "original": "Name:",
-    "translation": "",
-    "stage": 0
+    "translation": "名字：",
+    "stage": 5
   },
   {
     "key": "gtceu.central_monitor.gui.monitor_groups",
     "original": "Monitor groups",
-    "translation": "",
-    "stage": 0
+    "translation": "监控器组",
+    "stage": 5
   },
   {
     "key": "gtceu.creative.computation.max_usage",
     "original": "Max CWU/tick:",
-    "translation": "",
-    "stage": 0
+    "translation": "最大CWU/t：",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.central_monitor.data_hatch_target",
     "original": "If you select a data hatch as a target, you will be prompted to enter a slot number. Then the block that the data stick in the specified slot is linked to (via right-clicking a wireless transmitter cover) will be considered the target instead.",
-    "translation": "",
-    "stage": 0
+    "translation": "若选择数据仓作为目标，系统将提示你输入一个插槽编号。随后，指定插槽中的闪存所链接到的方块（通过右键点击无线发信器覆盖板进行绑定）将被视为目标。",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.central_monitor.gui_module_info",
     "original": "To select a block to get the GUI from, select a target in the monitor group editor.",
-    "translation": "",
-    "stage": 0
+    "translation": "如需选择要显示其GUI的方块，请在监控器组编辑器中设置目标。",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.central_monitor.help",
     "original": "A monitor group is a collection of any amount of monitors in the multiblock.\nFor a group to display anything, it needs 2 things:\n - you to select the monitors that you want to display something on\n - an inserted and configured monitor module\nA module must be inserted in the slot to the right of the group name textbox.\nWhen you insert it, a button will appear to configure the module (for example just enter the text to display)\nThen you have to select at least 1 monitor in the grid below the group name textbox, here are types of selections:",
-    "translation": "",
-    "stage": 0
+    "translation": "监控器组是多方块结构中任意数量监控器的集合。\\n组若要显示内容，需要两样东西：\\n - 选择你要在其上显示内容的监控器\\n - 插入并配置好的监控模块\\n模块必须插入到组名称文本框右侧的插槽中。\\n插入后会出现一个按钮用于配置模块（例如输入要显示的文本）。\\n然后，你必须在组名称文本框下方的网格中至少选择一个监控器，选择类型如下：",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.central_monitor.in_group",
     "original": "Monitors selected this way are added to the group, and will be used to display stuff",
-    "translation": "",
-    "stage": 0
+    "translation": "以此方式选择的监控器将被添加到组中，用于显示内容",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.central_monitor.in_group_and_target",
     "original": "The monitor selected this way is used for displaying and as a target at the same time.",
-    "translation": "",
-    "stage": 0
+    "translation": "以此方式选择的监控器同时用于显示和作为目标。",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.central_monitor.left_click",
     "original": "Select/unselect a monitor by left-clicking it",
-    "translation": "",
-    "stage": 0
+    "translation": "左键单击以选择/取消选择监控器",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.central_monitor.module_editor_button",
     "original": "Edit module",
-    "translation": "",
-    "stage": 0
+    "translation": "编辑模块",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.central_monitor.module_editor_disabled",
     "original": "You recently changed the module, please re-open this GUI to edit it",
-    "translation": "",
-    "stage": 0
+    "translation": "你刚刚更改了模块，请重新打开此GUI以编辑",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.central_monitor.pause",
     "original": "Pause placeholder execution.\nText won't be updated, and code won't be run.",
-    "translation": "",
-    "stage": 0
+    "translation": "暂停占位符执行。\\n文本不会更新，代码也不会运行。",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.central_monitor.resume",
     "original": "Unpause placeholder execution.",
-    "translation": "",
-    "stage": 0
+    "translation": "恢复占位符执行。",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.central_monitor.right_click",
     "original": "Select a block by right-clicking it. Only 1 block can be a target.",
-    "translation": "",
-    "stage": 0
+    "translation": "右键单击方块以选择它。只能有一个方块作为目标。",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.central_monitor.target",
     "original": "The block selected this way is considered a target, to be used with placeholders in a text module.",
-    "translation": "",
-    "stage": 0
+    "translation": "以此方式选择的方块被视为目标，可供文本模块中的占位符使用。",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.central_monitor.text_module_help",
     "original": "This module displays text that can have placeholders.\nPlaceholders are strings like \"{energy}\" that when displayed, will display their value instead (in this case the amount of energy).\nThey can also do some other things, such as set a redstone output/read redstone input, run calculations, etc.\nSome placeholders, like {energy} must have a target to function. A target is basically any block that can accept covers or is part of the\ncentral monitor multiblock. For example {energy} displays the amount of energy in its target block, usually a battery buffer or a PSS.\nSelect a target in the monitor group editing window, check out the help page there for more info.\nHere's an example usage of placeholders, that displays some energy info and sends a redstone signal when energy is <50%:\n",
-    "translation": "",
-    "stage": 0
+    "translation": "此模块显示可以包含占位符的文本。\\n占位符是类似“{energy}”的字符串，显示时会替换为对应的值（此处为能量值）。\\n它们还可以执行其他操作，例如设置红石输出、读取红石输入、运行计算等等。\\n某些占位符（如 {energy}）需要目标才能工作。目标通常是指任何可以加装覆盖板的方块，或是中央监控器多方块结构的一部分。\\n例如 {energy} 会显示目标方块中的能量值，通常是一个电池箱或蓄能变电站。\\n在监控器组编辑窗口中选择目标，查阅该处的帮助页面以获取更多信息。\\n以下是一个占位符使用示例，它显示一些能量信息，并在能量低于50%时发送红石信号：\\n",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.central_monitor.update_once",
     "original": "Update text and run all placeholders in it exactly once.",
-    "translation": "",
-    "stage": 0
+    "translation": "更新文本并运行其中的所有占位符一次。",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.central_monitor.url",
     "original": "Input image URL:",
-    "translation": "",
-    "stage": 0
+    "translation": "输入图像URL：",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.computer_monitor_cover.slot_tooltip",
     "original": "A slot for items that some placeholders can reference\nSlot number: %d\n",
-    "translation": "",
-    "stage": 0
+    "translation": "可供某些占位符引用的物品槽\\n槽位编号：%d\\n",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.fluid_input_from_output.disabled",
     "original": "Allow Fluid Input from Output Side: §cDisabled",
-    "translation": "",
-    "stage": 0
+    "translation": "允许从输出面输入流体：§c已禁用",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.fluid_input_from_output.enabled",
     "original": "Allow Fluid Input from Output Side: §aEnabled",
-    "translation": "",
-    "stage": 0
+    "translation": "允许从输出面输入流体：§a已启用",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.item_collector.range",
     "original": "Range: ",
-    "translation": "",
-    "stage": 0
+    "translation": "范围：",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.item_input_from_output.disabled",
     "original": "Allow Item Input from Output Side: §cDisabled",
-    "translation": "",
-    "stage": 0
+    "translation": "允许从输出面输入物品：§c已禁用",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.item_input_from_output.enabled",
     "original": "Allow Item Input from Output Side: §aEnabled",
-    "translation": "",
-    "stage": 0
+    "translation": "允许从输出面输入物品：§a已启用",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.me_network.auto_pull_toggle",
     "original": "Toggle Auto-Pull",
-    "translation": "",
-    "stage": 0
+    "translation": "切换自动拉取",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.me_network.empty",
     "original": "Empty",
-    "translation": "",
-    "stage": 0
+    "translation": "空",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.me_network.min_stack_size",
     "original": "Min Stack Size:",
-    "translation": "",
-    "stage": 0
+    "translation": "最小堆叠数：",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.me_network.stocking_settings",
     "original": "Stocking Settings",
-    "translation": "",
-    "stage": 0
+    "translation": "库存设置",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.me_network.ticks_per_cycle",
     "original": "Ticks Per Cycle:",
-    "translation": "",
-    "stage": 0
+    "translation": "每次输出间隔Tick：",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.pattern_buffer.set_custom_name",
     "original": "Set Custom Name: ",
-    "translation": "",
-    "stage": 0
+    "translation": "设置自定义名称：",
+    "stage": 5
   },
   {
     "key": "gtceu.gui.waiting_list_empty",
     "original": "Sending Queue: §2Empty",
-    "translation": "",
-    "stage": 0
+    "translation": "发送队列：§2空",
+    "stage": 5
   },
   {
     "key": "gtceu.io.title",
     "original": "IO Mode",
-    "translation": "",
-    "stage": 0
+    "translation": "IO模式",
+    "stage": 5
   },
   {
     "key": "gtceu.item.tooltip.image_url",
     "original": "Image URL: %s",
-    "translation": "",
-    "stage": 0
+    "translation": "图像URL：%s",
+    "stage": 5
   },
   {
     "key": "gtceu.jade.generator.too_small",
     "original": "Energy Output too small!",
-    "translation": "",
-    "stage": 0
+    "translation": "能量输出太小！",
+    "stage": 5
   },
   {
     "key": "gtceu.machine.miner.x",
     "original": "sX: %d, mX: %d",
-    "translation": "",
-    "stage": 0
+    "translation": "sX：%d，mX：%d",
+    "stage": 5
   },
   {
     "key": "gtceu.machine.miner.y",
     "original": "sY: %d, mY: %d",
-    "translation": "",
-    "stage": 0
+    "translation": "sY：%d，mY：%d",
+    "stage": 5
   },
   {
     "key": "gtceu.machine.miner.z",
     "original": "sZ: %d, mZ: %d",
-    "translation": "",
-    "stage": 0
+    "translation": "sZ：%d，mZ：%d",
+    "stage": 5
   },
   {
     "key": "gtceu.machine.parallel_hatch.parallel_ui",
     "original": "Parallels",
-    "translation": "",
-    "stage": 0
+    "translation": "并行",
+    "stage": 5
   },
   {
     "key": "gtceu.multiblock.hpca.info_cooling_demand",
     "original": "Cooling Demand: %s / %d",
-    "translation": "",
-    "stage": 0
+    "translation": "冷却需求：%s / %d",
+    "stage": 5
   },
   {
     "key": "gtceu.multiblock.pattern.error.0",
     "original": "Expected components at:",
-    "translation": "",
-    "stage": 0
+    "translation": "应在以下位置有组件：",
+    "stage": 5
   },
   {
     "key": "gtceu.multiblock.pattern.error.1",
     "original": "  %s, %s, %s.",
-    "translation": "",
-    "stage": 0
+    "translation": "  %s，%s，%s",
+    "stage": 5
   },
   {
     "key": "gtceu.multiblock.pattern.error.limited.exact",
     "original": "§cExactly: %d§r",
-    "translation": "",
-    "stage": 0
+    "translation": "§c精确：%d个§r",
+    "stage": 5
   },
   {
     "key": "gtceu.multiblock.pattern.error.limited.max_count",
     "original": "§cMaximum:§r %d has %d",
-    "translation": "",
-    "stage": 0
+    "translation": "§c最多：§r%d个，现有%d个",
+    "stage": 5
   },
   {
     "key": "gtceu.multiblock.pattern.error.limited.max_layer_count",
     "original": "§cMaximum:§r %d per layer, has %d",
-    "translation": "",
-    "stage": 0
+    "translation": "§c最多：§r每层%d个，现有%d个",
+    "stage": 5
   },
   {
     "key": "gtceu.multiblock.pattern.error.limited.min_count",
     "original": "§cMinimum:§r %d has %d",
-    "translation": "",
-    "stage": 0
+    "translation": "§c最少：§r%d个，现有%d个",
+    "stage": 5
   },
   {
     "key": "gtceu.multiblock.pattern.error.limited.min_layer_count",
     "original": "§cMinimum:§r %d per layer, has %d",
-    "translation": "",
-    "stage": 0
+    "translation": "§c最少：§r每层%d个，现有%d个",
+    "stage": 5
   },
   {
     "key": "gtceu.multiblock.pattern.error.limited.range",
     "original": "§cBetween %d and %d§r",
-    "translation": "",
-    "stage": 0
+    "translation": "§c最少%d个，最多%d个§r",
+    "stage": 5
   },
   {
     "key": "gtceu.multiblock.universal.distinct.disabled",
     "original": "Distinct Buses: §eDisabled",
-    "translation": "",
-    "stage": 0
+    "translation": "总线隔离：§e已禁用",
+    "stage": 5
   },
   {
     "key": "gtceu.multiblock.universal.distinct.enabled",
     "original": "Distinct Buses: §eEnabled",
-    "translation": "",
-    "stage": 0
+    "translation": "总线隔离：§e已启用",
+    "stage": 5
   },
   {
     "key": "gtceu.pattern_error.mismatch_coils",
     "original": "Mismatched coils: %s vs %s at (%d, %d, %d)",
-    "translation": "",
-    "stage": 0
+    "translation": "线圈不匹配：%s与%s在（%d，%d，%d）",
+    "stage": 5
   },
   {
     "key": "gtceu.pattern_error.mismatch_filters",
     "original": "Mismatched filters: %s vs %s at (%d, %d, %d)",
-    "translation": "",
-    "stage": 0
+    "translation": "过滤器不匹配：%s与%s在（%d，%d，%d）",
+    "stage": 5
   },
   {
     "key": "gtceu.pattern_predicate.blocks",
     "original": "Error at X: %d, Y: %d, Z: %d",
-    "translation": "",
-    "stage": 0
+    "translation": "错误位于X：%d，Y：%d，Z：%d",
+    "stage": 5
   },
   {
     "key": "gtceu.placeholder_editor.constant_value",
     "original": "This expression always evaluates to '%s'.\nConsider replacing it with a constant.",
-    "translation": "",
-    "stage": 0
+    "translation": "此表达式的结果始终为‘%s’。\\n考虑将其替换为常量。",
+    "stage": 5
   },
   {
     "key": "gtceu.placeholder_editor.extra_closing_bracket",
     "original": "Extra closing bracket",
-    "translation": "",
-    "stage": 0
+    "translation": "多余的右括号",
+    "stage": 5
   },
   {
     "key": "gtceu.placeholder_editor.no_placeholder",
     "original": "Placeholder with name '%s' does not exist",
-    "translation": "",
-    "stage": 0
+    "translation": "名为‘%s’的占位符不存在",
+    "stage": 5
   },
   {
     "key": "gtceu.placeholder_editor.unclosed_bracket",
     "original": "Unclosed bracket (\"}\")",
-    "translation": "",
-    "stage": 0
+    "translation": "未闭合的括号（\"}\"）",
+    "stage": 5
   },
   {
     "key": "gtceu.placeholder_editor.unclosed_brackets",
     "original": "%d brackets (\"}\") are unclosed",
-    "translation": "",
-    "stage": 0
+    "translation": "有%d个括号（\"}\"）未闭合",
+    "stage": 5
   },
   {
     "key": "gtceu.placeholder_editor.unclosed_escape",
     "original": "Unclosed escape (\"']\")",
-    "translation": "",
-    "stage": 0
+    "translation": "未闭合的转义符（\"]\"）",
+    "stage": 5
   },
   {
     "key": "gtceu.placeholder_editor.unclosed_escapes",
     "original": "%d escapes (\"']\") are unclosed",
-    "translation": "",
-    "stage": 0
+    "translation": "有%d个转义符（\"]\"）未闭合",
+    "stage": 5
   },
   {
     "key": "gtceu.placeholder_editor.write_in_if",
     "original": "Placeholders inside {if} are executed regardless of the condition.\nThis means that, for example, \"{if 0 {redstone set 15}}\" will produce redstone output.\nTo avoid this, use \"{eval {if <condition> \"<code>\" \"<else_code>\"}}\".",
-    "translation": "",
-    "stage": 0
+    "translation": "{if}内部的占位符，无论条件如何，都会执行。\\n这意味着，例如“{if 0 {redstone set 15}}”也会输出红石信号。\\n要避免这种情况，请使用“{eval {if <条件> \"<代码>\" \"<else代码>\"}}”。",
+    "stage": 5
   },
   {
     "key": "gtceu.predicate_error.active_transformer.missing_io",
     "original": "Missing hatches: IN - %s | OUT - %s",
-    "translation": "",
-    "stage": 0
+    "translation": "缺少仓室：输入 - %s | 输出 - %s",
+    "stage": 5
   },
   {
     "key": "gtceu.predicate_error.charcoal.logs",
     "original": "Must be completely filled with logs.",
-    "translation": "",
-    "stage": 0
+    "translation": "必须完全由原木填满。",
+    "stage": 5
   },
   {
     "key": "gtceu.predicate_error.charcoal.walls",
     "original": "Incorrect wall block at (%d, %d, %d).",
-    "translation": "",
-    "stage": 0
+    "translation": "（%d，%d，%d）处的墙壁方块不正确。",
+    "stage": 5
   },
   {
     "key": "gtceu.predicate_error.cleanroom.not_centered",
     "original": "Cleanroom controller must be centered.",
-    "translation": "",
-    "stage": 0
+    "translation": "超净间控制器必须位于中心。",
+    "stage": 5
   },
   {
     "key": "gtceu.predicate_error.cleanroom.too_small",
     "original": "Cleanroom must be at least 5x5x4.",
-    "translation": "",
-    "stage": 0
+    "translation": "超净间至少为5x5x4。",
+    "stage": 5
   },
   {
     "key": "gtceu.predicate_error.databank.missing_maintenance",
     "original": "Missing maintenance hatch.",
-    "translation": "",
-    "stage": 0
+    "translation": "缺少维护仓。",
+    "stage": 5
   },
   {
     "key": "gtceu.predicate_error.distillery.missing_outputs",
     "original": "Missing fluid output hatches.",
-    "translation": "",
-    "stage": 0
+    "translation": "缺少流体输出仓。",
+    "stage": 5
   },
   {
     "key": "gtceu.predicate_error.distillery.unexpected_hatch",
     "original": "Fluid hatch at unexpected position (%d, %d, %d).",
-    "translation": "",
-    "stage": 0
+    "translation": "流体仓出现在意外位置（%d，%d，%d）。",
+    "stage": 5
   },
   {
     "key": "gtceu.predicate_error.object_holder.direction",
     "original": "Object holder must face opposite the controller.",
-    "translation": "",
-    "stage": 0
+    "translation": "物品支架必须背对控制器。",
+    "stage": 5
   },
   {
     "key": "gtceu.predicate_error.power_substation.missing_batteries",
     "original": "Missing batteries.",
-    "translation": "",
-    "stage": 0
+    "translation": "缺少电池。",
+    "stage": 5
   },
   {
     "key": "gtceu.predicate_error.research.missing_computation",
     "original": "Missing computation hatch.",
-    "translation": "",
-    "stage": 0
+    "translation": "缺少算力仓。",
+    "stage": 5
   },
   {
     "key": "gtceu.predicate_error.research.missing_object_holder",
     "original": "Missing object holder hatch.",
-    "translation": "",
-    "stage": 0
+    "translation": "缺少物品支架。",
+    "stage": 5
   },
   {
     "key": "gtceu.predicate_error.steam.missing_steam_hatch",
     "original": "Missing steam hatch",
-    "translation": "",
-    "stage": 0
+    "translation": "缺少蒸汽仓",
+    "stage": 5
   },
   {
     "key": "item.gtceu.gui_module",
     "original": "Gui Module",
-    "translation": "",
-    "stage": 0
+    "translation": "GUI模块",
+    "stage": 5
+  },
+  {
+    "key": "config.jade.plugin_gtceu.me_grid_connected",
+    "original": "[GTCEu] Grid Connected Machine Info",
+    "translation": "[GTCEu] 机器网络连接信息",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.jade.changes_eu_tick",
+    "original": "%s EU/t",
+    "translation": "%s EU/t",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.machine.batching.disabled",
+    "original": "Batching Disabled",
+    "translation": "批处理已禁用",
+    "stage": 3
+  },
+  {
+    "key": "gtceu.machine.batching.enabled",
+    "original": "Batching Enabled",
+    "translation": "批处理已启用",
+    "stage": 3
   }
 ]

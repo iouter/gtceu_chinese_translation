@@ -206,8 +206,8 @@
   {
     "key": "item.gtceu.tool.lv_buzzsaw",
     "original": "Lv Buzzsaw",
-    "translation": "%s圆锯（§7LV§r）",
-    "stage": 1
+    "translation": "§7LV§r圆锯",
+    "stage": 3
   },
   {
     "key": "itemGroup.gtceu.decoration",
@@ -939,288 +939,294 @@
     "key": "config.screen.gtceu",
     "original": "GTCEu Configuration",
     "translation": "格雷科技CEu 配置",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.cooperite",
     "original": "Cooperite",
     "translation": "谢尔顿矿",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.fullers_earth",
     "original": "Fullers Earth",
     "translation": "漂白土",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.hastelloy_c_276",
     "original": "Hastelloy C 276",
     "translation": "哈斯特洛依合金 C-276",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.hsla_steel",
     "original": "Hsla Steel",
     "translation": "HSLA钢",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.hsse",
     "original": "Hsse",
     "translation": "高速钢-E",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.hssg",
     "original": "Hssg",
     "translation": "高速钢-G",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.hsss",
     "original": "Hsss",
     "translation": "高速钢-S",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.hydro_cracked_butadiene",
     "original": "Hydro Cracked Butadiene",
     "translation": "加氢裂化丁二烯",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.hydro_cracked_butane",
     "original": "Hydro Cracked Butane",
     "translation": "加氢裂化丁烷",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.hydro_cracked_butene",
     "original": "Hydro Cracked Butene",
     "translation": "加氢裂化丁烯",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.hydro_cracked_ethane",
     "original": "Hydro Cracked Ethane",
     "translation": "加氢裂化乙烷",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.hydro_cracked_ethylene",
     "original": "Hydro Cracked Ethylene",
     "translation": "加氢裂化乙烯",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.hydro_cracked_propane",
     "original": "Hydro Cracked Propane",
     "translation": "加氢裂化丙烷",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.hydro_cracked_propene",
     "original": "Hydro Cracked Propene",
     "translation": "加氢裂化丙烯",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.incoloy_ma_956",
     "original": "Incoloy Ma 956",
     "translation": "耐热铬铁合金 MA-956",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.iron_ii_chloride",
     "original": "Iron Ii Chloride",
     "translation": "氯化亚铁",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.iron_iii_chloride",
     "original": "Iron Iii Chloride",
     "translation": "氯化铁",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.lightly_hydro_cracked_gas",
     "original": "Lightly Hydro Cracked Gas",
     "translation": "轻度加氢裂化炼油气",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.lightly_hydro_cracked_heavy_fuel",
     "original": "Lightly Hydro Cracked Heavy Fuel",
     "translation": "轻度加氢裂化重燃油",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.lightly_hydro_cracked_light_fuel",
     "original": "Lightly Hydro Cracked Light Fuel",
     "translation": "轻度加氢裂化轻燃油",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.lightly_hydro_cracked_naphtha",
     "original": "Lightly Hydro Cracked Naphtha",
     "translation": "轻度加氢裂化石脑油",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.lightly_steam_cracked_gas",
     "original": "Lightly Steam Cracked Gas",
     "translation": "轻度蒸汽裂化炼油气",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.lightly_steam_cracked_heavy_fuel",
     "original": "Lightly Steam Cracked Heavy Fuel",
     "translation": "轻度蒸汽裂化重燃油",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.lightly_steam_cracked_light_fuel",
     "original": "Lightly Steam Cracked Light Fuel",
     "translation": "轻度蒸汽裂化轻燃油",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.lightly_steam_cracked_naphtha",
     "original": "Lightly Steam Cracked Naphtha",
     "translation": "轻度蒸汽裂化石脑油",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.lpg",
     "original": "Lpg",
     "translation": "液化石油气",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.pcb_coolant",
     "original": "Pcb Coolant",
     "translation": "多氯联苯冷却液 ",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.rtm_alloy",
     "original": "Rtm Alloy",
     "translation": "钌钨钼合金",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.severely_hydro_cracked_gas",
     "original": "Severely Hydro Cracked Gas",
     "translation": "重度加氢裂化炼油气",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.severely_hydro_cracked_heavy_fuel",
     "original": "Severely Hydro Cracked Heavy Fuel",
     "translation": "重度加氢裂化重燃油",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.severely_hydro_cracked_light_fuel",
     "original": "Severely Hydro Cracked Light Fuel",
     "translation": "重度加氢裂化轻燃油",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.severely_hydro_cracked_naphtha",
     "original": "Severely Hydro Cracked Naphtha",
     "translation": "重度加氢裂化石脑油",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.severely_steam_cracked_gas",
     "original": "Severely Steam Cracked Gas",
     "translation": "重度蒸汽裂化炼油气",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.severely_steam_cracked_heavy_fuel",
     "original": "Severely Steam Cracked Heavy Fuel",
     "translation": "重度蒸汽裂化重燃油",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.severely_steam_cracked_light_fuel",
     "original": "Severely Steam Cracked Light Fuel",
     "translation": "重度蒸汽裂化轻燃油",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.severely_steam_cracked_naphtha",
     "original": "Severely Steam Cracked Naphtha",
     "translation": "重度蒸汽裂化石脑油",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.steam_cracked_butadiene",
     "original": "Steam Cracked Butadiene",
     "translation": "蒸汽裂化丁二烯",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.steam_cracked_butane",
     "original": "Steam Cracked Butane",
     "translation": "蒸汽裂化丁烷",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.steam_cracked_butene",
     "original": "Steam Cracked Butene",
     "translation": "蒸汽裂化丁烯",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.steam_cracked_ethane",
     "original": "Steam Cracked Ethane",
     "translation": "蒸汽裂化乙烷",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.steam_cracked_ethylene",
     "original": "Steam Cracked Ethylene",
     "translation": "蒸汽裂化乙烯",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.steam_cracked_propane",
     "original": "Steam Cracked Propane",
     "translation": "蒸汽裂化丙烷",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.steam_cracked_propene",
     "original": "Steam Cracked Propene",
     "translation": "蒸汽裂化丙烯",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.stellite_100",
     "original": "Stellite 100",
     "translation": "司太立-100",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.tungsten_steel",
     "original": "Tungsten Steel",
     "translation": "钨钢",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.uu_matter",
     "original": "Uu Matter",
     "translation": "UU物质",
-    "stage": 1
+    "stage": 5
   },
   {
     "key": "material.gtceu.zeron_100",
     "original": "Zeron 100",
     "translation": "赛龙-100",
-    "stage": 1
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.surface_rock",
+    "original": "%s Surface Rock",
+    "translation": "地表岩石（%s）",
+    "stage": 5
   }
 ]

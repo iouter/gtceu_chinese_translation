@@ -36290,8 +36290,8 @@
   {
     "key": "cover.ore_dictionary_filter.compile.error.eof_after_escape",
     "original": "End of file after escape character ('\\')",
-    "translation": "在转义字符（‘\\’）后结束表达式",
-    "stage": 5,
+    "translation": "在转义符（‘\\’）后结束表达式",
+    "stage": 3,
     "context": "类型132"
   },
   {

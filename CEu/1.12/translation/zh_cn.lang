@@ -1300,7 +1300,7 @@ cover.ore_dictionary_filter.compile.error.unexpected_compilation_flag=编译标�
 cover.ore_dictionary_filter.compile.error.empty_compilation_flag=没有给出编译标志
 cover.ore_dictionary_filter.compile.error.unknown_compilation_flag=未知的编译标志‘%s’
 cover.ore_dictionary_filter.compile.error.redundant_compilation_flag=编译标记‘%s’被写了两次
-cover.ore_dictionary_filter.compile.error.eof_after_escape=在转义字符（‘\’）后结束表达式
+cover.ore_dictionary_filter.compile.error.eof_after_escape=在转义符（‘\’）后结束表达式
 cover.ore_dictionary_filter.compile.error.invalid_char=无效字符U+%s（‘%s’）
 
 cover.ore_dictionary_filter.compile.warn.nested_negation=嵌套否定可能不够直观。可以考虑使用分组（()）来消除歧义。
