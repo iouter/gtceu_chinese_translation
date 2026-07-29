@@ -13540,6 +13540,10 @@
         "original":"Damaged component in structure!"
     },
     {
+        "key":"gtceu.multiblock.hpca.error_power",
+        "original":"Power low, CWU generation halted!"
+    },
+    {
         "key":"gtceu.multiblock.hpca.error_temperature",
         "original":"Temperature above 100C, components may be damaged!"
     },
