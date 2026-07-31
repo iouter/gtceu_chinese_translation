@@ -13452,6 +13452,10 @@
         "original":"The Data Bank is a multiblock structure used for sharing Assembly Line Research Data between multiple Assembly Lines. Additionally, it enables Assembly Lines to read more complex research data on Data Modules."
     },
     {
+        "key":"gtceu.multiblock.data_bank.error_power",
+        "original":"Power low, no data provided!"
+    },
+    {
         "key":"gtceu.multiblock.data_bank.providing",
         "original":"Providing data."
     },
