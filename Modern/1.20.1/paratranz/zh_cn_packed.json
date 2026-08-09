@@ -8448,6 +8448,10 @@
         "original":"Sifter"
     },
     {
+        "key":"cover.item_smart_filter.recipe_type",
+        "original":"Recipe Type"
+    },
+    {
         "key":"cover.item_smart_filter.title",
         "original":"Smart Item Filter"
     },
@@ -16830,6 +16834,14 @@
     {
         "key":"item.gtceu.coke_oven_brick",
         "original":"Coke Oven Brick"
+    },
+    {
+        "key":"item.gtceu.composite_fluid_filter",
+        "original":"Composite Fluid Filter"
+    },
+    {
+        "key":"item.gtceu.composite_item_filter",
+        "original":"Composite Item Filter"
     },
     {
         "key":"item.gtceu.compressed_clay",
