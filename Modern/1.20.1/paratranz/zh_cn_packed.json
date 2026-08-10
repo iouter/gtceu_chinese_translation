@@ -7084,6 +7084,10 @@
         "original":"armorHud"
     },
     {
+        "key":"config.gtceu.option.assemblyLineLaser",
+        "original":"assemblyLineLaser"
+    },
+    {
         "key":"config.gtceu.option.autoRebuildResources",
         "original":"autoRebuildResources"
     },
