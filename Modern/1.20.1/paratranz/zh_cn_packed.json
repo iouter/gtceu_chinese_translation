@@ -7076,6 +7076,10 @@
         "original":"animationTime"
     },
     {
+        "key":"config.gtceu.option.aprilFoolsMode",
+        "original":"aprilFoolsMode"
+    },
+    {
         "key":"config.gtceu.option.arcRecyclingYield",
         "original":"arcRecyclingYield"
     },
@@ -15880,6 +15884,10 @@
         "original":"Storing data: %s"
     },
     {
+        "key":"gtceu.tooltip.creation_tick",
+        "original":"Created on overworld tick %d"
+    },
+    {
         "key":"gtceu.tooltip.fluid_pipe_hold_shift",
         "original":"§7Hold SHIFT to show Fluid Containment Info"
     },
@@ -15890,6 +15898,26 @@
     {
         "key":"gtceu.tooltip.hold_shift",
         "original":"§7Hold SHIFT for more info"
+    },
+    {
+        "key":"gtceu.tooltip.item_handler_data",
+        "original":"Handler data: %s"
+    },
+    {
+        "key":"gtceu.tooltip.item_handler_source",
+        "original":"Handler source: %s"
+    },
+    {
+        "key":"gtceu.tooltip.location",
+        "original":"Location: %s (%d, %d, %d)"
+    },
+    {
+        "key":"gtceu.tooltip.location_entity",
+        "original":"Entity: %s"
+    },
+    {
+        "key":"gtceu.tooltip.location_slot",
+        "original":"Slot: %s"
     },
     {
         "key":"gtceu.tooltip.player_bind",
@@ -15906,6 +15934,18 @@
     {
         "key":"gtceu.tooltip.proxy_bind",
         "original":"§fBinding to a Pattern Buffer at %s %s %s"
+    },
+    {
+        "key":"gtceu.tooltip.spoil_time_remaining",
+        "original":"Time until spoils: %s"
+    },
+    {
+        "key":"gtceu.tooltip.spoil_time_total",
+        "original":"Total spoil time: %s"
+    },
+    {
+        "key":"gtceu.tooltip.spoils_into",
+        "original":"Spoils into: %s"
     },
     {
         "key":"gtceu.tooltip.status.trinary.false",
