@@ -18,6 +18,7 @@
   "block.gtceu.sterilizing_filter_casing.tooltip": "Creates a \u00a7aSterilized\u00a77 environment",
   "block.gtceu.surface_rock": "%s Surface Rock",
   "block.gtceu.wire_coil.tooltip_energy_smelter": "  \u00a7aEnergy Usage: \u00a7f%s EU/t \u00a78per recipe",
+  "config.jade.plugin_gtceu.programmed_circuit_info": "[GTCEu] Programmed Circuit Info",
   "config.screen.gtceu": "GTCEu Configuration",
   "item.gtceu.huge_pipe_casting_mold.tooltip": "\u00a77Mold for making full Block Pipes",
   "item.gtceu.huge_pipe_extruder_mold.tooltip": "\u00a77Extruder Shape for making full Block Pipes",
