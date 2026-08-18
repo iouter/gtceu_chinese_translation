@@ -7916,6 +7916,10 @@
         "original":"[GTCEu] Primitive Pump Info"
     },
     {
+        "key":"config.jade.plugin_gtceu.programmed_circuit_info",
+        "original":"[GTCEu] Programmed Circuit Info"
+    },
+    {
         "key":"config.jade.plugin_gtceu.recipe_logic_provider",
         "original":"[GTCEu] Recipe Logic"
     },
