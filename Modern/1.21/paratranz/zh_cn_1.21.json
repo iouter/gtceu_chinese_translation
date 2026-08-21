@@ -76,10 +76,6 @@
         "original":"  §aEnergy Usage: §f%s EU/t §8per recipe"
     },
     {
-        "key":"config.jade.plugin_gtceu.programmed_circuit_info",
-        "original":"[GTCEu] Programmed Circuit Info"
-    },
-    {
         "key":"config.screen.gtceu",
         "original":"GTCEu Configuration"
     },
