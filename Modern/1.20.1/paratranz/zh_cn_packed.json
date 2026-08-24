@@ -13701,11 +13701,15 @@
     },
     {
         "key":"gtceu.multiblock.large_combustion_engine.liquid_oxygen_boosted",
-        "original":"§bLiquid Oxygen boosted."
+        "original":"§9Liquid Oxygen boosted."
     },
     {
         "key":"gtceu.multiblock.large_combustion_engine.lubricant_amount",
         "original":"Lubricant Amount: %sL"
+    },
+    {
+        "key":"gtceu.multiblock.large_combustion_engine.no_lubricant",
+        "original":"Machine needs Lubricant to run"
     },
     {
         "key":"gtceu.multiblock.large_combustion_engine.obstructed",
@@ -13721,11 +13725,11 @@
     },
     {
         "key":"gtceu.multiblock.large_combustion_engine.supply_liquid_oxygen_to_boost",
-        "original":"Supply Liquid Oxygen to boost."
+        "original":"Supply §9Liquid Oxygen§7 to boost."
     },
     {
         "key":"gtceu.multiblock.large_combustion_engine.supply_oxygen_to_boost",
-        "original":"Supply Oxygen to boost."
+        "original":"Supply §bOxygen§7 to boost."
     },
     {
         "key":"gtceu.multiblock.large_miner.done",

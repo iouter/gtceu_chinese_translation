@@ -80,6 +80,18 @@
         "original":"GTCEu Configuration"
     },
     {
+        "key":"gtceu.multiblock.large_combustion_engine.liquid_oxygen_boosted",
+        "original":"§bLiquid Oxygen boosted."
+    },
+    {
+        "key":"gtceu.multiblock.large_combustion_engine.supply_liquid_oxygen_to_boost",
+        "original":"Supply Liquid Oxygen to boost."
+    },
+    {
+        "key":"gtceu.multiblock.large_combustion_engine.supply_oxygen_to_boost",
+        "original":"Supply Oxygen to boost."
+    },
+    {
         "key":"item.gtceu.huge_pipe_casting_mold.tooltip",
         "original":"§7Mold for making full Block Pipes"
     },
