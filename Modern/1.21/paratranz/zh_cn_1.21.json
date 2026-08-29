@@ -40,24 +40,8 @@
         "original":"Creates a §aParticle-Free§7 environment"
     },
     {
-        "key":"block.gtceu.heavy_oil",
-        "original":"Heavy Oil"
-    },
-    {
-        "key":"block.gtceu.light_oil",
-        "original":"Light Oil"
-    },
-    {
-        "key":"block.gtceu.natural_gas",
-        "original":"Natural Gas"
-    },
-    {
         "key":"block.gtceu.palladium_substation_casing",
         "original":"Palladium Substation Casing"
-    },
-    {
-        "key":"block.gtceu.raw_oil",
-        "original":"Raw Oil"
     },
     {
         "key":"block.gtceu.rotary_hearth_furnace",
@@ -146,10 +130,6 @@
     {
         "key":"item.gtceu.smart_item_filter.tooltip.1",
         "original":"Can be used as a §fConveyor Module§7 and §fRobotic Arm§7 upgrade."
-    },
-    {
-        "key":"item.gtceu.sus_record.desc",
-        "original":"§7sussy!"
     },
     {
         "key":"item.gtceu.terminal.tooltip",
