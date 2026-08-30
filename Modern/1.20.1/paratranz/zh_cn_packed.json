@@ -13900,6 +13900,10 @@
         "original":"Can parallelize with Parallel Control Hatches."
     },
     {
+        "key":"gtceu.multiblock.pattern.between_count",
+        "original":"§cBetween %d and %d§r"
+    },
+    {
         "key":"gtceu.multiblock.pattern.clear_amount_1",
         "original":"§6Must have a clear 1x1x1 space in front§r"
     },
@@ -13952,8 +13956,20 @@
         "original":"§cBetween %d and %d§r"
     },
     {
+        "key":"gtceu.multiblock.pattern.exact_count",
+        "original":"§cExactly: %d§r"
+    },
+    {
         "key":"gtceu.multiblock.pattern.location_end",
         "original":"§cVery End§r"
+    },
+    {
+        "key":"gtceu.multiblock.pattern.max_count",
+        "original":"§cAt most: %d§r"
+    },
+    {
+        "key":"gtceu.multiblock.pattern.min_count",
+        "original":"§cAt least: %d§r"
     },
     {
         "key":"gtceu.multiblock.pattern.replaceable_air",

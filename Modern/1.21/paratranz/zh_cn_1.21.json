@@ -36,6 +36,10 @@
         "original":"Salt Water Deposit"
     },
     {
+        "key":"block.gtceu.connected_texture_test",
+        "original":"Connected Texture Test"
+    },
+    {
         "key":"block.gtceu.filter_casing.tooltip",
         "original":"Creates a §aParticle-Free§7 environment"
     },
@@ -58,6 +62,10 @@
     {
         "key":"block.gtceu.wire_coil.tooltip_energy_smelter",
         "original":"  §aEnergy Usage: §f%s EU/t §8per recipe"
+    },
+    {
+        "key":"config.gtceu.option.blurSampleStep",
+        "original":"blurSampleStep"
     },
     {
         "key":"config.screen.gtceu",
