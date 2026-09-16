@@ -392,6 +392,74 @@
         "original":"Zeron 100"
     },
     {
+        "key":"medical_condition.gtceu.arsenicosis",
+        "original":"Arsenicosis"
+    },
+    {
+        "key":"medical_condition.gtceu.asbestosis",
+        "original":"Asbestosis"
+    },
+    {
+        "key":"medical_condition.gtceu.carbon_monoxide_poisoning",
+        "original":"Carbon Monoxide Poisoning"
+    },
+    {
+        "key":"medical_condition.gtceu.carcinogen",
+        "original":"Carcinogenic"
+    },
+    {
+        "key":"medical_condition.gtceu.carcinogen.affected",
+        "original":"Cancer"
+    },
+    {
+        "key":"medical_condition.gtceu.chemical_burns",
+        "original":"Chemical Burns"
+    },
+    {
+        "key":"medical_condition.gtceu.irritant",
+        "original":"Irritant"
+    },
+    {
+        "key":"medical_condition.gtceu.irritant.affected",
+        "original":"Irritation"
+    },
+    {
+        "key":"medical_condition.gtceu.methanol_poisoning",
+        "original":"Methanol Poisoning"
+    },
+    {
+        "key":"medical_condition.gtceu.nausea",
+        "original":"Nauseating"
+    },
+    {
+        "key":"medical_condition.gtceu.nausea.affected",
+        "original":"Nausea"
+    },
+    {
+        "key":"medical_condition.gtceu.none",
+        "original":"Not Dangerous"
+    },
+    {
+        "key":"medical_condition.gtceu.none.affected",
+        "original":"Nothing?"
+    },
+    {
+        "key":"medical_condition.gtceu.poison",
+        "original":"Poisonous"
+    },
+    {
+        "key":"medical_condition.gtceu.poison.affected",
+        "original":"Poisoning"
+    },
+    {
+        "key":"medical_condition.gtceu.weak_poison",
+        "original":"Weakly Poisonous"
+    },
+    {
+        "key":"medical_condition.gtceu.weak_poison.affected",
+        "original":"Minor poisoning"
+    },
+    {
         "key":"ore_vein.gtceu.apatite",
         "original":"Apatite"
     },
@@ -552,36 +620,24 @@
         "original":"Topaz"
     },
     {
-        "key":"recipe_category.gtceu.arc_furnace_recycling",
-        "original":"Arc Scrapping"
+        "key":"recipe_capability.gtceu.block_state",
+        "original":"Block State"
     },
     {
-        "key":"recipe_category.gtceu.chem_dyes",
-        "original":"Chemical Dyeing"
+        "key":"recipe_capability.gtceu.cwu",
+        "original":"Computation Work Units"
     },
     {
-        "key":"recipe_category.gtceu.extractor_recycling",
-        "original":"Scrap Remelting"
+        "key":"recipe_capability.gtceu.eu",
+        "original":"GTCEu Energy"
     },
     {
-        "key":"recipe_category.gtceu.ingot_molding",
-        "original":"Metal Molding"
+        "key":"recipe_capability.gtceu.fluid",
+        "original":"Fluid"
     },
     {
-        "key":"recipe_category.gtceu.macerator_recycling",
-        "original":"Part Grinding"
-    },
-    {
-        "key":"recipe_category.gtceu.ore_bathing",
-        "original":"Ore Treating"
-    },
-    {
-        "key":"recipe_category.gtceu.ore_crushing",
-        "original":"Ore Grinding"
-    },
-    {
-        "key":"recipe_category.gtceu.ore_forging",
-        "original":"Ore Crushing"
+        "key":"recipe_capability.gtceu.item",
+        "original":"Item"
     },
     {
         "key":"recipe_type.gtceu.air_scrubber",
