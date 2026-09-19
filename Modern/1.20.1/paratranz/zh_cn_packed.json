@@ -17192,6 +17192,10 @@
         "original":"Engraved Lapotron Crystal Chip"
     },
     {
+        "key":"item.gtceu.entity_spoilable",
+        "original":"Entity Spoilable"
+    },
+    {
         "key":"item.gtceu.epoxy_circuit_board",
         "original":"Epoxy Circuit Board"
     },
@@ -18162,6 +18166,10 @@
     {
         "key":"item.gtceu.magenta_glass_lens",
         "original":"Glass Lens (Magenta)"
+    },
+    {
+        "key":"item.gtceu.magnetic_golden_carrot",
+        "original":"Magnetic Golden Carrot"
     },
     {
         "key":"item.gtceu.maintenance_detector_cover",
@@ -19410,6 +19418,26 @@
     {
         "key":"item.gtceu.solvent_spray_can",
         "original":"Spray Can (Solvent)"
+    },
+    {
+        "key":"item.gtceu.spoilable_1",
+        "original":"Spoilable 1"
+    },
+    {
+        "key":"item.gtceu.spoilable_2",
+        "original":"Spoilable 2"
+    },
+    {
+        "key":"item.gtceu.spoilable_3",
+        "original":"Spoilable 3"
+    },
+    {
+        "key":"item.gtceu.spoilable_4",
+        "original":"Spoilable 4"
+    },
+    {
+        "key":"item.gtceu.spoilable_5",
+        "original":"Spoilable 5"
     },
     {
         "key":"item.gtceu.stainless_steel_fluid_cell",
