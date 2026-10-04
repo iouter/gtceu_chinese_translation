@@ -13716,6 +13716,10 @@
         "original":"Engine Intakes Obstructed."
     },
     {
+        "key":"gtceu.multiblock.large_combustion_engine.output",
+        "original":"Producing %s EU/t"
+    },
+    {
         "key":"gtceu.multiblock.large_combustion_engine.oxygen_amount",
         "original":"Oxygen Amount: %sL"
     },
