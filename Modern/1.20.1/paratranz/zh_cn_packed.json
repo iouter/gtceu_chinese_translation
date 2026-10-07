@@ -1176,6 +1176,10 @@
         "original":"§5Advanced Sifter III§r"
     },
     {
+        "key":"block.gtceu.ev_spooler",
+        "original":"§5Advanced Spooler III§r"
+    },
+    {
         "key":"block.gtceu.ev_substation_input_hatch_64a",
         "original":"§5EV 64A Substation Energy Hatch"
     },
@@ -1210,6 +1214,10 @@
     {
         "key":"block.gtceu.ev_transformer_4a",
         "original":"§5Extreme Voltage§r Hi-Amp (4x) Transformer"
+    },
+    {
+        "key":"block.gtceu.ev_welder",
+        "original":"§5Advanced Welder III§r"
     },
     {
         "key":"block.gtceu.ev_wiremill",
@@ -1720,6 +1728,10 @@
         "original":"§6Advanced Sifter II§r"
     },
     {
+        "key":"block.gtceu.hv_spooler",
+        "original":"§6Advanced Spooler II§r"
+    },
+    {
         "key":"block.gtceu.hv_steam_turbine",
         "original":"§6Advanced Steam Turbine Generator II§r"
     },
@@ -1750,6 +1762,10 @@
     {
         "key":"block.gtceu.hv_transformer_4a",
         "original":"§6High Voltage§r Hi-Amp (4x) Transformer"
+    },
+    {
+        "key":"block.gtceu.hv_welder",
+        "original":"§6Advanced Welder II§r"
     },
     {
         "key":"block.gtceu.hv_wiremill",
@@ -2088,6 +2104,10 @@
         "original":"§9Elite Sifter §r"
     },
     {
+        "key":"block.gtceu.iv_spooler",
+        "original":"§9Elite Spooler §r"
+    },
+    {
         "key":"block.gtceu.iv_substation_input_hatch_64a",
         "original":"§9IV 64A Substation Energy Hatch"
     },
@@ -2114,6 +2134,10 @@
     {
         "key":"block.gtceu.iv_transformer_4a",
         "original":"§9Insane Voltage§r Hi-Amp (4x) Transformer"
+    },
+    {
+        "key":"block.gtceu.iv_welder",
+        "original":"§9Elite Welder §r"
     },
     {
         "key":"block.gtceu.iv_wiremill",
@@ -2238,6 +2262,14 @@
     {
         "key":"block.gtceu.large_solidifier",
         "original":"Large Solidification Array"
+    },
+    {
+        "key":"block.gtceu.large_spooler",
+        "original":"Large Spooler"
+    },
+    {
+        "key":"block.gtceu.large_welder",
+        "original":"Large Welder"
     },
     {
         "key":"block.gtceu.large_wiremill",
@@ -2748,6 +2780,10 @@
         "original":"§dElite Sifter II§r"
     },
     {
+        "key":"block.gtceu.luv_spooler",
+        "original":"§dElite Spooler II§r"
+    },
+    {
         "key":"block.gtceu.luv_substation_input_hatch_64a",
         "original":"§dLuV 64A Substation Energy Hatch"
     },
@@ -2774,6 +2810,10 @@
     {
         "key":"block.gtceu.luv_transformer_4a",
         "original":"§dLudicrous Voltage§r Hi-Amp (4x) Transformer"
+    },
+    {
+        "key":"block.gtceu.luv_welder",
+        "original":"§dElite Welder II§r"
     },
     {
         "key":"block.gtceu.luv_wiremill",
@@ -3044,6 +3084,10 @@
         "original":"Basic Sifter §r"
     },
     {
+        "key":"block.gtceu.lv_spooler",
+        "original":"Basic Spooler §r"
+    },
+    {
         "key":"block.gtceu.lv_steam_turbine",
         "original":"Basic Steam Turbine Generator §r"
     },
@@ -3074,6 +3118,10 @@
     {
         "key":"block.gtceu.lv_transformer_4a",
         "original":"§7Low Voltage§r Hi-Amp (4x) Transformer"
+    },
+    {
+        "key":"block.gtceu.lv_welder",
+        "original":"Basic Welder §r"
     },
     {
         "key":"block.gtceu.lv_wiremill",
@@ -3620,6 +3668,10 @@
         "original":"§bAdvanced Sifter §r"
     },
     {
+        "key":"block.gtceu.mv_spooler",
+        "original":"§bAdvanced Spooler §r"
+    },
+    {
         "key":"block.gtceu.mv_steam_turbine",
         "original":"§bAdvanced Steam Turbine Generator §r"
     },
@@ -3650,6 +3702,10 @@
     {
         "key":"block.gtceu.mv_transformer_4a",
         "original":"§bMedium Voltage§r Hi-Amp (4x) Transformer"
+    },
+    {
+        "key":"block.gtceu.mv_welder",
+        "original":"§bAdvanced Welder §r"
     },
     {
         "key":"block.gtceu.mv_wiremill",
@@ -4016,6 +4072,10 @@
         "original":"§9§lLegendary Sifter §r"
     },
     {
+        "key":"block.gtceu.opv_spooler",
+        "original":"§9§lLegendary Spooler §r"
+    },
+    {
         "key":"block.gtceu.opv_substation_input_hatch_64a",
         "original":"§9§lOpV 64A Substation Energy Hatch"
     },
@@ -4042,6 +4102,10 @@
     {
         "key":"block.gtceu.opv_transformer_4a",
         "original":"§9§lOverpowered Voltage§r Hi-Amp (4x) Transformer"
+    },
+    {
+        "key":"block.gtceu.opv_welder",
+        "original":"§9§lLegendary Welder §r"
     },
     {
         "key":"block.gtceu.opv_wiremill",
@@ -4988,6 +5052,10 @@
         "original":"§aEpic Sifter II§r"
     },
     {
+        "key":"block.gtceu.uev_spooler",
+        "original":"§aEpic Spooler II§r"
+    },
+    {
         "key":"block.gtceu.uev_substation_input_hatch_64a",
         "original":"§aUEV 64A Substation Energy Hatch"
     },
@@ -5014,6 +5082,10 @@
     {
         "key":"block.gtceu.uev_transformer_4a",
         "original":"§aUltra Excessive Voltage§r Hi-Amp (4x) Transformer"
+    },
+    {
+        "key":"block.gtceu.uev_welder",
+        "original":"§aEpic Welder II§r"
     },
     {
         "key":"block.gtceu.uev_wiremill",
@@ -5320,6 +5392,10 @@
         "original":"§4Epic Sifter §r"
     },
     {
+        "key":"block.gtceu.uhv_spooler",
+        "original":"§4Epic Spooler §r"
+    },
+    {
         "key":"block.gtceu.uhv_substation_input_hatch_64a",
         "original":"§4UHV 64A Substation Energy Hatch"
     },
@@ -5350,6 +5426,10 @@
     {
         "key":"block.gtceu.uhv_ultimate_battery",
         "original":"UHV Ultimate Capacitor"
+    },
+    {
+        "key":"block.gtceu.uhv_welder",
+        "original":"§4Epic Welder §r"
     },
     {
         "key":"block.gtceu.uhv_wiremill",
@@ -5652,6 +5732,10 @@
         "original":"§2Epic Sifter III§r"
     },
     {
+        "key":"block.gtceu.uiv_spooler",
+        "original":"§2Epic Spooler III§r"
+    },
+    {
         "key":"block.gtceu.uiv_substation_input_hatch_64a",
         "original":"§2UIV 64A Substation Energy Hatch"
     },
@@ -5678,6 +5762,10 @@
     {
         "key":"block.gtceu.uiv_transformer_4a",
         "original":"§2Ultra Immense Voltage§r Hi-Amp (4x) Transformer"
+    },
+    {
+        "key":"block.gtceu.uiv_welder",
+        "original":"§2Epic Welder III§r"
     },
     {
         "key":"block.gtceu.uiv_wiremill",
@@ -6076,6 +6164,10 @@
         "original":"§3Ultimate Sifter §r"
     },
     {
+        "key":"block.gtceu.uv_spooler",
+        "original":"§3Ultimate Spooler §r"
+    },
+    {
         "key":"block.gtceu.uv_substation_input_hatch_64a",
         "original":"§3UV 64A Substation Energy Hatch"
     },
@@ -6102,6 +6194,10 @@
     {
         "key":"block.gtceu.uv_transformer_4a",
         "original":"§3Ultimate Voltage§r Hi-Amp (4x) Transformer"
+    },
+    {
+        "key":"block.gtceu.uv_welder",
+        "original":"§3Ultimate Welder §r"
     },
     {
         "key":"block.gtceu.uv_wiremill",
@@ -6408,6 +6504,10 @@
         "original":"§eEpic Sifter IV§r"
     },
     {
+        "key":"block.gtceu.uxv_spooler",
+        "original":"§eEpic Spooler IV§r"
+    },
+    {
         "key":"block.gtceu.uxv_substation_input_hatch_64a",
         "original":"§eUXV 64A Substation Energy Hatch"
     },
@@ -6434,6 +6534,10 @@
     {
         "key":"block.gtceu.uxv_transformer_4a",
         "original":"§eUltra Extreme Voltage§r Hi-Amp (4x) Transformer"
+    },
+    {
+        "key":"block.gtceu.uxv_welder",
+        "original":"§eEpic Welder IV§r"
     },
     {
         "key":"block.gtceu.uxv_wiremill",
@@ -6888,6 +6992,10 @@
         "original":"§cElite Sifter III§r"
     },
     {
+        "key":"block.gtceu.zpm_spooler",
+        "original":"§cElite Spooler III§r"
+    },
+    {
         "key":"block.gtceu.zpm_substation_input_hatch_64a",
         "original":"§cZPM 64A Substation Energy Hatch"
     },
@@ -6914,6 +7022,10 @@
     {
         "key":"block.gtceu.zpm_transformer_4a",
         "original":"§cZPM Voltage§r Hi-Amp (4x) Transformer"
+    },
+    {
+        "key":"block.gtceu.zpm_welder",
+        "original":"§cElite Welder III§r"
     },
     {
         "key":"block.gtceu.zpm_wiremill",
@@ -7370,10 +7482,6 @@
     {
         "key":"config.gtceu.option.harderCircuitRecipes",
         "original":"harderCircuitRecipes"
-    },
-    {
-        "key":"config.gtceu.option.harderRods",
-        "original":"harderRods"
     },
     {
         "key":"config.gtceu.option.harmlessActiveTransformers",
@@ -15580,6 +15688,10 @@
         "original":"Sifter"
     },
     {
+        "key":"gtceu.spooling",
+        "original":"Spooling"
+    },
+    {
         "key":"gtceu.steam_boiler",
         "original":"Steam Boiler"
     },
@@ -16400,6 +16512,10 @@
         "original":"Vacuum Freezer"
     },
     {
+        "key":"gtceu.welder",
+        "original":"Welder"
+    },
+    {
         "key":"gtceu.wiremill",
         "original":"Wiremill"
     },
@@ -16734,10 +16850,6 @@
     {
         "key":"item.gtceu.blue_glass_lens",
         "original":"Glass Lens (Blue)"
-    },
-    {
-        "key":"item.gtceu.bolt_extruder_mold",
-        "original":"Extruder Mold (Bolt)"
     },
     {
         "key":"item.gtceu.bolt_extruder_mold.tooltip",
@@ -17442,10 +17554,6 @@
     {
         "key":"item.gtceu.gear_casting_mold.tooltip",
         "original":"§7Mold for making Gears"
-    },
-    {
-        "key":"item.gtceu.gear_extruder_mold",
-        "original":"Extruder Mold (Gear)"
     },
     {
         "key":"item.gtceu.gear_extruder_mold.tooltip",
@@ -19116,10 +19224,6 @@
         "original":"Rock Salt"
     },
     {
-        "key":"item.gtceu.rod_extruder_mold",
-        "original":"Extruder Mold (Rod)"
-    },
-    {
         "key":"item.gtceu.rod_extruder_mold.tooltip",
         "original":"§7Extruder Shape for making Rods"
     },
@@ -19134,10 +19238,6 @@
     {
         "key":"item.gtceu.rotor_casting_mold.tooltip",
         "original":"§7Mold for making Rotors"
-    },
-    {
-        "key":"item.gtceu.rotor_extruder_mold",
-        "original":"Extruder Mold (Rotor)"
     },
     {
         "key":"item.gtceu.rotor_extruder_mold.tooltip",
@@ -19246,10 +19346,6 @@
     {
         "key":"item.gtceu.small_gear_casting_mold",
         "original":"Casting Mold (Small Gear)"
-    },
-    {
-        "key":"item.gtceu.small_gear_extruder_mold",
-        "original":"Extruder Mold (Small Gear)"
     },
     {
         "key":"item.gtceu.small_glauconite_sand_dust",
@@ -21664,6 +21760,10 @@
         "original":"Heavy Fuel"
     },
     {
+        "key":"material.gtceu.heavy_rare_earth_sludge",
+        "original":"Heavy Rare Earth Sludge"
+    },
+    {
         "key":"material.gtceu.helium",
         "original":"Helium"
     },
@@ -21898,6 +21998,10 @@
     {
         "key":"material.gtceu.light_gray_dye",
         "original":"Light Gray Dye"
+    },
+    {
+        "key":"material.gtceu.light_rare_earth_sludge",
+        "original":"Light Rare Earth Sludge"
     },
     {
         "key":"material.gtceu.lightly_hydro_cracked_gas",
@@ -22578,6 +22682,10 @@
     {
         "key":"material.gtceu.rare_earth",
         "original":"Rare Earth"
+    },
+    {
+        "key":"material.gtceu.rare_earth_sludge_mixture",
+        "original":"Rare Earth Sludge Mixture"
     },
     {
         "key":"material.gtceu.rarest_metal_mixture",

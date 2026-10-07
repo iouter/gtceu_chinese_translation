@@ -212,10 +212,12 @@
   "recipe_type.gtceu.rock_breaker": "Rock Breaker",
   "recipe_type.gtceu.scanner": "Scanner",
   "recipe_type.gtceu.sifter": "Sifter",
+  "recipe_type.gtceu.spooling": "Spooling",
   "recipe_type.gtceu.steam_boiler": "Steam Boiler",
   "recipe_type.gtceu.steam_turbine": "Steam Turbine",
   "recipe_type.gtceu.thermal_centrifuge": "Thermal Centrifuge",
   "recipe_type.gtceu.vacuum_freezer": "Vacuum Freezer",
+  "recipe_type.gtceu.welder": "Welder",
   "recipe_type.gtceu.wiremill": "Wiremill",
   "tagprefix.buzzsaw_blade": "%s Buzzsaw Blade"
 }

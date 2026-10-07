@@ -852,6 +852,10 @@
         "original":"Sifter"
     },
     {
+        "key":"recipe_type.gtceu.spooling",
+        "original":"Spooling"
+    },
+    {
         "key":"recipe_type.gtceu.steam_boiler",
         "original":"Steam Boiler"
     },
@@ -866,6 +870,10 @@
     {
         "key":"recipe_type.gtceu.vacuum_freezer",
         "original":"Vacuum Freezer"
+    },
+    {
+        "key":"recipe_type.gtceu.welder",
+        "original":"Welder"
     },
     {
         "key":"recipe_type.gtceu.wiremill",
