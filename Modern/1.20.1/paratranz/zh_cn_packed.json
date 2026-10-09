@@ -9664,6 +9664,10 @@
         "original":"Molten %s"
     },
     {
+        "key":"gtceu.fluid.requires_metal_freezing",
+        "original":"Requires metal freezing"
+    },
+    {
         "key":"gtceu.fluid.plasma",
         "original":"%s Plasma"
     },

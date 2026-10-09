@@ -35,6 +35,7 @@
   "item.gtceu.tiny_pipe_casting_mold.tooltip": "\u00a77Mold for making tiny Pipes",
   "item.gtceu.tiny_pipe_extruder_mold.tooltip": "\u00a77Extruder Shape for making tiny Pipes",
   "item.gtceu.tool.lv_buzzsaw": "Lv Buzzsaw",
+  "item.gtceu.tool.tooltip.innate_enchantments": "\u00a75Innate Enchantments:",
   "itemGroup.gtceu.decoration": "GTCEu Decoration Blocks",
   "itemGroup.gtceu.item": "GTCEu Items",
   "itemGroup.gtceu.machine": "GTCEu Machines",

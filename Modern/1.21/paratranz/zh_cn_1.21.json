@@ -144,6 +144,10 @@
         "original":"Lv Buzzsaw"
     },
     {
+        "key":"item.gtceu.tool.tooltip.innate_enchantments",
+        "original":"§5Innate Enchantments:"
+    },
+    {
         "key":"itemGroup.gtceu.decoration",
         "original":"GTCEu Decoration Blocks"
     },
