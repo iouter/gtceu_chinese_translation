@@ -40,8 +40,36 @@
         "original":"Connected Texture Test"
     },
     {
+        "key":"block.gtceu.ev_wireless_charger",
+        "original":"EV Wireless Charger"
+    },
+    {
         "key":"block.gtceu.filter_casing.tooltip",
         "original":"Creates a §aParticle-Free§7 environment"
+    },
+    {
+        "key":"block.gtceu.hv_wireless_charger",
+        "original":"HV Wireless Charger"
+    },
+    {
+        "key":"block.gtceu.iv_wireless_charger",
+        "original":"IV Wireless Charger"
+    },
+    {
+        "key":"block.gtceu.luv_wireless_charger",
+        "original":"LuV Wireless Charger"
+    },
+    {
+        "key":"block.gtceu.lv_wireless_charger",
+        "original":"LV Wireless Charger"
+    },
+    {
+        "key":"block.gtceu.mv_wireless_charger",
+        "original":"MV Wireless Charger"
+    },
+    {
+        "key":"block.gtceu.opv_wireless_charger",
+        "original":"OpV Wireless Charger"
     },
     {
         "key":"block.gtceu.palladium_substation_casing",
@@ -60,8 +88,32 @@
         "original":"%s Surface Rock"
     },
     {
+        "key":"block.gtceu.uev_wireless_charger",
+        "original":"UEV Wireless Charger"
+    },
+    {
+        "key":"block.gtceu.uhv_wireless_charger",
+        "original":"UHV Wireless Charger"
+    },
+    {
+        "key":"block.gtceu.uiv_wireless_charger",
+        "original":"UIV Wireless Charger"
+    },
+    {
+        "key":"block.gtceu.uv_wireless_charger",
+        "original":"UV Wireless Charger"
+    },
+    {
+        "key":"block.gtceu.uxv_wireless_charger",
+        "original":"UXV Wireless Charger"
+    },
+    {
         "key":"block.gtceu.wire_coil.tooltip_energy_smelter",
         "original":"  §aEnergy Usage: §f%s EU/t §8per recipe"
+    },
+    {
+        "key":"block.gtceu.zpm_wireless_charger",
+        "original":"ZPM Wireless Charger"
     },
     {
         "key":"config.gtceu.option.blurSampleStep",
@@ -70,6 +122,38 @@
     {
         "key":"config.screen.gtceu",
         "original":"GTCEu Configuration"
+    },
+    {
+        "key":"gtceu.machine.wireless_charger.enter_range",
+        "original":"§aYou have entered wireless charging range"
+    },
+    {
+        "key":"gtceu.machine.wireless_charger.left_range",
+        "original":"§cYou have left wireless charging range"
+    },
+    {
+        "key":"gtceu.machine.wireless_charger.mode.standard",
+        "original":"Standard charging mode: %s block range"
+    },
+    {
+        "key":"gtceu.machine.wireless_charger.mode.turbo",
+        "original":"Turbo charging mode: %s block range"
+    },
+    {
+        "key":"gtceu.machine.wireless_charger.range.standard",
+        "original":"§7Standard: §7%s §7block range, 1A input, charges each item once per second"
+    },
+    {
+        "key":"gtceu.machine.wireless_charger.range.turbo",
+        "original":"§7Turbo: §7%s §7block range, 4A input, charges each item every 4 ticks"
+    },
+    {
+        "key":"gtceu.machine.wireless_charger.toggle",
+        "original":"§7Use a screwdriver to switch between standard and turbo mode"
+    },
+    {
+        "key":"gtceu.machine.wireless_charger.tooltip",
+        "original":"Wirelessly charges EU and FE items carried by you and your team, including equipment."
     },
     {
         "key":"item.gtceu.huge_pipe_casting_mold.tooltip",
