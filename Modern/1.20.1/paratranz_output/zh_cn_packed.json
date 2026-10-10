@@ -4884,12 +4884,6 @@
     "stage": 5
   },
   {
-    "key": "config.gtceu.option.harderRods",
-    "original": "harderRods",
-    "translation": "更难的杆配方",
-    "stage": 5
-  },
-  {
     "key": "config.gtceu.option.machineSounds",
     "original": "machineSounds",
     "translation": "机器音效",
@@ -6987,13 +6981,13 @@
     "key": "gtceu.machine.large_combustion_engine.tooltip.boost_extreme",
     "original": "Supply §f80 mB/s§7 of §9Liquid Oxygen§7 to produce up to §f%s EU/t§7 at §f2x§7 fuel consumption.",
     "translation": "提供§f80 mB/s§7的§9液态氧§7，并消耗§f双倍§7燃料以产生高达§f%s§7EU/t的功率。",
-    "stage": 3
+    "stage": 5
   },
   {
     "key": "gtceu.machine.large_combustion_engine.tooltip.boost_regular",
     "original": "Supply §f20 mB/s§7 of §bOxygen§7 to produce up to §f%s EU/t§7 at §f2x§7 fuel consumption.",
     "translation": "提供§f20 mB/s§7的§b氧气§7，并消耗§f双倍§7燃料以产生高达§f%s§7EU/t的功率。",
-    "stage": 3
+    "stage": 5
   },
   {
     "key": "gtceu.machine.large_miner.ev.tooltip",
@@ -7789,8 +7783,8 @@
   },
   {
     "key": "gtceu.multiblock.large_combustion_engine.liquid_oxygen_boosted",
-    "original": "§bLiquid Oxygen boosted.",
-    "translation": "§b液氧促燃中",
+    "original": "§9Liquid Oxygen boosted.",
+    "translation": "§9液氧促燃中。",
     "stage": 5
   },
   {
@@ -7819,14 +7813,14 @@
   },
   {
     "key": "gtceu.multiblock.large_combustion_engine.supply_liquid_oxygen_to_boost",
-    "original": "Supply Liquid Oxygen to boost.",
-    "translation": "提供液氧来促燃",
+    "original": "Supply §9Liquid Oxygen§7 to boost.",
+    "translation": "提供§9液氧§7来促燃。",
     "stage": 5
   },
   {
     "key": "gtceu.multiblock.large_combustion_engine.supply_oxygen_to_boost",
-    "original": "Supply Oxygen to boost.",
-    "translation": "提供氧气来促燃",
+    "original": "Supply §bOxygen§7 to boost.",
+    "translation": "提供§b氧气§7来促燃。",
     "stage": 5
   },
   {
@@ -9204,12 +9198,6 @@
     "stage": 5
   },
   {
-    "key": "item.gtceu.bolt_extruder_mold",
-    "original": "Extruder Mold (Bolt)",
-    "translation": "模头（螺栓）",
-    "stage": 5
-  },
-  {
     "key": "item.gtceu.bottle.purple.drink.tooltip",
     "original": "§7How about Lemonade. Or some Ice Tea? I got Purple Drink!",
     "translation": "§7来点柠檬汽水，还是冰红茶？我手里这瓶可是紫色饮料！",
@@ -9795,12 +9783,6 @@
     "key": "item.gtceu.gear_casting_mold",
     "original": "Casting Mold (Gear)",
     "translation": "模具（齿轮）",
-    "stage": 5
-  },
-  {
-    "key": "item.gtceu.gear_extruder_mold",
-    "original": "Extruder Mold (Gear)",
-    "translation": "模头（齿轮）",
     "stage": 5
   },
   {
@@ -10932,21 +10914,9 @@
     "stage": 5
   },
   {
-    "key": "item.gtceu.rod_extruder_mold",
-    "original": "Extruder Mold (Rod)",
-    "translation": "模头（杆）",
-    "stage": 5
-  },
-  {
     "key": "item.gtceu.rotor_casting_mold",
     "original": "Casting Mold (Rotor)",
     "translation": "模具（转子）",
-    "stage": 5
-  },
-  {
-    "key": "item.gtceu.rotor_extruder_mold",
-    "original": "Extruder Mold (Rotor)",
-    "translation": "模头（转子）",
     "stage": 5
   },
   {
@@ -10983,12 +10953,6 @@
     "key": "item.gtceu.small_gear_casting_mold",
     "original": "Casting Mold (Small Gear)",
     "translation": "模具（小型齿轮）",
-    "stage": 5
-  },
-  {
-    "key": "item.gtceu.small_gear_extruder_mold",
-    "original": "Extruder Mold (Small Gear)",
-    "translation": "模头（小型齿轮）",
     "stage": 5
   },
   {
@@ -36327,12 +36291,408 @@
     "key": "gtceu.machine.batching.disabled",
     "original": "Batching Disabled",
     "translation": "批处理已禁用",
-    "stage": 3
+    "stage": 5
   },
   {
     "key": "gtceu.machine.batching.enabled",
     "original": "Batching Enabled",
     "translation": "批处理已启用",
-    "stage": 3
+    "stage": 5
+  },
+  {
+    "key": "config.jade.plugin_gtceu.diode_provider",
+    "original": "[GTCEu] Diode Info",
+    "translation": "[GTCEu] 二极管信息",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.multiblock.hpca.error_power",
+    "original": "Power low, CWU generation halted!",
+    "translation": "电量低，CWU计算停止！",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.multiblock.data_bank.error_power",
+    "original": "Power low, no data provided!",
+    "translation": "电量低，无数据供应！",
+    "stage": 5
+  },
+  {
+    "key": "material.gtceu.null",
+    "original": "Null",
+    "translation": "无",
+    "stage": 5
+  },
+  {
+    "key": "cover.item_smart_filter.recipe_type",
+    "original": "Recipe Type",
+    "translation": "配方类型",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.composite_fluid_filter",
+    "original": "Composite Fluid Filter",
+    "translation": "复合流体过滤卡",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.composite_item_filter",
+    "original": "Composite Item Filter",
+    "translation": "复合物品过滤卡",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.assemblyLineLaser",
+    "original": "assemblyLineLaser",
+    "translation": "装配线激光",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.aprilFoolsMode",
+    "original": "aprilFoolsMode",
+    "translation": "愚人节模式",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.tooltip.creation_tick",
+    "original": "Created on overworld tick %d",
+    "translation": "主世界第%d刻生成",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.tooltip.item_handler_data",
+    "original": "Handler data: %s",
+    "translation": "处理器数据：%s",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.tooltip.item_handler_source",
+    "original": "Handler source: %s",
+    "translation": "处理器来源：%s",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.tooltip.location",
+    "original": "Location: %s (%d, %d, %d)",
+    "translation": "位置：%s（%d，%d，%d）",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.tooltip.location_entity",
+    "original": "Entity: %s",
+    "translation": "实体：%s",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.tooltip.location_slot",
+    "original": "Slot: %s",
+    "translation": "槽位：%s",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.tooltip.spoil_time_remaining",
+    "original": "Time until spoils: %s",
+    "translation": "距离腐坏还剩：%s",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.tooltip.spoil_time_total",
+    "original": "Total spoil time: %s",
+    "translation": "总腐坏时长：%s",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.tooltip.spoils_into",
+    "original": "Spoils into: %s",
+    "translation": "腐坏产物：%s",
+    "stage": 5
+  },
+  {
+    "key": "config.jade.plugin_gtceu.programmed_circuit_info",
+    "original": "[GTCEu] Programmed Circuit Info",
+    "translation": "[GTCEu] 编程电路信息",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.multiblock.large_combustion_engine.no_lubricant",
+    "original": "Machine needs Lubricant to run",
+    "translation": "机器运行需要润滑油",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.multiblock.pattern.between_count",
+    "original": "§cBetween %d and %d§r",
+    "translation": "§c最少%d个，最多%d个§r",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.multiblock.pattern.exact_count",
+    "original": "§cExactly: %d§r",
+    "translation": "§c精确：%d个§r",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.multiblock.pattern.max_count",
+    "original": "§cAt most: %d§r",
+    "translation": "§c至多：%d个§r",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.multiblock.pattern.min_count",
+    "original": "§cAt least: %d§r",
+    "translation": "§c至少：%d个§r",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.entity_spoilable",
+    "original": "Entity Spoilable",
+    "translation": "可腐坏实体",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.magnetic_golden_carrot",
+    "original": "Magnetic Golden Carrot",
+    "translation": "磁化金胡萝卜",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.spoilable_1",
+    "original": "Spoilable 1",
+    "translation": "可腐坏物品1",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.spoilable_2",
+    "original": "Spoilable 2",
+    "translation": "可腐坏物品2",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.spoilable_3",
+    "original": "Spoilable 3",
+    "translation": "可腐坏物品3",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.spoilable_4",
+    "original": "Spoilable 4",
+    "translation": "可腐坏物品4",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.spoilable_5",
+    "original": "Spoilable 5",
+    "translation": "可腐坏物品5",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.multiblock.large_combustion_engine.output",
+    "original": "Producing %s EU/t",
+    "translation": "生产%sEU/t",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.ev_spooler",
+    "original": "§5Advanced Spooler III§r",
+    "translation": "§5进阶绕线机 III§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.ev_welder",
+    "original": "§5Advanced Welder III§r",
+    "translation": "§5进阶焊接器 III§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.hv_spooler",
+    "original": "§6Advanced Spooler II§r",
+    "translation": "§6进阶绕线机 II§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.hv_welder",
+    "original": "§6Advanced Welder II§r",
+    "translation": "§6进阶焊接器 II§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.iv_spooler",
+    "original": "§9Elite Spooler §r",
+    "translation": "§9精英绕线机§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.iv_welder",
+    "original": "§9Elite Welder §r",
+    "translation": "§9精英焊接器§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.large_spooler",
+    "original": "Large Spooler",
+    "translation": "大型绕线机",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.large_welder",
+    "original": "Large Welder",
+    "translation": "大型焊接器",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.luv_spooler",
+    "original": "§dElite Spooler II§r",
+    "translation": "§d精英绕线机 II§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.luv_welder",
+    "original": "§dElite Welder II§r",
+    "translation": "§d精英焊接器 II§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.lv_spooler",
+    "original": "Basic Spooler §r",
+    "translation": "基础绕线机§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.lv_welder",
+    "original": "Basic Welder §r",
+    "translation": "基础焊接器§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.mv_spooler",
+    "original": "§bAdvanced Spooler §r",
+    "translation": "§b进阶绕线机§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.mv_welder",
+    "original": "§bAdvanced Welder §r",
+    "translation": "§b进阶焊接器§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.opv_spooler",
+    "original": "§9§lLegendary Spooler §r",
+    "translation": "§9§l传奇绕线机§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.opv_welder",
+    "original": "§9§lLegendary Welder §r",
+    "translation": "§9§l传奇焊接器§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.uev_spooler",
+    "original": "§aEpic Spooler II§r",
+    "translation": "§a史诗绕线机 II§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.uev_welder",
+    "original": "§aEpic Welder II§r",
+    "translation": "§a史诗焊接器 II§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.uhv_spooler",
+    "original": "§4Epic Spooler §r",
+    "translation": "§4史诗绕线机§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.uhv_welder",
+    "original": "§4Epic Welder §r",
+    "translation": "§4史诗焊接器§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.uiv_spooler",
+    "original": "§2Epic Spooler III§r",
+    "translation": "§2史诗绕线机 III§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.uiv_welder",
+    "original": "§2Epic Welder III§r",
+    "translation": "§2史诗焊接器 III§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.uv_spooler",
+    "original": "§3Ultimate Spooler §r",
+    "translation": "§3终极绕线机§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.uv_welder",
+    "original": "§3Ultimate Welder §r",
+    "translation": "§3终极焊接器§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.uxv_spooler",
+    "original": "§eEpic Spooler IV§r",
+    "translation": "§e史诗绕线机 IV§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.uxv_welder",
+    "original": "§eEpic Welder IV§r",
+    "translation": "§e史诗焊接器 IV§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.zpm_spooler",
+    "original": "§cElite Spooler III§r",
+    "translation": "§c精英绕线机 III§r",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.zpm_welder",
+    "original": "§cElite Welder III§r",
+    "translation": "§c精英焊接器 III§r",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.spooling",
+    "original": "Spooling",
+    "translation": "绕线机",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.welder",
+    "original": "Welder",
+    "translation": "焊接器",
+    "stage": 5
+  },
+  {
+    "key": "material.gtceu.heavy_rare_earth_sludge",
+    "original": "Heavy Rare Earth Sludge",
+    "translation": "重稀土泥浆",
+    "stage": 5
+  },
+  {
+    "key": "material.gtceu.light_rare_earth_sludge",
+    "original": "Light Rare Earth Sludge",
+    "translation": "轻稀土泥浆",
+    "stage": 5
+  },
+  {
+    "key": "material.gtceu.rare_earth_sludge_mixture",
+    "original": "Rare Earth Sludge Mixture",
+    "translation": "稀土泥浆混合物",
+    "stage": 5
+  },
+  {
+    "key": "gtceu.fluid.requires_metal_freezing",
+    "original": "Requires metal freezing",
+    "translation": "需要金属冷冻",
+    "stage": 5
   }
 ]

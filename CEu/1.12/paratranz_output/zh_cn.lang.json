@@ -33378,7 +33378,7 @@
   {
     "key": "gregtech.multiblock.pattern.error.limited_exact",
     "original": "§cExactly: %d§r",
-    "translation": "§c精确：%d§r",
+    "translation": "§c精确：%d个§r",
     "stage": 5,
     "context": "类型436"
   },
@@ -36291,7 +36291,7 @@
     "key": "cover.ore_dictionary_filter.compile.error.eof_after_escape",
     "original": "End of file after escape character ('\\')",
     "translation": "在转义符（‘\\’）后结束表达式",
-    "stage": 3,
+    "stage": 5,
     "context": "类型132"
   },
   {

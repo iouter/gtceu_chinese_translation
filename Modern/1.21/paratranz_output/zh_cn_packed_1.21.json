@@ -54,33 +54,9 @@
     "stage": 5
   },
   {
-    "key": "block.gtceu.heavy_oil",
-    "original": "Heavy Oil",
-    "translation": "重油",
-    "stage": 5
-  },
-  {
-    "key": "block.gtceu.light_oil",
-    "original": "Light Oil",
-    "translation": "轻油",
-    "stage": 5
-  },
-  {
-    "key": "block.gtceu.natural_gas",
-    "original": "Natural Gas",
-    "translation": "天然气",
-    "stage": 5
-  },
-  {
     "key": "block.gtceu.palladium_substation_casing",
     "original": "Palladium Substation Casing",
     "translation": "镀钯变电站机械方块",
-    "stage": 5
-  },
-  {
-    "key": "block.gtceu.raw_oil",
-    "original": "Raw Oil",
-    "translation": "原油",
     "stage": 5
   },
   {
@@ -207,7 +183,7 @@
     "key": "item.gtceu.tool.lv_buzzsaw",
     "original": "Lv Buzzsaw",
     "translation": "§7LV§r圆锯",
-    "stage": 3
+    "stage": 5
   },
   {
     "key": "itemGroup.gtceu.decoration",
@@ -537,54 +513,6 @@
     "key": "ore_vein.gtceu.topaz",
     "original": "Topaz",
     "translation": "黄玉",
-    "stage": 5
-  },
-  {
-    "key": "recipe_category.gtceu.arc_furnace_recycling",
-    "original": "Arc Scrapping",
-    "translation": "电弧炉：回收",
-    "stage": 5
-  },
-  {
-    "key": "recipe_category.gtceu.chem_dyes",
-    "original": "Chemical Dyeing",
-    "translation": "化学浸洗机：化学染色",
-    "stage": 5
-  },
-  {
-    "key": "recipe_category.gtceu.extractor_recycling",
-    "original": "Scrap Remelting",
-    "translation": "流体提取机：重熔回收",
-    "stage": 5
-  },
-  {
-    "key": "recipe_category.gtceu.ingot_molding",
-    "original": "Metal Molding",
-    "translation": "合金炉：金属成型",
-    "stage": 5
-  },
-  {
-    "key": "recipe_category.gtceu.macerator_recycling",
-    "original": "Part Grinding",
-    "translation": "研磨机：粉碎回收",
-    "stage": 5
-  },
-  {
-    "key": "recipe_category.gtceu.ore_bathing",
-    "original": "Ore Treating",
-    "translation": "化学浸洗机：矿物处理",
-    "stage": 5
-  },
-  {
-    "key": "recipe_category.gtceu.ore_crushing",
-    "original": "Ore Grinding",
-    "translation": "研磨机：矿物处理",
-    "stage": 5
-  },
-  {
-    "key": "recipe_category.gtceu.ore_forging",
-    "original": "Ore Crushing",
-    "translation": "锻造锤：矿物处理",
     "stage": 5
   },
   {
@@ -1227,6 +1155,180 @@
     "key": "block.gtceu.surface_rock",
     "original": "%s Surface Rock",
     "translation": "地表岩石（%s）",
+    "stage": 5
+  },
+  {
+    "key": "argument.medical_condition.id.invalid",
+    "original": "Unknown medical condition %s",
+    "translation": "未知的疾病%s",
+    "stage": 5
+  },
+  {
+    "key": "tagprefix.buzzsaw_blade",
+    "original": "%s Buzzsaw Blade",
+    "translation": "%s圆锯锯片",
+    "stage": 5
+  },
+  {
+    "key": "block.gtceu.connected_texture_test",
+    "original": "Connected Texture Test",
+    "translation": "连接纹理测试",
+    "stage": 5
+  },
+  {
+    "key": "config.gtceu.option.blurSampleStep",
+    "original": "blurSampleStep",
+    "translation": "模糊采样步长",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.arsenicosis",
+    "original": "Arsenicosis",
+    "translation": "砷中毒",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.asbestosis",
+    "original": "Asbestosis",
+    "translation": "石棉肺",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.carbon_monoxide_poisoning",
+    "original": "Carbon Monoxide Poisoning",
+    "translation": "一氧化碳中毒",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.carcinogen",
+    "original": "Carcinogenic",
+    "translation": "致癌物",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.carcinogen.affected",
+    "original": "Cancer",
+    "translation": "癌症",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.chemical_burns",
+    "original": "Chemical Burns",
+    "translation": "化学烧伤",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.irritant",
+    "original": "Irritant",
+    "translation": "刺激性物质",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.irritant.affected",
+    "original": "Irritation",
+    "translation": "刺激",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.methanol_poisoning",
+    "original": "Methanol Poisoning",
+    "translation": "甲醇中毒",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.nausea",
+    "original": "Nauseating",
+    "translation": "令人作呕",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.nausea.affected",
+    "original": "Nausea",
+    "translation": "恶心",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.none",
+    "original": "Not Dangerous",
+    "translation": "无害",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.none.affected",
+    "original": "Nothing?",
+    "translation": "无？",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.poison",
+    "original": "Poisonous",
+    "translation": "有毒物质",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.poison.affected",
+    "original": "Poisoning",
+    "translation": "中毒",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.weak_poison",
+    "original": "Weakly Poisonous",
+    "translation": "轻度有毒",
+    "stage": 5
+  },
+  {
+    "key": "medical_condition.gtceu.weak_poison.affected",
+    "original": "Minor poisoning",
+    "translation": "轻度中毒",
+    "stage": 5
+  },
+  {
+    "key": "recipe_capability.gtceu.block_state",
+    "original": "Block State",
+    "translation": "方块状态",
+    "stage": 5
+  },
+  {
+    "key": "recipe_capability.gtceu.cwu",
+    "original": "Computation Work Units",
+    "translation": "计算工作单位",
+    "stage": 5
+  },
+  {
+    "key": "recipe_capability.gtceu.eu",
+    "original": "GTCEu Energy",
+    "translation": "GTCEu能量",
+    "stage": 5
+  },
+  {
+    "key": "recipe_capability.gtceu.fluid",
+    "original": "Fluid",
+    "translation": "流体",
+    "stage": 5
+  },
+  {
+    "key": "recipe_capability.gtceu.item",
+    "original": "Item",
+    "translation": "物品",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.spooling",
+    "original": "Spooling",
+    "translation": "绕线机",
+    "stage": 5
+  },
+  {
+    "key": "recipe_type.gtceu.welder",
+    "original": "Welder",
+    "translation": "焊接器",
+    "stage": 5
+  },
+  {
+    "key": "item.gtceu.tool.tooltip.innate_enchantments",
+    "original": "§5Innate Enchantments:",
+    "translation": "§5自带附魔：",
     "stage": 5
   }
 ]
