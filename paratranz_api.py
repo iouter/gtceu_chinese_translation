@@ -197,13 +197,37 @@ class ParaTranzAPI:
             response = requests.post(url, headers=self.headers)
             if response.status_code == 200:
                 print("✅️ 导出任务已成功触发！")
-                start_artifact_time = datetime.fromisoformat(response.json().get('createdAt').replace("Z", "+00:00"))
+
+                # ★ 改动1：POST 响应可能没有 createdAt，做个兜底
+                start_created = response.json().get('createdAt')
+                if start_created:
+                    start_artifact_time = datetime.fromisoformat(
+                        start_created.replace("Z", "+00:00")
+                    )
+                else:
+                    start_artifact_time = datetime.now().astimezone()
+
                 try_time = 0
                 while try_time < self.max_wait_seconds:
                     try_time += self.poll_interval
                     time.sleep(self.poll_interval)
                     artifact_status = self.get_artifact()
-                    artifact_time = datetime.fromisoformat(artifact_status.get('createdAt').replace("Z", "+00:00"))
+
+                    # ★ 改动2：get_artifact 失败会返回 None
+                    if not artifact_status:
+                        print(f"🛑️️️ 时间：{try_time}s，获取导出状态失败")
+                        continue
+
+                    # ★ 改动3（关键）：任务未完成时 createdAt 是 None，
+                    #   原来这行就是 .get('createdAt').replace(...) 直接爆掉
+                    created_at = artifact_status.get('createdAt')
+                    if not created_at:
+                        print(f"🛑️️️ 时间：{try_time}s，导出任务尚未完成")
+                        continue
+
+                    artifact_time = datetime.fromisoformat(
+                        created_at.replace("Z", "+00:00")
+                    )
                     if artifact_time >= start_artifact_time:
                         print("✅️ 导出任务已成功完成！")
                         return
