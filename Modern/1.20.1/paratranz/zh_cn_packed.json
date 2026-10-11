@@ -14328,6 +14328,10 @@
         "original":"Consumes %s per %s ticks"
     },
     {
+        "key":"gtceu.multiblock.turbine.no_rotor",
+        "original":"Missing Rotor"
+    },
+    {
         "key":"gtceu.multiblock.turbine.obstructed",
         "original":"Turbine Face Obstructed"
     },
