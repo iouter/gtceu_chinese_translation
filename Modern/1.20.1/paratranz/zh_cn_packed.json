@@ -9664,12 +9664,12 @@
         "original":"Molten %s"
     },
     {
-        "key":"gtceu.fluid.requires_metal_freezing",
-        "original":"Requires metal freezing"
-    },
-    {
         "key":"gtceu.fluid.plasma",
         "original":"%s Plasma"
+    },
+    {
+        "key":"gtceu.fluid.requires_metal_freezing",
+        "original":"Requires metal freezing"
     },
     {
         "key":"gtceu.fluid.state_gas",
@@ -13650,6 +13650,38 @@
     {
         "key":"gtceu.multiblock.fusion_reactor.heat",
         "original":"Heat: %d"
+    },
+    {
+        "key":"gtceu.multiblock.general.amp_volt",
+        "original":"%s §cA§a @ %s §r"
+    },
+    {
+        "key":"gtceu.multiblock.general.amp_volt_eut",
+        "original":"%s §cA§a @ %s §r(%s EU/t)"
+    },
+    {
+        "key":"gtceu.multiblock.general.energy_consumption",
+        "original":"Using %s"
+    },
+    {
+        "key":"gtceu.multiblock.general.energy_consumption_waiting",
+        "original":"Trying to Use %s"
+    },
+    {
+        "key":"gtceu.multiblock.general.energy_production",
+        "original":"Producing %s"
+    },
+    {
+        "key":"gtceu.multiblock.general.energy_production_waiting",
+        "original":"Trying to Produce %s"
+    },
+    {
+        "key":"gtceu.multiblock.general.eut",
+        "original":"%s EU/t"
+    },
+    {
+        "key":"gtceu.multiblock.general.max_power",
+        "original":"Max Power: %s"
     },
     {
         "key":"gtceu.multiblock.generation_eu",
@@ -22376,10 +22408,6 @@
         "original":"Nobelium"
     },
     {
-        "key":"material.gtceu.null",
-        "original":"Null"
-    },
-    {
         "key":"material.gtceu.obsidian",
         "original":"Obsidian"
     },
@@ -24178,10 +24206,6 @@
     {
         "key":"tagprefix.nugget",
         "original":"%s Nugget"
-    },
-    {
-        "key":"tagprefix.null",
-        "original":"%s Null"
     },
     {
         "key":"tagprefix.pipe_huge_fluid",
