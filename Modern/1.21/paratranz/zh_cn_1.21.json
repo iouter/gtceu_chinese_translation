@@ -180,6 +180,10 @@
         "original":"Armor Configuration"
     },
     {
+        "key":"gtceu.machine.data_access_hatch.missing_research",
+        "original":"Missing Research Data!"
+    },
+    {
         "key":"gtceu.machine.wireless_charger.enter_range",
         "original":"§aYou have entered wireless charging range"
     },

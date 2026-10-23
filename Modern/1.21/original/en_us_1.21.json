@@ -44,6 +44,7 @@
   "emi.category.gtceu.equipment_foundry": "Equipment Foundry",
   "gtceu.key.enable_night_vision": "Enable Night Vision",
   "gtceu.key.modular_item_gui": "Armor Configuration",
+  "gtceu.machine.data_access_hatch.missing_research": "Missing Research Data!",
   "gtceu.machine.wireless_charger.enter_range": "\u00a7aYou have entered wireless charging range",
   "gtceu.machine.wireless_charger.left_range": "\u00a7cYou have left wireless charging range",
   "gtceu.machine.wireless_charger.mode.standard": "Standard charging mode: %s block range",
