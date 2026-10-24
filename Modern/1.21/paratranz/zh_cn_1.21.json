@@ -4,38 +4,6 @@
         "original":"Unknown medical condition %s"
     },
     {
-        "key":"armor.gtceu.jetpack.emergency_hover",
-        "original":"Emergency Hover Mode Enabled!"
-    },
-    {
-        "key":"armor.gtceu.jetpack.flight.disabled",
-        "original":"Thruster: Flight Disabled"
-    },
-    {
-        "key":"armor.gtceu.jetpack.flight.enabled",
-        "original":"Thruster: Flight Enabled"
-    },
-    {
-        "key":"armor.gtceu.jetpack.hover.disabled",
-        "original":"Thruster: Hover Mode Disabled"
-    },
-    {
-        "key":"armor.gtceu.jetpack.hover.enabled",
-        "original":"Thruster: Hover Mode Enabled"
-    },
-    {
-        "key":"armor.gtceu.night_vision.disabled",
-        "original":"§bNightVision: §cOff"
-    },
-    {
-        "key":"armor.gtceu.night_vision.enabled",
-        "original":"§bNightVision: §aOn"
-    },
-    {
-        "key":"armor.gtceu.night_vision.error",
-        "original":"NightVision: §cNot enough power!"
-    },
-    {
         "key":"bedrock_fluid.gtceu.heavy_oil_deposit",
         "original":"Heavy Oil Deposit"
     },
@@ -68,16 +36,8 @@
         "original":"Salt Water Deposit"
     },
     {
-        "key":"behaviour.charger_linked",
-        "original":"Linked charger"
-    },
-    {
         "key":"block.gtceu.connected_texture_test",
         "original":"Connected Texture Test"
-    },
-    {
-        "key":"block.gtceu.equipment_foundry",
-        "original":"Equipment Foundry"
     },
     {
         "key":"block.gtceu.ev_wireless_charger",
@@ -168,18 +128,6 @@
         "original":"GTCEu Configuration"
     },
     {
-        "key":"emi.category.gtceu.equipment_foundry",
-        "original":"Equipment Foundry"
-    },
-    {
-        "key":"gtceu.key.enable_night_vision",
-        "original":"Enable Night Vision"
-    },
-    {
-        "key":"gtceu.key.modular_item_gui",
-        "original":"Armor Configuration"
-    },
-    {
         "key":"gtceu.machine.data_access_hatch.missing_research",
         "original":"Missing Research Data!"
     },
@@ -216,148 +164,8 @@
         "original":"Wirelessly charges EU and FE items carried by you and your team, including equipment."
     },
     {
-        "key":"gui.gtceu.armor_config.boots",
-        "original":"Boots"
-    },
-    {
-        "key":"gui.gtceu.armor_config.charge_inventory",
-        "original":"Charge Inventory"
-    },
-    {
-        "key":"gui.gtceu.armor_config.chestplate",
-        "original":"Chestplate"
-    },
-    {
-        "key":"gui.gtceu.armor_config.helmet",
-        "original":"Helmet"
-    },
-    {
-        "key":"gui.gtceu.armor_config.leggings",
-        "original":"Leggings"
-    },
-    {
-        "key":"gui.gtceu.armor_config.no_modules",
-        "original":"No modules installed"
-    },
-    {
-        "key":"gui.gtceu.armor_config.select",
-        "original":"Select an equipped armor piece"
-    },
-    {
-        "key":"gui.gtceu.armor_config.title",
-        "original":"Armor Configuration"
-    },
-    {
-        "key":"gui.gtceu.equipment_foundry.applied_to",
-        "original":"Applied to:"
-    },
-    {
-        "key":"gui.gtceu.equipment_foundry.module_item",
-        "original":"Module item:"
-    },
-    {
-        "key":"gui.gtceu.equipment_foundry.supports_tiers",
-        "original":"Module tiers: %s-%s"
-    },
-    {
-        "key":"gui.gtceu.equipment_foundry.tier",
-        "original":"Viewing stats for tier: %s"
-    },
-    {
-        "key":"gui.gtceu.equipment_foundry.tier_too_high",
-        "original":"No module item exists for this tier"
-    },
-    {
-        "key":"gui.gtceu.equipment_foundry.tooltip.tier_switch",
-        "original":"Left-click to increase tier by 1\nRight-click to decrease tier by 1"
-    },
-    {
-        "key":"gui.gtceu.item_module.charge",
-        "original":"Charge:"
-    },
-    {
-        "key":"gui.gtceu.item_module.empty_module_slot",
-        "original":"Empty"
-    },
-    {
-        "key":"gui.gtceu.item_module.enabled",
-        "original":"Enabled:"
-    },
-    {
-        "key":"gui.gtceu.item_module.energy_limit",
-        "original":"Energy limit:"
-    },
-    {
-        "key":"gui.gtceu.item_module.hover_mode",
-        "original":"Hover Mode"
-    },
-    {
-        "key":"gui.gtceu.item_module.hp",
-        "original":"HP:"
-    },
-    {
-        "key":"gui.gtceu.item_module.jump_boost",
-        "original":"Boost:"
-    },
-    {
-        "key":"gui.gtceu.item_module.jump_height_value",
-        "original":"+%s blocks"
-    },
-    {
-        "key":"gui.gtceu.item_module.omnidirectional_sprint",
-        "original":"Omnidirectional Sprint"
-    },
-    {
-        "key":"gui.gtceu.item_module.power",
-        "original":"Power:"
-    },
-    {
-        "key":"gui.gtceu.max_module_tier",
-        "original":"Max Module Tier: %s"
-    },
-    {
-        "key":"gui.gtceu.module_slot.tiered",
-        "original":"Tiered (%s)"
-    },
-    {
-        "key":"gui.gtceu.module_slot.universal",
-        "original":"Universal"
-    },
-    {
-        "key":"gui.gtceu.module_slots",
-        "original":"Module slots:"
-    },
-    {
-        "key":"gui.gtceu.modules",
-        "original":"Modules:"
-    },
-    {
-        "key":"hud.gtceu.armor.energy_lvl",
-        "original":"Energy Level: %s"
-    },
-    {
-        "key":"hud.gtceu.armor.engine_enabled",
-        "original":"Engine Enabled: %s"
-    },
-    {
-        "key":"hud.gtceu.armor.fuel_lvl",
-        "original":"Fuel Level: %s"
-    },
-    {
-        "key":"hud.gtceu.armor.hover_mode",
-        "original":"Hover Mode: %s"
-    },
-    {
-        "key":"hud.gtceu.armor.status.disabled",
-        "original":"§cOFF"
-    },
-    {
-        "key":"hud.gtceu.armor.status.enabled",
-        "original":"§aON"
-    },
-    {
         "key":"item.gtceu.ev_robot_arm",
-        "original":"4 Robot Arm"
+        "original":"EV Robot Arm"
     },
     {
         "key":"item.gtceu.huge_pipe_casting_mold.tooltip",
@@ -369,27 +177,11 @@
     },
     {
         "key":"item.gtceu.hv_robot_arm",
-        "original":"3 Robot Arm"
-    },
-    {
-        "key":"item.gtceu.hydraulic_boots",
-        "original":"Hydraulic Boots"
-    },
-    {
-        "key":"item.gtceu.hydraulic_chestplate",
-        "original":"Hydraulic Chestplate"
-    },
-    {
-        "key":"item.gtceu.hydraulic_helmet",
-        "original":"Hydraulic Suite Helmet"
-    },
-    {
-        "key":"item.gtceu.hydraulic_leggings",
-        "original":"Hydraulic Leggings"
+        "original":"HV Robot Arm"
     },
     {
         "key":"item.gtceu.iv_robot_arm",
-        "original":"5 Robot Arm"
+        "original":"IV Robot Arm"
     },
     {
         "key":"item.gtceu.large_pipe_casting_mold.tooltip",
@@ -400,44 +192,20 @@
         "original":"§7Extruder Shape for making large Pipes"
     },
     {
-        "key":"item.gtceu.liquid_fuel_thruster",
-        "original":"Liquid-Fueled Thruster"
-    },
-    {
         "key":"item.gtceu.long_rod_extruder_mold.tooltip",
         "original":"§7Extruder Shape for making Long Rods"
     },
     {
         "key":"item.gtceu.luv_robot_arm",
-        "original":"6 Robot Arm"
+        "original":"LuV Robot Arm"
     },
     {
         "key":"item.gtceu.lv_robot_arm",
-        "original":"1 Robot Arm"
+        "original":"LV Robot Arm"
     },
     {
         "key":"item.gtceu.mv_robot_arm",
-        "original":"2 Robot Arm"
-    },
-    {
-        "key":"item.gtceu.nano_fiber_boots",
-        "original":"Nano-Fiber Suit Boots"
-    },
-    {
-        "key":"item.gtceu.nano_fiber_chestplate",
-        "original":"Nano-Fiber Suit Chestplate"
-    },
-    {
-        "key":"item.gtceu.nano_fiber_helmet",
-        "original":"Nano-Fiber Suit Helmet"
-    },
-    {
-        "key":"item.gtceu.nano_fiber_leggings",
-        "original":"Nano-Fiber Suit Leggings"
-    },
-    {
-        "key":"item.gtceu.netherite_plated",
-        "original":"Netherite-Plated %s"
+        "original":"MV Robot Arm"
     },
     {
         "key":"item.gtceu.normal_pipe_casting_mold.tooltip",
@@ -449,23 +217,7 @@
     },
     {
         "key":"item.gtceu.opv_robot_arm",
-        "original":"13 Robot Arm"
-    },
-    {
-        "key":"item.gtceu.quark_matter_boots",
-        "original":"Quark-Matter Suit Boots"
-    },
-    {
-        "key":"item.gtceu.quark_matter_chestplate",
-        "original":"Quark-Matter Suit Chestplate"
-    },
-    {
-        "key":"item.gtceu.quark_matter_helmet",
-        "original":"Quark-Matter Suit Helmet"
-    },
-    {
-        "key":"item.gtceu.quark_matter_leggings",
-        "original":"Quark-Matter Suit Leggings"
+        "original":"OpV Robot Arm"
     },
     {
         "key":"item.gtceu.small_gear_casting_mold.tooltip",
@@ -517,27 +269,27 @@
     },
     {
         "key":"item.gtceu.uev_robot_arm",
-        "original":"10 Robot Arm"
+        "original":"UEV Robot Arm"
     },
     {
         "key":"item.gtceu.uhv_robot_arm",
-        "original":"9 Robot Arm"
+        "original":"UHV Robot Arm"
     },
     {
         "key":"item.gtceu.uiv_robot_arm",
-        "original":"11 Robot Arm"
+        "original":"UIV Robot Arm"
     },
     {
         "key":"item.gtceu.uv_robot_arm",
-        "original":"8 Robot Arm"
+        "original":"UV Robot Arm"
     },
     {
         "key":"item.gtceu.uxv_robot_arm",
-        "original":"12 Robot Arm"
+        "original":"UXV Robot Arm"
     },
     {
         "key":"item.gtceu.zpm_robot_arm",
-        "original":"7 Robot Arm"
+        "original":"ZPM Robot Arm"
     },
     {
         "key":"itemGroup.gtceu.decoration",
@@ -842,230 +594,6 @@
     {
         "key":"medical_condition.gtceu.weak_poison.affected",
         "original":"Minor poisoning"
-    },
-    {
-        "key":"module.gtceu.advanced_jetpack",
-        "original":"Advanced Electric Thruster"
-    },
-    {
-        "key":"module.gtceu.advanced_jetpack.description",
-        "original":"Provides thrust for %1$s EU/t, or %2$s EU/t while sprinting. Sprint during Creative Flight for 2.4x speed (requires a battery module)."
-    },
-    {
-        "key":"module.gtceu.air_supplier",
-        "original":"Air Supplier Module"
-    },
-    {
-        "key":"module.gtceu.air_supplier.description",
-        "original":"Replenishes the breath bar for %s EU per refill"
-    },
-    {
-        "key":"module.gtceu.attack_damage",
-        "original":"Attack Damage Module (%s)"
-    },
-    {
-        "key":"module.gtceu.attack_damage.description",
-        "original":"Increases attack damage by %1$s%%\nUses %2$s EU per melee hit."
-    },
-    {
-        "key":"module.gtceu.attack_speed",
-        "original":"Attack Speed Module (%s)"
-    },
-    {
-        "key":"module.gtceu.attack_speed.description",
-        "original":"Increases attack speed by %1$s%%\nUses %2$s EU per melee hit."
-    },
-    {
-        "key":"module.gtceu.auto_eat",
-        "original":"Auto Eat Module"
-    },
-    {
-        "key":"module.gtceu.auto_eat.description",
-        "original":"Replenishes the food bar using food from inventory for %s EU for each item consumed"
-    },
-    {
-        "key":"module.gtceu.battery",
-        "original":"Battery Module (%s)"
-    },
-    {
-        "key":"module.gtceu.battery.description",
-        "original":"Allows the item to store energy or increases its capacity (capacity is equal to the battery's)"
-    },
-    {
-        "key":"module.gtceu.battery.hud.boots",
-        "original":"Boots battery: %s"
-    },
-    {
-        "key":"module.gtceu.battery.hud.chestplate",
-        "original":"Chestplate battery: %s"
-    },
-    {
-        "key":"module.gtceu.battery.hud.helmet",
-        "original":"Helmet battery: %s"
-    },
-    {
-        "key":"module.gtceu.battery.hud.info",
-        "original":"Storing %s/%s EU"
-    },
-    {
-        "key":"module.gtceu.battery.hud.leggings",
-        "original":"Leggings battery: %s"
-    },
-    {
-        "key":"module.gtceu.battery.hud.suit",
-        "original":"Armor Power"
-    },
-    {
-        "key":"module.gtceu.block_reach",
-        "original":"Reach Module (%s)"
-    },
-    {
-        "key":"module.gtceu.block_reach.description",
-        "original":"Increases block reach by %1$s blocks\nUses %2$s EU/t while enabled."
-    },
-    {
-        "key":"module.gtceu.block_reach.short",
-        "original":"... by %s blocks"
-    },
-    {
-        "key":"module.gtceu.creative_flight",
-        "original":"Creative Flight Module"
-    },
-    {
-        "key":"module.gtceu.creative_flight.description",
-        "original":"Uses %s EU/t to fly, can be used with thrusters for extra movement speed."
-    },
-    {
-        "key":"module.gtceu.damage_block",
-        "original":"Energy Shield Module (%s)"
-    },
-    {
-        "key":"module.gtceu.damage_block.description",
-        "original":"Blocks any amount of damage with EU (%s EU per HP, requires any battery module)"
-    },
-    {
-        "key":"module.gtceu.damage_block.short",
-        "original":"%s EU per HP"
-    },
-    {
-        "key":"module.gtceu.fluid_storage",
-        "original":"Fluid Storage"
-    },
-    {
-        "key":"module.gtceu.fluid_storage.current_stored",
-        "original":"Storing %s/%s mB of %s"
-    },
-    {
-        "key":"module.gtceu.fluid_storage.description",
-        "original":"Allows the item to store liquids or increases its capacity (capacity is equal to the tank's)"
-    },
-    {
-        "key":"module.gtceu.jetpack",
-        "original":"Electric Thruster"
-    },
-    {
-        "key":"module.gtceu.jetpack.description",
-        "original":"Provides thrust for %s EU/t. Sprint during Creative Flight for 1.3x speed (requires a battery module)."
-    },
-    {
-        "key":"module.gtceu.jump_boost",
-        "original":"Jump Module (%s)"
-    },
-    {
-        "key":"module.gtceu.jump_boost.description",
-        "original":"Increases jump height by %1$s blocks\nUses %2$s EU per jump."
-    },
-    {
-        "key":"module.gtceu.liquid_fuel_jetpack",
-        "original":"Liquid-Fueled Thruster"
-    },
-    {
-        "key":"module.gtceu.liquid_fuel_jetpack.description",
-        "original":"Provides thrust using liquid fuel (requires a fluid storage module, does not work with Creative Flight Modules)"
-    },
-    {
-        "key":"module.gtceu.movement_speed",
-        "original":"Movement Speed Module (%s)"
-    },
-    {
-        "key":"module.gtceu.movement_speed.description",
-        "original":"Increases movement speed by %1$s%%\nUses %2$s EU/t while moving."
-    },
-    {
-        "key":"module.gtceu.night_vision",
-        "original":"Night Vision Module"
-    },
-    {
-        "key":"module.gtceu.night_vision.description",
-        "original":"Provides night vision for %s EU/t while active."
-    },
-    {
-        "key":"module.gtceu.ppe",
-        "original":"PPE Module"
-    },
-    {
-        "key":"module.gtceu.ppe.description",
-        "original":"Provides protection from environmental hazards if applied to all armor pieces"
-    },
-    {
-        "key":"module.gtceu.sensor",
-        "original":"Explosion Reporting Module (%s)"
-    },
-    {
-        "key":"module.gtceu.sensor.description",
-        "original":"Reports machine explosions (for machines placed by the player)"
-    },
-    {
-        "key":"module.gtceu.sensor.message",
-        "original":"%s exploded at (%d, %d, %d)"
-    },
-    {
-        "key":"module.gtceu.short_percentage",
-        "original":"... by %s%%"
-    },
-    {
-        "key":"module.gtceu.sneak_speed",
-        "original":"Sneak Speed Module (%s)"
-    },
-    {
-        "key":"module.gtceu.sneak_speed.description",
-        "original":"Sneaking speed: %1$s%% of walking speed before Swift Sneak. Capped at 100%%, including Swift Sneak.\nUses %2$s EU/t while moving crouched or crawling."
-    },
-    {
-        "key":"module.gtceu.speed",
-        "original":"Running Speed Module (%s)"
-    },
-    {
-        "key":"module.gtceu.speed.description",
-        "original":"Increases sprint speed by %1$s%%\nUses %2$s EU/t while sprinting."
-    },
-    {
-        "key":"module.gtceu.step_height",
-        "original":"Step Assist Module (%s)"
-    },
-    {
-        "key":"module.gtceu.step_height.description",
-        "original":"Increases step height by %1$s blocks\nUses %2$s EU/t while moving."
-    },
-    {
-        "key":"module.gtceu.swim_speed",
-        "original":"Swim Speed Module (%s)"
-    },
-    {
-        "key":"module.gtceu.swim_speed.description",
-        "original":"Increases swim speed by %1$s%%\nUses %2$s EU/t while swimming."
-    },
-    {
-        "key":"module.gtceu.wireless_charger",
-        "original":"Quantum Charger (%s)"
-    },
-    {
-        "key":"module.gtceu.wireless_charger.description",
-        "original":"Links armor to a Battery Buffer or Power Substation across any distance and dimension (up to %s, configurable 1-16A). Right-click to link to storage."
-    },
-    {
-        "key":"module.gtceu.wireless_charging.short",
-        "original":"Unlimited range, interdimensional, 1A %s max"
     },
     {
         "key":"ore_vein.gtceu.apatite",
@@ -1898,37 +1426,5 @@
     {
         "key":"tag_prefix.gtceu.wrench_tip",
         "original":"%s Wrench Tip"
-    },
-    {
-        "key":"tooltip.gtceu.armor.built_in_traits",
-        "original":"Built-in Traits:"
-    },
-    {
-        "key":"tooltip.gtceu.armor.trait.fall",
-        "original":"Fall protection"
-    },
-    {
-        "key":"tooltip.gtceu.armor.trait.fire",
-        "original":"Fire immunity"
-    },
-    {
-        "key":"tooltip.gtceu.armor.trait.freeze",
-        "original":"Freeze protection"
-    },
-    {
-        "key":"tooltip.gtceu.armor.trait.hazard",
-        "original":"Hazard protection"
-    },
-    {
-        "key":"tooltip.gtceu.armor.trait.heat",
-        "original":"Reduces damage from hot ingots by %s%%"
-    },
-    {
-        "key":"tooltip.gtceu.configure_modular_armor",
-        "original":"Press [%s] to configure equipped armor"
-    },
-    {
-        "key":"tooltip.gtceu.netherite_plated",
-        "original":"Netherite Plating: +2 Module Slots"
     }
 ]
