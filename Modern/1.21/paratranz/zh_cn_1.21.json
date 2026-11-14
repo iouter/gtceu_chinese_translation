@@ -164,6 +164,10 @@
         "original":"Wirelessly charges EU and FE items carried by you and your team, including equipment."
     },
     {
+        "key":"gui.gtceu.modules",
+        "original":"Modules:"
+    },
+    {
         "key":"item.gtceu.ev_robot_arm",
         "original":"EV Robot Arm"
     },

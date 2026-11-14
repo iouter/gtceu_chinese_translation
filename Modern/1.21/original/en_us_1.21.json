@@ -40,6 +40,7 @@
   "gtceu.machine.wireless_charger.range.turbo": "\u00a77Turbo: \u00a77%s \u00a77block range, 4A input, charges each item every 4 ticks",
   "gtceu.machine.wireless_charger.toggle": "\u00a77Use a screwdriver to switch between standard and turbo mode",
   "gtceu.machine.wireless_charger.tooltip": "Wirelessly charges EU and FE items carried by you and your team, including equipment.",
+  "gui.gtceu.modules": "Modules:",
   "item.gtceu.ev_robot_arm": "EV Robot Arm",
   "item.gtceu.huge_pipe_casting_mold.tooltip": "\u00a77Mold for making full Block Pipes",
   "item.gtceu.huge_pipe_extruder_mold.tooltip": "\u00a77Extruder Shape for making full Block Pipes",
