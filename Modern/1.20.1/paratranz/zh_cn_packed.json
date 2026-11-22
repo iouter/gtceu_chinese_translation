@@ -16128,26 +16128,6 @@
         "original":"§7Hold SHIFT for more info"
     },
     {
-        "key":"gtceu.tooltip.item_handler_data",
-        "original":"Handler data: %s"
-    },
-    {
-        "key":"gtceu.tooltip.item_handler_source",
-        "original":"Handler source: %s"
-    },
-    {
-        "key":"gtceu.tooltip.location",
-        "original":"Location: %s (%d, %d, %d)"
-    },
-    {
-        "key":"gtceu.tooltip.location_entity",
-        "original":"Entity: %s"
-    },
-    {
-        "key":"gtceu.tooltip.location_slot",
-        "original":"Slot: %s"
-    },
-    {
         "key":"gtceu.tooltip.player_bind",
         "original":"Bound to player: %s"
     },
@@ -16162,6 +16142,10 @@
     {
         "key":"gtceu.tooltip.proxy_bind",
         "original":"§fBinding to a Pattern Buffer at %s %s %s"
+    },
+    {
+        "key":"gtceu.tooltip.spoil_imminent",
+        "original":"Imminent"
     },
     {
         "key":"gtceu.tooltip.spoil_time_remaining",
