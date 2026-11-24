@@ -24680,23 +24680,23 @@
         "original":"Built-in Traits:"
     },
     {
-        "key":"tooltip.gtceu.armor.trait.fall",
-        "original":"Fall protection"
+        "key":"tooltip.gtceu.armor.trait.fall_protection",
+        "original":"Fall damage protection"
     },
     {
-        "key":"tooltip.gtceu.armor.trait.fire",
-        "original":"Fire immunity"
+        "key":"tooltip.gtceu.armor.trait.fire_protection",
+        "original":"Fire protection"
     },
     {
-        "key":"tooltip.gtceu.armor.trait.freeze",
-        "original":"Freeze protection"
+        "key":"tooltip.gtceu.armor.trait.freeze_protection",
+        "original":"Freezing protection"
     },
     {
-        "key":"tooltip.gtceu.armor.trait.hazard",
+        "key":"tooltip.gtceu.armor.trait.hazard_protection",
         "original":"Hazard protection"
     },
     {
-        "key":"tooltip.gtceu.armor.trait.heat",
+        "key":"tooltip.gtceu.armor.trait.heat_protection",
         "original":"Reduces damage from hot ingots by %s%%"
     },
     {
