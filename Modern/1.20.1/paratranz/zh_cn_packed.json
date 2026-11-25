@@ -13696,12 +13696,16 @@
         "original":"Vein Size: %s"
     },
     {
-        "key":"gtceu.multiblock.fusion_reactor.energy",
-        "original":"EU: %d / %d"
+        "key":"gtceu.multiblock.fusion_reactor.capacity",
+        "original":"Capacity: %s EU"
     },
     {
         "key":"gtceu.multiblock.fusion_reactor.heat",
-        "original":"Heat: %d"
+        "original":"Heat: %s EU"
+    },
+    {
+        "key":"gtceu.multiblock.fusion_reactor.stored",
+        "original":"Stored: %s EU"
     },
     {
         "key":"gtceu.multiblock.general.amp_volt",
@@ -14137,19 +14141,19 @@
     },
     {
         "key":"gtceu.multiblock.pattern.error.limited.max_count",
-        "original":"§cMaximum:§r %d has %d"
+        "original":"§cMaximum:§r %d, §cHas:§r %d"
     },
     {
         "key":"gtceu.multiblock.pattern.error.limited.max_layer_count",
-        "original":"§cMaximum:§r %d per layer, has %d"
+        "original":"§cMaximum:§r %d per layer, §cHas:§r %d"
     },
     {
         "key":"gtceu.multiblock.pattern.error.limited.min_count",
-        "original":"§cMinimum:§r %d has %d"
+        "original":"§cMinimum:§r %d, §cHas:§r %d"
     },
     {
         "key":"gtceu.multiblock.pattern.error.limited.min_layer_count",
-        "original":"§cMinimum:§r %d per layer, has %d"
+        "original":"§cMinimum:§r %d per layer, §cHas:§r %d"
     },
     {
         "key":"gtceu.multiblock.pattern.error.limited.range",
@@ -14354,6 +14358,10 @@
     {
         "key":"gtceu.multiblock.running",
         "original":"Running perfectly."
+    },
+    {
+        "key":"gtceu.multiblock.show_error_pos",
+        "original":"Show Error Position"
     },
     {
         "key":"gtceu.multiblock.steam.duration_modifier",
